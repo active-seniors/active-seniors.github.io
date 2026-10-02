@@ -2,7 +2,7 @@
 id: "castel-knit-and-natter"
 title: "Castel Knit & Natter"
 status: active
-source: human-submitted
+source: demo-data
 
 category: social
 tags: [crafts, indoor, social]

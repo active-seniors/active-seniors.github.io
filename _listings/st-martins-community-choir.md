@@ -2,7 +2,7 @@
 id: "st-martins-community-choir"
 title: "St Martin's Community Choir"
 status: active
-source: human-submitted
+source: demo-data
 
 category: arts-hobby
 tags: [singing, indoor, social]

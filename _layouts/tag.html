@@ -10,6 +10,7 @@ layout: default
   {% if listing.tags contains page.slug or listing.suitable_for contains page.slug %}
     {% assign match_count = match_count | plus: 1 %}
 <div class="listing-card">
+  {% if listing.source == "demo-data" %}<span class="demo-badge">Demo data</span><br>{% endif %}
   <h3><a href="{{ listing.url | relative_url }}">{{ listing.title }}</a></h3>
   <p class="meta">
     {{ listing.category }}

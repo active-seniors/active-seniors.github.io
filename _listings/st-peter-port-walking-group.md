@@ -2,7 +2,7 @@
 id: "st-peter-port-walking-group"
 title: "St Peter Port Parish Walking Group"
 status: active
-source: human-submitted
+source: demo-data
 
 category: sports
 tags: [walking, outdoors, low-impact]

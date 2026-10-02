@@ -46,6 +46,7 @@ title: Home
 {% assign listings = site.listings | sort: "title" %}
 {% for listing in listings %}
 <div class="listing-card" data-parish="{{ listing.location.parish }}">
+  {% if listing.source == "demo-data" %}<span class="demo-badge">Demo data</span><br>{% endif %}
   <h3><a href="{{ listing.url | relative_url }}">{{ listing.title }}</a></h3>
   <p class="meta">
     {{ listing.category }}

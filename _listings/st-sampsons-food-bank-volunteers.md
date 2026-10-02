@@ -2,7 +2,7 @@
 id: "st-sampsons-food-bank-volunteers"
 title: "St Sampson's Food Bank — Volunteers Wanted"
 status: active
-source: human-submitted
+source: demo-data
 
 category: volunteering
 tags: [volunteering, indoor, community]

@@ -2,7 +2,7 @@
 id: "vale-bowls-club"
 title: "Vale Bowls Club — Taster Sessions"
 status: active
-source: human-submitted
+source: demo-data
 
 category: sports
 tags: [bowls, outdoors, low-impact]

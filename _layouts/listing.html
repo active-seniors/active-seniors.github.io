@@ -2,6 +2,9 @@
 layout: default
 ---
 <article>
+  {% if page.source == "demo-data" %}
+  <p><span class="demo-badge">Demo data — not a real listing</span></p>
+  {% endif %}
   <h2>{{ page.title }}</h2>
   <p class="meta">
     {{ page.category }}
