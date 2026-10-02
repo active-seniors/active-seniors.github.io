@@ -5,6 +5,11 @@ description: >-
 baseurl: ""
 url: "https://active-seniors.github.io"
 
+# Submission bridge (orchestration/submission) endpoint. Placeholder until
+# the Cloudflare Worker is deployed — see orchestration/submission/README.md.
+# The form page shows a "not live yet" notice while this is unset.
+submission_endpoint: ""
+
 collections:
   listings:
     output: true
