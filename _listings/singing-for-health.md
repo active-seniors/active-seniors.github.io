@@ -3,7 +3,7 @@
 id: "singing-for-health"
 title: "Singing For Health"
 status: active
-source: human-submitted
+source: demo-data
 category: social
 location:
   venue: "Styx Centre"
