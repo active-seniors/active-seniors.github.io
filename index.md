@@ -7,11 +7,21 @@ title: Home
 <p class="tag-cloud">
 {% assign max_count = 0 %}
 {% for tag in site.data.tags %}
-  {% assign c = site.listings | where_exp: "item", "item.tags contains tag.slug or item.suitable_for contains tag.slug" | size %}
+  {% assign c = 0 %}
+  {% for listing in site.listings %}
+    {% if listing.tags contains tag.slug or listing.suitable_for contains tag.slug %}
+      {% assign c = c | plus: 1 %}
+    {% endif %}
+  {% endfor %}
   {% if c > max_count %}{% assign max_count = c %}{% endif %}
 {% endfor %}
 {% for tag in site.data.tags %}
-  {% assign count = site.listings | where_exp: "item", "item.tags contains tag.slug or item.suitable_for contains tag.slug" | size %}
+  {% assign count = 0 %}
+  {% for listing in site.listings %}
+    {% if listing.tags contains tag.slug or listing.suitable_for contains tag.slug %}
+      {% assign count = count | plus: 1 %}
+    {% endif %}
+  {% endfor %}
   {% if count > 0 %}
     {% assign ratio = count | times: 1.0 | divided_by: max_count %}
     {% assign size = ratio | plus: 0.8 %}
