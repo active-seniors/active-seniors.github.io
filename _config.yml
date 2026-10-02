@@ -1,0 +1,33 @@
+title: Active Seniors Guernsey
+description: >-
+  Find and get matched into activities, clubs, societies and volunteering
+  opportunities across Guernsey — built for the G-Prize 2026 Active Ageing challenge.
+baseurl: ""
+url: "https://active-seniors.github.io"
+
+collections:
+  listings:
+    output: true
+    permalink: /listings/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: listings
+    values:
+      layout: listing
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - CONTRIBUTING.md

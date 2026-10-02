@@ -1,0 +1,51 @@
+---
+layout: default
+---
+<article>
+  <h2>{{ page.title }}</h2>
+  <p class="meta">
+    {{ page.category }}
+    {% if page.location.parish %} · {{ page.location.parish }}{% endif %}
+    {% if page.cost.amount == 0 %} · Free{% else %} · {{ page.cost.amount }} {{ page.cost.currency }}{% endif %}
+  </p>
+
+  {% if page.schedule %}
+  <p><strong>When:</strong>
+    {{ page.schedule.frequency }} on {{ page.schedule.day }}{% if page.schedule.time %} at {{ page.schedule.time }}{% endif %}
+  </p>
+  {% endif %}
+
+  {% if page.location.venue %}
+  <p><strong>Where:</strong> {{ page.location.venue }}{% if page.location.area_notes %} — {{ page.location.area_notes }}{% endif %}</p>
+  {% endif %}
+
+  {% if page.accessibility %}
+  <p><strong>Accessibility:</strong>
+    {% if page.accessibility.mobility %}{{ page.accessibility.mobility | join: ", " }}{% endif %}
+    {% if page.accessibility.physical_intensity %} · Physical intensity: {{ page.accessibility.physical_intensity }}{% endif %}
+  </p>
+  {% endif %}
+
+  {% if page.suitable_for %}
+  <p>
+    {% for tag in page.suitable_for %}<span class="tag">{{ tag }}</span>{% endfor %}
+  </p>
+  {% endif %}
+
+  <div class="description">
+    {{ content }}
+  </div>
+
+  {% if page.organiser %}
+  <p class="meta"><strong>Organiser:</strong> {{ page.organiser.name }}
+    {% if page.organiser.contact_email %} · <a href="mailto:{{ page.organiser.contact_email }}">{{ page.organiser.contact_email }}</a>{% endif %}
+    {% if page.organiser.website %} · <a href="{{ page.organiser.website }}">website</a>{% endif %}
+  </p>
+  {% endif %}
+
+  {% if page.verification %}
+  <p class="meta">Verified by {{ page.verification.verified_by }} on {{ page.verification.verified_date }}. Next review due {{ page.verification.review_due }}.</p>
+  {% endif %}
+
+  <p><a href="{{ '/' | relative_url }}">&larr; Back to all listings</a></p>
+</article>
