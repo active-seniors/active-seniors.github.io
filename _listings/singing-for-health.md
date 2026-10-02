@@ -23,7 +23,7 @@ organiser:
   name: "Bailiwick Social Prescribing"
   website: "https://bsp.org.gg/our-partners/community-classes/"
 verification:
-  verified_by: ""
+  verified_by: "Jon Hickman"
   verified_date: 2026-10-02
   review_due: ""
   last_pr: ""
