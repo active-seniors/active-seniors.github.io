@@ -15,7 +15,10 @@
     .listing-card h3 { margin: 0 0 0.25rem; }
     .listing-card h3 a { text-decoration: none; color: #0b5fff; }
     .meta { color: #555; font-size: 0.9rem; }
-    .tag { display: inline-block; background: #eef2ff; color: #333; border-radius: 4px; padding: 0.1rem 0.5rem; font-size: 0.8rem; margin-right: 0.3rem; }
+    .tag { display: inline-block; background: #eef2ff; color: #333; border-radius: 4px; padding: 0.1rem 0.5rem; font-size: 0.8rem; margin-right: 0.3rem; margin-bottom: 0.3rem; text-decoration: none; }
+    .tag:hover { background: #dbe4ff; }
+    nav.site-nav { margin-top: 0.5rem; }
+    nav.site-nav a { font-size: 0.9rem; color: #0b5fff; text-decoration: none; margin-right: 1rem; }
     footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #eee; color: #777; font-size: 0.85rem; }
   </style>
 </head>
@@ -23,6 +26,10 @@
   <header>
     <a href="{{ '/' | relative_url }}"><h1>{{ site.title }}</h1></a>
     <p>{{ site.description }}</p>
+    <nav class="site-nav">
+      <a href="{{ '/' | relative_url }}">All listings</a>
+      <a href="{{ '/tags/' | relative_url }}">Browse by tag</a>
+    </nav>
   </header>
   <main>
     {{ content }}

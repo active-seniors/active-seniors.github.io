@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<p><a href="{{ '/tags/' | relative_url }}">&larr; All tags</a></p>
+<h2>Tagged: {{ page.title }}</h2>
+
+{% assign matches = site.listings | where_exp: "item", "item.tags contains page.slug or item.suitable_for contains page.slug" | sort: "title" %}
+{% for listing in matches %}
+<div class="listing-card">
+  <h3><a href="{{ listing.url | relative_url }}">{{ listing.title }}</a></h3>
+  <p class="meta">
+    {{ listing.category }}
+    {% if listing.location.parish %} · {{ listing.location.parish }}{% endif %}
+    {% if listing.cost.amount == 0 %} · Free{% endif %}
+  </p>
+</div>
+{% else %}
+<p>No listings currently tagged &ldquo;{{ page.title }}&rdquo;.</p>
+{% endfor %}

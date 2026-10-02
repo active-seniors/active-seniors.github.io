@@ -26,9 +26,10 @@ layout: default
   </p>
   {% endif %}
 
-  {% if page.suitable_for %}
+  {% if page.tags or page.suitable_for %}
   <p>
-    {% for tag in page.suitable_for %}<span class="tag">{{ tag }}</span>{% endfor %}
+    {% for tag in page.tags %}<a class="tag" href="{{ '/tags/' | append: tag | append: '/' | relative_url }}">{{ tag }}</a>{% endfor %}
+    {% for tag in page.suitable_for %}<a class="tag" href="{{ '/tags/' | append: tag | append: '/' | relative_url }}">{{ tag }}</a>{% endfor %}
   </p>
   {% endif %}
 

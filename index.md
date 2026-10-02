@@ -13,8 +13,11 @@ title: Home
     {% if listing.location.parish %} · {{ listing.location.parish }}{% endif %}
     {% if listing.cost.amount == 0 %} · Free{% endif %}
   </p>
-  {% if listing.suitable_for %}
-  <p>{% for tag in listing.suitable_for %}<span class="tag">{{ tag }}</span>{% endfor %}</p>
+  {% if listing.tags or listing.suitable_for %}
+  <p>
+    {% for tag in listing.tags %}<a class="tag" href="{{ '/tags/' | append: tag | append: '/' | relative_url }}">{{ tag }}</a>{% endfor %}
+    {% for tag in listing.suitable_for %}<a class="tag" href="{{ '/tags/' | append: tag | append: '/' | relative_url }}">{{ tag }}</a>{% endfor %}
+  </p>
   {% endif %}
 </div>
 {% else %}

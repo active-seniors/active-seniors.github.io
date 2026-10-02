@@ -1,0 +1,28 @@
+# Controlled vocabulary of known tag values, drawn from the `tags` and
+# `suitable_for` frontmatter fields. Add a new entry here whenever a listing
+# introduces a genuinely new tag — this file drives /tags/ and must stay in
+# sync with the individual pages under tags/*.md.
+- slug: walking
+  label: "Walking"
+- slug: outdoors
+  label: "Outdoors"
+- slug: low-impact
+  label: "Low impact"
+- slug: bowls
+  label: "Bowls"
+- slug: crafts
+  label: "Crafts"
+- slug: indoor
+  label: "Indoor"
+- slug: social
+  label: "Social"
+- slug: volunteering
+  label: "Volunteering"
+- slug: community
+  label: "Community"
+- slug: singing
+  label: "Singing"
+- slug: beginners-welcome
+  label: "Beginners welcome"
+- slug: dementia-friendly
+  label: "Dementia friendly"
