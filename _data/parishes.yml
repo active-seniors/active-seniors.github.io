@@ -1,0 +1,14 @@
+# Guernsey's 10 parishes. Fixed real-world list — used to drive the
+# "all shown, switch some off" proximity filter on the homepage. A parish
+# with no current listings still appears in the filter; it just never
+# hides anything.
+- "St Peter Port"
+- "St Sampson"
+- "Vale"
+- "Castel"
+- "St Saviour"
+- "St Pierre du Bois"
+- "Torteval"
+- "Forest"
+- "St Martin"
+- "St Andrew"
