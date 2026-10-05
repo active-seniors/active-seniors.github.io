@@ -1,0 +1,31 @@
+---
+id: guernsey-arthritis-care
+title: Guernsey Arthritis Care
+status: active
+source: discovered
+category: social
+tags:
+- be-active
+- older-people
+location:
+  venue: Castel Douzaine Room, Les Beaucamps , Castel
+  parish: Castel
+cost:
+  amount: 0
+  currency: GBP
+organiser:
+  contact_phone: 07781 111510
+verification:
+  verified_by: ''
+  verified_date: '2026-10-05'
+  review_due: ''
+  last_pr: ''
+discovery:
+  source_url: https://directory.healthconnections.gg/listing/4b151b7d-9e8a-4706-be19-2e22d7b42dcd
+  scraped_date: '2026-10-05'
+  notes:
+  - 'Additional phone number(s) not captured: [''Emails'', ''racorbin@cwgsy.net'']'
+  - Health Connections shows this as last updated 7 months ago.
+---
+
+Guernsey Arthritis Care is the only local charity dealing solely with the welfare, needs and support of people with arthritis. Meetings are held at the Castel Douzaine Room on the third Tuesday of the month at 7-30pm. All are welcome. Including exercises for arthritis sufferers, speaker, tea and biscuits, and a raffle. Weekly exercise sessions are held at St.Saviour's Community Centre, Saturday morning at 10.30am.
