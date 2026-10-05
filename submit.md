@@ -204,7 +204,9 @@ permalink: /submit/
       organiser_email: form.organiser_email.value,
       organiser_phone: form.organiser_phone.value,
       organiser_website: form.organiser_website.value,
-      notes: form.notes.value
+      notes: form.notes.value,
+      human_check: form.human_check.value,
+      website_confirm: form.website_confirm.value
     };
 
     var submitBtn = form.querySelector('button[type="submit"]');
