@@ -1,0 +1,30 @@
+---
+id: muskuloskeletal-physiotherapy-at-avenue-clinic
+title: Muskuloskeletal Physiotherapy at Avenue Clinic
+status: active
+source: discovered
+category: sports
+tags:
+- mobility
+- musculoskeletal-health
+- pain-management
+- physical-activity
+organiser:
+  website: https://avenueclinic.co.uk/therapies/musculoskeletal-physiotherapy/
+  contact_phone: 01481 728798
+verification:
+  verified_by: ''
+  verified_date: '2026-10-05'
+  review_due: ''
+  last_pr: ''
+discovery:
+  source_url: https://directory.healthconnections.gg/listing/5de2aac5-29a7-4f12-914f-2c86e96c789c
+  scraped_date: '2026-10-05'
+  notes:
+  - Listed as paid; exact price not stated on source page.
+  - Available both in person and online.
+  - 'Additional phone number(s) not captured: [''Emails'', ''admin@avenueclinic.co.uk'']'
+  - Health Connections shows this as last updated 9 months ago.
+---
+
+The term relates to the physiotherapy of the musculoskeletal system. This involves muscles, bones, joints, nerves, ligaments, cartilage and spinal discs. Musculoskeletal Physiotherapy uses a ‘physical’ approach that involves manual assessment and treatment techniques, which aim to: Encourage tissue healing by controlling and reducing pain and inflammation Restore normal range of motion by integrating the muscular joint and nervous system
