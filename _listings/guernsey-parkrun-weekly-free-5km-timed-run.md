@@ -1,0 +1,31 @@
+---
+id: guernsey-parkrun-weekly-free-5km-timed-run
+title: Guernsey Parkrun - weekly free 5km timed run
+status: active
+source: discovered
+category: sports
+tags:
+- children-young-people-and-families
+- physical-activity
+location:
+  venue: Vale
+  parish: Vale
+cost:
+  amount: 0
+  currency: GBP
+organiser:
+  website: http://www.parkrun.org.uk/guernsey/
+verification:
+  verified_by: ''
+  verified_date: '2026-10-05'
+  review_due: ''
+  last_pr: ''
+discovery:
+  source_url: https://directory.healthconnections.gg/listing/1fc873a3-dc1f-4f1a-a446-571d0ace5e14
+  scraped_date: '2026-10-05'
+  notes:
+  - Available both in person and online.
+  - Health Connections shows this as last updated 6 months ago.
+---
+
+What is Guernsey parkrun? It is a 5km run - it's you against the clock. When is it? Every Saturday at 9:00am. Where is it? The event takes place at Pembroke Bay, Vale, Guernsey, GY3 5BY. What does it cost to join in? Nothing - it's free! but please register on our website before your first run. Only ever register with parkrun once. Don't forget to bring a printed copy of your barcode. Guernsey parkrun needs you! It is entirely organised by volunteers - email guernseyhelpers@parkrun.com to help.
