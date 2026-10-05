@@ -1,5 +1,5 @@
 ---
-id: guille-all-s-library-it-training
+id: guille-alles-library-it-training
 title: Guille-Allès Library - IT Training
 status: active
 source: discovered
@@ -24,7 +24,7 @@ organiser:
   website: https://www.library.gg/computers-and-wi-fi
   contact_phone: '720392'
 verification:
-  verified_by: ''
+  verified_by: 'Jon Hickman'
   verified_date: '2026-10-05'
   review_due: ''
   last_pr: ''
