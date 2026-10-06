@@ -31,8 +31,8 @@ layout: default
 
   {% if page.tags or page.suitable_for %}
   <p>
-    {% for tag in page.tags %}<a class="tag" href="{{ '/tags/' | append: tag | append: '/' | relative_url }}">{{ tag }}</a>{% endfor %}
-    {% for tag in page.suitable_for %}<a class="tag" href="{{ '/tags/' | append: tag | append: '/' | relative_url }}">{{ tag }}</a>{% endfor %}
+    {% for tag in page.tags %}<a class="tag" href="{{ '/?tag=' | append: tag | relative_url }}">{{ tag }}</a>{% endfor %}
+    {% for tag in page.suitable_for %}<a class="tag" href="{{ '/?tag=' | append: tag | relative_url }}">{{ tag }}</a>{% endfor %}
   </p>
   {% endif %}
 
