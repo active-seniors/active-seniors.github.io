@@ -7,7 +7,7 @@ permalink: /tags/
 
 <p>Tags are computed from whatever listings actually exist — click any to see matching listings on the home page.</p>
 
-<ul>
+<ul class="tag-list">
 {% assign empty_arr = "" | split: "," %}
 {% assign all_tags = "" | split: "," %}
 {% for listing in site.listings %}

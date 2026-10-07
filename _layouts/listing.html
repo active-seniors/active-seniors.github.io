@@ -1,55 +1,99 @@
 ---
 layout: default
 ---
-<article>
+<p><a class="back-link" href="{{ '/' | relative_url }}">&larr; Back to all listings</a></p>
+
+<article class="listing">
+
   {% if page.source == "demo-data" %}
-  <p><span class="demo-badge">Demo data — not a real listing</span></p>
+    <span class="demo-badge">Demo data — not a real listing</span>
+  {% elsif page.verification.verified_by and page.verification.verified_by != "" %}
+    <span class="verify-badge">Verified by {{ page.verification.verified_by }}</span>
+  {% else %}
+    <span class="verify-badge">Not yet verified</span>
   {% endif %}
+
   <h2>{{ page.title }}</h2>
+
   <p class="meta">
     {{ page.category }}
     {% if page.location.parish %} · {{ page.location.parish }}{% endif %}
-    {% if page.cost.amount == 0 %} · Free{% else %} · {{ page.cost.amount }} {{ page.cost.currency }}{% endif %}
   </p>
-
-  {% if page.schedule %}
-  <p><strong>When:</strong>
-    {{ page.schedule.frequency }} on {{ page.schedule.day }}{% if page.schedule.time %} at {{ page.schedule.time }}{% endif %}
-  </p>
-  {% endif %}
-
-  {% if page.location.venue %}
-  <p><strong>Where:</strong> {{ page.location.venue }}{% if page.location.area_notes %} — {{ page.location.area_notes }}{% endif %}</p>
-  {% endif %}
-
-  {% if page.accessibility %}
-  <p><strong>Accessibility:</strong>
-    {% if page.accessibility.mobility %}{{ page.accessibility.mobility | join: ", " }}{% endif %}
-    {% if page.accessibility.physical_intensity %} · Physical intensity: {{ page.accessibility.physical_intensity }}{% endif %}
-  </p>
-  {% endif %}
-
-  {% if page.tags or page.suitable_for %}
-  <p>
-    {% for tag in page.tags %}<a class="tag" href="{{ '/?tag=' | append: tag | relative_url }}">{{ tag }}</a>{% endfor %}
-    {% for tag in page.suitable_for %}<a class="tag" href="{{ '/?tag=' | append: tag | relative_url }}">{{ tag }}</a>{% endfor %}
-  </p>
-  {% endif %}
 
   <div class="description">
     {{ content }}
   </div>
 
-  {% if page.organiser %}
-  <p class="meta"><strong>Organiser:</strong> {{ page.organiser.name }}
-    {% if page.organiser.contact_email %} · <a href="mailto:{{ page.organiser.contact_email }}">{{ page.organiser.contact_email }}</a>{% endif %}
-    {% if page.organiser.website %} · <a href="{{ page.organiser.website }}">website</a>{% endif %}
+  <div class="detail-rows">
+    <p>
+      <strong>Cost</strong>
+      <span>
+        {% if page.cost.amount == 0 %}
+          Free
+        {% elsif page.cost.amount %}
+          £{{ page.cost.amount }}{% if page.cost.currency and page.cost.currency != "GBP" %} {{ page.cost.currency }}{% endif %}
+        {% elsif page.cost.notes and page.cost.notes != "" %}
+          {{ page.cost.notes }}
+        {% else %}
+          <span class="uncertain">Not confirmed — ask the organiser</span>
+        {% endif %}
+      </span>
+    </p>
+    {% if page.schedule %}
+    <p>
+      <strong>When</strong>
+      <span>{{ page.schedule.frequency }}{% if page.schedule.day %} on {{ page.schedule.day }}{% endif %}{% if page.schedule.time %} at {{ page.schedule.time }}{% endif %}</span>
+    </p>
+    {% endif %}
+    <p>
+      <strong>Where</strong>
+      <span>
+        {% if page.location.venue %}
+          {{ page.location.venue }}{% if page.location.area_notes %} — {{ page.location.area_notes }}{% endif %}
+        {% else %}
+          <span class="uncertain">Not given — likely online or ask the organiser</span>
+        {% endif %}
+      </span>
+    </p>
+    {% if page.accessibility %}
+    <p>
+      <strong>Access</strong>
+      <span class="access-line">
+        {% if page.accessibility.mobility %}{{ page.accessibility.mobility | join: ", " }}{% endif %}
+        {% if page.accessibility.sensory and page.accessibility.sensory != empty %}{% if page.accessibility.mobility %}, {% endif %}{{ page.accessibility.sensory | join: ", " }}{% endif %}
+        {% if page.accessibility.physical_intensity %} · {{ page.accessibility.physical_intensity }} physical intensity{% endif %}
+      </span>
+    </p>
+    {% endif %}
+  </div>
+
+  {% if page.tags or page.suitable_for %}
+  <p class="tags">
+    {% for tag in page.tags %}<a class="tag" href="{{ '/?tag=' | append: tag | relative_url }}">{{ tag }}</a>{% endfor %}
+    {% for tag in page.suitable_for %}<a class="tag" href="{{ '/?tag=' | append: tag | relative_url }}">{{ tag }}</a>{% endfor %}
   </p>
   {% endif %}
 
-  {% if page.verification %}
-  <p class="meta">Verified by {{ page.verification.verified_by }} on {{ page.verification.verified_date }}. Next review due {{ page.verification.review_due }}.</p>
+  {% if page.organiser %}
+  <div class="organiser-box">
+    <strong>Organiser</strong>
+    {% if page.organiser.name %}<div>{{ page.organiser.name }}</div>{% endif %}
+    {% if page.organiser.website and page.organiser.website != "" %}<div><a href="{% unless page.organiser.website contains "http" %}https://{% endunless %}{{ page.organiser.website }}" target="_blank" rel="noopener">{{ page.organiser.website }}</a></div>{% endif %}
+    {% if page.organiser.contact_phone and page.organiser.contact_phone != "" %}<div><a href="tel:{{ page.organiser.contact_phone | remove: " " }}">{{ page.organiser.contact_phone }}</a></div>{% endif %}
+    {% if page.organiser.contact_email and page.organiser.contact_email != "" %}<div><a href="mailto:{{ page.organiser.contact_email }}">{{ page.organiser.contact_email }}</a></div>{% endif %}
+  </div>
   {% endif %}
 
-  <p><a href="{{ '/' | relative_url }}">&larr; Back to all listings</a></p>
+  <p class="freshness">
+    {% if page.source == "discovered" and page.discovery %}
+      Found via an automated search of public directories{% if page.discovery.scraped_date %}, {{ page.discovery.scraped_date }}{% endif %}.
+      {% if page.verification.verified_by == "" or page.verification.verified_by == nil %}Not yet checked by a person — treat details as a starting point and confirm with the organiser.{% endif %}
+    {% elsif page.verification.verified_date and page.verification.verified_date != "" %}
+      Checked by {{ page.verification.verified_by }} on {{ page.verification.verified_date }}.
+      {% if page.verification.review_due and page.verification.review_due != "" %}Next check due {{ page.verification.review_due }}.{% endif %}
+    {% endif %}
+  </p>
+
+  <p><a class="back-link" href="{{ '/' | relative_url }}">&larr; Back to all listings</a></p>
+
 </article>
