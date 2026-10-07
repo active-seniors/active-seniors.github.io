@@ -140,7 +140,9 @@ nav.site-nav a:hover, nav.site-nav a:focus-visible { border-bottom-color: var(--
   padding: 0.3em 0.9em;
   color: var(--charcoal);
   text-decoration: none;
-  white-space: nowrap;
+  max-width: 100%;
+  overflow-wrap: anywhere;   /* real tag data includes long hyphen-joined slugs with no spaces —
+                                 see the discovery-sourced "neurological-conditions-..." tag */
   display: inline-block;
 }
 .tag-cloud-item:hover, .tag-cloud-item:focus-visible { border-color: var(--terracotta); color: var(--terracotta); }
@@ -227,6 +229,8 @@ nav.site-nav a:hover, nav.site-nav a:focus-visible { border-bottom-color: var(--
   color: var(--granite-text);
   text-decoration: none;
   margin: 0.2rem 0.3rem 0 0;
+  max-width: 100%;
+  overflow-wrap: anywhere;
 }
 .tag:hover, .tag:focus-visible { border-color: var(--terracotta); color: var(--terracotta); }
 
