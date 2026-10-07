@@ -32,7 +32,7 @@ title: Home
   {% endfor %}
   {% assign ratio = count | times: 1.0 | divided_by: max_count %}
   {% assign size = ratio | plus: 0.8 %}
-  <a class="tag-cloud-item tag-filter-link" href="{{ '/?tag=' | append: tag | relative_url }}" data-tag="{{ tag }}" style="font-size: {{ size }}rem;">{{ tag }}</a>
+  <a class="tag-cloud-item tag-filter-link" href="{{ '/?tag=' | append: tag | relative_url }}" data-tag="{{ tag }}" style="font-size: {{ ratio | times: 0.5 | plus: 0.95 }}rem;">{{ tag }}</a>
 {% endfor %}
 </p>
 
@@ -58,12 +58,25 @@ title: Home
 {% assign ls = listing.suitable_for | default: empty_arr %}
 {% assign listing_tags = lt | concat: ls | join: " " %}
 <div class="listing-card" data-parish="{{ listing.location.parish }}" data-tags="{{ listing_tags }}">
-  {% if listing.source == "demo-data" %}<span class="demo-badge">Demo data</span><br>{% endif %}
+  {% if listing.source == "demo-data" %}
+    <span class="demo-badge">Demo data</span>
+  {% elsif listing.verification.verified_by and listing.verification.verified_by != "" %}
+    <span class="verify-badge">Verified</span>
+  {% else %}
+    <span class="verify-badge">Not yet verified</span>
+  {% endif %}
   <h3><a href="{{ listing.url | relative_url }}">{{ listing.title }}</a></h3>
   <p class="meta">
     {{ listing.category }}
     {% if listing.location.parish %} · {{ listing.location.parish }}{% endif %}
-    {% if listing.cost.amount == 0 %} · Free{% endif %}
+    ·
+    {% if listing.cost.amount == 0 %}
+      <span class="free-pill">Free</span>
+    {% elsif listing.cost.amount %}
+      £{{ listing.cost.amount }}
+    {% else %}
+      cost not confirmed
+    {% endif %}
   </p>
   {% if listing.tags or listing.suitable_for %}
   <p>

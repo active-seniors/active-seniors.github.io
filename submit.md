@@ -94,11 +94,8 @@ permalink: /submit/
     </select>
 
     <label>Suitable for</label>
-    {% for tag in site.data.tags %}
-      {% if tag.slug == "beginners-welcome" or tag.slug == "dementia-friendly" %}
-      <label class="checkbox-inline"><input type="checkbox" name="suitable_for" value="{{ tag.slug }}"> {{ tag.label }}</label>
-      {% endif %}
-    {% endfor %}
+    <label class="checkbox-inline"><input type="checkbox" name="suitable_for" value="beginners-welcome"> Beginners welcome</label>
+    <label class="checkbox-inline"><input type="checkbox" name="suitable_for" value="dementia-friendly"> Dementia-friendly</label>
   </fieldset>
 
   <fieldset>
@@ -135,23 +132,6 @@ permalink: /submit/
   <button type="submit">Submit for review</button>
   <p id="form-status" role="status"></p>
 </form>
-
-<style>
-  fieldset { border: 1px solid #e3e5e8; border-radius: 8px; padding: 1rem 1.25rem; margin-bottom: 1.25rem; }
-  legend { font-weight: 600; padding: 0 0.4rem; }
-  form label { display: block; margin-top: 0.75rem; font-size: 0.9rem; font-weight: 500; }
-  form label.checkbox-inline { display: inline-block; font-weight: normal; margin-right: 1rem; }
-  form input[type="text"], form input[type="email"], form input[type="tel"], form input[type="url"], form input[type="number"], form select, form textarea {
-    width: 100%; max-width: 420px; padding: 0.4rem 0.5rem; margin-top: 0.25rem; border: 1px solid #ccc; border-radius: 4px; font: inherit; box-sizing: border-box;
-  }
-  .hp-field { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
-  button[type="submit"] { margin-top: 1.5rem; padding: 0.6rem 1.4rem; background: #0b5fff; color: #fff; border: none; border-radius: 6px; font-size: 1rem; cursor: pointer; }
-  button[type="submit"]:disabled { background: #99b8f5; cursor: not-allowed; }
-  .notice { background: #fff7e6; border: 1px solid #f0d58c; border-radius: 8px; padding: 0.75rem 1rem; margin-bottom: 1.5rem; font-size: 0.9rem; }
-  #form-status { margin-top: 1rem; font-weight: 500; }
-  #form-status.success { color: #1a7f37; }
-  #form-status.error { color: #c0392b; }
-</style>
 
 <script>
 (function () {

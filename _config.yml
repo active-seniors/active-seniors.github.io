@@ -1,9 +1,12 @@
-title: Active Seniors Guernsey
+title: Join In Guernsey
 description: >-
-  Find and get matched into activities, clubs, societies and volunteering
-  opportunities across Guernsey — built for the G-Prize 2026 Active Ageing challenge.
+  Clubs, groups and get-togethers across every parish — have a look, then go along.
+  Built for the G-Prize 2026 Active Ageing challenge.
 baseurl: ""
 url: "https://active-seniors.github.io"
+
+# TODO: real URL needed from Jon — do not guess. Footer link is hidden until this is set.
+quarry_url: ""
 
 # Submission bridge (orchestration/submission) endpoint — deployed 5 Oct 2026.
 # The form page shows a "not live yet" notice if this is ever unset.

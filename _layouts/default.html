@@ -5,49 +5,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
   <meta name="description" content="{{ page.description | default: site.description }}">
-  <style>
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; max-width: 760px; margin: 2rem auto; padding: 0 1rem; line-height: 1.5; color: #1a1a1a; }
-    header { margin-bottom: 2rem; }
-    header a { text-decoration: none; color: inherit; }
-    header h1 { font-size: 1.4rem; margin: 0 0 0.25rem; }
-    header p { margin: 0; color: #555; font-size: 0.95rem; }
-    .listing-card { border: 1px solid #ddd; border-radius: 8px; padding: 1rem 1.25rem; margin-bottom: 1rem; }
-    .listing-card h3 { margin: 0 0 0.25rem; }
-    .listing-card h3 a { text-decoration: none; color: #0b5fff; }
-    .meta { color: #555; font-size: 0.9rem; }
-    .tag { display: inline-block; background: #eef2ff; color: #333; border-radius: 4px; padding: 0.1rem 0.5rem; font-size: 0.8rem; margin-right: 0.3rem; margin-bottom: 0.3rem; text-decoration: none; }
-    .tag:hover { background: #dbe4ff; }
-    nav.site-nav { margin-top: 0.5rem; }
-    nav.site-nav a { font-size: 0.9rem; color: #0b5fff; text-decoration: none; margin-right: 1rem; }
-    .tag-cloud { line-height: 2.2; margin-bottom: 2rem; }
-    .tag-cloud-item { color: #0b5fff; text-decoration: none; margin-right: 0.9rem; }
-    .tag-cloud-item:hover { text-decoration: underline; }
-    .filter-bar { background: #f7f8fa; border: 1px solid #e3e5e8; border-radius: 8px; padding: 0.75rem 1rem; margin-bottom: 1.25rem; font-size: 0.9rem; }
-    .parish-toggle { display: inline-flex; align-items: center; gap: 0.3rem; margin-right: 1rem; margin-bottom: 0.3rem; }
-    #parish-reset { margin-left: 0.5rem; font-size: 0.85rem; border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 0.15rem 0.6rem; cursor: pointer; }
-    #no-matches { color: #555; }
-    .demo-badge { display: inline-block; background: #c0392b; color: #fff; font-weight: 700; letter-spacing: 0.03em; font-size: 0.7rem; text-transform: uppercase; border-radius: 4px; padding: 0.15rem 0.5rem; margin-bottom: 0.4rem; }
-    footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #eee; color: #777; font-size: 0.85rem; }
-    .wip-banner { background: #c0392b; color: #fff; text-align: center; font-weight: 700; padding: 0.6rem 1rem; font-size: 0.9rem; }
-    .wip-banner a { color: #fff; text-decoration: underline; }
-  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;900&family=Atkinson+Hyperlegible:wght@400;700&display=swap">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 </head>
 <body>
-  <div class="wip-banner">WORK IN PROGRESS — this site is being seeded with test data scraped automatically and not yet individually reviewed. Nothing here should be treated as verified or complete.</div>
-  <header>
-    <a href="{{ '/' | relative_url }}"><h1>{{ site.title }}</h1></a>
-    <p>{{ site.description }}</p>
-    <nav class="site-nav">
-      <a href="{{ '/' | relative_url }}">All listings</a>
-      <a href="{{ '/tags/' | relative_url }}">Browse by tag</a>
-      <a href="{{ '/submit/' | relative_url }}">Submit a listing</a>
-    </nav>
-  </header>
-  <main>
-    {{ content }}
-  </main>
-  <footer>
-    <p>Built for the <a href="https://innovateguernsey.com/gprize">G-Prize 2026</a> Active Ageing challenge. Listings are reviewed by humans before publishing — see this site's <a href="https://github.com/active-seniors/active-seniors.github.io">GitHub history</a> for the full audit trail.</p>
-  </footer>
+  <div class="wip-banner">Work in progress — most listings here were found automatically and have not yet been individually checked by a person. Nothing should be treated as verified or complete yet.</div>
+  <div class="page">
+    <header class="masthead">
+      <a class="wordmark-link" href="{{ '/' | relative_url }}">
+        <h1 class="wordmark">Join In <span class="place">Guernsey</span></h1>
+      </a>
+      <p class="strapline">{{ site.description }}</p>
+      <p class="maintained-by">
+        A directory of real Guernsey activities, maintained by
+        {% if site.quarry_url and site.quarry_url != "" %}
+          <a href="{{ site.quarry_url }}">The Quarry</a>.
+        {% else %}
+          The Quarry.
+        {% endif %}
+      </p>
+      <nav class="site-nav">
+        <a href="{{ '/' | relative_url }}">All listings</a>
+        <a href="{{ '/tags/' | relative_url }}">Browse by tag</a>
+        <a href="{{ '/submit/' | relative_url }}">Submit a listing</a>
+      </nav>
+    </header>
+    <main>
+      {{ content }}
+    </main>
+    <footer class="site-footer">
+      <p>Built for the <a href="https://innovateguernsey.com/gprize">G-Prize 2026</a> Active Ageing challenge. Every listing's history — who added it, who's reviewed it, when it's next due a check — is public in this site's <a href="https://github.com/active-seniors/active-seniors.github.io">GitHub history</a>.</p>
+    </footer>
+  </div>
 </body>
 </html>
