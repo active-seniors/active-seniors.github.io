@@ -28,6 +28,11 @@ discovery:
   - Available both in person and online.
   - 'Other contacts on source page: 01481 227311'
   - Health Connections shows this as last updated 5 months ago.
+editorial_flag:
+  status: on-hold
+  reason: "On hold. Free States 1:1 health coaching, not an activity, but a GP may want it signposted. Await GP surgery feedback on an 'other support' section."
+  flagged_date: '2026-10-08'
+  reviewed_by: Nick Mann, 8 Oct 2026
 ---
 
 Public Health Services, based at Le Vauquiedor Office on the Princess Elizabeth Hospital site, has lots of information on all aspects of healthy living. Together, you’ll agree on a number of personal health goals and how best to achieve them. Everything that is discussed will be treated in the strictest confidence This is a free service for all Bailiwick residents. All we ask is you are prepared to make changes and are ready to get started!

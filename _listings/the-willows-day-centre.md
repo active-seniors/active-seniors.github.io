@@ -33,6 +33,11 @@ discovery:
   - Health Connections shows this as last updated 8 months ago.
   - 'Web check 8 Oct 2026: organiser name from https://www.gov.gg/thewillowdaycentre'
   - 'Web check 8 Oct 2026: suitability from https://www.gov.gg/thewillowdaycentre'
+editorial_flag:
+  status: on-hold
+  reason: "On hold. Day centre with therapeutic activities for people with dementia who cannot attend other day centres; likely relevant to the GP trial. Await GP surgery feedback."
+  flagged_date: '2026-10-08'
+  reviewed_by: Nick Mann, 8 Oct 2026
 ---
 
 The Centre provides therapeutic activities and personal care services for people with dementia and those with mental health and and physical problems who cannot attend other day centres.

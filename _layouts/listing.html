@@ -13,6 +13,12 @@ layout: default
     <span class="verify-badge">Not yet verified</span>
   {% endif %}
 
+  {% comment %}
+    editorial_flag in a listing's frontmatter is an internal note for editors
+    (see planning/listing-relevance-review.md). It is deliberately not shown
+    on the public page, which the GP trial and the public both see.
+  {% endcomment %}
+
   <h2>{{ page.title }}</h2>
 
   <p class="meta">
