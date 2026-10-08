@@ -13,9 +13,10 @@ cost:
 organiser:
   website: https://www.newwaveswellness.com/
   contact_phone: 07781 155905
+  contact_email: lou@newwaveswellness.com
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
@@ -23,7 +24,6 @@ discovery:
   scraped_date: '2026-10-05'
   notes:
   - Online only — not an in-person activity.
-  - 'Additional phone number(s) not captured: [''Emails'', ''lou@newwaveswellness.com'']'
   - Health Connections shows this as last updated 9 months ago.
 ---
 

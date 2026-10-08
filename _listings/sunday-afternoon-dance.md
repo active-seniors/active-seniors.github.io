@@ -11,11 +11,16 @@ tags:
 location:
   venue: St Martin's Parish Hall
   parish: St Martin
+schedule:
+  frequency: monthly
+  day: third Sunday
+  time: 14:30-16:30
 organiser:
   contact_phone: 01481 239723
+  contact_email: leycroft@cwgsy.net
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
@@ -23,7 +28,6 @@ discovery:
   scraped_date: '2026-10-05'
   notes:
   - Listed as paid; exact price not stated on source page.
-  - 'Additional phone number(s) not captured: [''Emails'', ''leycroft@cwgsy.net'']'
   - Health Connections shows this as last updated 8 months ago.
 ---
 

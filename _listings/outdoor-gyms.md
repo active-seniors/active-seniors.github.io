@@ -10,15 +10,14 @@ tags:
 - musculoskeletal-health
 - physical-activity
 location:
-  venue: Delancy Park St Sampson's, Styx Community Centre St Peter's and Sausmarez
-    Park Castel
+  venue: Delancy Park St Sampson's, Styx Community Centre St Peter's and Sausmarez Park Castel
   parish: St Sampson
 cost:
   amount: 0
   currency: GBP
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:

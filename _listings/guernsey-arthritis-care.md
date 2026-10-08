@@ -10,21 +10,25 @@ tags:
 location:
   venue: Castel Douzaine Room, Les Beaucamps , Castel
   parish: Castel
+schedule:
+  frequency: monthly
+  day: third Tuesday (plus weekly exercise, Saturdays 10:30)
+  time: '19:30'
 cost:
   amount: 0
   currency: GBP
 organiser:
   contact_phone: 07781 111510
+  contact_email: racorbin@cwgsy.net
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
   source_url: https://directory.healthconnections.gg/listing/4b151b7d-9e8a-4706-be19-2e22d7b42dcd
   scraped_date: '2026-10-05'
   notes:
-  - 'Additional phone number(s) not captured: [''Emails'', ''racorbin@cwgsy.net'']'
   - Health Connections shows this as last updated 7 months ago.
 ---
 

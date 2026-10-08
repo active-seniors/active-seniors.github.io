@@ -8,12 +8,13 @@ tags:
 - physical-activity
 location:
   venue: Beau Sejour, Amherst, St. Peter Port GY1 2DL
+  parish: St Peter Port
 organiser:
-  website: performancepilates.gg
+  website: https://performancepilates.gg
   contact_phone: 07781 410871
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
@@ -22,8 +23,6 @@ discovery:
   notes:
   - Listed as paid; exact price not stated on source page.
   - Available both in person and online.
-  - 'Address given but no known parish matched: ''Beau Sejour, Amherst, St. Peter
-    Port GY1 2DL'''
   - Health Connections shows this as last updated 9 months ago.
 ---
 

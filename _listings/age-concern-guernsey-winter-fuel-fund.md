@@ -12,9 +12,10 @@ cost:
 organiser:
   website: https://www.ageconcernguernsey.org.gg/index.php/winter-fuel-fund/
   contact_phone: '257311'
+  contact_email: hello@ageconcernguernsey.org.gg
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
@@ -22,7 +23,7 @@ discovery:
   scraped_date: '2026-10-05'
   notes:
   - Online only — not an in-person activity.
-  - 'Additional phone number(s) not captured: [''263228'', ''Emails'', ''hello@ageconcernguernsey.org.gg'']'
+  - 'Other contacts on source page: 263228'
   - Health Connections shows this as last updated 10 months ago.
 ---
 

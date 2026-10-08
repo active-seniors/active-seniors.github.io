@@ -8,11 +8,12 @@ tags:
 - physical-activity
 location:
   venue: Rovers Club House, Port Soif lane GY6 8
+  parish: Vale
 organiser:
   website: http://www.bowmenofguernsey.co.uk/
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
@@ -20,8 +21,6 @@ discovery:
   scraped_date: '2026-10-05'
   notes:
   - Listed as paid; exact price not stated on source page.
-  - 'Address given but no known parish matched: ''Rovers Club House, Port Soif lane
-    GY6 8'''
   - Health Connections shows this as last updated 7 months ago.
 ---
 

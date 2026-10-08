@@ -10,6 +10,10 @@ tags:
 location:
   venue: Vale
   parish: Vale
+schedule:
+  frequency: weekly
+  day: Saturday
+  time: 09:00
 cost:
   amount: 0
   currency: GBP
@@ -17,7 +21,7 @@ organiser:
   website: http://www.parkrun.org.uk/guernsey/
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:

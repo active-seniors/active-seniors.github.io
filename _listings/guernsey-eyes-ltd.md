@@ -15,18 +15,18 @@ location:
 cost:
   notes: Both free and paid options available — see source for details.
 organiser:
-  website: www.guernseyeyes.gg
+  website: https://www.guernseyeyes.gg
   contact_phone: 01481 265442
+  contact_email: info@guernseyeyes.gg
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
   source_url: https://directory.healthconnections.gg/listing/d3c25fa4-96ce-475f-800b-1be68c3d73c6
   scraped_date: '2026-10-05'
   notes:
-  - 'Additional phone number(s) not captured: [''Emails'', ''info@guernseyeyes.gg'']'
   - Health Connections shows this as last updated 9 months ago.
 ---
 

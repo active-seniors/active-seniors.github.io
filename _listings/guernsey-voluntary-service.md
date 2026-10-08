@@ -10,14 +10,15 @@ tags:
 - day-centres
 - older-people
 location:
-  venue: Guernsey Voluntary Service, Jubilee House, Grandes Maisons Road, St. Sampsons,
-    Guernsey, GY2 4JH
+  venue: Guernsey Voluntary Service, Jubilee House, Grandes Maisons Road, St. Sampsons, Guernsey,
+    GY2 4JH
+  parish: St Sampson
 organiser:
   website: http://www.gvs.org.gg/
   contact_phone: 01481 247518
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
@@ -26,10 +27,7 @@ discovery:
   notes:
   - Listed as paid; exact price not stated on source page.
   - Available both in person and online.
-  - 'Address given but no known parish matched: ''Guernsey Voluntary Service, Jubilee
-    House, Grandes Maisons Road, St. Sampsons, Guernsey, GY2 4JH'''
-  - 'Additional phone number(s) not captured: [''01481 246045'', ''01481 238055'',
-    ''Emails'', ''admin@gvs.org.gg'']'
+  - 'Other contacts on source page: admin@gvs.org.gg, 01481 246045, 01481 238055'
   - Health Connections shows this as last updated 9 months ago.
 ---
 

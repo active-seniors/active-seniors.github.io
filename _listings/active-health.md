@@ -8,12 +8,14 @@ tags:
 - physical-activity
 location:
   venue: Beau Sejour Leisure Centre, Amherst, Guernsey GY1 2DL, Guernsey
+  parish: St Peter Port
 organiser:
   website: https://www.beausejour.gg/
   contact_phone: 01481 225200
+  contact_email: Sam.Green@gov.gg
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
@@ -22,9 +24,7 @@ discovery:
   notes:
   - Listed as paid; exact price not stated on source page.
   - Available both in person and online.
-  - 'Address given but no known parish matched: ''Beau Sejour Leisure Centre, Amherst,
-    Guernsey GY1 2DL, Guernsey'''
-  - 'Additional phone number(s) not captured: [''Emails'', ''Sam.Green@gov.gg'', ''beausejour@gov.gg'']'
+  - 'Other contacts on source page: beausejour@gov.gg'
   - Health Connections shows this as last updated 10 months ago.
 ---
 

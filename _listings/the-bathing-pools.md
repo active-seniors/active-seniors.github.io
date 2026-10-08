@@ -11,11 +11,12 @@ cost:
   amount: 0
   currency: GBP
 organiser:
-  website: thebathingpools.com
+  website: https://thebathingpools.com
   contact_phone: 07781 451 472
+  contact_email: contactus@vivelavallette.com
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
@@ -23,7 +24,6 @@ discovery:
   scraped_date: '2026-10-05'
   notes:
   - Available both in person and online.
-  - 'Additional phone number(s) not captured: [''Emails'', ''contactus@vivelavallette.com'']'
   - Health Connections shows this as last updated 8 months ago.
 ---
 

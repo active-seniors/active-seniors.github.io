@@ -11,11 +11,13 @@ tags:
 - older-people
 location:
   venue: St Peters
+  parish: St Pierre du Bois
 organiser:
   contact_phone: '267319'
+  contact_email: styxcentre@cwgsy.net
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
@@ -24,8 +26,6 @@ discovery:
   notes:
   - Listed as paid; exact price not stated on source page.
   - Available both in person and online.
-  - 'Address given but no known parish matched: ''St Peters'''
-  - 'Additional phone number(s) not captured: [''Emails'', ''styxcentre@cwgsy.net'']'
   - Health Connections shows this as last updated 8 months ago.
 ---
 

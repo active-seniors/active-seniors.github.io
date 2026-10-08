@@ -19,7 +19,7 @@ organiser:
   contact_phone: 07839 774863
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
@@ -27,7 +27,7 @@ discovery:
   scraped_date: '2026-10-05'
   notes:
   - Available both in person and online.
-  - 'Additional phone number(s) not captured: [''07911 718906'']'
+  - 'Other contacts on source page: 07911 718906'
   - Health Connections shows this as last updated 8 months ago.
 ---
 

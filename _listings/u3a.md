@@ -19,7 +19,7 @@ organiser:
   contact_phone: 07781 193333
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
@@ -27,8 +27,8 @@ discovery:
   scraped_date: '2026-10-05'
   notes:
   - Available both in person and online.
-  - 'Address given but no known parish matched: ''Various Learn, Laugh and Live! –
-    all whilst having fun'''
+  - 'Address given but no known parish matched: ''Various Learn, Laugh and Live! – all whilst
+    having fun'''
   - Health Connections shows this as last updated 8 months ago.
 ---
 

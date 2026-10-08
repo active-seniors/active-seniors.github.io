@@ -11,12 +11,14 @@ tags:
 - older-people
 location:
   venue: St Peters - Directions will be provided on the booking of a session.
+  parish: St Pierre du Bois
 organiser:
   website: https://www.beatgsy.co.uk/contact
   contact_phone: 07781 138358
+  contact_email: hello@the-centre.gg
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
@@ -25,9 +27,6 @@ discovery:
   notes:
   - Listed as paid; exact price not stated on source page.
   - Available both in person and online.
-  - 'Address given but no known parish matched: ''St Peters - Directions will be provided
-    on the booking of a session.'''
-  - 'Additional phone number(s) not captured: [''Emails'', ''hello@the-centre.gg'']'
   - Health Connections shows this as last updated 10 months ago.
 ---
 

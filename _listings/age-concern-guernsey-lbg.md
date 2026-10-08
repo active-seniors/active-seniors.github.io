@@ -11,14 +11,19 @@ tags:
 location:
   venue: St Martin’s Parish Hall, Guernsey
   parish: St Martin
+schedule:
+  frequency: weekly
+  day: Tuesday to Friday (varies by centre)
+  time: 14:00-16:00
 cost:
-  notes: Both free and paid options available — see source for details.
+  notes: £5 annual membership
 organiser:
-  website: ageconcernguernsey.org.gg
+  website: https://ageconcernguernsey.org.gg
   contact_phone: 01481 263228
+  contact_email: hello@ageconcernguernsey.org.gg
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
@@ -26,7 +31,6 @@ discovery:
   scraped_date: '2026-10-05'
   notes:
   - Available both in person and online.
-  - 'Additional phone number(s) not captured: [''Emails'', ''hello@ageconcernguernsey.org.gg'']'
   - Health Connections shows this as last updated 10 months ago.
 ---
 

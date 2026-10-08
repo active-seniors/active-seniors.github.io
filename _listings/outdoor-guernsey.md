@@ -11,9 +11,10 @@ tags:
 organiser:
   website: https://outdoorguernsey.gg
   contact_phone: 07781 130403
+  contact_email: bookings@outdoorguernsey.gg
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
@@ -22,7 +23,6 @@ discovery:
   notes:
   - Listed as paid; exact price not stated on source page.
   - Available both in person and online.
-  - 'Additional phone number(s) not captured: [''Emails'', ''bookings@outdoorguernsey.gg'']'
   - Health Connections shows this as last updated 9 months ago.
 ---
 

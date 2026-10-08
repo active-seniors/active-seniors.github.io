@@ -10,17 +10,17 @@ tags:
 - physical-activity
 - volunteering-and-giving
 location:
-  venue: Youth Commission. Foote's Lane House, Foote's Lane St Andrews Guernsey. GY6
-    8TB
+  venue: Youth Commission. Foote's Lane House, Foote's Lane St Andrews Guernsey. GY6 8TB
   parish: St Andrew
 cost:
   notes: Both free and paid options available — see source for details.
 organiser:
   website: https://youthcommission.gg/dofe/
   contact_phone: '226099'
+  contact_email: dofe@youthcommission.gg
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
@@ -28,7 +28,6 @@ discovery:
   scraped_date: '2026-10-05'
   notes:
   - Available both in person and online.
-  - 'Additional phone number(s) not captured: [''Emails'', ''dofe@youthcommission.gg'']'
   - Health Connections shows this as last updated 8 months ago.
 ---
 

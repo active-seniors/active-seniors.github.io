@@ -15,7 +15,7 @@ organiser:
   contact_phone: 0800 4 70 80 90
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:

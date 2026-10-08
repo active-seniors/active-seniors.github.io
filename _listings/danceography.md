@@ -9,12 +9,16 @@ tags:
 - physical-activity
 location:
   venue: Classes held at Les Adams Methodist Hall and Le Tralade Hotel
+schedule:
+  frequency: monthly
+  day: last Saturday (WheelChairography group)
 organiser:
   website: https://www.danceographyguernsey.com/
   contact_phone: 07781 123486
+  contact_email: vanessajames1966@hotmail.com
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
@@ -23,9 +27,8 @@ discovery:
   notes:
   - Listed as paid; exact price not stated on source page.
   - Available both in person and online.
-  - 'Address given but no known parish matched: ''Classes held at Les Adams Methodist
-    Hall and Le Tralade Hotel'''
-  - 'Additional phone number(s) not captured: [''Emails'', ''vanessajames1966@hotmail.com'']'
+  - 'Address given but no known parish matched: ''Classes held at Les Adams Methodist Hall
+    and Le Tralade Hotel'''
   - Health Connections shows this as last updated 9 months ago.
 ---
 

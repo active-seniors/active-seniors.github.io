@@ -10,9 +10,10 @@ tags:
 - physical-activity
 organiser:
   contact_phone: 07781 140420
+  contact_email: mike.meinke@live.co.uk
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
@@ -20,7 +21,6 @@ discovery:
   scraped_date: '2026-10-05'
   notes:
   - Listed as paid; exact price not stated on source page.
-  - 'Additional phone number(s) not captured: [''Emails'', ''mike.meinke@live.co.uk'']'
   - Health Connections shows this as last updated 9 months ago.
 ---
 

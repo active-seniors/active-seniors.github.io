@@ -10,14 +10,18 @@ tags:
 - physical-activity
 location:
   venue: Bon Air Barn St Peters GY7 9QB
+schedule:
+  frequency: monthly
+  day: last Saturday
 cost:
   notes: Both free and paid options available — see source for details.
 organiser:
   website: https://www.danceographyguernsey.com/
   contact_phone: 07781 127567
+  contact_email: admin.cheshirehome@suremail.gg
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
@@ -26,7 +30,7 @@ discovery:
   notes:
   - Available both in person and online.
   - 'Address given but no known parish matched: ''Bon Air Barn St Peters GY7 9QB'''
-  - 'Additional phone number(s) not captured: [''07781 123486'', ''Emails'', ''admin.cheshirehome@suremail.gg'']'
+  - 'Other contacts on source page: 07781 123486'
   - Health Connections shows this as last updated 8 months ago.
 ---
 

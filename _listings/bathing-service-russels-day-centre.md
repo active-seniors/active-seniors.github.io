@@ -9,8 +9,8 @@ tags:
 - mobility
 - older-people
 location:
-  venue: Russels Day Centre, Le Grand Courtil, La Route des Cornus, St Martin, Guernsey,
-    Channel Islands, GY4 6PJ
+  venue: Russels Day Centre, Le Grand Courtil, La Route des Cornus, St Martin, Guernsey, Channel
+    Islands, GY4 6PJ
   parish: St Martin
 cost:
   amount: 0
@@ -20,7 +20,7 @@ organiser:
   contact_phone: '238055'
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
