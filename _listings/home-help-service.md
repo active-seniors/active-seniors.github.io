@@ -10,7 +10,7 @@ cost:
   notes: Both free and paid options available — see source for details.
 organiser:
   website: https://gov.gg/communityservices
-  contact_phone: '725241'
+  contact_phone: 01481 725241
 verification:
   verified_by: ''
   verified_date: ''

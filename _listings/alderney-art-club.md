@@ -26,6 +26,9 @@ discovery:
   - Health Connections shows this as last updated 2025-12-02.
   - Added from the full Health Connections directory, 8 Oct 2026; not in the original
     scrape.
+  - 'Web check 8 Oct 2026 CHECK (unknown): Only the Health Connections page found;
+    no organiser source or dated evidence. It lists venue ''The Pré Studio'' with
+    no address, schedule or cost. https://healthconnections.gg/alderney-art-club'
 ---
 
 A friendly art group at the Pré Studio with equipment to try and a library of art books. Many members had not painted since school.

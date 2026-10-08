@@ -31,6 +31,9 @@ discovery:
   - Health Connections shows this as last updated 2026-01-14.
   - Added from the full Health Connections directory, 8 Oct 2026; not in the original
     scrape.
+  - 'Web check 8 Oct 2026 CHECK (unknown): Only source found is Health Connections''
+    own description of a free drop-in social club for Deaf, hard of hearing and hearing
+    people; no organiser site or dated evidence. https://healthconnections.gg/category/hearingsight/'
 ---
 
 A weekly social club for the deaf community.

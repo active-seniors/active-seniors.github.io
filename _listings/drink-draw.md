@@ -11,7 +11,6 @@ location:
 schedule:
   frequency: weekly
   day: Wednesday
-  time: 18:45-21:00
 cost:
   amount: 0
   currency: GBP
@@ -30,6 +29,13 @@ discovery:
   - Health Connections shows this as last updated 2026-01-07.
   - Added from the full Health Connections directory, 8 Oct 2026; not in the original
     scrape.
+  - 'Web check 8 Oct 2026: schedule from https://www.bailiwickexpress.com/news-ge/art-fix-with-guernsey-arts-15/
+    (was: {''frequency'': ''weekly'', ''day'': ''Wednesday'', ''time'': ''18:45-21:00''})'
+  - 'Web check 8 Oct 2026: venue from https://www.bailiwickexpress.com/news-ge/art-fix-with-guernsey-arts-15/
+    (was: The Golden Lion (upstairs))'
+  - 'Web check 8 Oct 2026: confirmed running (Bailiwick Express 10 Oct 2025 article
+    on the club''s fifth birthday exhibition describes the weekly Wednesday life drawin)
+    https://www.bailiwickexpress.com/news-ge/art-fix-with-guernsey-arts-15/'
 ---
 
 Relaxed, sociable life drawing.

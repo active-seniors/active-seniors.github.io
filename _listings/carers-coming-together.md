@@ -7,7 +7,7 @@ category: social
 tags:
 - social-clubs
 location:
-  venue: Les Cotils, St Peter Port, GY1 1UU
+  venue: Les Cotils
   parish: St Peter Port
 schedule:
   frequency: monthly
@@ -30,6 +30,11 @@ discovery:
   - Health Connections shows this as last updated 2026-06-10.
   - Added from the full Health Connections directory, 8 Oct 2026; not in the original
     scrape.
+  - 'Web check 8 Oct 2026: venue from https://prideofguernsey.com/moreinfo/1257/pride-of-guernsey-the-rev-jan-le-obillon
+    (was: Les Cotils, St Peter Port, GY1 1UU)'
+  - 'Web check 8 Oct 2026 CHECK (unknown): The website could not be fetched (DNS failure).
+    An undated Pride of Guernsey page confirms the group meets at Les Cotils (run
+    by Rev Jan Le Billon) but gives no schedule. https://prideofguernsey.com/moreinfo/1257/pride-of-guernsey-the-rev-jan-le-obillon'
 ---
 
 Events for people caring for a loved one at home or in residential care, and for bereaved carers.

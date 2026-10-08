@@ -34,6 +34,9 @@ discovery:
   - Health Connections shows this as last updated 2025-12-16.
   - Added from the full Health Connections directory, 8 Oct 2026; not in the original
     scrape.
+  - 'Web check 8 Oct 2026 CHECK (possibly-inactive): The only dates found are for
+    a Jan-Mar 2025 course (21 Jan to 18 Mar 2025). No later course dates were found.
+    https://healthconnections.gg/british-sign-language-lip-reading-classes'
 ---
 
 Beginners' courses in British Sign Language and lip-reading. Take one class or both; no experience needed.

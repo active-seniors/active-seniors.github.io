@@ -31,6 +31,9 @@ discovery:
   - Health Connections shows this as last updated 2026-01-06.
   - Added from the full Health Connections directory, 8 Oct 2026; not in the original
     scrape.
+  - 'Web check 8 Oct 2026 CHECK (unknown): Not mentioned on the Health Connections
+    events page or its what''s-on page, which list other CONNECT space sessions (e.g.
+    the Friday 13:30-15:30 Stay Connected drop-in). https://healthconnections.gg/?p=15730'
 ---
 
 Sewing, knitting, crochet and a cuppa. Bring a project; sewing machines and materials are available.

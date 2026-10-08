@@ -30,6 +30,8 @@ discovery:
   - Health Connections shows this as last updated 2026-01-19.
   - Added from the full Health Connections directory, 8 Oct 2026; not in the original
     scrape.
+  - 'Web check 8 Oct 2026 CHECK (unknown): No online source found for ''Guet Away''
+    afternoons at Cobo Community Centre.'
 ---
 
 A social afternoon with a cuppa, a chat and views over the Guet, Cobo and Albecq. All welcome.

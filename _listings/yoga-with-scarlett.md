@@ -26,6 +26,9 @@ discovery:
   - Health Connections shows this as last updated 2026-02-03.
   - Added from the full Health Connections directory, 8 Oct 2026; not in the original
     scrape.
+  - 'Web check 8 Oct 2026 CHECK (unknown): The yogawithscarlett.com homepage carries
+    a meta description only, with no classes, schedule, contact or dates, and its
+    page title is a stray file path. Searches found nothing on Guernsey. https://yogawithscarlett.com/'
 ---
 
 Friendly, accessible yoga in the studio and online, including a pay-what-you-can community class.

@@ -18,7 +18,7 @@ cost:
   currency: GBP
 organiser:
   name: Guernsey Hard of Hearing LBG
-  website: http://www.guernseyhardofhearing.org.gg/
+  website: https://www.guernseyhardofhearing.org.gg/
   contact_phone: 07781 169952
   contact_email: info@ghh.gg
 verification:
@@ -33,6 +33,11 @@ discovery:
   - Health Connections shows this as last updated 2026-03-17.
   - Added from the full Health Connections directory, 8 Oct 2026; not in the original
     scrape.
+  - 'Web check 8 Oct 2026: website from http://www.guernseyhardofhearing.org.gg/ (was:
+    http://www.guernseyhardofhearing.org.gg/)'
+  - 'Web check 8 Oct 2026 CHECK (unknown): Charity (Guernsey Hard of Hearing LBG)
+    is registered, entry updated 19 May 2026, but no source found mentions the Wednesday
+    drop-in. https://charity.org.gg/charities/23/guernsey-hard-of-hearing-lbg'
 ---
 
 Practical help, equipment advice and social opportunities for people who are deaf or hard of hearing.

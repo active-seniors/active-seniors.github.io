@@ -24,6 +24,9 @@ discovery:
   - Health Connections shows this as last updated 2026-01-09.
   - Added from the full Health Connections directory, 8 Oct 2026; not in the original
     scrape.
+  - 'Web check 8 Oct 2026 CHECK (unknown): Website live, says founded 1977, 200+ members,
+    on-island BBQs, rallies, skittles and off-island rallies; no dated events found.
+    https://www.guernseycampingclub.com/'
 ---
 
 A club promoting camping in Guernsey for all ages, with rallies and events for members.

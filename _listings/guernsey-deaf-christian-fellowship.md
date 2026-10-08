@@ -31,6 +31,9 @@ discovery:
   - Health Connections shows this as last updated 2026-01-14.
   - Added from the full Health Connections directory, 8 Oct 2026; not in the original
     scrape.
+  - 'Web check 8 Oct 2026 CHECK (unknown): Only source found is Health Connections''
+    own description (founded 1960, BSL-interpreted services); no organiser site or
+    dated evidence. https://healthconnections.gg/author/corintiene/'
 ---
 
 Church services interpreted in British Sign Language, open to deaf and hearing people alike.

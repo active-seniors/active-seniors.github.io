@@ -7,12 +7,13 @@ category: social
 tags:
 - social-clubs
 location:
-  venue: Vale Rec Clubhouse
+  venue: Mill Street Café (weekly Wednesday lunchtime drop-in)
+  parish: St Peter Port
 cost:
   amount: 0
   currency: GBP
 organiser:
-  website: https://www.man-club.org/
+  website: https://www.facebook.com/manclubgsyald/events
   contact_email: guernsey@man-club.org
 verification:
   verified_by: ''
@@ -26,6 +27,13 @@ discovery:
   - Health Connections shows this as last updated 2026-01-22.
   - Added from the full Health Connections directory, 8 Oct 2026; not in the original
     scrape.
+  - 'Web check 8 Oct 2026: venue from https://www.man-club.org/meetandtalk (was: Vale
+    Rec Clubhouse)'
+  - 'Web check 8 Oct 2026: website from https://www.man-club.org/meetandtalk (was:
+    https://www.man-club.org/)'
+  - 'Web check 8 Oct 2026: confirmed running (The Man Club Meet & Talk page says the
+    Guernsey group meets fortnightly, with a weekly Wednesday lunchtime drop-in at
+    Mi) https://www.man-club.org/meetandtalk'
 ---
 
 Confidential peer-support circles where men can talk openly and listen to each other.

@@ -11,7 +11,7 @@ location:
 cost:
   notes: Both free and paid options available — see source for details.
 organiser:
-  contact_phone: '724319'
+  contact_phone: 01481 724319
   contact_email: helen.sheppard@suremail.gg
 verification:
   verified_by: ''

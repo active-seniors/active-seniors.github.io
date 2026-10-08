@@ -28,6 +28,9 @@ discovery:
   - Health Connections shows this as last updated 2026-05-05.
   - Added from the full Health Connections directory, 8 Oct 2026; not in the original
     scrape.
+  - 'Web check 8 Oct 2026 CHECK (unknown): Not mentioned on the Health Connections
+    events page (which lists only Community Connector Training on 22 Sep and 21 Nov
+    2026) or its what''s-on page. https://healthconnections.gg/events'
 ---
 
 A gifted ticket to selected events at St James, with transport by a volunteer driver and a companion for the evening. Aimed at people who feel isolated, have lost confidence going out, or find tickets and transport too costly.

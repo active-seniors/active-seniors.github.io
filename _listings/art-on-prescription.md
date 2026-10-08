@@ -28,6 +28,10 @@ discovery:
   - Health Connections shows this as last updated 2025-12-09.
   - Added from the full Health Connections directory, 8 Oct 2026; not in the original
     scrape.
+  - 'Web check 8 Oct 2026 CHECK (possibly-inactive): The bsp.org.gg homepage does
+    not mention Art on Prescription. The Health Connections page is undated. A July
+    2025 Guernsey Press article describes BSP''s art sessions as ''Paint and Create'',
+    led by artist Olympia McEwan, not a textile designer. https://guernseypress.com/news/2025/07/31/bailiwick-social-prescribing-artwork-on-show-for-first-time'
 ---
 
 Practical sessions with a textile designer exploring mark making, lines, patterns and textures, aimed at building creative confidence.

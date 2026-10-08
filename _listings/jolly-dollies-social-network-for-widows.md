@@ -29,6 +29,8 @@ discovery:
   - Health Connections shows this as last updated 2026-01-21.
   - Added from the full Health Connections directory, 8 Oct 2026; not in the original
     scrape.
+  - 'Web check 8 Oct 2026 CHECK (unknown): thejollydollies.com timed out (fetched
+    twice); one search found no mention in Guernsey media.'
 ---
 
 A social group started by widows for widows, with monthly drinks and lunches.

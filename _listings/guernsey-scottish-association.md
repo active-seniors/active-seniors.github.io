@@ -24,6 +24,9 @@ discovery:
   - Health Connections shows this as last updated 2026-01-19.
   - Added from the full Health Connections directory, 8 Oct 2026; not in the original
     scrape.
+  - 'Web check 8 Oct 2026 CHECK (unknown): Website live, says events run throughout
+    the year incl. Burns Night and St Andrew''s Day; no dated 2025-26 events. Also
+    listed as an RSCDS group. http://www.guernseyscottish.org.gg'
 ---
 
 A social association for anyone with an interest in Scotland, with Scottish country dancing classes and events around St Andrew's Day and Burns Night.

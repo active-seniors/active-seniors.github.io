@@ -34,6 +34,10 @@ discovery:
   - Health Connections shows this as last updated 2026-01-21.
   - Added from the full Health Connections directory, 8 Oct 2026; not in the original
     scrape.
+  - 'Web check 8 Oct 2026 CHECK (possibly-inactive): All About Yoga homepage lists
+    Hatha, Vinyasa, Yin, Nidra, Restorative, Qi Gong, Pilates and workshops; no mention
+    of laughter yoga. Its timetable did not render. Two web searches found no Guernsey
+    laughter yoga evidence. https://allaboutyoga.gg/'
 ---
 
 Laughter exercises in a group, no experience needed.

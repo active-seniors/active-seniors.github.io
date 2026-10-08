@@ -16,10 +16,11 @@ schedule:
 cost:
   amount: 0
   currency: GBP
+  notes: Services free to carers; voluntary donation welcomed
 organiser:
   name: Carers Guernsey
   website: https://www.carers.gg/
-  contact_phone: 07781 444488
+  contact_phone: 07781 44 44 88
   contact_email: info@carers.gg
 verification:
   verified_by: ''
@@ -33,6 +34,11 @@ discovery:
   - Health Connections shows this as last updated 2025-12-17.
   - Added from the full Health Connections directory, 8 Oct 2026; not in the original
     scrape.
+  - 'Web check 8 Oct 2026: cost from https://www.carers.gg/'
+  - 'Web check 8 Oct 2026: contact_phone from https://www.carers.gg/ (was: 07781 444488)'
+  - 'Web check 8 Oct 2026 CHECK (unknown): The carers.gg What''s On page mentions
+    drop-in peer support but no venue or time. It does not mention Les Rocquettes.
+    Evening Social Meals are marked ''undergoing a refresh (Jan ''26)''. https://www.carers.gg/whatson'
 ---
 
 Meet other carers and find out how Carers Guernsey can help, whether your loved one is at home or in a care setting.

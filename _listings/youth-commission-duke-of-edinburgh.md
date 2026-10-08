@@ -16,7 +16,7 @@ cost:
   notes: Both free and paid options available — see source for details.
 organiser:
   website: https://youthcommission.gg/dofe/
-  contact_phone: '226099'
+  contact_phone: 01481 226099
   contact_email: dofe@youthcommission.gg
 verification:
   verified_by: ''

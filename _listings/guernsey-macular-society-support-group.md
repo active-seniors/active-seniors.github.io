@@ -7,7 +7,7 @@ category: social
 tags:
 - social-clubs
 location:
-  venue: St Martin's Community Centre, La Rue Maze, GY4 6LL
+  venue: St Martins Community Centre, La Rue Maze, GY4 6LL
   parish: St Martin
 schedule:
   frequency: monthly
@@ -18,8 +18,9 @@ cost:
   currency: GBP
 organiser:
   name: Macular Society
-  website: https://www.macularsociety.org
+  website: https://www.macularsociety.org/groups/guernsey-support-group
   contact_phone: 0300 3030 111
+  contact_email: help@macularsociety.org
 verification:
   verified_by: ''
   verified_date: ''
@@ -32,6 +33,16 @@ discovery:
   - Health Connections shows this as last updated 2026-01-16.
   - Added from the full Health Connections directory, 8 Oct 2026; not in the original
     scrape.
+  - 'Web check 8 Oct 2026: schedule from https://www.macularsociety.org/groups/guernsey-support-group
+    (was: {''frequency'': ''monthly'', ''day'': ''second Wednesday'', ''time'': ''13:30-15:30''})'
+  - 'Web check 8 Oct 2026: venue from https://www.macularsociety.org/groups/guernsey-support-group
+    (was: St Martin''s Community Centre, La Rue Maze, GY4 6LL)'
+  - 'Web check 8 Oct 2026: contact_email from https://www.macularsociety.org/groups/guernsey-support-group'
+  - 'Web check 8 Oct 2026: website from https://www.macularsociety.org/groups/guernsey-support-group
+    (was: https://www.macularsociety.org)'
+  - 'Web check 8 Oct 2026: confirmed running (Macular Society national group page
+    lists the Guernsey group meeting monthly on the second Wednesday at St Martins
+    Commu) https://www.macularsociety.org/groups/guernsey-support-group'
 ---
 
 A monthly support group for people living with macular disease.

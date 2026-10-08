@@ -26,6 +26,9 @@ discovery:
   - Health Connections shows this as last updated 2026-01-27.
   - Added from the full Health Connections directory, 8 Oct 2026; not in the original
     scrape.
+  - 'Web check 8 Oct 2026 CHECK (unknown): The Tumaini Fund contact page does not
+    mention sewing workshops. A healthconnections.gg page says only that workshops
+    are held ''regularly'' in Guernsey, with no schedule. https://www.tumainifund.org.uk/contact'
 ---
 
 Regular sewing workshops making washable hygiene kits for girls supported by the charity in Tanzania.
