@@ -6,9 +6,19 @@ source: discovered
 category: sports
 tags:
 - physical-activity
+location:
+  venue: Rocque a L'Or, Rue de la Rocque a L'Or, Torteval, GY8 0PY
+  parish: Torteval
 schedule:
   frequency: weekly
   day: Saturday morning (bootcamp)
+cost:
+  notes: Taster session £12 for new clients; multi-passes x6 £72, x10 £110, x20 £200 (valid
+    6 months)
+accessibility:
+  physical_intensity: high
+suitable_for:
+- beginners-welcome
 organiser:
   website: https://www.fitfarmgsy.com
   contact_phone: 07781 174212
@@ -24,6 +34,9 @@ discovery:
   - Listed as paid; exact price not stated on source page.
   - Available both in person and online.
   - Health Connections shows this as last updated 8 months ago.
+  - 'Web check 8 Oct 2026: cost notes from https://www.fitfarmgsy.com/plans-pricing'
+  - 'Web check 8 Oct 2026: venue from https://www.fitfarmgsy.com'
+  - 'Web check 8 Oct 2026: suitability from https://www.fitfarmgsy.com'
 ---
 
 The Fit Farm Guernsey offers friendly advice on nutrition, weight control, general wellbeing and everyday fitness concerns and runs various weekly fitness classes at our farm in Torteval. Our Military Bootcamp classes on a Saturday morning are designed to accommodate all levels of fitness and ability with a view to you gradually raising the bar week on week so that you will see a clearly identifiable improvement in your fitness, strength and ability at the end of the course.

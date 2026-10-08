@@ -12,7 +12,7 @@ location:
   parish: St Peter Port
 organiser:
   website: https://kings.gg/facilities/
-  contact_phone: 01481 723 366
+  contact_phone: 01481 723366
 verification:
   verified_by: ''
   verified_date: ''
@@ -25,6 +25,8 @@ discovery:
   - Listed as paid; exact price not stated on source page.
   - Available both in person and online.
   - Health Connections shows this as last updated 9 months ago.
+  - 'Web check 8 Oct 2026: contact_phone from https://www.visitguernsey.com/experiences/activities/kings-health-and-leisure-club/
+    (was: 01481 723 366)'
 ---
 
 If you’re looking to lower your stress levels and become more calm and centred, then Kings Premier Health Club can help. Yoga classes are held throughout the week and are great for improving flexibility, increasing core strength and reducing stress levels. Pilates courses are held regularly and combine low-impact muscle strengthening exercises with relaxation and mindfulness. The Club has heated indoor and outdoor pools, a steam room, sauna and Jacuzzi so that you can relax, unwind and indulge.

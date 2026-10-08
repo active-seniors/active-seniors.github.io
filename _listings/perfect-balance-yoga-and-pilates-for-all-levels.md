@@ -8,6 +8,8 @@ tags:
 - physical-activity
 cost:
   notes: Both free and paid options available — see source for details.
+suitable_for:
+- beginners-welcome
 organiser:
   website: https://www.perfectbalancegsy.com/
 verification:
@@ -21,6 +23,7 @@ discovery:
   notes:
   - Online only — not an in-person activity.
   - Health Connections shows this as last updated 9 months ago.
+  - 'Web check 8 Oct 2026: suitability from https://www.perfectbalancegsy.com/classes'
 ---
 
 As a qualified Yoga and Pilates teacher, Steph Charlwood can help you improve your physical, mental and spiritual resilience by offering an achievable, no-fluff exercise system tailored to your needs. You will leave a session feeling energised, refreshed and good about yourself. Steph is also a healthy lifestyle tutor trained to give advice on nutrition and stress management.

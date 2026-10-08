@@ -9,6 +9,10 @@ tags:
 location:
   venue: Kings Road, St Peter Port
   parish: St Peter Port
+schedule:
+  frequency: varies
+  day: By arrangement
+  time: Express 30-minute or 60-minute sessions; PT Duo option to share cost
 organiser:
   website: https://kings.gg/get-active/personal-training/
   contact_phone: 01481 723366
@@ -24,6 +28,7 @@ discovery:
   - Listed as paid; exact price not stated on source page.
   - Online only — not an in-person activity.
   - Health Connections shows this as last updated 9 months ago.
+  - 'Web check 8 Oct 2026: schedule from https://kings.gg/get-active/personal-training/'
 ---
 
 Personal training at Kings can help get faster and better fitness results, increased motivation, ongoing tuition as regarding form and technique, together with additional advice regarding healthy living and exercise, to ensure that long-term habits are formed, and maintained. For more information regarding our Personal Trainers and their areas of expertise, which include medical referrals and pre and post-natal specialists, please see our website.

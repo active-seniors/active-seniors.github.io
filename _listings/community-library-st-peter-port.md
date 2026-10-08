@@ -17,8 +17,10 @@ schedule:
 cost:
   amount: 0
   currency: GBP
+accessibility:
+  physical_intensity: none
 organiser:
-  website: https://www.library.gg/community-libraries
+  website: https://library.gg/rosaire
   contact_phone: 01481 720392
   contact_email: jburgess@library.gg
 verification:
@@ -31,6 +33,8 @@ discovery:
   scraped_date: '2026-10-05'
   notes:
   - Health Connections shows this as last updated 9 months ago.
+  - 'Web check 8 Oct 2026: website from https://library.gg/rosaire (was: https://www.library.gg/community-libraries)'
+  - 'Web check 8 Oct 2026: suitability from https://library.gg/rosaire'
 ---
 
 Rosaire Court Community Library Open every Monday morning from 10 am to noon. The Rosaire Court Community Library is on Rosaire Avenue, just off Brock Road in St Peter Port. Users of the Rosaire Court Community Library need to be members of the Guille-Allès Library to borrow items - if you're not already a member, you can join at the community library.

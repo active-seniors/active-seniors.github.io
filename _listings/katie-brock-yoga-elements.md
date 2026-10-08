@@ -9,6 +9,10 @@ tags:
 - physical-activity
 location:
   venue: Various Locations In Guernsey
+accessibility:
+  physical_intensity: low
+suitable_for:
+- beginners-welcome
 organiser:
   website: http://www.yogaelementsgg.com
   contact_phone: 07781 412065
@@ -25,6 +29,7 @@ discovery:
   - Available both in person and online.
   - 'Address given but no known parish matched: ''Various Locations In Guernsey'''
   - Health Connections shows this as last updated 9 months ago.
+  - 'Web check 8 Oct 2026: suitability from http://www.yogaelementsgg.com'
 ---
 
 We provide a variety of yoga classes, workshops & courses. We offer private one to one classes & local and International yoga retreats, Thai Yoga Massage, Auyvedic Yoga Massage & Deep Tissue Massage
