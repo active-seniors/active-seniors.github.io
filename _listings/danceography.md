@@ -6,12 +6,8 @@ source: discovered
 category: sports
 tags:
 - dance
-- singing-music
 location:
   venue: Classes held at Les Adams Methodist Hall and Le Tralade Hotel
-schedule:
-  frequency: monthly
-  day: last Saturday (WheelChairography group)
 cost:
   amount: 9
   currency: GBP
@@ -39,6 +35,8 @@ discovery:
   - 'Web check 8 Oct 2026: cost from https://www.danceographyguernsey.com/'
   - 'Web check 8 Oct 2026: organiser name from https://www.danceographyguernsey.com/'
   - 'Web check 8 Oct 2026: suitability from https://www.danceographyguernsey.com/'
+  - 'Duplicate merge 8 Oct 2026: removed the WheelChairography schedule copied into
+    this listing; that group has its own listing (wheelchairography-guernsey).'
 ---
 
-Dance is something that should be accessible for all. I am most proud of our "WheelChairography" group, who meet up every month to discover the limitless possibilities dance can offer. We meet once a month on the last Saturday with able-bodied assistance to learn, laugh and enjoy dancing with wheelchairs, raising money to fund a specially adapted chair for dancing. I also teach private lessons, charity events and wedding couples and am available for demonstrations.
+Dance classes with IDTA-qualified teacher Vanessa James, held at Les Adams Methodist Hall and Le Tralade Hotel, plus private lessons. She also runs the monthly WheelChairography group, listed separately.

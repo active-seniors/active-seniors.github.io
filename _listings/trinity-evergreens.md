@@ -39,6 +39,9 @@ discovery:
   - 'Web check 8 Oct 2026: schedule from https://holytrinity.org.gg/486/Trinity-Evergreens'
   - 'Web check 8 Oct 2026: organiser name from https://holytrinity.org.gg/486/Trinity-Evergreens'
   - 'Web check 8 Oct 2026: suitability from https://holytrinity.org.gg/486/Trinity-Evergreens'
+  - 'Duplicate merge 8 Oct 2026: absorbed ''Trinity Seniors Activities'' (trinity-seniors-activities);
+    no current source for ''Trinity Seniors Activities''; Holy Trinity''s over-60s
+    programme is Trinity Evergreens. Its source: https://directory.healthconnections.gg/listing/4c971b67-041d-449d-b6ba-a20addefaf0e'
 ---
 
 Our Evergreens activities and groups are aimed at those of an age to appreciate free bus travel but we recognise that we all age at different rates and so some groups are more suited to the active and some are less demanding! We have various events that take place across the month. Signing up is simple, email us or click on an event on our website to sign up and register your interest - https://holytrinity.org.gg/486/Trinity-Evergreens

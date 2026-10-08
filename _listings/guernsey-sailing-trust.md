@@ -5,7 +5,6 @@ status: active
 source: discovered
 category: sports
 tags:
-- learning-talks
 - swimming-water-sports
 location:
   venue: The Guernsey Sailing Trust Castle Emplacement St Peter Port GY1 1AU
@@ -34,10 +33,9 @@ discovery:
   notes:
   - Available both in person and online.
   - Health Connections shows this as last updated 9 months ago.
-  - 'Web check 8 Oct 2026 CHECK: Listing text says ''we can''t run sailing session
-    at the moment'' (Covid-era); outdated. Trust ran summer 2026 courses (posts dated
-    16 Jul and 8 Sep 2026) (https://www.sailingtrust.org.gg)'
   - 'Web check 8 Oct 2026: suitability from https://www.sailingtrust.org.gg/sailability/'
+  - 'Duplicate merge 8 Oct 2026: absorbed ''Guernsey Sailing Trust LBG'' (guernsey-sailing-trust-lbg);
+    same organisation. Its source: https://directory.healthconnections.gg/listing/caabab8e-9bfb-41f0-afcd-4b56a5bbaaf8'
 ---
 
-he water has huge benefits for mental health and wellbeing and we would like to help as many people as possible experience this. We also offer free sailing to people with mental and physical disabilities, and have some bursary places that can be given to children on our school holiday courses. Although we can't run sailing session at the moment, we are here to answer any enquirers you may have and are taking bookings from 1st July 2020 (but we are hoping we will be able to get on the water sooner).
+A sailing charity founded in 1988 to make sailing accessible to all. It runs RYA courses, holiday courses and the RYA Sailability programme for people of any age with additional needs, including free sailing for people with physical and mental disabilities. The Trust ran courses through summer 2026.

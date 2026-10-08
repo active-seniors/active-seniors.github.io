@@ -5,7 +5,7 @@ status: active
 source: discovered
 category: social
 tags:
-- learning-talks
+- social-clubs
 location:
   venue: Le Grand Courtil
   parish: St Martin
@@ -31,6 +31,12 @@ discovery:
   - 'Why it suits older people: GVS states members must generally be over 65 and mobile.'
   - 'Source: https://www.gvs.org.gg/social-clubs'
   - 'Source: https://www.gvs.org.gg/'
+  - 'Duplicate merge 8 Oct 2026: the general ''Guernsey Voluntary Service'' listing
+    (guernsey-voluntary-service) was removed as a duplicate of this and the other
+    GVS social club listing. It said the clubs are for over-65s with a small daily
+    charge covering meals and facilities.'
+cost:
+  notes: Small daily charge covering meals and facilities
 ---
 
 Guernsey Voluntary Service social club at Le Grand Courtil serving a three-course lunch plus refreshments through the day, with games, quizzes, entertainment and a hairdressing salon. Members can drive themselves, use the club buses where space allows, or use volunteer drivers.
