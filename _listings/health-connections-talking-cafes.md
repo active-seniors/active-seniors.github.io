@@ -43,6 +43,7 @@ discovery:
   - 'Source: https://healthconnections.gg/talking-cafes/friquet-garden-centre'
   - 'Source: https://healthconnections.gg/in-the-news/new-talking-cafe-launches-in-partnership-with-hsc'
   - 'Source: https://healthconnections.gg/?p=953'
+  - 'Also on Health Connections: https://directory.healthconnections.gg/listing/cc6ecc93-2806-474c-b650-e4f907ec6024'
 ---
 
 Free, drop-in conversation sessions held weekly in cafés around the island, run by the charity Health Connections. People meet over a drink and can talk to a team member about local activities, support groups and services. No registration is needed.

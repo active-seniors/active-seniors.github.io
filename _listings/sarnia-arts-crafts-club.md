@@ -35,6 +35,7 @@ discovery:
   - 'Source: https://guernseypress.com/news/2024/07/19/sarnia-arts-and-crafts-club-centenary-exhibition'
   - 'Source: https://www.arts.gg/events/sarnia-arts-crafts-club-summer-workshops/'
   - 'Source: https://www.arts.gg/events/sarnia-arts-crafts-club-summer-exhibition-3/'
+  - 'Also on Health Connections: https://directory.healthconnections.gg/listing/4b602f74-f389-446b-b37e-642ad50ded61'
 ---
 
 This is a long-running Guernsey club, which marked its centenary in 2024, for people interested in the visual arts and crafts, including painting, pottery and leatherwork. It runs demonstrations and workshops, an annual summer exhibition at Blanchelande College, and summer workshops open to over-16s at £10 a session with materials provided.

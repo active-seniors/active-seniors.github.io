@@ -26,6 +26,7 @@ discovery:
   - 'Why it suits older people: Shop and trolley roles are sociable and not physically
     demanding. The listing gives no age requirement (charity.org.gg).'
   - 'Source: https://charity.org.gg/charities/35/the-friends-of-the-princess-elizabeth-hospital'
+  - 'Morning trolley and afternoon shop volunteers wanted (volunteer.gg): https://volunteer.gg/volunteers/opportunity/10236341'
 ---
 
 This charity provides comforts and services for patients at the Princess Elizabeth Hospital and raises money for items the hospital does not normally supply. Volunteers run the hospital shop and take a trolley shop round the wards.

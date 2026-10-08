@@ -31,6 +31,7 @@ discovery:
   - 'Source: https://guernseypress.com/news/2026/06/04/citizens-advice-sees-growing-demand-on-adviser-resources'
   - 'Source: https://charity.org.gg/charities/5/citizens-advice-guernsey'
   - 'Source: https://www.bailiwickexpress.com/community-ge/citizens-advice-need-volunteers/'
+  - 'Generalist adviser role advertised on volunteer.gg: https://volunteer.gg/volunteers/opportunity/10266521'
 ---
 
 Citizens Advice Guernsey trains volunteers as generalist advisers and money advisers, and also uses volunteers for policy and research, IT and admin. A separate team of about 40 volunteers runs its charity shop at Mont Arrivé.

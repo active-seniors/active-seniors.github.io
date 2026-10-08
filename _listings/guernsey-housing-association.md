@@ -15,7 +15,7 @@ cost:
   currency: GBP
 organiser:
   website: https://www.gha.gg
-  contact_phone: '245530'
+  contact_phone: 01481 245530
   contact_email: ghaenquiries@gha.gg
 verification:
   verified_by: ''

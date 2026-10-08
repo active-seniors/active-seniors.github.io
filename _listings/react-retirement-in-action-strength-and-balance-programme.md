@@ -33,6 +33,7 @@ discovery:
   - 'Source: https://foundation.gg/news/older-islanders-helped-to-stay-active-and-independent/'
   - 'Source: https://guernseypress.com/news/2026/01/28/if-physical-activity-was-a-drug-it-would-be-called-a-miracle-cure'
   - 'Source: https://channeleye.media/events/react-guernsey-launch/'
+  - 'Also on Health Connections: https://directory.healthconnections.gg/listing/885cfa8b-d5bd-4df4-acc3-338c05709316'
 ---
 
 A free year-long group exercise programme for people aged 65 and over who are starting to notice changes in their mobility, run in Guernsey by the Health Improvement Commission with funding from the Guernsey Community Foundation. Sessions cover strength, balance and mobility exercises and include social time and talks on healthy ageing. Sessions are twice weekly for the first three months, then weekly.

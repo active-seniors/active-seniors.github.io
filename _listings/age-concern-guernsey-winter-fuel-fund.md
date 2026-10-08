@@ -10,7 +10,7 @@ cost:
   notes: Both free and paid options available — see source for details.
 organiser:
   website: https://www.ageconcernguernsey.org.gg/index.php/winter-fuel-fund/
-  contact_phone: '257311'
+  contact_phone: 01481 257311
   contact_email: hello@ageconcernguernsey.org.gg
 verification:
   verified_by: ''

@@ -15,7 +15,7 @@ cost:
   currency: GBP
 organiser:
   website: https://www.gvs.org.gg/bathing-services
-  contact_phone: '238055'
+  contact_phone: 01481 238055
 verification:
   verified_by: ''
   verified_date: ''

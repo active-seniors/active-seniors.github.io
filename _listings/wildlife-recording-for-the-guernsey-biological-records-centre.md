@@ -31,6 +31,7 @@ discovery:
     in the garden, at their own pace. Fit for older people is inferred, not stated
     in the source.'
   - 'Source: https://guernseypress.com/news/2026/03/17/biological-records-centre-is-back-up-and-running'
+  - 'Biological recording volunteers wanted (volunteer.gg): https://volunteer.gg/volunteers/opportunity/10257140'
 ---
 
 The Guernsey Biological Records Centre has been back in full operation under the Nature Commission since 2026. It collects wildlife records for Guernsey, Herm, Sark and local waters, and members of the public can contribute by submitting sightings through iRecord or iNaturalist.

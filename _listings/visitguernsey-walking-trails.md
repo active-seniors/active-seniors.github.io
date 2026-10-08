@@ -32,6 +32,9 @@ discovery:
     (was: 01481 723552)'
   - 'Web check 8 Oct 2026: website from https://visitguernsey.com/experiences/hiking
     (was: https://www.visitguernsey.com/see-and-do/routes-and-trails/)'
+  - 'Duplicate merge 8 Oct 2026: absorbed ''Walking Routes'' (walking-routes); both
+    pointed to the same VisitGuernsey page; the Tasty Walks series it described is
+    no longer listed. Its source: https://directory.healthconnections.gg/listing/6fdc1259-e9c2-41c5-87a0-c25b04b00c66'
 ---
 
-Take advantage of VisitGuernsey's series of self-guided walking and cycling routes near you. With all the uncertainty currently swirling around the island, it's more important than ever to maintain a healthy body and mind. Getting outside for a breath of fresh air and some daylight should be part of your daily routine. If you have the ability to walk and are not quarantined or in isolation, you should go for even a short walk at least once a day.
+Free self-guided walking routes on each island, published by VisitGuernsey with maps, elevation profiles and points of interest. The routes are also in the VisitGuernsey app.

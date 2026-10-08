@@ -32,6 +32,7 @@ discovery:
   - 'Source: https://healthconnections.gg/womens-institute'
   - 'Source: https://guernseypress.com/news/2026/01/14/wi-establishes-a-new-group-in-the-vale'
   - 'Source: https://www.library.gg/events/event/silent-book-club-21'
+  - 'Also on Health Connections: https://directory.healthconnections.gg/listing/cf357d61-5191-4409-8f76-56f4e368bb06'
 ---
 
 The W.I. Guernsey Federation covers the island's local Women's Institutes, which meet monthly; a new evening group, North WI, began meeting in the Vale Douzaine room in January 2026 and was described as the 11th WI in Guernsey. Membership is by subscription and visitors are invited to attend a meeting.
