@@ -24,6 +24,9 @@ discovery:
   notes:
   - From the Guernsey Sports Commission sports directory, 8 Oct 2026 (directory pages
     are undated; not checked against the club's own site).
+  - 'Web check 8 Oct 2026 CHECK (unknown): No current source found. Facebook page
+    not surfaced in search results. Guernsey Press 1 Sept 2020 mentions Vale Rec only
+    in connection with GBC possibly moving to Corbet Field. https://guernseypress.com/sport/2020/09/01/crunch-time-for-two-bowls-clubs'
 ---
 
 One of the three outdoor bowls clubs affiliated to Bowls Guernsey, based at the Corbet Field.

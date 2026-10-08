@@ -24,6 +24,10 @@ discovery:
   notes:
   - From the Guernsey Sports Commission sports directory, 8 Oct 2026 (directory pages
     are undated; not checked against the club's own site).
+  - 'Web check 8 Oct 2026: confirmed active. ''Below are the fixture lists for the
+    2026/2027 season, now fully up-to-date'' dated 14 September 2026; leagues include
+    GDL Individual, Herald, Maple Leaf, Triples, Western Individual and 3-A-Side.
+    http://www.guernseydarts.com'
 ---
 
 Winter and summer darts leagues, most of them mixed, including individual, triples and a women's league.
