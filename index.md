@@ -51,13 +51,31 @@ title: Home
   <br><span class="meta">Listings with no parish given are always shown — parish filtering only affects listings that have one.</span>
 </div>
 
+{% assign intensity_levels = "none,low,moderate,high" | split: "," %}
+<div class="filter-bar" id="intensity-filter">
+  <strong>Showing activity levels:</strong>
+  <span id="intensity-toggles">
+    {% for level in intensity_levels %}
+    {% assign level_count = 0 %}
+    {% for listing in site.listings %}{% if listing.accessibility.physical_intensity == level %}{% assign level_count = level_count | plus: 1 %}{% endif %}{% endfor %}
+    <label class="intensity-toggle"><input type="checkbox" class="intensity-checkbox" value="{{ level }}" checked> {{ level | capitalize }} ({{ level_count }})</label>
+    {% endfor %}
+    {% assign rated_count = 0 %}
+    {% for listing in site.listings %}{% if listing.accessibility.physical_intensity %}{% assign rated_count = rated_count | plus: 1 %}{% endif %}{% endfor %}
+    {% assign unrated_count = site.listings.size | minus: rated_count %}
+    <label class="intensity-toggle"><input type="checkbox" class="intensity-checkbox" value="unrated" checked> Not yet rated ({{ unrated_count }})</label>
+  </span>
+  <button id="intensity-reset" type="button">Show all</button>
+  <br><span class="meta">How physically demanding an activity is, from none (seated or sedentary) to high. Many listings haven't been rated yet — untick "Not yet rated" to see only rated ones.</span>
+</div>
+
 <div id="listings-container">
 {% assign listings = site.listings | sort: "title" %}
 {% for listing in listings %}
 {% assign lt = listing.tags | default: empty_arr %}
 {% assign ls = listing.suitable_for | default: empty_arr %}
 {% assign listing_tags = lt | concat: ls | join: " " %}
-<div class="listing-card" data-parish="{{ listing.location.parish }}" data-tags="{{ listing_tags }}">
+<div class="listing-card" data-parish="{{ listing.location.parish }}" data-tags="{{ listing_tags }}" data-intensity="{{ listing.accessibility.physical_intensity | default: 'unrated' }}">
   {% if listing.source == "demo-data" %}
     <span class="demo-badge">Demo data</span>
   {% elsif listing.verification.verified_by and listing.verification.verified_by != "" %}
@@ -77,6 +95,7 @@ title: Home
     {% else %}
       cost not confirmed
     {% endif %}
+    {% if listing.accessibility.physical_intensity %} · {{ listing.accessibility.physical_intensity }} intensity{% endif %}
   </p>
   {% if listing.tags or listing.suitable_for %}
   <p>
@@ -89,7 +108,7 @@ title: Home
 <p>No listings yet — this directory is just getting started.</p>
 {% endfor %}
 </div>
-<p id="no-matches" hidden>No listings match the current filters — try switching more parishes back on, or <a href="#" id="clear-tag-filter-2">clear the tag filter</a>.</p>
+<p id="no-matches" hidden>No listings match the current filters — try switching more parishes or activity levels back on, or <a href="#" id="clear-tag-filter-2">clear the tag filter</a>.</p>
 
 <script>
 (function () {
@@ -112,16 +131,33 @@ title: Home
     return tags.indexOf(activeTag) !== -1;
   }
 
-  function applyFilter() {
-    var activeParishes = Array.prototype.filter.call(checkboxes, function (cb) { return cb.checked; })
+  // Activity level. Unlike parish, a listing with no rating is NOT always
+  // shown: most listings are unrated, so that would make the filter useless.
+  // "Not yet rated" is its own checkbox instead. A ?intensity=low,none URL
+  // parameter pre-selects levels so other pages can link to a filtered view.
+  var intensityBoxes = document.querySelectorAll('.intensity-checkbox');
+  var intensityParam = new URLSearchParams(window.location.search).get('intensity');
+  if (intensityParam) {
+    var wanted = intensityParam.split(',');
+    intensityBoxes.forEach(function (cb) { cb.checked = wanted.indexOf(cb.value) !== -1; });
+  }
+
+  function checkedValues(boxes) {
+    return Array.prototype.filter.call(boxes, function (cb) { return cb.checked; })
       .map(function (cb) { return cb.value; });
+  }
+
+  function applyFilter() {
+    var activeParishes = checkedValues(checkboxes);
+    var activeIntensities = checkedValues(intensityBoxes);
     var visibleCount = 0;
     cards.forEach(function (card) {
       var parish = card.getAttribute('data-parish');
       // No parish on the listing = always shown; parish filtering only
       // applies to listings that actually have one.
       var parishOk = !parish || activeParishes.indexOf(parish) !== -1;
-      var show = parishOk && matchesTag(card);
+      var intensityOk = activeIntensities.indexOf(card.getAttribute('data-intensity') || 'unrated') !== -1;
+      var show = parishOk && intensityOk && matchesTag(card);
       card.hidden = !show;
       if (show) visibleCount++;
     });
@@ -131,6 +167,11 @@ title: Home
   checkboxes.forEach(function (cb) { cb.addEventListener('change', applyFilter); });
   resetBtn.addEventListener('click', function () {
     checkboxes.forEach(function (cb) { cb.checked = true; });
+    applyFilter();
+  });
+  intensityBoxes.forEach(function (cb) { cb.addEventListener('change', applyFilter); });
+  document.getElementById('intensity-reset').addEventListener('click', function () {
+    intensityBoxes.forEach(function (cb) { cb.checked = true; });
     applyFilter();
   });
   var clearLink2 = document.getElementById('clear-tag-filter-2');
