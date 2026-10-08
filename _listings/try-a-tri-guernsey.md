@@ -11,7 +11,11 @@ tags:
 location:
   venue: Various Locations In Guernsey
 cost:
-  notes: Both free and paid options available — see source for details.
+  notes: '''Free and low cost events and experiences''; no need to be a member'
+accessibility:
+  physical_intensity: moderate
+suitable_for:
+- beginners-welcome
 organiser:
   website: https://www.tryatriguernsey.org
 verification:
@@ -26,6 +30,8 @@ discovery:
   - Available both in person and online.
   - 'Address given but no known parish matched: ''Various Locations In Guernsey'''
   - Health Connections shows this as last updated 8 months ago.
+  - 'Web check 8 Oct 2026: cost notes from https://www.tryatriguernsey.org'
+  - 'Web check 8 Oct 2026: suitability from https://race-nation.co.uk/register/try-a-tri-guernsey/10th-anniversary-try-a-tri'
 ---
 
 We are a Not For Profit community and events organisation transforming lives through swim, bike and run. Join free and low-cost group training, take part in inclusive events and experience the joy of swim, bike and run.

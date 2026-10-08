@@ -10,10 +10,13 @@ tags:
 cost:
   amount: 0
   currency: GBP
+accessibility:
+  physical_intensity: none
 organiser:
   website: https://www.library.gg/visually-impaired-services
   contact_phone: 01481 720392
   contact_email: jburgess@library.gg
+  name: Guille-Allès Library
 verification:
   verified_by: ''
   verified_date: ''
@@ -25,6 +28,8 @@ discovery:
   notes:
   - Available both in person and online.
   - Health Connections shows this as last updated 8 months ago.
+  - 'Web check 8 Oct 2026: organiser name from https://www.library.gg/visually-impaired-services'
+  - 'Web check 8 Oct 2026: suitability from https://www.library.gg/visually-impaired-services'
 ---
 
 Enjoy a range of stories, biographies, classics, and non-fiction with the Library's FREE Stories on USB Service. Stories on USB are easy to use and can help restore access to the written word for people who've lost their sight. You'll need a USB player. These are available to buy from the Guernsey Blind Association website or by telephoning 01481 236933. Alternatively, you can borrow a player from the Library.

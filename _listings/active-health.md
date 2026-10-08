@@ -5,6 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
+- older-people
 - physical-activity
 location:
   venue: Beau Sejour Leisure Centre, Amherst, Guernsey GY1 2DL, Guernsey
@@ -26,6 +27,7 @@ discovery:
   - Available both in person and online.
   - 'Other contacts on source page: beausejour@gov.gg'
   - Health Connections shows this as last updated 10 months ago.
+  - 'Web check 8 Oct 2026: suitability from https://gov.gg/facilities'
 ---
 
 Active Health is for individuals wishing to complete low-intensity exercise under supervision. The class is split between the fitness studio and the gym. Classes are supervised by trained instructors and held at Beau Sejour Leisure Centre.

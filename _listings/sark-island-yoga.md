@@ -7,10 +7,17 @@ category: sports
 tags:
 - physical-activity
 - sark
+location:
+  venue: Island Hall, Sark
 schedule:
   frequency: weekly
   day: Tuesday
   time: '18:00'
+cost:
+  amount: 10
+  currency: GBP
+organiser:
+  website: https://www.facebook.com/sarkyoga/
 verification:
   verified_by: ''
   verified_date: ''
@@ -21,9 +28,8 @@ discovery:
   scraped_date: '2026-10-05'
   notes:
   - Health Connections shows this as last updated 9 months ago.
-cost:
-  amount: 10
-  currency: GBP
+  - 'Web check 8 Oct 2026: website from https://www.visitguernsey.com/articles/2022/where-to-practice-yoga-on-the-islands-of-guernsey/'
+  - 'Web check 8 Oct 2026: venue from https://www.visitguernsey.com/articles/2022/where-to-practice-yoga-on-the-islands-of-guernsey/'
 ---
 
 Emails sarkislandyoga@gmail.com Tuesdays yoga at the Hall, 6pm. All levels are welcome, we provide the equipment, £10 pp

@@ -13,9 +13,10 @@ location:
 cost:
   notes: Both free and paid options available — see source for details.
 organiser:
-  website: https://gillgirardtourguide.com
+  website: https://guernseyguidedtours.com/guide/gill-girard
   contact_phone: 07781 104094
   contact_email: gillstours@gmail.com
+  name: Gill Girard (Guild of Accredited Guides)
 verification:
   verified_by: ''
   verified_date: ''
@@ -28,6 +29,9 @@ discovery:
   - Available both in person and online.
   - 'Address given but no known parish matched: ''Various Locations In Guernsey'''
   - Health Connections shows this as last updated 8 months ago.
+  - 'Web check 8 Oct 2026: website from https://guernseyguidedtours.com/guide/gill-girard
+    (was: https://gillgirardtourguide.com)'
+  - 'Web check 8 Oct 2026: organiser name from https://guernseyguidedtours.com/guide/gill-girard'
 ---
 
 Gill Girard organises and leads walking tours on the Channel Island of Guernsey. She is a keen walker and has an extensive knowledge of local Guernsey history. Gill presents a programme of regular walks from March through to October each year. Groups and parties of 10 or more can book any of the walks at any additional date and time by arrangement. Coach and walking tours are available for individuals, groups, social clubs, and corporate visitors and their partners.
