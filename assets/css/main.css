@@ -150,6 +150,70 @@ nav.site-nav a:hover, nav.site-nav a:focus-visible { border-bottom-color: var(--
 }
 .tag-cloud-item:hover, .tag-cloud-item:focus-visible { border-color: var(--terracotta); color: var(--terracotta); }
 
+/* ---------- Homepage finder (wizard) ---------- */
+#finder-wizard { margin-bottom: 1rem; }
+#finder-wizard h2 { margin-bottom: 0.4rem; }
+#finder-wizard > p { max-width: 55ch; }
+#finder-skip-all { font-weight: 700; }
+
+.wizard-progress {
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--granite-text);
+  margin: 1.5rem 0 0.3rem;
+}
+.wizard-step h3 {
+  font-family: "Fraunces", Georgia, serif;
+  font-weight: 600;
+  font-size: clamp(1.4rem, 3.5vw, 1.8rem);
+  margin: 0 0 0.3rem;
+}
+.wizard-step h3:focus-visible { outline: none; }
+.wizard-hint { color: var(--charcoal); margin: 0 0 1rem; max-width: 55ch; }
+
+.wizard-choices {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin-bottom: 1rem;
+}
+.wizard-choice {
+  border: 1.5px solid var(--line);
+  border-radius: 999px;
+  padding: 0.75em 1.3em;
+  font: inherit;
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--charcoal);
+  background: var(--paper);
+  cursor: pointer;
+}
+.wizard-choice:hover { border-color: var(--terracotta); color: var(--terracotta); }
+.wizard-choice.selected {
+  background: var(--terracotta);
+  border-color: var(--terracotta);
+  color: var(--chalk);
+}
+
+.wizard-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem; margin-top: 0.3rem; }
+.wizard-skip-step {
+  border: none; background: none; font: inherit; font-weight: 700; color: var(--ink);
+  text-decoration: underline; text-underline-offset: 3px; cursor: pointer; padding: 0.45em 0.1em;
+}
+.wizard-back {
+  border: none; background: none; font: inherit; font-weight: 700; color: var(--charcoal);
+  text-decoration: underline; text-underline-offset: 3px; cursor: pointer; padding: 0.45em 0.1em;
+}
+.wizard-continue {
+  padding: 0.7rem 1.6rem; border-radius: 8px; border: none; font: inherit; font-weight: 700;
+  font-size: 1rem; background: var(--terracotta); color: var(--chalk); cursor: pointer;
+}
+.wizard-continue:hover { background: var(--ink); }
+
+#finder-toggle { font-size: 0.95rem; margin: 0 0 2rem; }
+
 /* ---------- Filter bar ---------- */
 .filter-bar {
   display: flex;

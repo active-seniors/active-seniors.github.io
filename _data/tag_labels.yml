@@ -1,0 +1,18 @@
+# Friendly, plain-English labels for the taxonomy tags in
+# orchestration/discovery/tag_taxonomy.py — used wherever a tag is shown
+# to someone answering the homepage finder questions (active-seniors.github.io#168),
+# rather than the raw hyphenated slug. Keep in sync if the taxonomy changes;
+# see planning/tag-taxonomy.md for the canonical tag list.
+walking: Walking
+swimming-water-sports: Swimming & water sports
+sport-fitness: Sport & fitness
+dance: Dance
+singing-music: Singing & music
+arts-crafts: Arts & crafts
+mindfulness-relaxation: Mindfulness & relaxation
+nature-outdoors: Nature & the outdoors
+cooking-food: Cooking & food
+learning-talks: Talks & learning
+social-clubs: Social clubs & get-togethers
+volunteering: Volunteering
+faith-community: Faith & community
