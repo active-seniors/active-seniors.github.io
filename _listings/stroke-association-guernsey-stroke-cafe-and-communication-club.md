@@ -30,6 +30,7 @@ discovery:
     release, April 2026).'
   - 'Source: https://www.mynewsdesk.com/uk/stroke-association/pressreleases/celebrating-one-year-of-stroke-support-in-guernsey-as-make-may-purple-campaign-begins-3445802'
   - 'Source: https://guernseypress.com/news/2026/05/19/stroke-association-marks-incredibly-rewarding-first-year'
+  - 'Also on Health Connections: https://directory.healthconnections.gg/listing/2a622605-5b83-45a2-bdf4-9c285033e393'
 ---
 
 The Stroke Association, which began on-island support in 2025, runs a monthly stroke café at the Princess Elizabeth Hospital and a weekly communication club for people with aphasia at the Ron Short Centre. It also holds stroke-inclusive community café sessions.

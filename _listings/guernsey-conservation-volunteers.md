@@ -36,6 +36,7 @@ discovery:
   - 'Source: https://gcv.org.uk'
   - 'Source: https://charity.org.gg/charities/87/guernsey-conservation-volunteers'
   - 'Source: https://healthconnections.gg/guernsey-conservation-volunteers/'
+  - 'Also on Health Connections: https://directory.healthconnections.gg/listing/88b0c89b-b047-482c-ab64-58e4fbd98c5b'
 ---
 
 Practical conservation work parties at nature sites around Guernsey (and occasionally Sark), working for the National Trust of Guernsey, La Société Guernesiaise and the States' land management services. Tasks include clearing vegetation, removing bracken and invasive plants and pollarding willows. The group received the King's Award for Voluntary Service in November 2025.

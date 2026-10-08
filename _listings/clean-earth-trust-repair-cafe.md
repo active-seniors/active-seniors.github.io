@@ -28,6 +28,7 @@ discovery:
     and times not confirmed; check the Trust''s website.'
   - 'Source: https://charity.org.gg/charities/265/the-clean-earth-trust'
   - 'Source: https://www.bailiwickexpress.com/news-ge/clothes-swap-repair-cafe/'
+  - 'Also on Health Connections: https://directory.healthconnections.gg/listing/52768cf9-e6a7-4fc6-96d8-e447bdca53e5'
 ---
 
 A Repair Café run by the Clean Earth Trust where volunteer fixers and seamstresses mend broken or worn items, alongside a clothes swap. Islanders can bring items for repair or volunteer their own repair skills.

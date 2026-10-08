@@ -28,6 +28,7 @@ discovery:
   - 'Source: https://guernseywelshchoir.com/'
   - 'Source: https://guernseywelshchoir.com/contact/'
   - 'Source: https://stsaviourschurch.org/546/Guernsey-Welsh-Male-Voice-Choir-11th-Feb'
+  - 'Also on Health Connections: https://directory.healthconnections.gg/listing/05e8abe9-a54d-4c31-8219-ad80312f527c'
 ---
 
 A male voice choir of about 36 singers, Welsh and non-Welsh, conducted by Lydia Jane Pugh. It performs at island venues including St Saviour's Church and the Candie Gardens summer concerts. Prospective members are asked to contact the secretary, Barry Stinton.
