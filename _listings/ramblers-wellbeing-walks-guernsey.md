@@ -44,6 +44,7 @@ discovery:
   - 'Source: https://islandfm.com/local/event/guernsey-wellbeing-walks'
   - 'Source: https://www.gov.gg/RamblersWellbeingWalks'
   - 'Also on Health Connections: https://directory.healthconnections.gg/listing/0e7d26a6-7a44-493c-80f0-c4764c1bf3bc'
+  - 'Volunteer walk leaders wanted, full training given (volunteer.gg): https://volunteer.gg/volunteers/opportunity/10266566'
 ---
 
 Free, short led walks of about 30 minutes over easy ground, run at different spots around Guernsey on weekdays, with Sunday walks in Alderney. Many walks finish at a café for optional refreshments and a chat. Formerly Public Health's Walking for Health programme, now run under the Ramblers.

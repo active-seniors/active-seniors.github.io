@@ -33,6 +33,8 @@ discovery:
     Volunteers must be 16+, have tetanus cover and be physically fit, as some dogs
     are energetic (2024 role description).'
   - 'Source: https://gspca.org.gg/sites/default/files/Dog%20Walking%20Task%20Role%202024.pdf'
+  - 'GSPCA also seeks cat care, wildlife unit, cleaning, fostering, fundraising and
+    night warden volunteers (volunteer.gg): https://volunteer.gg/volunteers/opportunity/10233109'
 ---
 
 Volunteers walk dogs on site at the GSPCA animal shelter after a general induction and a dog-walking induction with staff.

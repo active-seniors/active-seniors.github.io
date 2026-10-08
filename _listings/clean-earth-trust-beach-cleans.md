@@ -32,6 +32,7 @@ discovery:
   - 'Source: http://www.cleanearthtrust.org/'
   - 'Source: https://charity.org.gg/charities/265/the-clean-earth-trust'
   - 'Source: https://www.bailiwickexpress.com/news-ge/plastic-still-a-problem-despite-number-of-volunteer-litter-pickers-doubling/'
+  - 'Public beach cleans advertised on volunteer.gg: https://volunteer.gg/volunteers/opportunity/10273335'
 ---
 
 The Clean Earth Trust runs weekly public beach cleans and surveys of marine litter at changing locations around Guernsey, plus monthly wellbeing beach cleans with Guernsey Mind and the Healthcare Group. In 2025, 969 volunteers gave 1,381 hours.

@@ -29,6 +29,7 @@ discovery:
     welcome, with roles ranging from shop work to reception.'
   - 'Source: https://guernseypress.com/news/2026/06/01/celebrating-hospices-helpers-for-volunteers-week'
   - 'Source: https://charity.org.gg/charities/58/les-bourgs-hospice-lbg'
+  - 'Volunteer driver/store role advertised on volunteer.gg: https://volunteer.gg/volunteers/opportunity/10306557'
 ---
 
 Les Bourgs Hospice has about 130 volunteers working on reception, serving supper to in-patients, running its charity shops (the Bridge, the children's shop and St Martin's) and helping with fundraising and its Wellbeing Service. Volunteers save the hospice about £300,000 a year.
