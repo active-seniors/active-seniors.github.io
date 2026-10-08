@@ -14,9 +14,10 @@ cost:
 organiser:
   website: https://cinnamon.org.uk
   contact_phone: 01736 757900
+  contact_email: office@caritas.org.gg
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
@@ -24,7 +25,6 @@ discovery:
   scraped_date: '2026-10-05'
   notes:
   - Available both in person and online.
-  - 'Additional phone number(s) not captured: [''Emails'', ''office@caritas.org.gg'']'
   - Health Connections shows this as last updated 2 months ago.
 ---
 

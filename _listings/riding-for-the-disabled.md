@@ -14,11 +14,11 @@ location:
 cost:
   notes: Both free and paid options available — see source for details.
 organiser:
-  website: rda.gg
+  website: https://rda.gg
   contact_phone: 01481 263969
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:

@@ -14,9 +14,10 @@ cost:
   currency: GBP
 organiser:
   contact_phone: 07781 153235
+  contact_email: graciebarragsy@gmail.com
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
@@ -24,9 +25,9 @@ discovery:
   scraped_date: '2026-10-05'
   notes:
   - Available both in person and online.
-  - 'Address given but no known parish matched: ''Newlands Building, Lowlands Industrial
-    Estate, Braye Rd, Guernsey, GY3 5XJ'''
-  - 'Additional phone number(s) not captured: [''07781 407481'', ''Emails'', ''graciebarragsy@gmail.com'']'
+  - 'Address given but no known parish matched: ''Newlands Building, Lowlands Industrial Estate,
+    Braye Rd, Guernsey, GY3 5XJ'''
+  - 'Other contacts on source page: 07781 407481'
   - Health Connections shows this as last updated 9 months ago.
 ---
 

@@ -11,11 +11,12 @@ location:
   venue: St Martins, Les Beaucamps, St Peter Port, St. Sampsons and Cobo
   parish: St Peter Port
 organiser:
-  website: aliceyoga.com
+  website: https://aliceyoga.com
   contact_phone: +44 7781 113698
+  contact_email: aliceyogaonline@gmail.com
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
@@ -24,7 +25,6 @@ discovery:
   notes:
   - Listed as paid; exact price not stated on source page.
   - Available both in person and online.
-  - 'Additional phone number(s) not captured: [''Emails'', ''aliceyogaonline@gmail.com'']'
   - Health Connections shows this as last updated 10 months ago.
 ---
 

@@ -9,8 +9,7 @@ tags:
 - older-people
 - volunteering-and-giving
 location:
-  venue: Rose Hall, Guernsey Welfare Centre, Upper Mansell Street, St Peter Port,
-    GY1 1LY
+  venue: Rose Hall, Guernsey Welfare Centre, Upper Mansell Street, St Peter Port, GY1 1LY
   parish: St Peter Port
 cost:
   amount: 0
@@ -18,9 +17,10 @@ cost:
 organiser:
   website: https://linkinglives.uk/project/guernsey/
   contact_phone: 07839188180
+  contact_email: linkinglives@welfare.gg
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
@@ -28,7 +28,6 @@ discovery:
   scraped_date: '2026-10-05'
   notes:
   - Available both in person and online.
-  - 'Additional phone number(s) not captured: [''Emails'', ''linkinglives@welfare.gg'']'
   - Health Connections shows this as last updated 9 months ago.
 ---
 

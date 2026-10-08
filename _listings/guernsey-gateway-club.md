@@ -13,9 +13,10 @@ location:
 organiser:
   website: https://www.charity.org.gg/Contact
   contact_phone: 07781 157868
+  contact_email: rumdoodle@cwgsy.net
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
@@ -25,7 +26,7 @@ discovery:
   - Listed as paid; exact price not stated on source page.
   - Available both in person and online.
   - 'Address given but no known parish matched: ''The Gateway Club, PEH'''
-  - 'Additional phone number(s) not captured: [''07781 409426'', ''Emails'', ''rumdoodle@cwgsy.net'']'
+  - 'Other contacts on source page: 07781 409426'
   - Health Connections shows this as last updated 9 months ago.
 ---
 

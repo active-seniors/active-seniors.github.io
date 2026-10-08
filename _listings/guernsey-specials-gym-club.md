@@ -10,12 +10,13 @@ tags:
 - physical-activity
 location:
   venue: Western Parishes Community Centre (Styx)
+  parish: St Pierre du Bois
 organiser:
   website: https://guernseysports.com/sports-directory/disability-sports/guernsey-specials-gym-club/
   contact_phone: 07781 416140
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
@@ -24,9 +25,7 @@ discovery:
   notes:
   - Listed as paid; exact price not stated on source page.
   - Available both in person and online.
-  - 'Address given but no known parish matched: ''Western Parishes Community Centre
-    (Styx)'''
-  - 'Additional phone number(s) not captured: [''07781 116091'', ''07781 406364'']'
+  - 'Other contacts on source page: 07781 116091, 07781 406364'
   - Health Connections shows this as last updated 9 months ago.
 ---
 

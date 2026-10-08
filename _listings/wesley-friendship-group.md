@@ -10,6 +10,7 @@ tags:
 - older-people
 location:
   venue: Wesley Methodist Church, Grand Bouet, St. Peter Port, Guernsey, GY1 2SE
+  parish: St Peter Port
 cost:
   amount: 0
   currency: GBP
@@ -18,15 +19,13 @@ organiser:
   contact_phone: 01481 253548
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
   source_url: https://directory.healthconnections.gg/listing/ed19110b-25ca-4600-8b17-09f681590037
   scraped_date: '2026-10-05'
   notes:
-  - 'Address given but no known parish matched: ''Wesley Methodist Church, Grand Bouet,
-    St. Peter Port, Guernsey, GY1 2SE'''
   - Health Connections shows this as last updated 8 months ago.
 ---
 

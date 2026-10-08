@@ -14,7 +14,7 @@ organiser:
   website: https://www.gsybeachwheelchairs.com/
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:

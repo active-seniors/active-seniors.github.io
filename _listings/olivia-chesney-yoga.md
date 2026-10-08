@@ -11,12 +11,18 @@ tags:
 - physical-activity
 location:
   venue: Salarie Inn Apartments, St. Peter Port, Guernsey, GY12BP
+  parish: St Peter Port
+schedule:
+  frequency: weekly
+  day: Tuesday
+  time: 11:00-12:00 (chair yoga)
 organiser:
   website: https://www.oliviachesneyyoga.com
   contact_phone: 07896 807936
+  contact_email: oliviachesney@hotmail.co.uk
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
@@ -25,9 +31,6 @@ discovery:
   notes:
   - Listed as paid; exact price not stated on source page.
   - Available both in person and online.
-  - 'Address given but no known parish matched: ''Salarie Inn Apartments, St. Peter
-    Port, Guernsey, GY12BP'''
-  - 'Additional phone number(s) not captured: [''Emails'', ''oliviachesney@hotmail.co.uk'']'
   - Health Connections shows this as last updated 9 months ago.
 ---
 

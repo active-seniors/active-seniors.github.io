@@ -10,11 +10,12 @@ tags:
 - physical-activity
 location:
   venue: GoYoga studio, No.1 Candie Road, St. Peter Port, GY1 1UP
+  parish: St Peter Port
 organiser:
   website: https://www.goyoga.gg/
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
@@ -23,8 +24,6 @@ discovery:
   notes:
   - Listed as paid; exact price not stated on source page.
   - Available both in person and online.
-  - 'Address given but no known parish matched: ''GoYoga studio, No.1 Candie Road,
-    St. Peter Port, GY1 1UP'''
   - Health Connections shows this as last updated 9 months ago.
 ---
 

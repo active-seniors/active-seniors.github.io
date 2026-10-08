@@ -10,12 +10,14 @@ tags:
 - physical-activity
 location:
   venue: Beau Sejour Leisure Centre
+  parish: St Peter Port
 organiser:
   website: https://guernseyswimming.com/dolphins
   contact_phone: 01481 225200
+  contact_email: info@guernseyswimming.com
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
@@ -24,8 +26,6 @@ discovery:
   notes:
   - Listed as paid; exact price not stated on source page.
   - Available both in person and online.
-  - 'Address given but no known parish matched: ''Beau Sejour Leisure Centre'''
-  - 'Additional phone number(s) not captured: [''Emails'', ''info@guernseyswimming.com'']'
   - Health Connections shows this as last updated 8 months ago.
 ---
 

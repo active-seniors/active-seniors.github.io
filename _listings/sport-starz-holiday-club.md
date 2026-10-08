@@ -16,9 +16,10 @@ cost:
 organiser:
   website: https://sportstarz.org.uk
   contact_phone: 07781 425877
+  contact_email: michael@sportstarz.org
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
@@ -27,7 +28,7 @@ discovery:
   notes:
   - Available both in person and online.
   - 'Address given but no known parish matched: ''KGV or Beau Séjour'''
-  - 'Additional phone number(s) not captured: [''07781 172330'', ''Emails'', ''michael@sportstarz.org'']'
+  - 'Other contacts on source page: 07781 172330'
   - Health Connections shows this as last updated 8 months ago.
 ---
 

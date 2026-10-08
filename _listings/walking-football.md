@@ -14,9 +14,10 @@ cost:
 organiser:
   website: https://gwfc.gg/more/contact-us/
   contact_phone: 07839 732008
+  contact_email: coaches@gwfc.gg
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
@@ -24,7 +25,7 @@ discovery:
   scraped_date: '2026-10-05'
   notes:
   - Available both in person and online.
-  - 'Additional phone number(s) not captured: [''07781 413371'', ''Emails'', ''coaches@gwfc.gg'']'
+  - 'Other contacts on source page: 07781 413371'
   - Health Connections shows this as last updated 8 months ago.
 ---
 

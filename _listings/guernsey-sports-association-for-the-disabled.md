@@ -16,9 +16,10 @@ cost:
 organiser:
   website: https://guernseysports.com/sports-directory/disability-sports/guernsey-sports-association-for-the-disabled
   contact_phone: 07781180140
+  contact_email: gsad@suremail.gg
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
@@ -26,7 +27,6 @@ discovery:
   scraped_date: '2026-10-05'
   notes:
   - Available both in person and online.
-  - 'Additional phone number(s) not captured: [''Emails'', ''gsad@suremail.gg'']'
   - Health Connections shows this as last updated 9 months ago.
 ---
 

@@ -18,9 +18,10 @@ cost:
 organiser:
   website: https://www.gov.gg/healthyliving
   contact_phone: 07781 139492
+  contact_email: julia.hetherton@gov.gg
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
@@ -28,7 +29,7 @@ discovery:
   scraped_date: '2026-10-05'
   notes:
   - Available both in person and online.
-  - 'Additional phone number(s) not captured: [''01481 227311'', ''Emails'', ''julia.hetherton@gov.gg'']'
+  - 'Other contacts on source page: 01481 227311'
   - Health Connections shows this as last updated 5 months ago.
 ---
 

@@ -8,14 +8,16 @@ tags:
 - physical-activity
 location:
   venue: L'Ancresse Bay
+  parish: Vale
 cost:
   notes: Both free and paid options available — see source for details.
 organiser:
-  website: guernseysup.com
+  website: https://guernseysup.com
   contact_phone: 07781 118253
+  contact_email: guernseysup@hotmail.com
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
@@ -23,8 +25,6 @@ discovery:
   scraped_date: '2026-10-05'
   notes:
   - Available both in person and online.
-  - 'Address given but no known parish matched: "L''Ancresse Bay"'
-  - 'Additional phone number(s) not captured: [''Emails'', ''guernseysup@hotmail.com'']'
   - Health Connections shows this as last updated 9 months ago.
 ---
 

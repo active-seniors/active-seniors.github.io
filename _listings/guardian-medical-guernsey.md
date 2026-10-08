@@ -16,9 +16,10 @@ cost:
   notes: Both free and paid options available — see source for details.
 organiser:
   contact_phone: 01481 200548
+  contact_email: shop@guardianmedicalsupplies.co.uk
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
@@ -26,7 +27,6 @@ discovery:
   scraped_date: '2026-10-05'
   notes:
   - Available both in person and online.
-  - 'Additional phone number(s) not captured: [''Emails'', ''shop@guardianmedicalsupplies.co.uk'']'
   - Health Connections shows this as last updated 9 months ago.
 ---
 

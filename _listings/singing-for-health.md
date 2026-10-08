@@ -11,6 +11,7 @@ tags:
 - older-people
 location:
   venue: Styx Community Centre, Rue de Longfrie, GY7 9RZ
+  parish: St Pierre du Bois
 cost:
   amount: 0
   currency: GBP
@@ -19,16 +20,14 @@ organiser:
   contact_phone: 07781 137482
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
   source_url: https://directory.healthconnections.gg/listing/57162a4d-92ff-4a57-b686-f6b6f9cf1b2b
   scraped_date: '2026-10-05'
   notes:
-  - 'Address given but no known parish matched: ''Styx Community Centre, Rue de Longfrie,
-    GY7 9RZ'''
-  - 'Additional phone number(s) not captured: [''01481 267319'']'
+  - 'Other contacts on source page: 01481 267319'
   - Health Connections shows this as last updated 8 months ago.
 ---
 

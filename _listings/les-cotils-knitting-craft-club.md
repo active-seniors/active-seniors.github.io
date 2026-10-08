@@ -11,13 +11,19 @@ tags:
 - older-people
 location:
   venue: Les Cotils
+  parish: St Peter Port
+schedule:
+  frequency: monthly
+  day: first Wednesday
 cost:
-  notes: Both free and paid options available — see source for details.
+  amount: 0
+  notes: Free; refreshments bought from the bar
 organiser:
   contact_phone: 07839 212183
+  contact_email: lizwilliams.guernsey@gmail.com
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
@@ -25,8 +31,6 @@ discovery:
   scraped_date: '2026-10-05'
   notes:
   - Available both in person and online.
-  - 'Address given but no known parish matched: ''Les Cotils'''
-  - 'Additional phone number(s) not captured: [''Emails'', ''lizwilliams.guernsey@gmail.com'']'
   - Health Connections shows this as last updated 9 months ago.
 ---
 

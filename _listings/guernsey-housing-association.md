@@ -9,8 +9,8 @@ tags:
 - housing-homelessness
 - older-people
 location:
-  venue: Guernsey Housing Association First Floor, Newlands House Lowlands Trading
-    Estate Braye Road Vale, GY3 5XJ
+  venue: Guernsey Housing Association First Floor, Newlands House Lowlands Trading Estate
+    Braye Road Vale, GY3 5XJ
   parish: Vale
 cost:
   amount: 0
@@ -18,9 +18,10 @@ cost:
 organiser:
   website: https://www.gha.gg
   contact_phone: '245530'
+  contact_email: ghaenquiries@gha.gg
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
@@ -28,7 +29,6 @@ discovery:
   scraped_date: '2026-10-05'
   notes:
   - Available both in person and online.
-  - 'Additional phone number(s) not captured: [''Emails'', ''ghaenquiries@gha.gg'']'
   - Health Connections shows this as last updated 9 months ago.
 ---
 

@@ -12,9 +12,10 @@ tags:
 organiser:
   website: https://www.go-guernsey.gg
   contact_phone: 07839 151771
+  contact_email: phil@go-guernsey.gg
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
@@ -23,7 +24,6 @@ discovery:
   notes:
   - Listed as paid; exact price not stated on source page.
   - Available both in person and online.
-  - 'Additional phone number(s) not captured: [''Emails'', ''phil@go-guernsey.gg'']'
   - Health Connections shows this as last updated 9 months ago.
 ---
 

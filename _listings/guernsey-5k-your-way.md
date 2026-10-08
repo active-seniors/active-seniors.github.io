@@ -9,12 +9,17 @@ tags:
 - physical-activity
 location:
   venue: Pembroke
+  parish: Vale
+schedule:
+  frequency: weekly
+  day: Saturday
+  time: 08:45 (9am start)
 cost:
   amount: 0
   currency: GBP
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
@@ -22,7 +27,6 @@ discovery:
   scraped_date: '2026-10-05'
   notes:
   - Available both in person and online.
-  - 'Address given but no known parish matched: ''Pembroke'''
   - Health Connections shows this as last updated 9 months ago.
 ---
 

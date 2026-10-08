@@ -10,17 +10,18 @@ tags:
 - mobility
 - older-people
 location:
-  venue: Mercury Distribution Guernsey, Pitronnerie Road Industrial Estate, St Peter
-    Port, Guernsey, GY1 2RH
+  venue: Mercury Distribution Guernsey, Pitronnerie Road Industrial Estate, St Peter Port,
+    Guernsey, GY1 2RH
   parish: St Peter Port
 cost:
   notes: Both free and paid options available — see source for details.
 organiser:
-  website: mercurydistribution.com/supply/#supply-item__7
+  website: https://mercurydistribution.com/supply/#supply-item__7
   contact_phone: 01481 721122
+  contact_email: salesgsy@mercurydistribution.com
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
@@ -28,7 +29,6 @@ discovery:
   scraped_date: '2026-10-05'
   notes:
   - Online only — not an in-person activity.
-  - 'Additional phone number(s) not captured: [''Emails'', ''salesgsy@mercurydistribution.com'']'
   - Health Connections shows this as last updated 9 months ago.
 ---
 

@@ -13,9 +13,10 @@ location:
   venue: Methodist Church Hall, Alderney
 organiser:
   contact_phone: 07781 135086
+  contact_email: lynneroscrow@yahoo.com
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
@@ -24,7 +25,6 @@ discovery:
   notes:
   - Listed as paid; exact price not stated on source page.
   - 'Address given but no known parish matched: ''Methodist Church Hall, Alderney'''
-  - 'Additional phone number(s) not captured: [''Emails'', ''lynneroscrow@yahoo.com'']'
   - Health Connections shows this as last updated 9 months ago.
 ---
 

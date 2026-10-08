@@ -16,7 +16,7 @@ organiser:
   website: https://www.visitguernsey.com/see-and-do/walking-routes/?dif=1090
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:

@@ -15,7 +15,7 @@ organiser:
   contact_phone: 07781 403770
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
@@ -23,7 +23,7 @@ discovery:
   scraped_date: '2026-10-05'
   notes:
   - Available both in person and online.
-  - 'Additional phone number(s) not captured: [''01481 251226'']'
+  - 'Other contacts on source page: 01481 251226'
   - Health Connections shows this as last updated 8 months ago.
 ---
 

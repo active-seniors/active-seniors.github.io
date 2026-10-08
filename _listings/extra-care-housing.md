@@ -10,17 +10,18 @@ tags:
 - housing-homelessness
 - older-people
 location:
-  venue: Allocations, Housing, Edward T Wheadon House, Le Truchot, St Peter Port,
-    Guernsey, GY1 3WH
+  venue: Allocations, Housing, Edward T Wheadon House, Le Truchot, St Peter Port, Guernsey,
+    GY1 3WH
   parish: St Peter Port
 cost:
   notes: Both free and paid options available — see source for details.
 organiser:
   website: https://www.gov.gg/extracare
   contact_phone: 01481 226540
+  contact_email: HousingAllocations@gov.gg
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
@@ -28,7 +29,6 @@ discovery:
   scraped_date: '2026-10-05'
   notes:
   - Available both in person and online.
-  - 'Additional phone number(s) not captured: [''Emails'', ''HousingAllocations@gov.gg'']'
   - Health Connections shows this as last updated 9 months ago.
 ---
 

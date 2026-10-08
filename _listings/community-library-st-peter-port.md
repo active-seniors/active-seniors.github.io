@@ -10,22 +10,26 @@ tags:
 location:
   venue: Rosaire Avenue, just off Brock Road in St Peter Port.
   parish: St Peter Port
+schedule:
+  frequency: weekly
+  day: Monday
+  time: 10:00-12:00
 cost:
   amount: 0
   currency: GBP
 organiser:
   website: https://www.library.gg/community-libraries
   contact_phone: 01481 720392
+  contact_email: jburgess@library.gg
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
   source_url: https://directory.healthconnections.gg/listing/2ebec2b1-41c8-4fd7-aa38-f86cfe69e966
   scraped_date: '2026-10-05'
   notes:
-  - 'Additional phone number(s) not captured: [''Emails'', ''jburgess@library.gg'']'
   - Health Connections shows this as last updated 9 months ago.
 ---
 

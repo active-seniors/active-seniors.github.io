@@ -8,6 +8,7 @@ tags:
 - physical-activity
 location:
   venue: Route de Saint Andrew, St. Andrew, Guernsey GY6 8UH
+  parish: St Andrew
 cost:
   amount: 0
   currency: GBP
@@ -15,7 +16,7 @@ organiser:
   website: https://www.guernseyrangersfc.com/
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
@@ -23,8 +24,6 @@ discovery:
   scraped_date: '2026-10-05'
   notes:
   - Available both in person and online.
-  - 'Address given but no known parish matched: ''Route de Saint Andrew, St. Andrew,
-    Guernsey GY6 8UH'''
   - Health Connections shows this as last updated 9 months ago.
 ---
 

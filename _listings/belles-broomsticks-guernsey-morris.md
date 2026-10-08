@@ -8,21 +8,25 @@ tags:
 - connect-befriending
 - physical-activity
 - stress-anxiety-depression
+schedule:
+  frequency: weekly
+  day: Monday and Saturday
+  time: 19:30 Mon (St Martin), 10:00 Sat (Torteval)
 cost:
   amount: 0
   currency: GBP
 organiser:
   contact_phone: 07781 406224
+  contact_email: bellesandbroomsticks@gmail.com
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
   source_url: https://directory.healthconnections.gg/listing/e6d6b960-57c9-4031-95df-76745c7eea7d
   scraped_date: '2026-10-05'
   notes:
-  - 'Additional phone number(s) not captured: [''Emails'', ''bellesandbroomsticks@gmail.com'']'
   - Health Connections shows this as last updated 10 months ago.
 ---
 

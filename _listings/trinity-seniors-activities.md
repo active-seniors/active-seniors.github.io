@@ -14,9 +14,10 @@ cost:
   notes: Both free and paid options available — see source for details.
 organiser:
   contact_phone: '724319'
+  contact_email: helen.sheppard@suremail.gg
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
@@ -25,7 +26,6 @@ discovery:
   notes:
   - Available both in person and online.
   - 'Address given but no known parish matched: ''Various'''
-  - 'Additional phone number(s) not captured: [''Emails'', ''helen.sheppard@suremail.gg'']'
   - Health Connections shows this as last updated 8 months ago.
 ---
 

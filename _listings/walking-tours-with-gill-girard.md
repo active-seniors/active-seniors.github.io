@@ -13,11 +13,12 @@ location:
 cost:
   notes: Both free and paid options available — see source for details.
 organiser:
-  website: gillgirardtourguide.com
+  website: https://gillgirardtourguide.com
   contact_phone: 07781 104094
+  contact_email: gillstours@gmail.com
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
@@ -26,7 +27,6 @@ discovery:
   notes:
   - Available both in person and online.
   - 'Address given but no known parish matched: ''Various Locations In Guernsey'''
-  - 'Additional phone number(s) not captured: [''Emails'', ''gillstours@gmail.com'']'
   - Health Connections shows this as last updated 8 months ago.
 ---
 

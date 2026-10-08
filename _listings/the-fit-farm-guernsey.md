@@ -6,12 +6,15 @@ source: discovered
 category: sports
 tags:
 - physical-activity
+schedule:
+  frequency: weekly
+  day: Saturday morning (bootcamp)
 organiser:
   website: https://www.fitfarmgsy.com
   contact_phone: 07781 174212
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:

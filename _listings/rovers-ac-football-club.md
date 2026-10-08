@@ -15,9 +15,10 @@ cost:
 organiser:
   website: http://www.roversac.com/
   contact_phone: 01481 251764
+  contact_email: roversac@hotmail.co.uk
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
@@ -25,7 +26,6 @@ discovery:
   scraped_date: '2026-10-05'
   notes:
   - Available both in person and online.
-  - 'Additional phone number(s) not captured: [''Emails'', ''roversac@hotmail.co.uk'']'
   - Health Connections shows this as last updated 9 months ago.
 ---
 

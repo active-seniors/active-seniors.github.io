@@ -12,9 +12,10 @@ location:
 organiser:
   website: https://guernseyboxing.com/
   contact_phone: 07781 102340
+  contact_email: mandy@guernseyboxing.com
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
@@ -22,8 +23,7 @@ discovery:
   scraped_date: '2026-10-05'
   notes:
   - Listed as paid; exact price not stated on source page.
-  - 'Additional phone number(s) not captured: [''Emails'', ''mandy@guernseyboxing.com'',
-    ''Mandy@gabc.org.uk'']'
+  - 'Other contacts on source page: Mandy@gabc.org.uk'
   - Health Connections shows this as last updated 7 months ago.
 ---
 

@@ -9,9 +9,10 @@ tags:
 organiser:
   website: https://beausejour.gg/activehealth
   contact_phone: 01481 220508
+  contact_email: Sam.Green@gov.gg
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
@@ -19,7 +20,6 @@ discovery:
   scraped_date: '2026-10-05'
   notes:
   - Listed as paid; exact price not stated on source page.
-  - 'Additional phone number(s) not captured: [''Emails'', ''Sam.Green@gov.gg'']'
   - Health Connections shows this as last updated 9 months ago.
 ---
 

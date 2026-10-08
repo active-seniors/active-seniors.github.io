@@ -13,11 +13,11 @@ cost:
   amount: 0
   currency: GBP
 organiser:
-  website: valerecfc.com
+  website: https://valerecfc.com
   contact_phone: 01481 247760
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:

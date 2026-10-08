@@ -10,14 +10,16 @@ tags:
 - stress-anxiety-depression
 location:
   venue: Springfield, Longue Rue, St. Saviour, GY7 9QW
+  parish: St Saviour
 cost:
   notes: Both free and paid options available — see source for details.
 organiser:
-  website: prnh.co.uk
+  website: https://prnh.co.uk
   contact_phone: 07781 116930
+  contact_email: prnh@outlook.com
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
@@ -25,9 +27,6 @@ discovery:
   scraped_date: '2026-10-05'
   notes:
   - Available both in person and online.
-  - 'Address given but no known parish matched: ''Springfield, Longue Rue, St. Saviour,
-    GY7 9QW'''
-  - 'Additional phone number(s) not captured: [''Emails'', ''prnh@outlook.com'']'
   - Health Connections shows this as last updated 9 months ago.
 ---
 

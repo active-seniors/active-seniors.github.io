@@ -11,15 +11,17 @@ tags:
 - physical-activity
 location:
   venue: Cobo Bay Hotel, Cobo Coast Road, Guernsey, GY5 7HB
+  parish: Castel
 cost:
   amount: 0
   currency: GBP
 organiser:
   website: https://www.sarniajiujitsu.com
   contact_phone: 07781 169662
+  contact_email: adrian@sarniajiujitsu.com
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
@@ -27,9 +29,6 @@ discovery:
   scraped_date: '2026-10-05'
   notes:
   - Available both in person and online.
-  - 'Address given but no known parish matched: ''Cobo Bay Hotel, Cobo Coast Road,
-    Guernsey, GY5 7HB'''
-  - 'Additional phone number(s) not captured: [''Emails'', ''adrian@sarniajiujitsu.com'']'
   - Health Connections shows this as last updated 8 months ago.
 ---
 

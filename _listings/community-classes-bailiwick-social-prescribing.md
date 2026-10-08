@@ -15,16 +15,16 @@ cost:
 organiser:
   website: https://bsp.org.gg/our-partners/community-classes/
   contact_phone: 01481 210433.
+  contact_email: contactbsp@healthimprovement.gg
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
   source_url: https://directory.healthconnections.gg/listing/b932c136-801a-4939-868c-7becbe257f0e
   scraped_date: '2026-10-05'
   notes:
-  - 'Additional phone number(s) not captured: [''Emails'', ''contactbsp@healthimprovement.gg'']'
   - Health Connections shows this as last updated 8 months ago.
 ---
 

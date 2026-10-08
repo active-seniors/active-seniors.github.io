@@ -11,11 +11,15 @@ tags:
 location:
   venue: Guernsey Table Tennis Centre, Hougue Du Pommier, Castel
   parish: Castel
+schedule:
+  frequency: weekly
+  day: Friday
+  time: 19:00-21:00
 organiser:
   website: https://guernseysports.com/sports-directory/disability-sports/guernsey-sports-association-for-the-disabled/
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:

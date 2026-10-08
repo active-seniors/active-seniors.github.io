@@ -10,12 +10,14 @@ tags:
 - physical-activity
 location:
   venue: Sausmarez Park
+  parish: Castel
 organiser:
   website: https://www.pushy-mums.com
   contact_phone: 07911 133426
+  contact_email: pushy-mums@outlook.com
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
@@ -23,8 +25,6 @@ discovery:
   scraped_date: '2026-10-05'
   notes:
   - Listed as paid; exact price not stated on source page.
-  - 'Address given but no known parish matched: ''Sausmarez Park'''
-  - 'Additional phone number(s) not captured: [''Emails'', ''pushy-mums@outlook.com'']'
   - Health Connections shows this as last updated 9 months ago.
 ---
 

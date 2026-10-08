@@ -10,14 +10,19 @@ tags:
 location:
   venue: Ruette De Friquet St Andrews GY6 8SJ
   parish: St Andrew
+schedule:
+  frequency: weekly
+  day: Monday and Wednesday
+  time: 14:00 Mon (relaxed, good for beginners); Wed club night
 cost:
   notes: Both free and paid options available — see source for details.
 organiser:
-  website: guernseypetanque.co.uk
+  website: https://guernseypetanque.co.uk
   contact_phone: 01481 237861
+  contact_email: gsyclubdepetanque@gmail.com
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
@@ -25,7 +30,6 @@ discovery:
   scraped_date: '2026-10-05'
   notes:
   - Available both in person and online.
-  - 'Additional phone number(s) not captured: [''Emails'', ''gsyclubdepetanque@gmail.com'']'
   - Health Connections shows this as last updated 8 months ago.
 ---
 

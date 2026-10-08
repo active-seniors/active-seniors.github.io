@@ -15,7 +15,7 @@ organiser:
   contact_phone: 07951 723922
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
@@ -23,10 +23,9 @@ discovery:
   scraped_date: '2026-10-05'
   notes:
   - Available both in person and online.
-  - 'Address given but no known parish matched: ''Dower Wing, Bagnarola,, GY2 4XB
-    , Guernsey'''
-  - 'Additional phone number(s) not captured: [''07856 128035'', ''Emails'', ''hello@islehealth.co.uk'',
-    ''megan@islehealth.co.uk'', ''jordonislehealth@gmail.com'']'
+  - 'Address given but no known parish matched: ''Dower Wing, Bagnarola,, GY2 4XB , Guernsey'''
+  - 'Other contacts on source page: hello@islehealth.co.uk, megan@islehealth.co.uk, jordonislehealth@gmail.com,
+    07856 128035'
   - Health Connections shows this as last updated 6 days ago.
 ---
 

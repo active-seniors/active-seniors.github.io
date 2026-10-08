@@ -8,12 +8,13 @@ tags:
 - connect-befriending
 - older-people
 cost:
-  notes: Both free and paid options available — see source for details.
+  amount: 0
+  notes: Free while the service launches
 organiser:
-  website: www.alongsidehello.com
+  website: https://www.alongsidehello.com
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:

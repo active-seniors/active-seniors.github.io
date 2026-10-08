@@ -14,9 +14,10 @@ cost:
 organiser:
   website: https://redballoons.org.uk/
   contact_phone: 07871 658157
+  contact_email: redballoons.volunteers@gmail.com
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
@@ -24,7 +25,6 @@ discovery:
   scraped_date: '2026-10-05'
   notes:
   - Available both in person and online.
-  - 'Additional phone number(s) not captured: [''Emails'', ''redballoons.volunteers@gmail.com'']'
   - Health Connections shows this as last updated 9 months ago.
 ---
 

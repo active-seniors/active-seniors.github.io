@@ -8,17 +8,18 @@ tags:
 - physical-activity
 - volunteering-and-giving
 location:
-  venue: c/o Saffery Champness, PO Box 141, La Tonnelle House, Les Banques, St Sampsons,
-    GY1 3HS SAVE THE DATE FOR THE 2026 WALK Saturday, 6th June 2026
+  venue: c/o Saffery Champness, PO Box 141, La Tonnelle House, Les Banques, St Sampsons, GY1
+    3HS SAVE THE DATE FOR THE 2026 WALK Saturday, 6th June 2026
   parish: St Sampson
 cost:
   notes: Both free and paid options available — see source for details.
 organiser:
-  website: safferyrotarywalk.org.gg
+  website: https://safferyrotarywalk.org.gg
   contact_phone: 07781 168889
+  contact_email: info@safferyrotarywalk.org.gg
 verification:
   verified_by: ''
-  verified_date: '2026-10-05'
+  verified_date: ''
   review_due: ''
   last_pr: ''
 discovery:
@@ -26,7 +27,6 @@ discovery:
   scraped_date: '2026-10-05'
   notes:
   - Available both in person and online.
-  - 'Additional phone number(s) not captured: [''Emails'', ''info@safferyrotarywalk.org.gg'']'
   - Health Connections shows this as last updated 9 months ago.
 ---
 
