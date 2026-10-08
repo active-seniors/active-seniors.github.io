@@ -35,6 +35,7 @@ discovery:
     It offers social activities and a meal, and gives carers a break.'
   - 'Source: https://healthconnections.gg/guernsey-cheshire-home'
   - 'Source: https://charity.org.gg/charities/16/guernsey-cheshire-home'
+  - 'Also on Health Connections: https://directory.healthconnections.gg/listing/e118d28c-e96c-43d3-aeec-cb2875502bef'
 ---
 
 Guernsey Cheshire Home offers day visits for adults with physical disabilities such as MS, stroke or spinal injury, as well as residential and respite care. Day visitors come one to three times a week and join activities such as artwork, exercises, table cricket, outings and visits from the Kennel Club.

@@ -32,6 +32,7 @@ discovery:
     loss, a condition more common in later life (charity.org.gg listing; gba.org.gg).'
   - 'Source: https://charity.org.gg/charities/17/guernsey-blind-association'
   - 'Source: https://gba.org.gg/'
+  - 'Also on Health Connections: https://directory.healthconnections.gg/listing/b4339242-33f0-456d-8b1d-f8a9b8c58ec2'
 ---
 
 A weekly Thursday afternoon meeting at the Guernsey Blind Association's centre where people with sight loss meet, chat and take part in activities together.

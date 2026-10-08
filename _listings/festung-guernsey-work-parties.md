@@ -33,6 +33,7 @@ discovery:
   - 'Source: https://festungguernsey.org.gg/what-we-do/'
   - 'Source: https://festungguernsey.org.gg/event/fort-hommet-open-day/'
   - 'Source: https://www.bailiwickexpress.com/news-ge/bunkers-fortsand-lots-fun/'
+  - 'Also on Health Connections: https://directory.healthconnections.gg/listing/9580295b-8433-4e24-bf28-0dd5160ae1d1'
 ---
 
 Festung Guernsey volunteers restore and maintain German Occupation fortifications, doing gardening, painting, small building jobs and general maintenance. Members also staff bunkers on open days, such as the Fort Hommet open day in September 2026.

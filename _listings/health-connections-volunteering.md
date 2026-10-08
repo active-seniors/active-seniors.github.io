@@ -31,6 +31,7 @@ discovery:
     (induction and safeguarding) for Talking Café hosts (healthconnections.gg).'
   - 'Source: https://healthconnections.gg/volunteer'
   - 'Source: https://healthconnections.gg/?p=12376'
+  - 'Also on Health Connections: https://directory.healthconnections.gg/listing/f71a7223-5699-496b-b2dd-d2cd404ad673'
 ---
 
 Health Connections recruits volunteer drivers who use their own cars to take people to medical appointments and social activities, Talking Café hosts, shop volunteers, office helpers and fundraisers. Drivers' mileage is reimbursed by HSC.

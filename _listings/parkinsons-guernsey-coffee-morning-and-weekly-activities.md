@@ -35,6 +35,7 @@ discovery:
   - 'Source: https://parkinsons.org.gg/'
   - 'Source: https://guernseypress.com/news/2024/04/17/parkinsons-guernsey-has-plenty-to-offer/'
   - 'Source: https://localsupport.parkinsons.org.uk/activity/parkinsons-awareness-day-guernsey'
+  - 'Also on Health Connections: https://directory.healthconnections.gg/listing/9d43b76d-fcf6-48d0-a831-36a941daa265'
 ---
 
 Local charity Parkinson's Guernsey runs a weekly Monday coffee morning at the KGV alongside a programme of activities including a dance class, walking football, pétanque, padel, tai chi, singing and a Friday art class. Monthly talks from professionals and a monthly 'Check & Chat' drop-in are also held.

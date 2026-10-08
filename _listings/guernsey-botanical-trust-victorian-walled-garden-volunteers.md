@@ -26,6 +26,7 @@ discovery:
   - 'Why it suits older people: The trust promotes gardening for people of all ages
     and abilities for physical and mental wellbeing.'
   - 'Source: https://charity.org.gg/charities/113/guernsey-botanical-trust-lbg'
+  - 'Also on Health Connections: https://directory.healthconnections.gg/listing/43a11972-dc9f-4c01-b3eb-cc2d3e968057'
 ---
 
 A volunteer-run trust with no paid staff that is restoring a Victorian walled garden to preserve Guernsey's horticultural heritage. It promotes gardening for physical and mental wellbeing and invites visitors to become members and volunteers.
