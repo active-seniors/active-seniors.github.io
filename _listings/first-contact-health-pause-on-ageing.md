@@ -32,6 +32,10 @@ discovery:
     coverage found. Programme may no longer be offered. (http://www.firstcontacthealth.com)'
 accessibility:
   physical_intensity: low
+editorial_flag:
+  status: recommend-removal
+  reason: Private clinical treatment appointment, not a group activity.
+  flagged_date: '2026-10-08'
 ---
 
 You can then choose: One to one individual sessions with our specialist physiotherapist Group activities with new friends targeting your individual needs Home exercise programmes for you to practice at home with our support Home visits can be arranged as required Whichever options you choose to support your independence, we offer free regular reviews so that you remain in charge of your ageing. Make your friends and family proud, make yourself proud, put a pause on ageing!

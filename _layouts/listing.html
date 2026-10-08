@@ -13,6 +13,12 @@ layout: default
     <span class="verify-badge">Not yet verified</span>
   {% endif %}
 
+  {% if page.editorial_flag %}
+    <p class="editorial-flag-banner">
+      ⚠ Flagged for editorial review ({{ page.editorial_flag.status }}): {{ page.editorial_flag.reason }}
+    </p>
+  {% endif %}
+
   <h2>{{ page.title }}</h2>
 
   <p class="meta">

@@ -26,6 +26,10 @@ discovery:
   notes:
   - Available both in person and online.
   - Health Connections shows this as last updated 9 months ago.
+editorial_flag:
+  status: recommend-removal
+  reason: Private clinical treatment appointment, not a group activity.
+  flagged_date: '2026-10-08'
 ---
 
 In our Diagnostic appointment we explain what is causing your pain and how we can help to reduce it, returning you back to a healthier life. We may recommend further tests as part of the diagnostic process, such as an MRI or ultrasound. These can be arranged in-house with a short waiting time. With an accurate diagnosis, a treatment plan can be explained and advice on the expected number of treatment sessions you may need. Any exercises prescribed can be sent to you via a secure video app.

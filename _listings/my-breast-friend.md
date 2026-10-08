@@ -22,6 +22,10 @@ discovery:
   notes:
   - Online only — not an in-person activity.
   - Health Connections shows this as last updated 11 days ago.
+editorial_flag:
+  status: recommend-removal
+  reason: A breast-awareness app; useful, but not an activity and not age-specific.
+  flagged_date: '2026-10-08'
 ---
 
 Join the 91% of users* who are now checking their boobs/chest more regularly, and the 87% that feel more educated thanks to My Breast Friend! This free tool helps you to change awareness into a routine, that could save your life. Knowing your body is empowering. With My Breast Friend, you can turn awareness into action. The app is not a substitute for professional medical advice, but it offers a friendly nudge to help you develop a vital habit.

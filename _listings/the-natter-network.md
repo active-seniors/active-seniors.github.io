@@ -37,6 +37,10 @@ discovery:
   - 'Web check 8 Oct 2026: suitability from https://www.thenatternetwork.co.uk/'
 suitable_for:
 - online-option
+editorial_flag:
+  status: recommend-removal
+  reason: UK-wide telephone-matching service, not Guernsey-based, nothing to attend.
+  flagged_date: '2026-10-08'
 ---
 
 The Natter Network is a UK-wide telephone friendship service for people aged 65 and over. Members set up a profile online and are matched with someone based on shared interests, not location, so members anywhere, including Guernsey, can take part. You then speak by ordinary telephone once a week for 15-30 minutes, no app or computer needed. Calls connect through the Network so no one sees the other person's real phone number, and identity is checked before any introduction.

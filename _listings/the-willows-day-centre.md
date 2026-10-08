@@ -33,6 +33,11 @@ discovery:
   - Health Connections shows this as last updated 8 months ago.
   - 'Web check 8 Oct 2026: organiser name from https://www.gov.gg/thewillowdaycentre'
   - 'Web check 8 Oct 2026: suitability from https://www.gov.gg/thewillowdaycentre'
+editorial_flag:
+  status: recommend-removal
+  reason: Personal care services for people who cannot attend other day centres —
+    a care service, not a drop-in activity.
+  flagged_date: '2026-10-08'
 ---
 
 The Centre provides therapeutic activities and personal care services for people with dementia and those with mental health and and physical problems who cannot attend other day centres.

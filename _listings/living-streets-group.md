@@ -29,6 +29,11 @@ discovery:
   - 'Web check 8 Oct 2026 CHECK: Own domain livingstreets.org.gg no longer resolves.
     Group appears active as campaign group (20-year celebration Jan 2025) but no walks
     or meeting schedule listed. (https://gsy.bailiwickexpress.com/gsy/news/living-streets-celebrate-20-years-promoting-pedestrian-safety?cpage=1)'
+editorial_flag:
+  status: needs-discussion
+  reason: A street-safety advocacy charity — unclear whether it runs actual group
+    walks a senior could join, or is purely campaigning.
+  flagged_date: '2026-10-08'
 ---
 
 Living Streets Guernsey LBG (formerly STEPS) is a Living Streets UK affiliated group. Living Streets is the national charity working to create safe, attractive and enjoyable streets where people want to walk. .We were concerned that it was no longer safe for our children to walk or cycle to school, for mothers to walk to their corner shop or health centre or for the elderly to meet and talk with their neighbours.

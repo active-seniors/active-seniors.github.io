@@ -24,6 +24,10 @@ discovery:
   - Online only — not an in-person activity.
   - 'Other contacts on source page: 263228'
   - Health Connections shows this as last updated 10 months ago.
+editorial_flag:
+  status: recommend-removal
+  reason: A financial-assistance scheme, online-only — not an activity.
+  flagged_date: '2026-10-08'
 ---
 
 Every year from 1 November to 1 May Age Concern Guernsey operate a Fuel Fund specifically to assist all Guernsey Pensioners who struggle to pay their fuel bills. You do not have to be a member of Age Concern to qualify. The application is simple and straightforward. The application is simple and straightforward. All we ask is that you complete an application form, which you can either download HERE or request a hard copy by emailing hello@ageconcernguernsey.org.gg

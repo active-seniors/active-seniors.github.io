@@ -25,6 +25,10 @@ discovery:
   - Listed as paid; exact price not stated on source page.
   - Available both in person and online.
   - Health Connections shows this as last updated 10 months ago.
+editorial_flag:
+  status: recommend-removal
+  reason: Private therapy (~£100/session), not a group activity.
+  flagged_date: '2026-10-08'
 ---
 
 A Healing Heart Space Private referrals are priced at £100 per session. It is recommended that clients carry out 8 sessions in total. Corporate groups will be priced accordingly based on the amount of staff and full day / half day. There are reduced rates available for clients that are accessing the service via a charity; please get in touch for more details. We operate during daytime hours, Monday to Friday from 9.30am to 2pm (other dates and times may be possible with prior arrangements).

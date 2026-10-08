@@ -21,6 +21,11 @@ discovery:
   notes:
   - Online only — not an in-person activity.
   - Health Connections shows this as last updated 9 months ago.
+editorial_flag:
+  status: recommend-removal
+  reason: This is instructions for posting events into a Facebook group, not a listing
+    of any activity — a scraping artifact.
+  flagged_date: '2026-10-08'
 ---
 
 If you have already created your event through your business page or personal profile, you can go to 'Share' on the event's page and click 'Share to a group'. Select Conscious Events in Guernsey group and your event will appear on both the posts section and events section of this page. If you would like to create your event from scratch through this group, you can go to 'Events' tab and click 'Create event'. You will still be able to then share the event elsewhere. Any questions, private message an admin or post in the group.

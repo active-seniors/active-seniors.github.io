@@ -22,6 +22,11 @@ discovery:
   - Listed as paid; exact price not stated on source page.
   - Available both in person and online.
   - Health Connections shows this as last updated 9 months ago.
+editorial_flag:
+  status: needs-discussion
+  reason: Possible senior volunteering role (adult leaders), but the listing text
+    doesn't frame it that way — worth checking before keeping or cutting.
+  flagged_date: '2026-10-08'
 ---
 
 Amazing volunteers allow girls to make a positive difference to their lives and the community around them, raise their aspirations and discover their full potential. What makes us special? We are for all girls We give girls their own space We give girls a voice We change as the lives of girls change Interested? Join us!

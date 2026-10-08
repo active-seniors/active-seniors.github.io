@@ -26,6 +26,10 @@ discovery:
   notes:
   - Available both in person and online.
   - Health Connections shows this as last updated 5 months ago.
+editorial_flag:
+  status: recommend-removal
+  reason: Residential and nursing care homes, not a drop-in activity.
+  flagged_date: '2026-10-08'
 ---
 
 Methodist Homes for the Aged Guernsey runs two not-for-profit homes with varying needs of care, based on the same site in the heart of the island at L’Aumone in the Castel parish. Maison L’Aumone is a residential home offering an easier way of life for people who still have their independence. Maison de Quetteville offers nursing care in the Cobo Suite and residential care in the L’Ancresse and Bordeaux suites for people living with dementia.

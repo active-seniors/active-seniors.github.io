@@ -27,6 +27,10 @@ discovery:
   - 'Address given but no known parish matched: ''KGV or Beau Séjour'''
   - 'Other contacts on source page: 07781 172330'
   - Health Connections shows this as last updated 8 months ago.
+editorial_flag:
+  status: recommend-removal
+  reason: Children's holiday club, no senior angle.
+  flagged_date: '2026-10-08'
 ---
 
 Sport Starz Ltd is a sports activity company set up by Gareth Coombes and Michael Trotter. We offer tennis, dodgeball and pre-school coaching, private individual tennis lessons, children’s parties and a popular holiday activity club. Every parent needs help during the school holidays, maybe you need childcare because of everyday work or maybe you would like your child to be outside taking part in different activities, socialising and making new friends instead of being indoors all day.

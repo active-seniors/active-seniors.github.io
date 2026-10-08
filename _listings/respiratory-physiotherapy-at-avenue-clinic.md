@@ -25,6 +25,10 @@ discovery:
   - Listed as paid; exact price not stated on source page.
   - Available both in person and online.
   - Health Connections shows this as last updated 9 months ago.
+editorial_flag:
+  status: recommend-removal
+  reason: Private clinical treatment appointment, not a group activity.
+  flagged_date: '2026-10-08'
 ---
 
 Respiratory physiotherapy uses a combination of education, breathing exercises and techniques, movement analysis, soft tissue release techniques, postural correction and strength and conditioning training to help you meet your goals.

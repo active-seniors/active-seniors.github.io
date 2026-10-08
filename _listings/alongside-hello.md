@@ -32,6 +32,12 @@ discovery:
     app ''Coming soon to the App Store'', waiting list only, opening parish by parish
     (https://www.alongsidehello.com)'
   - 'Web check 8 Oct 2026: suitability from https://www.alongsidehello.com'
+editorial_flag:
+  status: needs-discussion
+  reason: A genuinely Guernsey-based, older-person-focused companionship app — more
+    a matching service than an activity to attend; a product question (list vs. cross-reference)
+    rather than a quality one.
+  flagged_date: '2026-10-08'
 ---
 
 Alongside is a companionship app for older people, starting in Guernsey. It introduces members to a friendly, ID-checked local for a walk, a coffee or a chat. Families can set it up for a parent in minutes. Not dating, not a care service. Free while we launch. Join us at alongsidehello.com.

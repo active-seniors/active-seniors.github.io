@@ -24,6 +24,10 @@ discovery:
   notes:
   - Listed as paid; exact price not stated on source page.
   - Health Connections shows this as last updated 13 days ago.
+editorial_flag:
+  status: recommend-removal
+  reason: Commercial skin/cosmetic clinic, not an activity.
+  flagged_date: '2026-10-08'
 ---
 
 Roseneath’s team of medically qualified professionals offer safe, evidence-based skin treatments in Guernsey. Our confidence-boosting treatments have been chosen for their results, safety and minimal downtime; our goal is to help our clients look and feel good without the need for more invasive surgical options. Hair loss solutions PRP (Platelet Rich Plasma) can be used to stimulate hair re-growth for men and women with issues such as receding hair lines, bald spots or alopecea.

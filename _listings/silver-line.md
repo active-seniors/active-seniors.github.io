@@ -33,6 +33,10 @@ discovery:
   - 'Web check 8 Oct 2026: schedule from https://www.thesilverline.org.uk/who-we-are/'
   - 'Web check 8 Oct 2026: organiser name from https://www.thesilverline.org.uk/who-we-are/'
   - 'Web check 8 Oct 2026: suitability from https://www.thesilverline.org.uk/who-we-are/'
+editorial_flag:
+  status: recommend-removal
+  reason: UK-wide phone helpline, not Guernsey-based, nothing to attend.
+  flagged_date: '2026-10-08'
 ---
 
 The Silver Line Helpline run by Age UK is a, confidential telephone service for older people. We provide friendship, conversation and support 24 hours a day, 7 days a week. Everyone needs someone to talk to sometimes We need connection whatever our age – especially if we live alone or further away from family. Age UK's Silver Line Helpline gives anyone aged 55 or over the opportunity to exchange a friendly word, access support, or enjoy a long enriching conversation.

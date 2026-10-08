@@ -26,6 +26,10 @@ discovery:
   notes:
   - Available both in person and online.
   - Health Connections shows this as last updated 8 months ago.
+editorial_flag:
+  status: recommend-removal
+  reason: Youth climbing sessions at a school, no senior angle.
+  flagged_date: '2026-10-08'
 ---
 
 The Youth Commission have a connection with Climb.lbg that run a Saturday morning session offering Free climbing sessions for Young people in the Youth Commission. between the ages of 10 and 18.,

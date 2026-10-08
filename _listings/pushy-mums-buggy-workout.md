@@ -24,6 +24,10 @@ discovery:
   notes:
   - Listed as paid; exact price not stated on source page.
   - Health Connections shows this as last updated 9 months ago.
+editorial_flag:
+  status: recommend-removal
+  reason: Postnatal exercise for mothers with buggies, no senior angle.
+  flagged_date: '2026-10-08'
 ---
 
 Walk, talk and workout in the fresh air in Saumarez Park without the worry of childcare. All Pushy Mums classes are safely designed for the post-natal body. All mums are welcome to join us from 6 weeks post natal (10-12 weeks following C section). Work at your own pace and slowly, safely, build back up your strength and fitness. Mondays 11am & Wednesdays 10am, at Saumarez Park.

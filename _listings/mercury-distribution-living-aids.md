@@ -27,6 +27,10 @@ discovery:
   notes:
   - Online only — not an in-person activity.
   - Health Connections shows this as last updated 9 months ago.
+editorial_flag:
+  status: recommend-removal
+  reason: Mobility/living-aids supplier, not an activity.
+  flagged_date: '2026-10-08'
 ---
 
 Mercury are pleased to have taken over supply of mobility aids in Guernsey from St John Ambulance. We offer a selection of daily living aids such as: Scooters, walking aids, incontinence aids, bath aids, stairlifts, beds, hoists and chairs.

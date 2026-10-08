@@ -28,6 +28,10 @@ discovery:
   - 'Other contacts on source page: hello@islehealth.co.uk, megan@islehealth.co.uk,
     jordonislehealth@gmail.com, 07856 128035'
   - Health Connections shows this as last updated 6 days ago.
+editorial_flag:
+  status: recommend-removal
+  reason: B2B workplace-wellness consultancy, not aimed at individuals.
+  flagged_date: '2026-10-08'
 ---
 
 We are here to educate, inspire and empower your workplace to make lifelong changes to improve health status without impacting productivity.

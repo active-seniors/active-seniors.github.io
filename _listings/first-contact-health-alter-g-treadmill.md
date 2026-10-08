@@ -26,6 +26,10 @@ discovery:
   notes:
   - Available both in person and online.
   - Health Connections shows this as last updated 9 months ago.
+editorial_flag:
+  status: recommend-removal
+  reason: Private clinical treatment appointment, not a group activity.
+  flagged_date: '2026-10-08'
 ---
 
 The benefits of exercising on a treadmill at a reduced body weight include: Returning to exercise quicker following injury. Building strength in muscles affected by arthritic joints Weight loss with less impact on joints Improved circulation, particularly in diabetes and vascular disease Improved balance and mobility The Alter G can be booked as a standalone exercise or incorporated into a general program depending on your needs.

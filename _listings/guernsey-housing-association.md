@@ -28,6 +28,10 @@ discovery:
   notes:
   - Available both in person and online.
   - Health Connections shows this as last updated 9 months ago.
+editorial_flag:
+  status: recommend-removal
+  reason: A landlord/housing association, not an activity provider.
+  flagged_date: '2026-10-08'
 ---
 
 We are a traditional, independent housing association. Other housing associations with a presence on the island include Housing 21 and Sarnia Housing Association. The key financial pressure for our organisation is keeping rents affordable for tenants, while costs have increased, with more work now needed on existing homes, whilst still trying to provide new ones.

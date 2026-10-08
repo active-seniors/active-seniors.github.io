@@ -27,6 +27,10 @@ discovery:
   notes:
   - Available both in person and online.
   - Health Connections shows this as last updated 9 months ago.
+editorial_flag:
+  status: recommend-removal
+  reason: Residential/care housing provider, not a drop-in activity.
+  flagged_date: '2026-10-08'
 ---
 
 Extra care housing in Guernsey provides residents with independent living while offering tailored support and care services to meet individual needs.

@@ -23,6 +23,10 @@ discovery:
   - Listed as paid; exact price not stated on source page.
   - Available both in person and online.
   - Health Connections shows this as last updated 9 months ago.
+editorial_flag:
+  status: recommend-removal
+  reason: Private clinical treatment appointment, not a group activity.
+  flagged_date: '2026-10-08'
 ---
 
 The term relates to the physiotherapy of the musculoskeletal system. This involves muscles, bones, joints, nerves, ligaments, cartilage and spinal discs. Musculoskeletal Physiotherapy uses a ‘physical’ approach that involves manual assessment and treatment techniques, which aim to: Encourage tissue healing by controlling and reducing pain and inflammation Restore normal range of motion by integrating the muscular joint and nervous system

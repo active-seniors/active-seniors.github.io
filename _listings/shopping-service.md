@@ -23,6 +23,10 @@ discovery:
   notes:
   - Online only — not an in-person activity.
   - Health Connections shows this as last updated 5 months ago.
+editorial_flag:
+  status: recommend-removal
+  reason: A council practical-help service, not an activity.
+  flagged_date: '2026-10-08'
 ---
 
 The Health and Social Care shopping service is run by Community Services. It provides assistance to service users who are, for reasons of ill health or frailty, unable to perform this task themselves. This will include providing shopping service support when the main carer is unable to carry out this activity due to ill health. For more information: https://gov.gg/communityservices

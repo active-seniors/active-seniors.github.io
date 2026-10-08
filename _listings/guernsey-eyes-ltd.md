@@ -25,6 +25,10 @@ discovery:
   scraped_date: '2026-10-05'
   notes:
   - Health Connections shows this as last updated 9 months ago.
+editorial_flag:
+  status: recommend-removal
+  reason: Optometrist/shop, not an activity.
+  flagged_date: '2026-10-08'
 ---
 
 Welcome to our family-run optometry practice, where personalised patient care is our priority. At the heart of our service is a commitment to your individual needs, coupled with a passion for eyewear designs that reflect your unique style and personality.

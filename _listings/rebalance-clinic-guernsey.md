@@ -25,6 +25,10 @@ discovery:
   notes:
   - Listed as paid; exact price not stated on source page.
   - Health Connections shows this as last updated 9 months ago.
+editorial_flag:
+  status: recommend-removal
+  reason: Private clinical treatment appointment, not a group activity.
+  flagged_date: '2026-10-08'
 ---
 
 The clinic is situated in St Peter Port and is a very welcoming and relaxed clinic. We offer longer than average appointments as we like to ensure treatment is tailored specifically to the individual patients needs. Offer multiple treatments methods to ensure you feel better as soon as possible! Treatment often consists of a combination of methods: Osteopathic manipulation, articulation, soft tissue work, muscle energy techniques, Acupuncture, sports massage, and functional rehabilitation.

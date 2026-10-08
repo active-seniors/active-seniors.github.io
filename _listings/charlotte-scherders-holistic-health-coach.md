@@ -31,6 +31,10 @@ discovery:
     embeds March 2024 (https://www.charlottescherders.com/)'
 suitable_for:
 - online-option
+editorial_flag:
+  status: recommend-removal
+  reason: Explicitly 1-1 private coaching, three-month commitment — not a group activity.
+  flagged_date: '2026-10-08'
 ---
 
 I believe making a change is all about taking small and simple steps. In a coaching partnership, we can explore what you would like to work on in a fun and sustainable way. 1 - 1 PRIVATE COACHING THREE MONTH COMMITMENT You will receive 1-1 online sessions, with a dedicated hour each time. We will make a plan together and assess your progress over the three months to reach your happiest lifestyle. For more information, please contact Charlotte directly via e-mail or online form

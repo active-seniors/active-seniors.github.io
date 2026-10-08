@@ -22,6 +22,10 @@ discovery:
   notes:
   - Online only — not an in-person activity.
   - Health Connections shows this as last updated 9 months ago.
+editorial_flag:
+  status: recommend-removal
+  reason: A council practical-help service, not an activity.
+  flagged_date: '2026-10-08'
 ---
 
 The Health and Social Care home help service is run by Community Services, will help with basic domestic and household tasks. The person is unable to access conventional cleaning services due to financial position, frailty or because they require additional considerations that would fall outside of a private cleaner. For more information: https://gov.gg/communityservices
