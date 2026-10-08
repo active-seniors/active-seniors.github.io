@@ -141,6 +141,9 @@ nav.site-nav a:hover, nav.site-nav a:focus-visible { border-bottom-color: var(--
   color: var(--charcoal);
   text-decoration: none;
   max-width: 100%;
+  min-width: 0;              /* flex items default to min-width:auto, which for unbreakable
+                                 text overrides max-width/overflow-wrap entirely — this was
+                                 the actual bug, not the wrap property below */
   overflow-wrap: anywhere;   /* real tag data includes long hyphen-joined slugs with no spaces —
                                  see the discovery-sourced "neurological-conditions-..." tag */
   display: inline-block;
