@@ -15,7 +15,14 @@ schedule:
   day: Monday and Wednesday
   time: 14:00 Mon (relaxed, good for beginners); Wed club night
 cost:
-  notes: Both free and paid options available — see source for details.
+  amount: 30
+  currency: GBP
+  notes: £30/yr full membership plus £5 per week green fees; special terms for junior and
+    social members
+accessibility:
+  physical_intensity: low
+suitable_for:
+- beginners-welcome
 organiser:
   website: https://guernseypetanque.co.uk
   contact_phone: 01481 237861
@@ -31,6 +38,9 @@ discovery:
   notes:
   - Available both in person and online.
   - Health Connections shows this as last updated 8 months ago.
+  - 'Web check 8 Oct 2026: cost from https://guernseypetanque.co.uk/about-us-2/ (was: Both
+    free and paid options available — see source for details.)'
+  - 'Web check 8 Oct 2026: suitability from https://guernseypetanque.co.uk/about-us-2/'
 ---
 
 The club was formed in 1984 and played at the Friquet Flower Centre from its induction until the year 2000 when the move to the Petanque Centre at St Andrews took place. Our main club night is Wednesday when most of the competitions are staged.  Monday afternoon 2pm play sees fewer members and a less competitive play, and seen as a good induction into the game of Petanque.

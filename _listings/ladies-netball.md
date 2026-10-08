@@ -17,6 +17,10 @@ schedule:
 cost:
   amount: 0
   currency: GBP
+accessibility:
+  physical_intensity: moderate
+suitable_for:
+- beginners-welcome
 organiser:
   website: https://www.guernseynetball.gg/
 verification:
@@ -29,6 +33,7 @@ discovery:
   scraped_date: '2026-10-05'
   notes:
   - Health Connections shows this as last updated 9 months ago.
+  - 'Web check 8 Oct 2026: suitability from https://www.guernseynetball.gg/play-netball-guernsey'
 ---
 
 Part of the reason we started Social Netball four years ago was because we knew how important it is to get out and play. Meeting up with others for a chat and exercising always puts us in a better mood- despite sometimes not feeling like it before hand! If you’d like to join in we play at Elizabeth College on Thursday evenings at 7pm. Sessions are FREE and there’s no commitment.

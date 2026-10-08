@@ -16,8 +16,8 @@ cost:
   amount: 0
   currency: GBP
 organiser:
-  website: https://library.gg/reading-health
-  contact_phone: 01481 720392
+  website: https://www.library.gg/reading-well-books
+  contact_phone: 01481 810590
   contact_email: ga@library.gg
 verification:
   verified_by: ''
@@ -30,6 +30,9 @@ discovery:
   notes:
   - Available both in person and online.
   - Health Connections shows this as last updated 9 months ago.
+  - 'Web check 8 Oct 2026: contact_phone from https://library.gg/reading-health (was: 01481
+    720392)'
+  - 'Web check 8 Oct 2026: website from https://www.library.gg/reading-well-books (was: https://library.gg/reading-health)'
 ---
 
 Helps you to understand and manage your health and wellbeing using self-help reading. The scheme is endorsed by health professionals and supported by public libraries. There are currently four book lists:  Reading Well Books on Prescription for common mental health conditions, Reading Well Books on Prescription for dementia, Reading Well for young people's mental health and Reading Well for people with long term conditions.

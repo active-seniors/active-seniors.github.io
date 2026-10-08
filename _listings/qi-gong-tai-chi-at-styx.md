@@ -13,9 +13,12 @@ location:
   venue: Styx Centre, Rue Du Longfrie, St Pierre du Bois, GY7 9RZ
   parish: St Pierre du Bois
 cost:
-  notes: Both free and paid options available — see source for details.
+  notes: Payment by donation
+accessibility:
+  physical_intensity: low
 organiser:
   contact_phone: 07839 704733
+  name: Partnership between Styx Centre, Bailiwick Social Prescribing and Arts for Impact
 verification:
   verified_by: ''
   verified_date: ''
@@ -27,6 +30,9 @@ discovery:
   notes:
   - Available both in person and online.
   - Health Connections shows this as last updated 9 months ago.
+  - 'Web check 8 Oct 2026: cost notes from https://healthconnections.gg/qi-gong-tai-chi-at-styx'
+  - 'Web check 8 Oct 2026: organiser name from https://healthconnections.gg/qi-gong-tai-chi-at-styx'
+  - 'Web check 8 Oct 2026: suitability from https://healthconnections.gg/qi-gong-tai-chi-at-styx'
 ---
 
 Come and enjoy this amazing yet gentle form of exercise, which offers many prove health and wellbeing benefits including lower blood pressure, improvements in balance, sleep, muscle strength and memory, as well as chronic pain relief and reduced stress. Its provided by the Partnership between Styx Centre, Bailiwick Social Prescribing and Arts for Impact. The aim of the partnership is to facilitate and provide social, creative and wellbeing activities which are accessible and affordable to all.

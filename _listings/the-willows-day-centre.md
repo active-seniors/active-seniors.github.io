@@ -13,9 +13,14 @@ location:
 cost:
   amount: 0
   currency: GBP
+accessibility:
+  physical_intensity: low
+suitable_for:
+- dementia-friendly
 organiser:
   website: http://gov.gg/thewillowdaycentre
   contact_phone: 01481 222019
+  name: States of Guernsey (Health & Social Care)
 verification:
   verified_by: ''
   verified_date: ''
@@ -27,6 +32,8 @@ discovery:
   notes:
   - Online only — not an in-person activity.
   - Health Connections shows this as last updated 8 months ago.
+  - 'Web check 8 Oct 2026: organiser name from https://www.gov.gg/thewillowdaycentre'
+  - 'Web check 8 Oct 2026: suitability from https://www.gov.gg/thewillowdaycentre'
 ---
 
 The Centre provides therapeutic activities and personal care services for people with dementia and those with mental health and and physical problems who cannot attend other day centres.

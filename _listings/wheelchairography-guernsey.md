@@ -15,10 +15,15 @@ schedule:
   day: last Saturday
 cost:
   notes: Both free and paid options available — see source for details.
+accessibility:
+  physical_intensity: low
+  mobility:
+  - wheelchair-accessible
 organiser:
   website: https://www.danceographyguernsey.com/
-  contact_phone: 07781 127567
-  contact_email: admin.cheshirehome@suremail.gg
+  contact_phone: 07781 123486
+  contact_email: vanessajames1966@hotmail.com
+  name: Danceography Guernsey (Vanessa James)
 verification:
   verified_by: ''
   verified_date: ''
@@ -32,6 +37,12 @@ discovery:
   - 'Address given but no known parish matched: ''Bon Air Barn St Peters GY7 9QB'''
   - 'Other contacts on source page: 07781 123486'
   - Health Connections shows this as last updated 8 months ago.
+  - 'Web check 8 Oct 2026: contact_email from https://www.danceographyguernsey.com/ (was:
+    admin.cheshirehome@suremail.gg)'
+  - 'Web check 8 Oct 2026: contact_phone from https://www.danceographyguernsey.com/ (was:
+    07781 127567)'
+  - 'Web check 8 Oct 2026: organiser name from https://www.danceographyguernsey.com/'
+  - 'Web check 8 Oct 2026: suitability from https://www.danceographyguernsey.com/'
 ---
 
 Wheelchairography Guernsey has been formed as a group of people who love to dance but now are only able to with the aid of Wheel Chairs. We meet once a month on the last Saturday with able bodied assistance to learn, laugh and enjoy dancing with wheel chairs, raising money to fund for a specially adapted chair for dancing. Dancing for Dementia will be brought in alongside/combined with Wheelchair dancing.

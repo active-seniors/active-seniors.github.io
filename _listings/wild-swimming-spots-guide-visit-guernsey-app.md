@@ -13,9 +13,12 @@ location:
 cost:
   amount: 0
   currency: GBP
+accessibility:
+  physical_intensity: moderate
 organiser:
   website: https://www.visitguernsey.com/articles/2023/discover-unique-swim-spots-with-the-visitguernsey-app/
   contact_phone: 01481 223552
+  contact_email: enquiries@visitguernsey.com
 verification:
   verified_by: ''
   verified_date: ''
@@ -27,6 +30,8 @@ discovery:
   notes:
   - Available both in person and online.
   - Health Connections shows this as last updated 8 months ago.
+  - 'Web check 8 Oct 2026: contact_email from https://visitguernsey.com/experiences/hiking'
+  - 'Web check 8 Oct 2026: suitability from https://www.visitguernsey.com/articles/2023/discover-unique-swim-spots-with-the-visitguernsey-app/'
 ---
 
 To make finding your perfect swimming spot even easier, we have launched a new feature on the VisitGuernsey App, our Swimming Guides. Providing a complete overview of over 45 swimming spots, from beaches and bays to natural pools and unique locations, you can learn everything you need to know about swimming on our Islands.

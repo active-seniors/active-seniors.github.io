@@ -7,6 +7,7 @@ category: sports
 tags:
 - disability
 - learning-disabilities
+- older-people
 - physical-activity
 location:
   venue: Guernsey Table Tennis Centre, Hougue Du Pommier, Castel
@@ -15,8 +16,12 @@ schedule:
   frequency: weekly
   day: Friday
   time: 19:00-21:00
+accessibility:
+  physical_intensity: low
 organiser:
-  website: https://guernseysports.com/sports-directory/disability-sports/guernsey-sports-association-for-the-disabled/
+  website: https://www.facebook.com/gsadgsy/
+  contact_email: gsad@suremail.gg
+  name: Guernsey Sports Association for the Disabled
 verification:
   verified_by: ''
   verified_date: ''
@@ -28,6 +33,11 @@ discovery:
   notes:
   - Listed as paid; exact price not stated on source page.
   - Health Connections shows this as last updated 9 months ago.
+  - 'Web check 8 Oct 2026: contact_email from https://guernseysports.com/sports-directory/disability-sports/guernsey-sports-association-for-the-disabled/'
+  - 'Web check 8 Oct 2026: website from https://guernseysports.com/sports-directory/disability-sports/guernsey-sports-association-for-the-disabled/
+    (was: https://guernseysports.com/sports-directory/disability-sports/guernsey-sports-association-for-the-disabled/)'
+  - 'Web check 8 Oct 2026: organiser name from https://guernseysports.com/sports-directory/disability-sports/guernsey-sports-association-for-the-disabled/'
+  - 'Web check 8 Oct 2026: suitability from https://guernseysports.com/sports-directory/disability-sports/guernsey-sports-association-for-the-disabled/'
 ---
 
 The Guernsey Sports Association for the Disabled meets every Friday at the Guernsey Table Tennis Centre Hougue Du Pommier Castel between 7pm and 9pm. We are an active club for people with any kind of learning or physical disability, with members ranging in age from 18 to 65+. Activities include skittles, table tennis, pool, short mat bowls, and various team games, with some activities taking place outdoors in the summer.

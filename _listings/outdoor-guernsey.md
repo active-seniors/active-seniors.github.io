@@ -8,6 +8,10 @@ tags:
 - children-young-people-and-families
 - natural-environment
 - physical-activity
+location:
+  venue: Les Sablons, L'Eree, St Peters, GY7 9LL (registered/base address; rentals also from
+    Cobo, Petit Bot and Shell Beach Herm)
+  parish: St Pierre du Bois
 organiser:
   website: https://outdoorguernsey.gg
   contact_phone: 07781 130403
@@ -24,6 +28,7 @@ discovery:
   - Listed as paid; exact price not stated on source page.
   - Available both in person and online.
   - Health Connections shows this as last updated 9 months ago.
+  - 'Web check 8 Oct 2026: venue from https://outdoorguernsey.gg/contact'
 ---
 
 Outdoor Guernsey is an adventure activities provider running sessions for all ages and abilities in kayaking, paddleboarding, coasteering, cycle tours, archery, climbing, abseiling, high ropes, nerf battles, bushcraft, activiquiz and team building. We also run a school holiday programme for 8-14 year olds, corporate events and private parties.
