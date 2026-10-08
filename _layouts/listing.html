@@ -39,10 +39,20 @@ layout: default
         {% endif %}
       </span>
     </p>
-    {% if page.schedule %}
+    {% if page.schedule.sessions %}
     <p>
       <strong>When</strong>
-      <span>{{ page.schedule.frequency }}{% if page.schedule.day %} on {{ page.schedule.day }}{% endif %}{% if page.schedule.time %} at {{ page.schedule.time }}{% endif %}</span>
+      <span>
+        {% for s in page.schedule.sessions %}
+          {% if s.weeks %}{% for w in s.weeks %}{% case w %}{% when 1 %}1st{% when 2 %}2nd{% when 3 %}3rd{% when 4 %}4th{% when 5 %}5th{% when -1 %}last{% endcase %}{% unless forloop.last %} and {% endunless %}{% endfor %} {% endif %}{{ s.day | capitalize }}{% if s.weeks %} of the month{% endif %}{% if s.start %}, {{ s.start }}{% if s.end %}–{{ s.end }}{% endif %}{% endif %}{% unless forloop.last %}<br>{% endunless %}
+        {% endfor %}
+        {% if page.schedule.season %}<br>{{ page.schedule.season }}{% endif %}
+      </span>
+    </p>
+    {% elsif page.schedule %}
+    <p>
+      <strong>When</strong>
+      <span>{{ page.schedule.frequency }}{% if page.schedule.day %} on {{ page.schedule.day }}{% endif %}{% if page.schedule.time %} at {{ page.schedule.time }}{% endif %}{% if page.schedule.season %}<br>{{ page.schedule.season }}{% endif %}</span>
     </p>
     {% endif %}
     <p>
@@ -62,6 +72,57 @@ layout: default
         {% if page.accessibility.mobility %}{{ page.accessibility.mobility | join: ", " }}{% endif %}
         {% if page.accessibility.sensory and page.accessibility.sensory != empty %}{% if page.accessibility.mobility %}, {% endif %}{{ page.accessibility.sensory | join: ", " }}{% endif %}
         {% if page.accessibility.physical_intensity %} · {{ page.accessibility.physical_intensity }} physical intensity{% endif %}
+        {% if page.accessibility.seated_option %} · seated option{% endif %}
+        {% case page.accessibility.time_on_feet %}{% when "none" %} · no standing needed{% when "some" %} · some standing{% when "most" %} · on your feet most of the time{% endcase %}
+        {% case page.accessibility.setting %}{% when "indoor" %} · indoors{% when "outdoor" %} · outdoors{% when "both" %} · indoors and outdoors{% endcase %}
+      </span>
+    </p>
+    {% endif %}
+    {% if page.getting_there %}
+    {% assign gt = page.getting_there %}
+    <p>
+      <strong>Getting there</strong>
+      <span>
+        {% if gt.bus_routes and gt.bus_routes != empty %}Bus {{ gt.bus_routes | join: ", " }}{% if gt.bus_stop %} to {{ gt.bus_stop }}{% endif %}<br>{% endif %}
+        {% case gt.parking %}{% when "free" %}Free parking{% when "paid" %}Paid parking{% when "limited" %}Limited parking{% when "none" %}No parking{% endcase %}{% if gt.parking %}<br>{% endif %}
+        {% if gt.step_free == true %}Step-free access{% elsif gt.step_free == false %}Not step-free{% endif %}{% if gt.accessible_toilet == true %} · accessible toilet{% endif %}{% if gt.step_free != nil or gt.accessible_toilet %}<br>{% endif %}
+        {% if gt.lifts_offered %}Lifts can be arranged — ask the organiser<br>{% endif %}
+        {% if gt.notes %}{{ gt.notes }}{% endif %}
+      </span>
+    </p>
+    {% endif %}
+    {% if page.joining %}
+    {% assign j = page.joining %}
+    <p>
+      <strong>Joining</strong>
+      <span>
+        {% case j.how %}{% when "drop-in" %}Just turn up{% when "book-ahead" %}Book ahead{% when "membership" %}Join as a member{% when "referral-only" %}Through your GP or a social prescriber{% when "waiting-list" %}Waiting list — get in touch{% endcase %}
+        {% if j.free_first_visit %} · first visit free{% endif %}
+        {% if j.companion_welcome %} · bring a friend, family member or carer{% endif %}
+        {% if j.accepts_referrals and j.how != "referral-only" %}<br>Your GP or a social prescriber can also put you in touch{% endif %}
+        {% if j.first_contact.name %}<br>Ask for {{ j.first_contact.name }}{% if j.first_contact.phone %} on <a href="tel:{{ j.first_contact.phone | remove: " " }}">{{ j.first_contact.phone }}</a>{% endif %}{% if j.first_contact.best_time %} ({{ j.first_contact.best_time }}){% endif %}{% endif %}
+      </span>
+    </p>
+    {% endif %}
+    {% if page.group %}
+    <p>
+      <strong>The group</strong>
+      <span>
+        {% case page.group.typical_size %}{% when "small" %}Small (under 10){% when "medium" %}Medium (10 to 25){% when "large" %}Large (over 25){% endcase %}
+        {% case page.group.who_comes %}{% when "mixed-ages" %} · all ages{% when "mostly-older" %} · mostly retired or semi-retired{% when "women-only" %} · women only{% when "men-only" %} · men only{% endcase %}
+        {% case page.group.style %}{% when "chatty" %} · plenty of time to chat{% when "activity-focused" %} · mostly focused on the activity{% when "mix" %} · a mix of activity and chat{% endcase %}
+      </span>
+    </p>
+    {% endif %}
+    {% if page.safety %}
+    {% assign sf = page.safety %}
+    <p>
+      <strong>Safety</strong>
+      <span>
+        {% if sf.insured %}Insured{% endif %}{% if sf.safeguarding_policy %} · safeguarding policy{% endif %}{% if sf.dbs_checked_leads %} · leaders DBS-checked{% endif %}{% if sf.first_aider %} · first aider present{% endif %}{% if sf.defibrillator_on_site %} · defibrillator on site{% endif %}
+        {% if sf.qualified_instructor %}<br>Instructor: {{ sf.qualified_instructor }}{% endif %}
+        {% if sf.health_questions_for_new_members %}<br>New members are asked a few health questions first{% endif %}
+        <br><span class="uncertain">As told to us by the organiser — not independently checked.</span>
       </span>
     </p>
     {% endif %}
@@ -85,7 +146,10 @@ layout: default
   {% endif %}
 
   <p class="freshness">
-    {% if page.source == "discovered" and page.discovery %}
+    {% if page.verification.confirmed_by_organiser %}
+      Details confirmed by the organiser on {{ page.verification.confirmed_by_organiser | date: "%-d %B %Y" }}.
+    {% endif %}
+    {% if page.source == "discovered" and page.discovery and page.verification.confirmed_by_organiser == nil %}
       Found via an automated search of public directories{% if page.discovery.scraped_date %}, {{ page.discovery.scraped_date }}{% endif %}.
       {% if page.verification.verified_by == "" or page.verification.verified_by == nil %}Not yet checked by a person — treat details as a starting point and confirm with the organiser.{% endif %}
     {% elsif page.verification.verified_date and page.verification.verified_date != "" %}
