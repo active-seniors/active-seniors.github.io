@@ -306,6 +306,112 @@ button[type="submit"]:disabled { background: var(--granite-line); cursor: not-al
 #form-status.success { color: var(--lichen); }
 #form-status.error { color: var(--error); }
 
+/* ---------- Print list ---------- */
+.print-list-count {
+  display: inline-block;
+  background: var(--terracotta);
+  color: var(--chalk);
+  font-size: 0.78rem;
+  font-weight: 700;
+  min-width: 1.4em;
+  text-align: center;
+  padding: 0.05em 0.45em;
+  border-radius: 999px;
+  margin-left: 0.3em;
+}
+.print-list-count[hidden] { display: none; }
+
+.print-list-toggle {
+  align-self: flex-start;
+  margin-top: 0.3rem;
+  border: 1.5px solid var(--line);
+  border-radius: 999px;
+  padding: 0.45em 1em;
+  font: inherit;
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: var(--charcoal);
+  background: var(--paper);
+  cursor: pointer;
+}
+.print-list-toggle:hover { border-color: var(--terracotta); color: var(--terracotta); }
+.print-list-toggle.on-print-list {
+  background: var(--terracotta);
+  border-color: var(--terracotta);
+  color: var(--chalk);
+}
+
+.print-list-actions { display: flex; gap: 0.8rem; margin: 1rem 0 1.5rem; }
+.print-list-actions button {
+  padding: 0.6rem 1.3rem; border-radius: 8px; font: inherit; font-weight: 700; cursor: pointer;
+}
+#print-this-list { background: var(--terracotta); color: var(--chalk); border: none; }
+#print-this-list:hover { background: var(--ink); }
+#clear-print-list { background: var(--paper); color: var(--ink); border: 1.5px solid var(--line); }
+#clear-print-list:hover { border-color: var(--terracotta); color: var(--terracotta); }
+
+.print-list-intro { color: var(--granite-text); font-size: 0.95rem; max-width: 60ch; }
+
+.print-item {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1.25rem;
+}
+.print-item h3 { font-family: "Fraunces", Georgia, serif; font-size: 1.4rem; margin: 0 0 0.3rem; }
+.print-item-meta { color: var(--charcoal); margin: 0 0 0.8rem; }
+.print-item-rows p, .print-item-organiser div { margin: 0.3rem 0; }
+.print-item-organiser { margin-top: 0.8rem; }
+.print-item-organiser strong { display: block; margin-bottom: 0.2rem; }
+
+/* Large-print output — active-seniors.github.io#153. This is a printout
+   meant to be handed to someone, or left on a table, so it's deliberately
+   much larger and plainer than the screen version: big type, pure black on
+   white (the theme's paper/chalk tones are a screen-contrast choice, not a
+   printer-ink one), no chrome, one listing per block that won't get split
+   across a page break. */
+@media print {
+  .wip-banner,
+  nav.site-nav,
+  .masthead .maintained-by,
+  footer.site-footer,
+  .print-list-toggle,
+  .print-list-actions,
+  .print-list-intro,
+  #print-list-empty-message,
+  .print-list-count,
+  .back-link {
+    display: none !important;
+  }
+
+  body { background: #fff; color: #000; font-size: 14pt; line-height: 1.5; }
+  .page { max-width: none; padding: 0; }
+  .masthead { border-bottom: 2pt solid #000; margin-bottom: 0.3in; padding: 0 0 0.2in; }
+  .wordmark { font-size: 22pt; color: #000; }
+  .wordmark .place { color: #000; }
+  .masthead .strapline { display: none; }
+
+  .print-item {
+    background: #fff;
+    border: none;
+    border-bottom: 1.5pt solid #000;
+    border-radius: 0;
+    padding: 0.25in 0;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  .print-item h3 { font-size: 22pt; color: #000; }
+  .print-item-meta,
+  .print-item-rows p,
+  .print-item-organiser div,
+  .print-item-organiser strong {
+    font-size: 14pt;
+    color: #000;
+  }
+  .print-item-rows strong { min-width: 2in; display: inline-block; }
+}
+
 /* ---------- Footer ---------- */
 footer.site-footer {
   margin-top: 3.5rem;

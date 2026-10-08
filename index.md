@@ -75,7 +75,7 @@ title: Home
 {% assign lt = listing.tags | default: empty_arr %}
 {% assign ls = listing.suitable_for | default: empty_arr %}
 {% assign listing_tags = lt | concat: ls | join: " " %}
-<div class="listing-card" data-parish="{{ listing.location.parish }}" data-tags="{{ listing_tags }}" data-intensity="{{ listing.accessibility.physical_intensity | default: 'unrated' }}">
+<div class="listing-card" data-parish="{{ listing.location.parish }}" data-tags="{{ listing_tags }}" data-intensity="{{ listing.accessibility.physical_intensity | default: 'unrated' }}" data-id="{{ listing.id }}">
   {% if listing.source == "demo-data" %}
     <span class="demo-badge">Demo data</span>
   {% elsif listing.verification.verified_by and listing.verification.verified_by != "" %}
@@ -103,6 +103,7 @@ title: Home
     {% for tag in listing.suitable_for %}<a class="tag" href="{{ '/?tag=' | append: tag | relative_url }}">{{ tag }}</a>{% endfor %}
   </p>
   {% endif %}
+  <button type="button" class="print-list-toggle" data-id="{{ listing.id }}">Add to print list</button>
 </div>
 {% else %}
 <p>No listings yet — this directory is just getting started.</p>

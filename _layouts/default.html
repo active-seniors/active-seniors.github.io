@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;900&family=Atkinson+Hyperlegible:wght@400;700&display=swap">
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <script src="{{ '/assets/js/print-list.js' | relative_url }}" defer></script>
 </head>
 <body>
   <div class="wip-banner">Work in progress — most listings here were found automatically and have not yet been individually checked by a person. Nothing should be treated as verified or complete yet.</div>
@@ -30,6 +31,7 @@
         <a href="{{ '/' | relative_url }}">All listings</a>
         <a href="{{ '/tags/' | relative_url }}">Browse by tag</a>
         <a href="{{ '/submit/' | relative_url }}">Submit a listing</a>
+        <a href="{{ '/print-list/' | relative_url }}">Print list <span class="print-list-count" hidden>0</span></a>
       </nav>
     </header>
     <main>
