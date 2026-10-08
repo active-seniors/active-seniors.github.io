@@ -32,11 +32,10 @@ discovery:
   - 'Web check 8 Oct 2026: organiser name from https://cinnamon.org.uk/contact-us/'
   - 'Web check 8 Oct 2026: suitability from https://cinnamon.org.uk'
 editorial_flag:
-  status: needs-discussion
-  reason: Nationally runs a scheme where volunteers help housebound older people with
-    pet care, which would fit well, but this listing's text has no specific local
-    activity or sign-up route — worth checking it actually operates here.
+  status: on-hold
+  reason: "On hold. Volunteer pet care for older owners would fit, but only if the scheme runs in Guernsey. Confirm with the organisation."
   flagged_date: '2026-10-08'
+  reviewed_by: Nick Mann, 8 Oct 2026
 ---
 
 It is widely acknowledged that pets can positively benefit the well-being of elderly owners. For many elderly people living on their own, their pets are their reason for living. They are constant companions – on hand 24 hours a day, every day, comforting, loving and protecting their owners – not only from outside threats, but also offering the more subtle form of protection from loneliness and despair.

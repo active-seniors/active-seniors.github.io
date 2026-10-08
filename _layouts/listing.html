@@ -13,11 +13,11 @@ layout: default
     <span class="verify-badge">Not yet verified</span>
   {% endif %}
 
-  {% if page.editorial_flag %}
-    <p class="editorial-flag-banner">
-      ⚠ Flagged for editorial review ({{ page.editorial_flag.status }}): {{ page.editorial_flag.reason }}
-    </p>
-  {% endif %}
+  {% comment %}
+    editorial_flag in a listing's frontmatter is an internal note for editors
+    (see planning/listing-relevance-review.md). It is deliberately not shown
+    on the public page, which the GP trial and the public both see.
+  {% endcomment %}
 
   <h2>{{ page.title }}</h2>
 

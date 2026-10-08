@@ -27,9 +27,10 @@ discovery:
   - Available both in person and online.
   - Health Connections shows this as last updated 9 months ago.
 editorial_flag:
-  status: recommend-removal
-  reason: Private clinical treatment appointment, not a group activity.
+  status: on-hold
+  reason: "On hold. Acupuncture clinic; keep only if it runs Qigong or Tai Chi classes people can join. Confirm with the organiser."
   flagged_date: '2026-10-08'
+  reviewed_by: Nick Mann, 8 Oct 2026
 ---
 
 Acupuncture and Oriental Medicine has roots dating back over 4,000 years. Its origins lay in ancient Chinese culture, and over the centuries, it spread widely throughout southeast Asia and Japan. There are Five Pillars of Oriental Medicine. These are Energetic Medicine (Qigong, Taijiquan), Bodywork (Shiatsu, Tui Na), Nutrition, Herbal Medicine, and Acupuncture. We offer all five of these treatment modalities.
