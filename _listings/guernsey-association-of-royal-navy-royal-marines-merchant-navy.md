@@ -5,7 +5,7 @@ status: active
 source: discovered
 category: society
 tags:
-- older-people
+- social-clubs
 organiser:
   name: Guernsey Association of Royal Navy, Royal Marines & Merchant Navy
   website: https://charity.org.gg/charities/91/guernsey-association-of-royal-navy-royal-marines-merchant-navy
@@ -19,10 +19,10 @@ discovery:
   source_url: https://charity.org.gg/charities/91/guernsey-association-of-royal-navy-royal-marines-merchant-navy
   scraped_date: '2026-10-08'
   notes:
-  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it is running:
-    Charity listing updated 19 May 2026.'
-  - 'Why it suits older people: Gives naval and merchant navy veterans companionship, a role
-    in commemorations and welfare support.'
+  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it
+    is running: Charity listing updated 19 May 2026.'
+  - 'Why it suits older people: Gives naval and merchant navy veterans companionship,
+    a role in commemorations and welfare support.'
   - 'Source: https://charity.org.gg/charities/91/guernsey-association-of-royal-navy-royal-marines-merchant-navy'
 ---
 

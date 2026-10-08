@@ -5,8 +5,7 @@ status: active
 source: discovered
 category: volunteering
 tags:
-- older-people
-- volunteering-and-giving
+- volunteering
 location:
   venue: St Kitts, 5 George Road
   parish: St Peter Port
@@ -22,10 +21,10 @@ discovery:
   source_url: https://charity.org.gg/charities/113/guernsey-botanical-trust-lbg
   scraped_date: '2026-10-08'
   notes:
-  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it is running:
-    Charity listing updated 19 May 2026.'
-  - 'Why it suits older people: The trust promotes gardening for people of all ages and abilities
-    for physical and mental wellbeing.'
+  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it
+    is running: Charity listing updated 19 May 2026.'
+  - 'Why it suits older people: The trust promotes gardening for people of all ages
+    and abilities for physical and mental wellbeing.'
   - 'Source: https://charity.org.gg/charities/113/guernsey-botanical-trust-lbg'
 ---
 

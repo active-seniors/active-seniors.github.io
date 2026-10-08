@@ -5,9 +5,10 @@ status: active
 source: discovered
 category: other
 tags:
-- older-people
+- learning-talks
 location:
-  venue: Connect Space, Health Connections Shop, Beatrice House, 11 The Pollet, St Peter Port
+  venue: Connect Space, Health Connections Shop, Beatrice House, 11 The Pollet, St
+    Peter Port
   parish: St Peter Port
 schedule:
   frequency: weekly
@@ -29,10 +30,10 @@ discovery:
   source_url: https://healthconnections.gg/?p=497
   scraped_date: '2026-10-08'
   notes:
-  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it is running:
-    2025.'
-  - 'Why it suits older people: Open to everyone, with informal help in a relaxed town-centre
-    space; no booking needed (healthconnections.gg).'
+  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it
+    is running: 2025.'
+  - 'Why it suits older people: Open to everyone, with informal help in a relaxed
+    town-centre space; no booking needed (healthconnections.gg).'
   - 'Source: https://healthconnections.gg/?p=497'
   - 'Source: https://healthconnections.gg/?p=12376'
 ---

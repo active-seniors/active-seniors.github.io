@@ -5,11 +5,10 @@ status: active
 source: discovered
 category: volunteering
 tags:
-- older-people
-- volunteering-and-giving
+- volunteering
 location:
-  venue: Various sites around Guernsey; meeting point and directions supplied by the Operations
-    Director
+  venue: Various sites around Guernsey; meeting point and directions supplied by the
+    Operations Director
 schedule:
   frequency: Weekly on Wednesdays, plus alternate Saturdays
   day: Wednesday; alternate Saturdays
@@ -28,11 +27,11 @@ discovery:
   source_url: https://gcv.org.uk
   scraped_date: '2026-10-08'
   notes:
-  - 'Found by web search, 8 Oct 2026 (confidence: high). Most recent evidence it is running:
-    2026-05-19.'
-  - 'Why it suits older people: Volunteers range from 16 to 60+ and no experience is needed,
-    with training at the start of each session; work parties last about two hours and include
-    a mid-morning break with a chat (gcv.org.uk, charity.org.gg).'
+  - 'Found by web search, 8 Oct 2026 (confidence: high). Most recent evidence it is
+    running: 2026-05-19.'
+  - 'Why it suits older people: Volunteers range from 16 to 60+ and no experience
+    is needed, with training at the start of each session; work parties last about
+    two hours and include a mid-morning break with a chat (gcv.org.uk, charity.org.gg).'
   - 'Source: https://gcv.org.uk'
   - 'Source: https://charity.org.gg/charities/87/guernsey-conservation-volunteers'
   - 'Source: https://healthconnections.gg/guernsey-conservation-volunteers/'

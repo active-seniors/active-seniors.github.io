@@ -5,8 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- older-people
-- physical-activity
+- sport-fitness
 location:
   venue: Beau Sejour Leisure Centre, Amherst, St Peter Port GUERNSEY. GY1 2DL
   parish: St Peter Port
@@ -25,6 +24,8 @@ discovery:
   notes:
   - Listed as paid; exact price not stated on source page.
   - Health Connections shows this as last updated 9 months ago.
+accessibility:
+  physical_intensity: low
 ---
 
 Is a class for people who wish to complete an exercise class which is predominantly seated with a small portion of the class standing, holding on to the chair. The class is focused on improving flexibility, strength and coordination.

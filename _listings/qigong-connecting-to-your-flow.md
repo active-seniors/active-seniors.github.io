@@ -5,10 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- alderney
-- complementary-therapies
-- mindfulness-meditation
-- physical-activity
+- mindfulness-relaxation
 location:
   venue: Methodist Church Hall, Alderney
 organiser:

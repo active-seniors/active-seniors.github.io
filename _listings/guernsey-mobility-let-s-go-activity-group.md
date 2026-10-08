@@ -5,8 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- disability
-- physical-activity
+- sport-fitness
 location:
   venue: David Ferguson Hall, Beau Sejour, Amherst, GY1 2DL
   parish: St Peter Port
@@ -41,8 +40,8 @@ discovery:
   - 'Web check 8 Oct 2026: website from https://gmlg.org.gg/ (was: https://gmlg.org.gg/#contact)'
   - 'Web check 8 Oct 2026: organiser name from https://gmlg.org.gg/'
   - 'Web check 8 Oct 2026: suitability from https://gmlg.org.gg/'
-  - 'Web check 8 Oct 2026: venue from https://gmlg.org.gg/ (was: Beau Sejour Amherst, St.
-    Peter Port GY1 2DL)'
+  - 'Web check 8 Oct 2026: venue from https://gmlg.org.gg/ (was: Beau Sejour Amherst,
+    St. Peter Port GY1 2DL)'
 ---
 
 Held every Tuesday from 13.00 to 14.00 at Beau Sejour, we play all kinds of adapted sports such as football, tennis, bowling, basketball, parachute and other games. If you would like to join us or would like more information please contact Janina Almeida:

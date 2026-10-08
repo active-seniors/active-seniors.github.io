@@ -5,7 +5,7 @@ status: active
 source: discovered
 category: society
 tags:
-- older-people
+- social-clubs
 location:
   venue: Various; North WI meets at the Vale Douzaine room
 schedule:
@@ -24,11 +24,11 @@ discovery:
   source_url: https://healthconnections.gg/womens-institute
   scraped_date: '2026-10-08'
   notes:
-  - 'Found by web search, 8 Oct 2026 (confidence: high). Most recent evidence it is running:
-    2026-01-14.'
-  - 'Why it suits older people: Long-running women''s social and learning organisation open
-    to women of all ages, with monthly meetings in local parishes (Health Connections listing;
-    Guernsey Press 2026).'
+  - 'Found by web search, 8 Oct 2026 (confidence: high). Most recent evidence it is
+    running: 2026-01-14.'
+  - 'Why it suits older people: Long-running women''s social and learning organisation
+    open to women of all ages, with monthly meetings in local parishes (Health Connections
+    listing; Guernsey Press 2026).'
   - 'Source: https://healthconnections.gg/womens-institute'
   - 'Source: https://guernseypress.com/news/2026/01/14/wi-establishes-a-new-group-in-the-vale'
   - 'Source: https://www.library.gg/events/event/silent-book-club-21'

@@ -5,7 +5,7 @@ status: active
 source: discovered
 category: social
 tags:
-- older-people
+- walking
 schedule:
   frequency: weekly
 cost:
@@ -25,8 +25,8 @@ discovery:
   source_url: https://healthconnections.gg/club-bon-amis/
   scraped_date: '2026-10-08'
   notes:
-  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it is running:
-    undated Health Connections listing (checked 2026-10).'
+  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it
+    is running: undated Health Connections listing (checked 2026-10).'
   - 'Why it suits older people: Membership is for people aged 50+.'
   - 'Source: https://healthconnections.gg/club-bon-amis/'
 ---

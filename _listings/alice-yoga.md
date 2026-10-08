@@ -5,18 +5,17 @@ status: active
 source: discovered
 category: sports
 tags:
-- complementary-therapies
-- physical-activity
+- mindfulness-relaxation
 location:
-  venue: St Martins Community Centre; Beaucamps Hall; Cobo Community Centre; Capelles Church
-    Hall
+  venue: St Martins Community Centre; Beaucamps Hall; Cobo Community Centre; Capelles
+    Church Hall
   area_notes: Several venues
 schedule:
   frequency: weekly
   day: Tuesday, Wednesday, Saturday
-  time: Tue 13:30-14:30 Hatha (St Martins Community Centre); Tue 18:15-19:45 Hatha Vinyasa
-    (Beaucamps Hall); Wed 13:15-14:15 Hatha Vinyasa (Cobo Community Centre); Sat 10:00-11:00
-    (Capelles Church Hall)
+  time: Tue 13:30-14:30 Hatha (St Martins Community Centre); Tue 18:15-19:45 Hatha
+    Vinyasa (Beaucamps Hall); Wed 13:15-14:15 Hatha Vinyasa (Cobo Community Centre);
+    Sat 10:00-11:00 (Capelles Church Hall)
 cost:
   amount: 14
   currency: GBP
@@ -43,8 +42,8 @@ discovery:
   - 'Web check 8 Oct 2026: schedule from https://aliceyoga.com/class-timetable-2026'
   - 'Web check 8 Oct 2026: cost from https://aliceyoga.com/class-timetable-2026'
   - 'Web check 8 Oct 2026: suitability from https://aliceyoga.com/class-timetable-2026'
-  - 'Web check 8 Oct 2026: venue from https://aliceyoga.com/class-timetable-2026 (was: St
-    Martins, Les Beaucamps, St Peter Port, St. Sampsons and Cobo)'
+  - 'Web check 8 Oct 2026: venue from https://aliceyoga.com/class-timetable-2026 (was:
+    St Martins, Les Beaucamps, St Peter Port, St. Sampsons and Cobo)'
 ---
 
 Guernsey Hatha Vinyasa Yoga teacher with over 10 years' experience. Also teaches meditation, Yin Yoga, SUP and SUP yoga and available for corporate classes. Alice is also a Thai Yoga Massage therapist

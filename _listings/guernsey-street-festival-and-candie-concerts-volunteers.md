@@ -5,8 +5,7 @@ status: active
 source: discovered
 category: volunteering
 tags:
-- older-people
-- volunteering-and-giving
+- volunteering
 location:
   venue: St Peter Port town centre and Candie Gardens
   parish: St Peter Port
@@ -23,11 +22,11 @@ discovery:
   source_url: https://guernseypress.com/news/2026/06/06/absolutely-everything-we-do-depends-on-our-volunteers
   scraped_date: '2026-10-08'
   notes:
-  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it is running:
-    2026-06-06.'
-  - 'Why it suits older people: The charity always needs more helpers, especially for the
-    Sunday Candie Concerts, which suit people who would rather avoid the heavy lifting of
-    festival set-up (Guernsey Press, June 2026).'
+  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it
+    is running: 2026-06-06.'
+  - 'Why it suits older people: The charity always needs more helpers, especially
+    for the Sunday Candie Concerts, which suit people who would rather avoid the heavy
+    lifting of festival set-up (Guernsey Press, June 2026).'
   - 'Source: https://guernseypress.com/news/2026/06/06/absolutely-everything-we-do-depends-on-our-volunteers'
 ---
 

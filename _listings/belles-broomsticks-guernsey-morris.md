@@ -5,9 +5,8 @@ status: active
 source: discovered
 category: sports
 tags:
-- connect-befriending
-- physical-activity
-- stress-anxiety-depression
+- dance
+- social-clubs
 location:
   venue: Torteval Church Hall (weekly practice)
   parish: Torteval

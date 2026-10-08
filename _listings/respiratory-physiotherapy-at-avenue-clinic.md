@@ -5,8 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- heart-lungs
-- physical-activity
+- sport-fitness
 location:
   venue: St Julian's Avenue, St Peter Port, Guernsey, GY1 1GZ
   parish: St Peter Port

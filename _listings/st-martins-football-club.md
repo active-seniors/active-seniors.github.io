@@ -5,7 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- physical-activity
+- sport-fitness
 location:
   venue: Blanche Pierre Lane, St Martin, Guernsey GY4 6RZ
   parish: St Martin

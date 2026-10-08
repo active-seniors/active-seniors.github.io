@@ -5,8 +5,7 @@ status: active
 source: discovered
 category: volunteering
 tags:
-- older-people
-- volunteering-and-giving
+- volunteering
 schedule:
   frequency: varies
 cost:
@@ -26,10 +25,11 @@ discovery:
   source_url: https://guernseypress.com/news/2026/03/17/biological-records-centre-is-back-up-and-running
   scraped_date: '2026-10-08'
   notes:
-  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it is running:
-    2026-03-17.'
-  - 'Why it suits older people: Anyone can do this flexibly on their own walks or in the garden,
-    at their own pace. Fit for older people is inferred, not stated in the source.'
+  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it
+    is running: 2026-03-17.'
+  - 'Why it suits older people: Anyone can do this flexibly on their own walks or
+    in the garden, at their own pace. Fit for older people is inferred, not stated
+    in the source.'
   - 'Source: https://guernseypress.com/news/2026/03/17/biological-records-centre-is-back-up-and-running'
 ---
 

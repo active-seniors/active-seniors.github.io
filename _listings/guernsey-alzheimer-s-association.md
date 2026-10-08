@@ -5,11 +5,10 @@ status: active
 source: discovered
 category: social
 tags:
-- neurological-conditions-alzheimers-brain-injury-epilepsy-motor-neurone-disease-multiple-sclerosis-parkinson-s-stroke
-- older-people
+- mindfulness-relaxation
 location:
-  venue: The Guernsey Alzheimers Association LBG The Centre, Rue des Monts, Delancey St Sampson,
-    Guernsey, GY2 4HU
+  venue: The Guernsey Alzheimers Association LBG The Centre, Rue des Monts, Delancey
+    St Sampson, Guernsey, GY2 4HU
   parish: St Sampson
 schedule:
   frequency: weekly

@@ -5,8 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- older-people
-- physical-activity
+- swimming-water-sports
 location:
   venue: St Sampson High School pool
   parish: St Sampson
@@ -26,10 +25,11 @@ discovery:
   source_url: https://guernseyswimming.com/masters/
   scraped_date: '2026-10-08'
   notes:
-  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it is running:
-    Masters Meet 20-22 March 2026 listed on club page.'
-  - 'Why it suits older people: Masters swimming is for adults (18+ for the meet) and is a
-    regular structured swim option for older adults; no upper age limit is stated.'
+  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it
+    is running: Masters Meet 20-22 March 2026 listed on club page.'
+  - 'Why it suits older people: Masters swimming is for adults (18+ for the meet)
+    and is a regular structured swim option for older adults; no upper age limit is
+    stated.'
   - 'Source: https://guernseyswimming.com/masters/'
 ---
 

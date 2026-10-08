@@ -5,8 +5,7 @@ status: active
 source: discovered
 category: social
 tags:
-- learning-and-skills
-- older-people
+- learning-talks
 location:
   venue: Rosaire Avenue, just off Brock Road in St Peter Port.
   parish: St Peter Port

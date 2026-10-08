@@ -5,8 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- children-young-people-and-families
-- physical-activity
+- sport-fitness
 cost:
   notes: Both free and paid options available — see source for details.
 organiser:

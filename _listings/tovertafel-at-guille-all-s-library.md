@@ -5,9 +5,7 @@ status: active
 source: discovered
 category: social
 tags:
-- community-centres
-- neurological-conditions-alzheimers-brain-injury-epilepsy-motor-neurone-disease-multiple-sclerosis-parkinson-s-stroke
-- older-people
+- learning-talks
 location:
   venue: La Nouvelle Maraitaine, Rue Maraitaine, Vale, GY3 5QD
   parish: Vale

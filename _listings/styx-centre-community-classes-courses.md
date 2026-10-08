@@ -5,10 +5,8 @@ status: active
 source: discovered
 category: social
 tags:
-- community-centres
-- connect-befriending
-- learning-and-skills
-- older-people
+- learning-talks
+- social-clubs
 location:
   venue: St Peters
   parish: St Pierre du Bois

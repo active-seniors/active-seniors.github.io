@@ -5,7 +5,7 @@ status: active
 source: discovered
 category: social
 tags:
-- older-people
+- sport-fitness
 location:
   venue: Shorncliffe, The Rohais
   parish: St Peter Port
@@ -29,8 +29,8 @@ discovery:
   source_url: https://healthconnections.gg/guernsey-cheshire-home
   scraped_date: '2026-10-08'
   notes:
-  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it is running:
-    Charity listing updated 19 May 2026.'
+  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it
+    is running: Charity listing updated 19 May 2026.'
   - 'Why it suits older people: Open to adults aged 18 to 65+ with a physical disability.
     It offers social activities and a meal, and gives carers a break.'
   - 'Source: https://healthconnections.gg/guernsey-cheshire-home'

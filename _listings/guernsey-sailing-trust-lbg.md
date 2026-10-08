@@ -5,8 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- disability
-- physical-activity
+- swimming-water-sports
 location:
   venue: Castle Emplacement St Peter Port Guernsey GY1 1AU
   parish: St Peter Port

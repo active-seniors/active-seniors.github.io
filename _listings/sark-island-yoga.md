@@ -5,8 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- physical-activity
-- sark
+- mindfulness-relaxation
 location:
   venue: Island Hall, Sark
 schedule:

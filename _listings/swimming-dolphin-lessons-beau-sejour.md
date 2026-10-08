@@ -5,9 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- disability
-- learning-disabilities
-- physical-activity
+- swimming-water-sports
 location:
   venue: Beau Sejour Leisure Centre
   parish: St Peter Port

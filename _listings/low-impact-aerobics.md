@@ -5,7 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- physical-activity
+- sport-fitness
 organiser:
   website: https://beausejour.gg/activehealth
   contact_phone: 01481 220508
@@ -21,6 +21,8 @@ discovery:
   notes:
   - Listed as paid; exact price not stated on source page.
   - Health Connections shows this as last updated 9 months ago.
+accessibility:
+  physical_intensity: low
 ---
 
 A class for people who would like to take part in a low impact aerobics style class.

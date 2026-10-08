@@ -5,7 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- physical-activity
+- walking
 location:
   venue: Various Locations In Guernsey
 schedule:

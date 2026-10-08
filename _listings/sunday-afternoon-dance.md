@@ -5,9 +5,8 @@ status: active
 source: discovered
 category: sports
 tags:
-- connect-befriending
-- music-singing-and-dance
-- physical-activity
+- dance
+- social-clubs
 location:
   venue: St Martin's Parish Hall
   parish: St Martin

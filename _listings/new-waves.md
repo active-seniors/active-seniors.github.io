@@ -5,9 +5,9 @@ status: active
 source: discovered
 category: sports
 tags:
-- advocacy-and-mentoring
-- complementary-therapies
-- physical-activity
+- mindfulness-relaxation
+- social-clubs
+- sport-fitness
 cost:
   notes: Both free and paid options available — see source for details.
 organiser:
@@ -25,10 +25,12 @@ discovery:
   notes:
   - Online only — not an in-person activity.
   - Health Connections shows this as last updated 9 months ago.
-  - 'Web check 8 Oct 2026 CHECK: Website appears little-updated: blog posts dated 2020, copyright
-    2022. Offerings are mostly 1:1/online coaching (personal training, wellness and nutrition
-    coaching, online women''s strength programme) with no group class timetable published.
-    (https://www.newwaveswellness.com/)'
+  - 'Web check 8 Oct 2026 CHECK: Website appears little-updated: blog posts dated
+    2020, copyright 2022. Offerings are mostly 1:1/online coaching (personal training,
+    wellness and nutrition coaching, online women''s strength programme) with no group
+    class timetable published. (https://www.newwaveswellness.com/)'
+suitable_for:
+- online-option
 ---
 
 I’m a holistic health & fitness coach. I help people to make gradual, positive changes in their life, through 1:1 coaching, group fitness and online programmes. Rather than striving for unrealistic ‘perfection’ in one area, such as diet, we take a more holistic approach and strive for balance and long-term change across our whole lives. There are many small, achievable tweaks we can all make that can have a significant impact on how we feel.

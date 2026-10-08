@@ -5,13 +5,11 @@ status: active
 source: discovered
 category: social
 tags:
-- connect-befriending
-- cooking-and-food
-- day-centres
-- older-people
+- cooking-food
+- social-clubs
 location:
-  venue: Jubilee Social Club, Grandes Maisons Road (St Sampson); Russels Social Club, Le Grand
-    Courtil (St Martin)
+  venue: Jubilee Social Club, Grandes Maisons Road (St Sampson); Russels Social Club,
+    Le Grand Courtil (St Martin)
   area_notes: Two social clubs
 schedule:
   frequency: weekly
@@ -36,10 +34,12 @@ discovery:
   - 'Other contacts on source page: admin@gvs.org.gg, 01481 246045, 01481 238055'
   - Health Connections shows this as last updated 9 months ago.
   - 'Web check 8 Oct 2026: schedule from https://www.gvs.org.gg/social-clubs'
-  - 'Web check 8 Oct 2026: website from https://www.gvs.org.gg/social-clubs (was: http://www.gvs.org.gg/)'
+  - 'Web check 8 Oct 2026: website from https://www.gvs.org.gg/social-clubs (was:
+    http://www.gvs.org.gg/)'
   - 'Web check 8 Oct 2026: suitability from https://www.gvs.org.gg/social-clubs'
-  - 'Web check 8 Oct 2026: venue from https://www.gvs.org.gg/social-clubs (was: Guernsey Voluntary
-    Service, Jubilee House, Grandes Maisons Road, St. Sampsons, Guernsey, GY2 4JH)'
+  - 'Web check 8 Oct 2026: venue from https://www.gvs.org.gg/social-clubs (was: Guernsey
+    Voluntary Service, Jubilee House, Grandes Maisons Road, St. Sampsons, Guernsey,
+    GY2 4JH)'
 ---
 
 Offers a variety of services Meals on Wheels, Bathing Services, Blood Doning Service as well as Social Clubs. The two social clubs provide a meeting place for people to enjoy company and activities. For age 65+. There is a small charge for the day which covers meals and facilities: The Jubilee Social club at Jubilee House, Grandes Maisons Road, St. Sampson is The Russel Social Club at Le Grand Courtil, St Martins.

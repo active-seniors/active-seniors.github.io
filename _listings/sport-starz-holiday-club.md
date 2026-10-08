@@ -5,10 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- childcare
-- children-young-people-and-families
-- physical-activity
-- staycation
+- sport-fitness
 location:
   venue: KGV or Beau Séjour
 cost:

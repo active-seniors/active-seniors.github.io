@@ -5,11 +5,11 @@ status: active
 source: discovered
 category: sports
 tags:
-- physical-activity
-- volunteering-and-giving
+- volunteering
+- walking
 location:
-  venue: c/o Saffery Champness, PO Box 141, La Tonnelle House, Les Banques, St Sampsons, GY1
-    3HS SAVE THE DATE FOR THE 2026 WALK Saturday, 6th June 2026
+  venue: c/o Saffery Champness, PO Box 141, La Tonnelle House, Les Banques, St Sampsons,
+    GY1 3HS SAVE THE DATE FOR THE 2026 WALK Saturday, 6th June 2026
   parish: St Sampson
 cost:
   notes: Both free and paid options available — see source for details.

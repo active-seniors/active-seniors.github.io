@@ -5,13 +5,10 @@ status: active
 source: discovered
 category: sports
 tags:
-- disability
-- home-from-hospital-help-at-home
-- mobility
-- older-people
+- walking
 location:
-  venue: Mercury Distribution Guernsey, Pitronnerie Road Industrial Estate, St Peter Port,
-    Guernsey, GY1 2RH
+  venue: Mercury Distribution Guernsey, Pitronnerie Road Industrial Estate, St Peter
+    Port, Guernsey, GY1 2RH
   parish: St Peter Port
 cost:
   notes: Both free and paid options available — see source for details.

@@ -5,7 +5,7 @@ status: active
 source: discovered
 category: social
 tags:
-- older-people
+- social-clubs
 location:
   venue: St John's Church, Les Amballes
   parish: St Peter Port
@@ -31,9 +31,10 @@ discovery:
   source_url: https://www.achurchnearyou.com/church/18545/service-and-events/events/1065047/
   scraped_date: '2026-10-08'
   notes:
-  - 'Found by web search, 8 Oct 2026 (confidence: high). Most recent evidence it is running:
-    2026-10-14 (next listed date).'
-  - 'Why it suits older people: Free daytime drop-in with games and puzzles, open to all.'
+  - 'Found by web search, 8 Oct 2026 (confidence: high). Most recent evidence it is
+    running: 2026-10-14 (next listed date).'
+  - 'Why it suits older people: Free daytime drop-in with games and puzzles, open
+    to all.'
   - 'Source: https://www.achurchnearyou.com/church/18545/service-and-events/events/1065047/'
   - 'Source: https://stjohns.org.gg'
 ---

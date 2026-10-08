@@ -5,7 +5,7 @@ status: active
 source: discovered
 category: social
 tags:
-- older-people
+- social-clubs
 location:
   venue: Forest Methodist Church
   parish: Forest
@@ -25,10 +25,10 @@ discovery:
   source_url: https://www.methodist.org.gg/churches/forest/whats-on/default.aspx
   scraped_date: '2026-10-08'
   notes:
-  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it is running:
-    2026 (circuit site carries Aug 2026 items).'
-  - 'Why it suits older people: Social group with lunches, coffee mornings and talks; women
-    only.'
+  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it
+    is running: 2026 (circuit site carries Aug 2026 items).'
+  - 'Why it suits older people: Social group with lunches, coffee mornings and talks;
+    women only.'
   - 'Source: https://www.methodist.org.gg/churches/forest/whats-on/default.aspx'
 ---
 

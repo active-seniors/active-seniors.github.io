@@ -5,8 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- alderney
-- physical-activity
+- walking
 location:
   venue: various locations within the Bailiwick
 cost:

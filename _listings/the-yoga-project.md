@@ -5,8 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- mindfulness-meditation
-- physical-activity
+- mindfulness-relaxation
 organiser:
   website: https://www.yogaproject.com/
 verification:

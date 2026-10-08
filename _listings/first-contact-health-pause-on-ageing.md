@@ -5,9 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- mobility
-- older-people
-- physical-activity
+- sport-fitness
 location:
   venue: Weighbridge House, Lower Pollet, St Peter Port GY1 1WL
   parish: St Peter Port
@@ -29,9 +27,11 @@ discovery:
   - Available both in person and online.
   - Health Connections shows this as last updated 9 months ago.
   - 'Web check 8 Oct 2026: venue from https://guernseychamber.com/member/first-contact-health/'
-  - 'Web check 8 Oct 2026 CHECK: First Contact Health homepage and Chamber listing do not
-    mention Pause on Ageing; dedicated page could not be fetched; no press coverage found.
-    Programme may no longer be offered. (http://www.firstcontacthealth.com)'
+  - 'Web check 8 Oct 2026 CHECK: First Contact Health homepage and Chamber listing
+    do not mention Pause on Ageing; dedicated page could not be fetched; no press
+    coverage found. Programme may no longer be offered. (http://www.firstcontacthealth.com)'
+accessibility:
+  physical_intensity: low
 ---
 
 You can then choose: One to one individual sessions with our specialist physiotherapist Group activities with new friends targeting your individual needs Home exercise programmes for you to practice at home with our support Home visits can be arranged as required Whichever options you choose to support your independence, we offer free regular reviews so that you remain in charge of your ageing. Make your friends and family proud, make yourself proud, put a pause on ageing!

@@ -5,8 +5,7 @@ status: active
 source: discovered
 category: volunteering
 tags:
-- older-people
-- volunteering-and-giving
+- volunteering
 schedule:
   frequency: weekly
   time: Lunchtime, sometimes evening
@@ -22,10 +21,10 @@ discovery:
   source_url: https://guernseypress.com/island-life/2026/02/23/rotary-club-is-like-a-great-big-family
   scraped_date: '2026-10-08'
   notes:
-  - 'Found by web search, 8 Oct 2026 (confidence: high). Most recent evidence it is running:
-    2026-02-23.'
-  - 'Why it suits older people: Weekly social meetings plus purposeful volunteering; members
-    describe it as ''like a great big family'' (Guernsey Press, Feb 2026).'
+  - 'Found by web search, 8 Oct 2026 (confidence: high). Most recent evidence it is
+    running: 2026-02-23.'
+  - 'Why it suits older people: Weekly social meetings plus purposeful volunteering;
+    members describe it as ''like a great big family'' (Guernsey Press, Feb 2026).'
   - 'Source: https://guernseypress.com/island-life/2026/02/23/rotary-club-is-like-a-great-big-family'
   - 'Source: https://charity.org.gg/charities/12/rotary-club-of-guernsey'
   - 'Source: https://governmenthouse.gg/articles/the-rotary-club-of-guernsey-turns-100/'

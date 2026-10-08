@@ -5,7 +5,7 @@ status: active
 source: discovered
 category: arts-hobby
 tags:
-- older-people
+- singing-music
 organiser:
   name: Guernsey Welsh Male Voice Choir
   website: https://guernseywelshchoir.com/
@@ -20,10 +20,11 @@ discovery:
   source_url: https://www.arts.gg/talent/guernsey-welsh-male-voice-choir/
   scraped_date: '2026-10-08'
   notes:
-  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it is running:
-    Concert listed in St Saviour''s Church Concert Series 2026.'
-  - 'Why it suits older people: Membership is open to non-Welsh singers, so any man who enjoys
-    singing can join. It offers regular rehearsals, performances and social contact.'
+  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it
+    is running: Concert listed in St Saviour''s Church Concert Series 2026.'
+  - 'Why it suits older people: Membership is open to non-Welsh singers, so any man
+    who enjoys singing can join. It offers regular rehearsals, performances and social
+    contact.'
   - 'Source: https://www.arts.gg/talent/guernsey-welsh-male-voice-choir/'
   - 'Source: https://guernseywelshchoir.com/'
   - 'Source: https://guernseywelshchoir.com/contact/'

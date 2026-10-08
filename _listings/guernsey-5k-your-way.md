@@ -5,8 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- cancer
-- physical-activity
+- walking
 location:
   venue: By the bag drop next to The Beach House, Pembroke Bay, Vale, GY3 5BY
   parish: Vale

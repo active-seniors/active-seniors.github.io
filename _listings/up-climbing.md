@@ -5,21 +5,21 @@ status: active
 source: discovered
 category: sports
 tags:
-- children-young-people-and-families
-- physical-activity
+- sport-fitness
 location:
   venue: The Galaad Chapel, Rue de Galaad, GY5 7FJ
   parish: Castel
 schedule:
   frequency: varies
   day: Daily
-  time: 'Winter hours: Mon-Fri 10:00-20:30, Sat-Sun 09:00-18:30; last entry 1 hour before
-    close'
+  time: 'Winter hours: Mon-Fri 10:00-20:30, Sat-Sun 09:00-18:30; last entry 1 hour
+    before close'
 cost:
   amount: 13
   currency: GBP
-  notes: Adult induction/climb £13; concession £10 (concession covers over-65s and disabled
-    badge holders); 10-for-9 pass £117 adult/£90 concession; monthly membership £40 adult
+  notes: Adult induction/climb £13; concession £10 (concession covers over-65s and
+    disabled badge holders); 10-for-9 pass £117 adult/£90 concession; monthly membership
+    £40 adult
 accessibility:
   physical_intensity: moderate
 suitable_for:
@@ -41,7 +41,8 @@ discovery:
   - Health Connections shows this as last updated 8 months ago.
   - 'Web check 8 Oct 2026: schedule from https://upclimbing.gg'
   - 'Web check 8 Oct 2026: cost from https://upclimbing.gg/prices'
-  - 'Web check 8 Oct 2026: contact_phone from https://upclimbing.gg (was: +44 1481 255799)'
+  - 'Web check 8 Oct 2026: contact_phone from https://upclimbing.gg (was: +44 1481
+    255799)'
   - 'Web check 8 Oct 2026: venue from https://upclimbing.gg'
   - 'Web check 8 Oct 2026: suitability from https://upclimbing.gg/prices'
 ---

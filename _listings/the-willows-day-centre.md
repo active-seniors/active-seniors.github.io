@@ -5,8 +5,7 @@ status: active
 source: discovered
 category: social
 tags:
-- day-centres
-- older-people
+- social-clubs
 location:
   venue: La Nouvelle Maraitaine, Maraitaine Road, Vale, Guernsey GY3 5QD
   parish: Vale

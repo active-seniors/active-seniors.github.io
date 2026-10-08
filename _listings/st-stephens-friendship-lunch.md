@@ -5,7 +5,7 @@ status: active
 source: discovered
 category: social
 tags:
-- older-people
+- social-clubs
 location:
   venue: St Stephen's Community Centre, St Stephen's Lane
   parish: St Peter Port
@@ -30,10 +30,10 @@ discovery:
   source_url: https://st-stephens-guernsey.org/453/Friendship-Lunch
   scraped_date: '2026-10-08'
   notes:
-  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it is running:
-    undated church page, current site (checked 2026-10).'
-  - 'Why it suits older people: Sit-down midday meal aimed at meeting new people; suits those
-    living alone.'
+  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it
+    is running: undated church page, current site (checked 2026-10).'
+  - 'Why it suits older people: Sit-down midday meal aimed at meeting new people;
+    suits those living alone.'
   - 'Source: https://st-stephens-guernsey.org/453/Friendship-Lunch'
 ---
 

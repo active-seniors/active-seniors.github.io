@@ -5,8 +5,7 @@ status: active
 source: discovered
 category: social
 tags:
-- hearing-sight
-- older-people
+- learning-talks
 cost:
   amount: 0
   currency: GBP

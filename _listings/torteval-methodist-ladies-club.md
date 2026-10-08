@@ -5,7 +5,7 @@ status: active
 source: discovered
 category: society
 tags:
-- older-people
+- social-clubs
 location:
   venue: Torteval Methodist Church
   parish: Torteval
@@ -25,8 +25,8 @@ discovery:
   source_url: https://www.methodist.org.gg/churches/torteval/other-activities/default.aspx
   scraped_date: '2026-10-08'
   notes:
-  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it is running:
-    2026 (circuit site carries Aug 2026 items).'
+  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it
+    is running: 2026 (circuit site carries Aug 2026 items).'
   - 'Why it suits older people: Speaker-led social club for women; evening timing.'
   - 'Source: https://www.methodist.org.gg/churches/torteval/other-activities/default.aspx'
 ---

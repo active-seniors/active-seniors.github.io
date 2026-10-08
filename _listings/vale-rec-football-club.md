@@ -5,7 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- physical-activity
+- sport-fitness
 location:
   venue: The Corbet Field, Grand Fort Road, St Sampson, GY2 4FG
   parish: St Sampson

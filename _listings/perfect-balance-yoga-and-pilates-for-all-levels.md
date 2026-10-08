@@ -5,7 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- physical-activity
+- mindfulness-relaxation
 cost:
   notes: Both free and paid options available — see source for details.
 suitable_for:

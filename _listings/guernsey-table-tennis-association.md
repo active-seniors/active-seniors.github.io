@@ -5,8 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- older-people
-- physical-activity
+- sport-fitness
 location:
   venue: Table Tennis Centre, Hougue du Pommier, Vale, Guernsey. GY6 8BD
   parish: Vale

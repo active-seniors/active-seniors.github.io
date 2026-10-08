@@ -5,8 +5,7 @@ status: active
 source: discovered
 category: volunteering
 tags:
-- older-people
-- volunteering-and-giving
+- volunteering
 schedule:
   frequency: Weekly Repair Café, plus a monthly Repair Café and Clothes Swap
 organiser:
@@ -21,11 +20,11 @@ discovery:
   source_url: https://charity.org.gg/charities/265/the-clean-earth-trust
   scraped_date: '2026-10-08'
   notes:
-  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it is running:
-    2026-05-20.'
-  - 'Why it suits older people: A sociable setting where people with practical skills such
-    as sewing or mending can pass them on (Bailiwick Express, charity.org.gg). Current venue
-    and times not confirmed; check the Trust''s website.'
+  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it
+    is running: 2026-05-20.'
+  - 'Why it suits older people: A sociable setting where people with practical skills
+    such as sewing or mending can pass them on (Bailiwick Express, charity.org.gg).
+    Current venue and times not confirmed; check the Trust''s website.'
   - 'Source: https://charity.org.gg/charities/265/the-clean-earth-trust'
   - 'Source: https://www.bailiwickexpress.com/news-ge/clothes-swap-repair-cafe/'
 ---

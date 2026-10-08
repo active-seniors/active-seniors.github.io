@@ -5,7 +5,7 @@ status: active
 source: discovered
 category: arts-hobby
 tags:
-- older-people
+- singing-music
 location:
   venue: Les Ozouets Campus
   parish: St Peter Port
@@ -25,10 +25,10 @@ discovery:
   source_url: http://guernseygleesingers.org/
   scraped_date: '2026-10-08'
   notes:
-  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it is running:
-    2026-07-14.'
-  - 'Why it suits older people: Open to novice singers with no music reading needed; weekly
-    group singing (guernseygleesingers.org).'
+  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it
+    is running: 2026-07-14.'
+  - 'Why it suits older people: Open to novice singers with no music reading needed;
+    weekly group singing (guernseygleesingers.org).'
   - 'Source: http://guernseygleesingers.org/'
   - 'Source: https://charity.org.gg/charities/237/the-guernsey-glee-singers'
 ---

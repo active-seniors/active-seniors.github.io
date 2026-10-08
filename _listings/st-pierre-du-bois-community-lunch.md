@@ -5,7 +5,7 @@ status: active
 source: discovered
 category: social
 tags:
-- older-people
+- social-clubs
 location:
   venue: St Pierre du Bois Vicarage, Rue de l'Eglise
   parish: St Pierre du Bois
@@ -26,9 +26,10 @@ discovery:
   source_url: https://www.achurchnearyou.com/church/18552/service-and-events/
   scraped_date: '2026-10-08'
   notes:
-  - 'Found by web search, 8 Oct 2026 (confidence: high). Most recent evidence it is running:
-    2026-11-04 (next listed date).'
-  - 'Why it suits older people: Daytime monthly lunch in a rural west parish, open to all.'
+  - 'Found by web search, 8 Oct 2026 (confidence: high). Most recent evidence it is
+    running: 2026-11-04 (next listed date).'
+  - 'Why it suits older people: Daytime monthly lunch in a rural west parish, open
+    to all.'
   - 'Source: https://www.achurchnearyou.com/church/18552/service-and-events/'
 ---
 

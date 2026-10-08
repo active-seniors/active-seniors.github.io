@@ -5,9 +5,7 @@ status: active
 source: discovered
 category: social
 tags:
-- connect-befriending
-- mental-health
-- older-people
+- social-clubs
 location:
   venue: Guernsey Western Branch, La Rue de la Fosse, St Saviour GY7 9SU.
   parish: St Saviour

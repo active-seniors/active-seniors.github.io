@@ -5,9 +5,7 @@ status: active
 source: discovered
 category: social
 tags:
-- disability
-- older-people
-- transport
+- social-clubs
 cost:
   notes: Both free and paid options available — see source for details.
 organiser:
@@ -23,9 +21,9 @@ discovery:
   scraped_date: '2026-10-05'
   notes:
   - Available both in person and online.
-  - 'Other contacts on source page: ashleystaxicab@icloud.com, bazzastaxi@gmail.com, harveystaxis@yahoo.com,
-    book@lambournetaxis.co.uk, premiercarslimited@gmail.com, 07781 178178, 07781 169700, 07781
-    406222, 07839 123188, 07781 404100'
+  - 'Other contacts on source page: ashleystaxicab@icloud.com, bazzastaxi@gmail.com,
+    harveystaxis@yahoo.com, book@lambournetaxis.co.uk, premiercarslimited@gmail.com,
+    07781 178178, 07781 169700, 07781 406222, 07839 123188, 07781 404100'
   - 'Unparseable contact text on source page: afaguernseytaxi@amymarieshep95'
   - Health Connections shows this as last updated 9 months ago.
 ---

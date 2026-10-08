@@ -5,9 +5,7 @@ status: active
 source: discovered
 category: social
 tags:
-- community-centres
-- connect-befriending
-- older-people
+- social-clubs
 location:
   venue: Wesley Methodist Church, Grand Bouet, St. Peter Port, Guernsey, GY1 2SE
   parish: St Peter Port

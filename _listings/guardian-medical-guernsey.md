@@ -5,10 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- disability
-- health-supplies
-- mobility
-- older-people
+- social-clubs
 location:
   venue: JJ Fox, Les Bas Courtils, St Sampson, GY2 4BH
   parish: St Sampson

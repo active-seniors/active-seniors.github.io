@@ -5,10 +5,7 @@ status: active
 source: discovered
 category: social
 tags:
-- children-young-people-and-families
-- health-information
-- mental-health
-- older-people
+- social-clubs
 location:
   venue: Guille-Alles Library, Market Street, St Peter Port, Guernsey, GY1 1HB
   parish: St Peter Port
@@ -30,9 +27,10 @@ discovery:
   notes:
   - Available both in person and online.
   - Health Connections shows this as last updated 9 months ago.
-  - 'Web check 8 Oct 2026: contact_phone from https://library.gg/reading-health (was: 01481
-    720392)'
-  - 'Web check 8 Oct 2026: website from https://www.library.gg/reading-well-books (was: https://library.gg/reading-health)'
+  - 'Web check 8 Oct 2026: contact_phone from https://library.gg/reading-health (was:
+    01481 720392)'
+  - 'Web check 8 Oct 2026: website from https://www.library.gg/reading-well-books
+    (was: https://library.gg/reading-health)'
 ---
 
 Helps you to understand and manage your health and wellbeing using self-help reading. The scheme is endorsed by health professionals and supported by public libraries. There are currently four book lists:  Reading Well Books on Prescription for common mental health conditions, Reading Well Books on Prescription for dementia, Reading Well for young people's mental health and Reading Well for people with long term conditions.

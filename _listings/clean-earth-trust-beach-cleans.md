@@ -5,8 +5,7 @@ status: active
 source: discovered
 category: volunteering
 tags:
-- older-people
-- volunteering-and-giving
+- volunteering
 location:
   venue: Various beaches; weekly meeting point posted on the Trust's Facebook page
 schedule:
@@ -26,10 +25,10 @@ discovery:
   source_url: http://www.cleanearthtrust.org/
   scraped_date: '2026-10-08'
   notes:
-  - 'Found by web search, 8 Oct 2026 (confidence: high). Most recent evidence it is running:
-    2026-05-20.'
-  - 'Why it suits older people: All ages welcome with no booking: volunteers turn up at the
-    weekly meeting point and equipment is provided (cleanearthtrust.org).'
+  - 'Found by web search, 8 Oct 2026 (confidence: high). Most recent evidence it is
+    running: 2026-05-20.'
+  - 'Why it suits older people: All ages welcome with no booking: volunteers turn
+    up at the weekly meeting point and equipment is provided (cleanearthtrust.org).'
   - 'Source: http://www.cleanearthtrust.org/'
   - 'Source: https://charity.org.gg/charities/265/the-clean-earth-trust'
   - 'Source: https://www.bailiwickexpress.com/news-ge/plastic-still-a-problem-despite-number-of-volunteer-litter-pickers-doubling/'

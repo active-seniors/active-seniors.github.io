@@ -5,7 +5,7 @@ status: active
 source: discovered
 category: arts-hobby
 tags:
-- older-people
+- singing-music
 location:
   venue: Capelles Church
   parish: St Sampson
@@ -25,10 +25,10 @@ discovery:
   source_url: https://www.bachchoir.org.gg/
   scraped_date: '2026-10-08'
   notes:
-  - 'Found by web search, 8 Oct 2026 (confidence: high). Most recent evidence it is running:
-    Website lists an upcoming concert on 16 January 2027 at St James.'
-  - 'Why it suits older people: A regular weekly group singing activity for experienced adult
-    singers. Joining is by audition with the conductor.'
+  - 'Found by web search, 8 Oct 2026 (confidence: high). Most recent evidence it is
+    running: Website lists an upcoming concert on 16 January 2027 at St James.'
+  - 'Why it suits older people: A regular weekly group singing activity for experienced
+    adult singers. Joining is by audition with the conductor.'
   - 'Source: https://www.bachchoir.org.gg/'
   - 'Source: https://www.bachchoir.org.gg/want-to-join/'
   - 'Source: https://www.arts.gg/talent/the-guernsey-bach-choir/'

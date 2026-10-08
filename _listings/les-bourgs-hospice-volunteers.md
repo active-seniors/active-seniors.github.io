@@ -5,8 +5,7 @@ status: active
 source: discovered
 category: volunteering
 tags:
-- older-people
-- volunteering-and-giving
+- volunteering
 location:
   venue: Andrew Mitchell House, Rue du Tertre, and charity shops
   parish: St Andrew
@@ -23,11 +22,11 @@ discovery:
   source_url: https://guernseypress.com/news/2026/06/01/celebrating-hospices-helpers-for-volunteers-week
   scraped_date: '2026-10-08'
   notes:
-  - 'Found by web search, 8 Oct 2026 (confidence: high). Most recent evidence it is running:
-    2026-06-01.'
-  - 'Why it suits older people: The Guernsey Press profiled volunteer Brenda Terry, who started
-    volunteering when she retired 12 years ago. Volunteers are always welcome, with roles
-    ranging from shop work to reception.'
+  - 'Found by web search, 8 Oct 2026 (confidence: high). Most recent evidence it is
+    running: 2026-06-01.'
+  - 'Why it suits older people: The Guernsey Press profiled volunteer Brenda Terry,
+    who started volunteering when she retired 12 years ago. Volunteers are always
+    welcome, with roles ranging from shop work to reception.'
   - 'Source: https://guernseypress.com/news/2026/06/01/celebrating-hospices-helpers-for-volunteers-week'
   - 'Source: https://charity.org.gg/charities/58/les-bourgs-hospice-lbg'
 ---

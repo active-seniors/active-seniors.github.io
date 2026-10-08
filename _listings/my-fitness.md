@@ -5,9 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- mobility
-- musculoskeletal-health
-- physical-activity
+- sport-fitness
 location:
   venue: Inside the Indoor Sports Centre, Hougue Du Pommier, Vale, GY5 8BD
   parish: Vale

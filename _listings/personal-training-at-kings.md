@@ -5,7 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- physical-activity
+- sport-fitness
 location:
   venue: Kings Road, St Peter Port
   parish: St Peter Port

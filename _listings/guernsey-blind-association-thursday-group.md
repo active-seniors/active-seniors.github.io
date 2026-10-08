@@ -5,7 +5,7 @@ status: active
 source: discovered
 category: social
 tags:
-- older-people
+- social-clubs
 location:
   venue: Le Four Cabot Centre, Rue de la Boullerie, St Andrew GY6 8XE
   parish: St Andrew
@@ -26,10 +26,10 @@ discovery:
   source_url: https://charity.org.gg/charities/17/guernsey-blind-association
   scraped_date: '2026-10-08'
   notes:
-  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it is running:
-    2026-05-19.'
-  - 'Why it suits older people: Regular daytime social group for people with sight loss, a
-    condition more common in later life (charity.org.gg listing; gba.org.gg).'
+  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it
+    is running: 2026-05-19.'
+  - 'Why it suits older people: Regular daytime social group for people with sight
+    loss, a condition more common in later life (charity.org.gg listing; gba.org.gg).'
   - 'Source: https://charity.org.gg/charities/17/guernsey-blind-association'
   - 'Source: https://gba.org.gg/'
 ---

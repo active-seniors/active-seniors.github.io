@@ -5,9 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- children-young-people-and-families
-- disability
-- physical-activity
+- arts-crafts
 location:
   venue: Youth Commission, Les Ozouets Campus
   parish: St Peter Port

@@ -5,7 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- physical-activity
+- sport-fitness
 location:
   venue: Guernsey Rovers AC Port Soif Lane Vale Guernsey Channel Islands GY6 6AQ
   parish: Vale

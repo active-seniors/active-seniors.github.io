@@ -5,8 +5,7 @@ status: active
 source: discovered
 category: volunteering
 tags:
-- older-people
-- volunteering-and-giving
+- volunteering
 organiser:
   name: Soroptimist International of Guernsey
   website: http://sigbi.org/guernsey
@@ -20,10 +19,10 @@ discovery:
   source_url: https://sigbi.org/guernsey/
   scraped_date: '2026-10-08'
   notes:
-  - 'Found by web search, 8 Oct 2026 (confidence: high). Most recent evidence it is running:
-    2026-08-27.'
-  - 'Why it suits older people: Social and volunteering network for women, with regular club
-    events and projects (sigbi.org/guernsey, 2026 posts).'
+  - 'Found by web search, 8 Oct 2026 (confidence: high). Most recent evidence it is
+    running: 2026-08-27.'
+  - 'Why it suits older people: Social and volunteering network for women, with regular
+    club events and projects (sigbi.org/guernsey, 2026 posts).'
   - 'Source: https://sigbi.org/guernsey/'
   - 'Source: https://charity.org.gg/charities/24/soroptimist-international-of-guernsey'
   - 'Source: https://www.bailiwickexpress.com/news-ge/soroptimists-mark-40-years/'

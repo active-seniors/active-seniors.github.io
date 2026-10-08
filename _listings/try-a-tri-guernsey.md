@@ -5,9 +5,8 @@ status: active
 source: discovered
 category: sports
 tags:
-- connect-befriending
-- mental-health
-- physical-activity
+- social-clubs
+- swimming-water-sports
 location:
   venue: Various Locations In Guernsey
 cost:

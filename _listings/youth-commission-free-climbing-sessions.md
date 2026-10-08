@@ -5,9 +5,8 @@ status: active
 source: discovered
 category: sports
 tags:
-- children-young-people-and-families
-- connect-befriending
-- physical-activity
+- social-clubs
+- sport-fitness
 location:
   venue: Sessions run from St Sampsons School
   parish: St Sampson

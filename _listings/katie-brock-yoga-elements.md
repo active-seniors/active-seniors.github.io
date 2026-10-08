@@ -5,8 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- complementary-therapies
-- physical-activity
+- mindfulness-relaxation
 location:
   venue: Various Locations In Guernsey
 accessibility:

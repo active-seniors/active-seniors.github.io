@@ -5,7 +5,7 @@ status: active
 source: discovered
 category: arts-hobby
 tags:
-- older-people
+- learning-talks
 location:
   venue: Les Cotils, St Peter Port GY1 1UU
   parish: St Peter Port
@@ -27,10 +27,10 @@ discovery:
   source_url: https://www.arts.gg/events/the-isms-how-to-understand-modern-art/
   scraped_date: '2026-10-08'
   notes:
-  - 'Found by web search, 8 Oct 2026 (confidence: high). Most recent evidence it is running:
-    2025.'
-  - 'Why it suits older people: Seated evening talks with a social drinks reception, aimed
-    at lifelong learning (arts.gg event listing).'
+  - 'Found by web search, 8 Oct 2026 (confidence: high). Most recent evidence it is
+    running: 2025.'
+  - 'Why it suits older people: Seated evening talks with a social drinks reception,
+    aimed at lifelong learning (arts.gg event listing).'
   - 'Source: https://www.arts.gg/events/the-isms-how-to-understand-modern-art/'
   - 'Source: https://www.bailiwickexpress.com/news-ge/new-season-art-society-monthly-lectures/'
   - 'Source: https://charity.org.gg/charities/255/the-arts-society-guernsey'

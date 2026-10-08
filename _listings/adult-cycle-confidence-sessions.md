@@ -5,8 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- older-people
-- physical-activity
+- sport-fitness
 location:
   venue: Les Beaucamps High School
   parish: Castel
@@ -28,11 +27,11 @@ discovery:
   source_url: https://healthimprovement.gg/services/be-active/adult-cycle-classes-Bikeability
   scraped_date: '2026-10-08'
   notes:
-  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it is running:
-    Current HIC service page (undated).'
-  - 'Why it suits older people: Open to any adult and tailored to ability, including returners
-    who want to improve balance and road confidence, in a safe off-road space. Bikes can be
-    borrowed.'
+  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it
+    is running: Current HIC service page (undated).'
+  - 'Why it suits older people: Open to any adult and tailored to ability, including
+    returners who want to improve balance and road confidence, in a safe off-road
+    space. Bikes can be borrowed.'
   - 'Source: https://healthimprovement.gg/services/be-active/adult-cycle-classes-Bikeability'
 ---
 

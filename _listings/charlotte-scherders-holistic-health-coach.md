@@ -5,10 +5,9 @@ status: active
 source: discovered
 category: sports
 tags:
-- complementary-therapies
-- cooking-and-food
-- physical-activity
-- sleep
+- cooking-food
+- mindfulness-relaxation
+- social-clubs
 location:
   venue: In Person or Online
 cost:
@@ -28,8 +27,10 @@ discovery:
   - Online only — not an in-person activity.
   - 'Address given but no known parish matched: ''In Person or Online'''
   - Health Connections shows this as last updated 9 months ago.
-  - 'Web check 8 Oct 2026 CHECK: Possibly inactive: footer © 2022, latest Instagram embeds
-    March 2024 (https://www.charlottescherders.com/)'
+  - 'Web check 8 Oct 2026 CHECK: Possibly inactive: footer © 2022, latest Instagram
+    embeds March 2024 (https://www.charlottescherders.com/)'
+suitable_for:
+- online-option
 ---
 
 I believe making a change is all about taking small and simple steps. In a coaching partnership, we can explore what you would like to work on in a fun and sustainable way. 1 - 1 PRIVATE COACHING THREE MONTH COMMITMENT You will receive 1-1 online sessions, with a dedicated hour each time. We will make a plan together and assess your progress over the three months to reach your happiest lifestyle. For more information, please contact Charlotte directly via e-mail or online form

@@ -5,8 +5,7 @@ status: active
 source: discovered
 category: volunteering
 tags:
-- older-people
-- volunteering-and-giving
+- volunteering
 location:
   venue: Princess Elizabeth Hospital
   parish: St Martin
@@ -22,10 +21,10 @@ discovery:
   source_url: https://charity.org.gg/charities/35/the-friends-of-the-princess-elizabeth-hospital
   scraped_date: '2026-10-08'
   notes:
-  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it is running:
-    2026-05-19.'
-  - 'Why it suits older people: Shop and trolley roles are sociable and not physically demanding.
-    The listing gives no age requirement (charity.org.gg).'
+  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it
+    is running: 2026-05-19.'
+  - 'Why it suits older people: Shop and trolley roles are sociable and not physically
+    demanding. The listing gives no age requirement (charity.org.gg).'
   - 'Source: https://charity.org.gg/charities/35/the-friends-of-the-princess-elizabeth-hospital'
 ---
 

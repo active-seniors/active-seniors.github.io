@@ -5,8 +5,7 @@ status: active
 source: discovered
 category: social
 tags:
-- financial-support
-- older-people
+- social-clubs
 cost:
   notes: Both free and paid options available — see source for details.
 organiser:

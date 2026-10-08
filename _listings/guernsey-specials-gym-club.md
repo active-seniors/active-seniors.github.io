@@ -5,9 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- children-young-people-and-families
-- disability
-- physical-activity
+- sport-fitness
 location:
   venue: Western Parishes Community Centre (Styx)
   parish: St Pierre du Bois

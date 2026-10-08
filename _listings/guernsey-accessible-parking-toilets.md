@@ -5,8 +5,7 @@ status: active
 source: discovered
 category: social
 tags:
-- disability
-- older-people
+- social-clubs
 cost:
   amount: 0
   currency: GBP

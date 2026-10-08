@@ -5,7 +5,7 @@ status: active
 source: discovered
 category: social
 tags:
-- older-people
+- social-clubs
 location:
   venue: St Martin's Community Centre or Parish Hall
   parish: St Martin
@@ -31,10 +31,10 @@ discovery:
   source_url: https://www.stmartinschurch.gg/_data/site/102/pg/638/2025-OctNovWeb.pdf
   scraped_date: '2026-10-08'
   notes:
-  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it is running:
-    2025-10 (Oct/Nov 2025 parish magazine).'
-  - 'Why it suits older people: Free winter lunchtime gathering, a warm social space during
-    the colder months.'
+  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it
+    is running: 2025-10 (Oct/Nov 2025 parish magazine).'
+  - 'Why it suits older people: Free winter lunchtime gathering, a warm social space
+    during the colder months.'
   - 'Source: https://www.stmartinschurch.gg/_data/site/102/pg/638/2025-OctNovWeb.pdf'
 ---
 

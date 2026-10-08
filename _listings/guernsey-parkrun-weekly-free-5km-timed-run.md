@@ -5,8 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- children-young-people-and-families
-- physical-activity
+- volunteering
 location:
   venue: Vale
   parish: Vale
@@ -34,7 +33,8 @@ discovery:
   notes:
   - Available both in person and online.
   - Health Connections shows this as last updated 6 months ago.
-  - 'Web check 8 Oct 2026: website from https://www.parkrun.org.uk/guernsey/ (was: http://www.parkrun.org.uk/guernsey/)'
+  - 'Web check 8 Oct 2026: website from https://www.parkrun.org.uk/guernsey/ (was:
+    http://www.parkrun.org.uk/guernsey/)'
   - 'Web check 8 Oct 2026: suitability from https://www.parkrun.org.uk/guernsey/course/'
 ---
 

@@ -5,7 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- physical-activity
+- swimming-water-sports
 location:
   venue: Marina Court, Glategny Esplanade, St Peter Port, GY1 1WP
   parish: St Peter Port

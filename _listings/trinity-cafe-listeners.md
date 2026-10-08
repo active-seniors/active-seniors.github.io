@@ -5,9 +5,8 @@ status: active
 source: discovered
 category: social
 tags:
-- connect-befriending
-- faith-and-churches
-- older-people
+- faith-community
+- social-clubs
 location:
   venue: Holy Trinity Church, Trinity Square, St Peter Port, Guernsey, GY1 1LP
   parish: St Peter Port
@@ -18,8 +17,8 @@ schedule:
 cost:
   amount: 0
   currency: GBP
-  notes: Listening is free. Café food at affordable prices, with a 'Pay it Forward' scheme
-    for those who can't pay
+  notes: Listening is free. Café food at affordable prices, with a 'Pay it Forward'
+    scheme for those who can't pay
 accessibility:
   physical_intensity: none
 organiser:
@@ -39,8 +38,8 @@ discovery:
   - Health Connections shows this as last updated 8 months ago.
   - 'Web check 8 Oct 2026: schedule from https://holytrinity.org.gg/491/Trinity-Cafe'
   - 'Web check 8 Oct 2026: cost notes from https://holytrinity.org.gg/491/Trinity-Cafe'
-  - 'Web check 8 Oct 2026: website from https://holytrinity.org.gg/491/Trinity-Cafe (was:
-    https://holytrinity.org.gg)'
+  - 'Web check 8 Oct 2026: website from https://holytrinity.org.gg/491/Trinity-Cafe
+    (was: https://holytrinity.org.gg)'
   - 'Web check 8 Oct 2026: suitability from https://holytrinity.org.gg/491/Trinity-Cafe'
 ---
 

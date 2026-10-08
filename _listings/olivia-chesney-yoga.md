@@ -5,10 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- mindfulness-meditation
-- mobility
-- older-people
-- physical-activity
+- mindfulness-relaxation
 location:
   venue: St Martin's Community Centre (chair yoga)
   parish: St Martin
@@ -34,13 +31,15 @@ discovery:
   - Listed as paid; exact price not stated on source page.
   - Available both in person and online.
   - Health Connections shows this as last updated 9 months ago.
-  - 'Web check 8 Oct 2026 CHECK: Own website says ''The next block of classes will be starting
-    on Tuesday 7th March'', a 5-week block until 4th April. 7 March fell on a Tuesday in 2023,
-    so the site text looks stale; classes run in blocks, not continuously. Confirm current
-    block with organiser. (https://www.oliviachesneyyoga.com)'
+  - 'Web check 8 Oct 2026 CHECK: Own website says ''The next block of classes will
+    be starting on Tuesday 7th March'', a 5-week block until 4th April. 7 March fell
+    on a Tuesday in 2023, so the site text looks stale; classes run in blocks, not
+    continuously. Confirm current block with organiser. (https://www.oliviachesneyyoga.com)'
   - 'Web check 8 Oct 2026: suitability from https://www.oliviachesneyyoga.com'
-  - 'Web check 8 Oct 2026: venue from https://www.oliviachesneyyoga.com (was: Salarie Inn
-    Apartments, St. Peter Port, Guernsey, GY12BP)'
+  - 'Web check 8 Oct 2026: venue from https://www.oliviachesneyyoga.com (was: Salarie
+    Inn Apartments, St. Peter Port, Guernsey, GY12BP)'
+suitable_for:
+- online-option
 ---
 
 Olivia Chesney specialises in private Yoga classes - either in-person in Guernsey, or else online via Zoom. Olivia also runs regular chair yoga classes at St. Martin's Community Centre. Any age welcome. The class is suitable for over 65s to 90+. These classes take place on Tuesdays from 11am - 12pm. The private yoga classes are 1:1; instructor-client sessions and these take place either in the comfort of your own home, at a venue of your choice, or online.

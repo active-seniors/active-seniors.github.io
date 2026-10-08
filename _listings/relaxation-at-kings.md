@@ -5,8 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- physical-activity
-- stress-anxiety-depression
+- mindfulness-relaxation
 location:
   venue: Kings Road, St Peter Port
   parish: St Peter Port
@@ -27,6 +26,8 @@ discovery:
   - Health Connections shows this as last updated 9 months ago.
   - 'Web check 8 Oct 2026: contact_phone from https://www.visitguernsey.com/experiences/activities/kings-health-and-leisure-club/
     (was: 01481 723 366)'
+accessibility:
+  physical_intensity: low
 ---
 
 If you’re looking to lower your stress levels and become more calm and centred, then Kings Premier Health Club can help. Yoga classes are held throughout the week and are great for improving flexibility, increasing core strength and reducing stress levels. Pilates courses are held regularly and combine low-impact muscle strengthening exercises with relaxation and mindfulness. The Club has heated indoor and outdoor pools, a steam room, sauna and Jacuzzi so that you can relax, unwind and indulge.

@@ -5,10 +5,7 @@ status: active
 source: discovered
 category: social
 tags:
-- diabetes
-- disability
-- hearing-sight
-- older-people
+- social-clubs
 location:
   venue: Richmond Court, Rue de la Maladerie, St Saviours GY7 9QT
   parish: St Saviour

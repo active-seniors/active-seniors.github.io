@@ -5,7 +5,7 @@ status: active
 source: discovered
 category: society
 tags:
-- older-people
+- learning-talks
 location:
   venue: St Martin's Community Centre (arts.gg lists St Martin's parish hall)
   parish: St Martin
@@ -31,11 +31,11 @@ discovery:
   source_url: https://arts.gg/events/talks-based-on-walks-illustrated-historical-talks
   scraped_date: '2026-10-08'
   notes:
-  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it is running:
-    2025-26 season (Oct 2025 to Apr 2026).'
-  - 'Why it suits older people: These are seated indoor talks on local history, with refreshments
-    afterwards, so they are a low-mobility way to keep learning and meet people. Fit for older
-    people is inferred from the format, not stated in the source.'
+  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it
+    is running: 2025-26 season (Oct 2025 to Apr 2026).'
+  - 'Why it suits older people: These are seated indoor talks on local history, with
+    refreshments afterwards, so they are a low-mobility way to keep learning and meet
+    people. Fit for older people is inferred from the format, not stated in the source.'
   - 'Source: https://arts.gg/events/talks-based-on-walks-illustrated-historical-talks'
   - 'Source: https://www.guernseywalkingtours.com/illustrated-talks/'
 ---

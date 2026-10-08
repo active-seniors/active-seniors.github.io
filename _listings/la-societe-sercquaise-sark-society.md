@@ -5,8 +5,7 @@ status: active
 source: discovered
 category: society
 tags:
-- older-people
-- sark
+- learning-talks
 location:
   venue: Heritage Room, The Avenue, Sark
 schedule:
@@ -24,11 +23,11 @@ discovery:
   source_url: https://www.governmenthouse.gg/articles/la-societe-sercquaise/
   scraped_date: '2026-10-08'
   notes:
-  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it is running:
-    2025-01-01.'
-  - 'Why it suits older people: Its interest groups, walks and talks, plus volunteer stewarding
-    at the Heritage Room, give Sark residents a way to learn and volunteer. Fit for older
-    people is inferred, not stated in the sources.'
+  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it
+    is running: 2025-01-01.'
+  - 'Why it suits older people: Its interest groups, walks and talks, plus volunteer
+    stewarding at the Heritage Room, give Sark residents a way to learn and volunteer.
+    Fit for older people is inferred, not stated in the sources.'
   - 'Source: https://www.governmenthouse.gg/articles/la-societe-sercquaise/'
   - 'Source: https://socsercq.org'
   - 'Source: https://channeleye.media/events/sark-nature-week'

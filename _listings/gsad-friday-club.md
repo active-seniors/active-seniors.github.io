@@ -5,10 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- disability
-- learning-disabilities
-- older-people
-- physical-activity
+- swimming-water-sports
 location:
   venue: Guernsey Table Tennis Centre, Hougue Du Pommier, Castel
   parish: Castel

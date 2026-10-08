@@ -5,9 +5,8 @@ status: active
 source: discovered
 category: sports
 tags:
-- disability
-- music-singing-and-dance
-- physical-activity
+- dance
+- singing-music
 location:
   venue: Bon Air Barn St Peters GY7 9QB
 schedule:
@@ -37,10 +36,10 @@ discovery:
   - 'Address given but no known parish matched: ''Bon Air Barn St Peters GY7 9QB'''
   - 'Other contacts on source page: 07781 123486'
   - Health Connections shows this as last updated 8 months ago.
-  - 'Web check 8 Oct 2026: contact_email from https://www.danceographyguernsey.com/ (was:
-    admin.cheshirehome@suremail.gg)'
-  - 'Web check 8 Oct 2026: contact_phone from https://www.danceographyguernsey.com/ (was:
-    07781 127567)'
+  - 'Web check 8 Oct 2026: contact_email from https://www.danceographyguernsey.com/
+    (was: admin.cheshirehome@suremail.gg)'
+  - 'Web check 8 Oct 2026: contact_phone from https://www.danceographyguernsey.com/
+    (was: 07781 127567)'
   - 'Web check 8 Oct 2026: organiser name from https://www.danceographyguernsey.com/'
   - 'Web check 8 Oct 2026: suitability from https://www.danceographyguernsey.com/'
 ---

@@ -5,8 +5,7 @@ status: active
 source: discovered
 category: volunteering
 tags:
-- older-people
-- volunteering-and-giving
+- volunteering
 schedule:
   frequency: Annual
   notes: Shifts can be as short as 2.5 hours
@@ -22,10 +21,10 @@ discovery:
   source_url: https://liberationday.gg/get-involved/volunteer
   scraped_date: '2026-10-08'
   notes:
-  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it is running:
-    2025.'
-  - 'Why it suits older people: Short shifts of 2.5 hours make this a manageable one-day commitment;
-    minimum age 16 (liberationday.gg).'
+  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it
+    is running: 2025.'
+  - 'Why it suits older people: Short shifts of 2.5 hours make this a manageable one-day
+    commitment; minimum age 16 (liberationday.gg).'
   - 'Source: https://liberationday.gg/get-involved/volunteer'
   - 'Source: https://liberationday.gg/news/posts/programme-favourites-return-as-liberation-day-2026-planning-begins/'
 ---

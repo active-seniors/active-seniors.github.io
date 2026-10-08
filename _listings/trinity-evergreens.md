@@ -5,17 +5,16 @@ status: active
 source: discovered
 category: social
 tags:
-- connect-befriending
-- faith-and-churches
-- older-people
+- faith-community
+- social-clubs
 location:
   venue: Holy Trinity Church, Trinity Square, St Peter Port, Guernsey, GY1 1LP
   parish: St Peter Port
 schedule:
   frequency: varies
-  day: Roast dinner 2nd Wednesday of month; jacket potato lunch last Wednesday of month; Coffee
-    & Craft, monthly Bible study, Drive and Drink on other dates; annual Liberation Tea Dance,
-    picnic, Holiday at Home, Christmas film outing
+  day: Roast dinner 2nd Wednesday of month; jacket potato lunch last Wednesday of
+    month; Coffee & Craft, monthly Bible study, Drive and Drink on other dates; annual
+    Liberation Tea Dance, picnic, Holiday at Home, Christmas film outing
 cost:
   notes: Both free and paid options available — see source for details.
 accessibility:

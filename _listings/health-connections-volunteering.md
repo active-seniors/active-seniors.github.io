@@ -5,10 +5,10 @@ status: active
 source: discovered
 category: volunteering
 tags:
-- older-people
-- volunteering-and-giving
+- volunteering
 location:
-  venue: Health Connections, Rohais Waitrose, and the shop at 11 The Pollet, St Peter Port
+  venue: Health Connections, Rohais Waitrose, and the shop at 11 The Pollet, St Peter
+    Port
 schedule:
   frequency: Flexible; driving from about one morning a month
 organiser:
@@ -25,8 +25,8 @@ discovery:
   source_url: https://healthconnections.gg/volunteer
   scraped_date: '2026-10-08'
   notes:
-  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it is running:
-    2025.'
+  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it
+    is running: 2025.'
   - 'Why it suits older people: Flexible commitment of a few hours a month, with training
     (induction and safeguarding) for Talking Café hosts (healthconnections.gg).'
   - 'Source: https://healthconnections.gg/volunteer'

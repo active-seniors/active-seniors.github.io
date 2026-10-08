@@ -5,10 +5,9 @@ status: active
 source: discovered
 category: social
 tags:
-- arts-and-crafts
-- connect-befriending
-- learning-and-skills
-- older-people
+- arts-crafts
+- learning-talks
+- social-clubs
 location:
   venue: Les Cotils
   parish: St Peter Port

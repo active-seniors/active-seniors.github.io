@@ -5,8 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- children-young-people-and-families
-- physical-activity
+- swimming-water-sports
 location:
   venue: Kings Road - St Peter Port Guernsey - GY1 1QF
   parish: St Peter Port

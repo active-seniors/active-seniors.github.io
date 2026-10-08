@@ -5,16 +5,16 @@ status: active
 source: discovered
 category: sports
 tags:
-- physical-activity
+- learning-talks
 location:
-  venue: The Rohais Badminton Halls, The Rohais, St. Peter Port, Guernsey, Channel Islands.
-    GY1 1YP
+  venue: The Rohais Badminton Halls, The Rohais, St. Peter Port, Guernsey, Channel
+    Islands. GY1 1YP
   parish: St Peter Port
 schedule:
   frequency: weekly
-  day: 'club nights: Mon (Shuttlebusters 19:15-22:00, beginner-intermediate; Pessimists 19:00-22:00),
-    Tue (Rohais BC 19:00-20:30), Thu (Sunbeams 19:00/19:15-21:30, beginner-intermediate; St
-    Michaels 19:30-21:30)'
+  day: 'club nights: Mon (Shuttlebusters 19:15-22:00, beginner-intermediate; Pessimists
+    19:00-22:00), Tue (Rohais BC 19:00-20:30), Thu (Sunbeams 19:00/19:15-21:30, beginner-intermediate;
+    St Michaels 19:30-21:30)'
   time: evenings
 cost:
   notes: Both free and paid options available — see source for details.

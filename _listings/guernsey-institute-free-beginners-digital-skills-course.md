@@ -5,7 +5,7 @@ status: active
 source: discovered
 category: other
 tags:
-- older-people
+- learning-talks
 schedule:
   frequency: weekly
   day: Tuesday evening or Thursday morning (2025 courses)
@@ -25,10 +25,11 @@ discovery:
   source_url: https://channeleye.media/the-guernsey-institute-expands-its-community-outreach-activities/
   scraped_date: '2026-10-08'
   notes:
-  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it is running:
-    2025-01-24.'
-  - 'Why it suits older people: Beginners'' course for people building confidence with technology,
-    with a daytime option. The article does not target older people specifically.'
+  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it
+    is running: 2025-01-24.'
+  - 'Why it suits older people: Beginners'' course for people building confidence
+    with technology, with a daytime option. The article does not target older people
+    specifically.'
   - 'Source: https://channeleye.media/the-guernsey-institute-expands-its-community-outreach-activities/'
 ---
 

@@ -5,12 +5,11 @@ status: active
 source: discovered
 category: sports
 tags:
-- learning-disabilities
-- physical-activity
-- volunteering-and-giving
+- social-clubs
+- volunteering
 location:
-  venue: Islay, Les Gigands, St Sampson GY2 4YX (registered/contact address, not an activity
-    venue)
+  venue: Islay, Les Gigands, St Sampson GY2 4YX (registered/contact address, not an
+    activity venue)
   parish: St Sampson
 cost:
   amount: 0
@@ -31,8 +30,8 @@ discovery:
   notes:
   - Available both in person and online.
   - Health Connections shows this as last updated 10 months ago.
-  - 'Web check 8 Oct 2026: contact_phone from https://giving.gg/charities/20/active (was:
-    07781 109 972)'
+  - 'Web check 8 Oct 2026: contact_phone from https://giving.gg/charities/20/active
+    (was: 07781 109 972)'
   - 'Web check 8 Oct 2026: organiser name from https://giving.gg/charities/20/active'
   - 'Web check 8 Oct 2026: venue from https://giving.gg/charities/20/active'
 ---

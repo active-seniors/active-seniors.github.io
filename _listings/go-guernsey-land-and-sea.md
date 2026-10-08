@@ -5,10 +5,8 @@ status: active
 source: discovered
 category: sports
 tags:
-- children-young-people-and-families
-- natural-environment
-- physical-activity
-- staycation
+- nature-outdoors
+- social-clubs
 schedule:
   frequency: varies
   day: daily (in season)
@@ -36,8 +34,8 @@ discovery:
     (was: phil@go-guernsey.gg)'
   - 'Web check 8 Oct 2026: contact_phone from https://www.visitguernsey.com/experiences/activities/go-guernsey-land-and-sea/
     (was: 07839 151771)'
-  - 'Web check 8 Oct 2026 CHECK: Site says the business closes for the season on 30 September
-    2026 due to a family event overseas (https://www.go-guernsey.gg)'
+  - 'Web check 8 Oct 2026 CHECK: Site says the business closes for the season on 30
+    September 2026 due to a family event overseas (https://www.go-guernsey.gg)'
   - 'Web check 8 Oct 2026: suitability from https://www.visitguernsey.com/experiences/activities/go-guernsey-land-and-sea/'
 ---
 

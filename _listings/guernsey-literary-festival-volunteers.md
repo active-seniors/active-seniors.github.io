@@ -5,8 +5,7 @@ status: active
 source: discovered
 category: volunteering
 tags:
-- older-people
-- volunteering-and-giving
+- volunteering
 schedule:
   frequency: Annual (spring festival)
 organiser:
@@ -21,10 +20,11 @@ discovery:
   source_url: https://guernseyliteraryfestival.com/news/another-record-year-for-the-guernsey-literary-festival
   scraped_date: '2026-10-08'
   notes:
-  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it is running:
-    2026-06-30.'
-  - 'Why it suits older people: Short-term, event-based roles suited to people who enjoy books
-    and meeting visitors; the festival publicly thanked its volunteers in May 2026.'
+  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it
+    is running: 2026-06-30.'
+  - 'Why it suits older people: Short-term, event-based roles suited to people who
+    enjoy books and meeting visitors; the festival publicly thanked its volunteers
+    in May 2026.'
   - 'Source: https://guernseyliteraryfestival.com/news/another-record-year-for-the-guernsey-literary-festival'
   - 'Source: https://guernseyliteraryfestival.com/news/join-the-festival-team'
   - 'Source: https://www.guernseyliteraryfestival.com/news/93-the-guernsey-literary-festival-is-looking-for-volunteers-to-join-its-team'

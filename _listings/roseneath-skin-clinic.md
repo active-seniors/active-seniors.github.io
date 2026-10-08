@@ -5,7 +5,7 @@ status: active
 source: discovered
 category: other
 tags:
-- hair-loss
+- social-clubs
 location:
   venue: 7 Le Pollet St Peter Port Guernsey GY1 1WQ
   parish: St Peter Port

@@ -5,9 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- men-s-health
-- physical-activity
-- women-s-health
+- walking
 location:
   venue: Sausmarez Park and Pembroke
 accessibility:
@@ -31,9 +29,9 @@ discovery:
   - Health Connections shows this as last updated 8 months ago.
   - 'Web check 8 Oct 2026: contact_email from https://www.newwaveswellness.com/contact'
   - 'Web check 8 Oct 2026: organiser name from https://www.newwaveswellness.com'
-  - 'Web check 8 Oct 2026 CHECK: Homepage links to a ''walk-to-run-ecourse'' page which returns
-    404; no in-person Walk to Run group, schedule or Sausmarez Park/Pembroke venue found on
-    the site. May have become an online course or stopped. (https://www.newwaveswellness.com/walk-to-run-ecourse)'
+  - 'Web check 8 Oct 2026 CHECK: Homepage links to a ''walk-to-run-ecourse'' page
+    which returns 404; no in-person Walk to Run group, schedule or Sausmarez Park/Pembroke
+    venue found on the site. May have become an online course or stopped. (https://www.newwaveswellness.com/walk-to-run-ecourse)'
   - 'Web check 8 Oct 2026: suitability from https://www.newwaveswellness.com'
 ---
 

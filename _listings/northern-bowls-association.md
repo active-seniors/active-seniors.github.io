@@ -5,8 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- older-people
-- physical-activity
+- sport-fitness
 location:
   venue: Delancey Park, GY2 4HS
   parish: St Sampson
@@ -23,10 +22,10 @@ discovery:
   source_url: https://guernseysports.com/sports-directory/bowls/northern-bowls-association/
   scraped_date: '2026-10-08'
   notes:
-  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it is running:
-    2025-05-11 (website last modified).'
-  - 'Why it suits older people: Low-impact outdoor sport; the club welcomes all ages and abilities
-    to try it.'
+  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it
+    is running: 2025-05-11 (website last modified).'
+  - 'Why it suits older people: Low-impact outdoor sport; the club welcomes all ages
+    and abilities to try it.'
   - 'Source: https://guernseysports.com/sports-directory/bowls/northern-bowls-association/'
   - 'Source: https://northbowls.com'
 ---

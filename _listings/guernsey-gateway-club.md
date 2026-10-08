@@ -5,9 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- connect-befriending
-- learning-disabilities
-- physical-activity
+- social-clubs
 location:
   venue: La Corbinerie Clubhouse
 schedule:

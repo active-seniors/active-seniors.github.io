@@ -5,13 +5,10 @@ status: active
 source: discovered
 category: social
 tags:
-- carers-and-respite
-- disability
-- housing-homelessness
-- older-people
+- social-clubs
 location:
-  venue: Allocations, Housing, Edward T Wheadon House, Le Truchot, St Peter Port, Guernsey,
-    GY1 3WH
+  venue: Allocations, Housing, Edward T Wheadon House, Le Truchot, St Peter Port,
+    Guernsey, GY1 3WH
   parish: St Peter Port
 cost:
   notes: Both free and paid options available — see source for details.

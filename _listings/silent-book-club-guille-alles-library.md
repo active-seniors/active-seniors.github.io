@@ -5,10 +5,10 @@ status: active
 source: discovered
 category: arts-hobby
 tags:
-- older-people
+- learning-talks
 location:
-  venue: Dorey Room, second floor, Guille-Allès Library, Market Street, St Peter Port GY1
-    1HB
+  venue: Dorey Room, second floor, Guille-Allès Library, Market Street, St Peter Port
+    GY1 1HB
   parish: St Peter Port
 schedule:
   frequency: monthly
@@ -29,10 +29,11 @@ discovery:
   source_url: https://www.library.gg/events/event/silent-book-club-21
   scraped_date: '2026-10-08'
   notes:
-  - 'Found by web search, 8 Oct 2026 (confidence: high). Most recent evidence it is running:
-    2026-10-29.'
-  - 'Why it suits older people: Free, relaxed social setting with no pressure to talk, suited
-    to people who want company without a structured activity (library.gg event page).'
+  - 'Found by web search, 8 Oct 2026 (confidence: high). Most recent evidence it is
+    running: 2026-10-29.'
+  - 'Why it suits older people: Free, relaxed social setting with no pressure to talk,
+    suited to people who want company without a structured activity (library.gg event
+    page).'
   - 'Source: https://www.library.gg/events/event/silent-book-club-21'
   - 'Source: https://www.library.gg/events/category/reading-group'
 ---

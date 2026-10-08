@@ -5,8 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- older-people
-- physical-activity
+- sport-fitness
 organiser:
   name: Guernsey Touch
   contact_email: guernseytouch2025@gmail.com
@@ -19,11 +18,11 @@ discovery:
   source_url: https://www.bailiwickexpress.com/sport-ge/guernsey-touch-marks-20th-anniversary-with-interinsular-this-weekend/
   scraped_date: '2026-10-08'
   notes:
-  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it is running:
-    2025-09-05.'
+  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it
+    is running: 2025-09-05.'
   - 'Why it suits older people: Non-contact, with an Over 35 men''s team. A long-standing
-    player said it offers something for everyone whatever their fitness level. It is better
-    suited to active older adults than to frail ones.'
+    player said it offers something for everyone whatever their fitness level. It
+    is better suited to active older adults than to frail ones.'
   - 'Source: https://www.bailiwickexpress.com/sport-ge/guernsey-touch-marks-20th-anniversary-with-interinsular-this-weekend/'
   - 'Source: https://channeleye.media/?p=41979'
 ---

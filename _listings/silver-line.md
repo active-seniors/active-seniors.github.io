@@ -5,8 +5,7 @@ status: active
 source: discovered
 category: social
 tags:
-- connect-befriending
-- older-people
+- social-clubs
 schedule:
   frequency: varies
   day: every day

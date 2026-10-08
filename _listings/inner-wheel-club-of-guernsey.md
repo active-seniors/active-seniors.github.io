@@ -5,7 +5,7 @@ status: active
 source: discovered
 category: society
 tags:
-- older-people
+- learning-talks
 location:
   venue: Les Cotils (February 2024 meeting)
   parish: St Peter Port
@@ -22,10 +22,10 @@ discovery:
   source_url: https://governmenthouse.gg/articles/inner-wheel-annual-charter-lunch/
   scraped_date: '2026-10-08'
   notes:
-  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it is running:
-    2024-02-07.'
-  - 'Why it suits older people: Monthly friendship-based meetings with guest speakers and
-    social lunches (Government House article, Feb 2024).'
+  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it
+    is running: 2024-02-07.'
+  - 'Why it suits older people: Monthly friendship-based meetings with guest speakers
+    and social lunches (Government House article, Feb 2024).'
   - 'Source: https://governmenthouse.gg/articles/inner-wheel-annual-charter-lunch/'
 ---
 

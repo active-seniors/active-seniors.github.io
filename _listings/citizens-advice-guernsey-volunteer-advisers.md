@@ -5,8 +5,7 @@ status: active
 source: discovered
 category: volunteering
 tags:
-- older-people
-- volunteering-and-giving
+- volunteering
 location:
   venue: GROW Hub, Les Petits Quartier Vinery, Coutanchez
   parish: St Sampson
@@ -23,11 +22,11 @@ discovery:
   source_url: https://guernseypress.com/news/2026/03/02/long-serving-citizens-advice-volunteer-retires
   scraped_date: '2026-10-08'
   notes:
-  - 'Found by web search, 8 Oct 2026 (confidence: high). Most recent evidence it is running:
-    2026-06-04.'
+  - 'Found by web search, 8 Oct 2026 (confidence: high). Most recent evidence it is
+    running: 2026-06-04.'
   - 'Why it suits older people: Volunteers are often semi- or fully retired, and training
-    is provided. One adviser joined at 66 after a finance career and retired in 2026 at 85;
-    the charity said in March 2026 that it was recruiting.'
+    is provided. One adviser joined at 66 after a finance career and retired in 2026
+    at 85; the charity said in March 2026 that it was recruiting.'
   - 'Source: https://guernseypress.com/news/2026/03/02/long-serving-citizens-advice-volunteer-retires'
   - 'Source: https://guernseypress.com/news/2026/06/04/citizens-advice-sees-growing-demand-on-adviser-resources'
   - 'Source: https://charity.org.gg/charities/5/citizens-advice-guernsey'

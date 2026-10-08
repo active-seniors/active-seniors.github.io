@@ -5,15 +5,15 @@ status: active
 source: discovered
 category: sports
 tags:
-- physical-activity
+- sport-fitness
 location:
   venue: ROUTE DES COUTURE ST MARTINS GUERNSEY GY4 6NS
   parish: St Martin
 schedule:
   frequency: weekly
   day: Thursday; Sunday
-  time: 'Recreational: Thu 18:00-18:45; Sun 10:00-10:45 (ladies only). 18+ senior boxers:
-    Mon/Wed/Fri 17:15-18:45'
+  time: 'Recreational: Thu 18:00-18:45; Sun 10:00-10:45 (ladies only). 18+ senior
+    boxers: Mon/Wed/Fri 17:15-18:45'
 cost:
   amount: 250
   currency: GBP

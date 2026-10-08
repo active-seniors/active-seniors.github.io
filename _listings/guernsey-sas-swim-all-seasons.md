@@ -5,10 +5,8 @@ status: active
 source: discovered
 category: sports
 tags:
-- green-living
-- natural-environment
-- physical-activity
-- stress-anxiety-depression
+- nature-outdoors
+- swimming-water-sports
 location:
   venue: Guernsey
 cost:

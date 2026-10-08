@@ -5,8 +5,7 @@ status: active
 source: discovered
 category: volunteering
 tags:
-- older-people
-- volunteering-and-giving
+- volunteering
 location:
   venue: On site, and at the Archaeology Office, Grange House, St Peter Port
 organiser:
@@ -22,10 +21,10 @@ discovery:
   source_url: https://societe.org.gg/wp/?p=6016
   scraped_date: '2026-10-08'
   notes:
-  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it is running:
-    Société charity listing updated 10 June 2026; section page undated.'
-  - 'Why it suits older people: Volunteers can choose light tasks such as washing finds, or
-    attend lectures. The section offers heritage interest and social contact.'
+  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it
+    is running: Société charity listing updated 10 June 2026; section page undated.'
+  - 'Why it suits older people: Volunteers can choose light tasks such as washing
+    finds, or attend lectures. The section offers heritage interest and social contact.'
   - 'Source: https://societe.org.gg/wp/?p=6016'
   - 'Source: https://charity.org.gg/charities/43/la-societe-guernesiaise'
 ---

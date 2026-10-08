@@ -5,10 +5,9 @@ status: active
 source: discovered
 category: social
 tags:
-- connect-befriending
-- heart-lungs
-- music-singing-and-dance
-- older-people
+- singing-music
+- social-clubs
+- sport-fitness
 location:
   venue: Styx Community Centre, Rue de Longfrie, GY7 9RZ
   parish: St Pierre du Bois
@@ -34,8 +33,8 @@ discovery:
   - 'Other contacts on source page: 01481 267319'
   - Health Connections shows this as last updated 8 months ago.
   - 'Web check 8 Oct 2026: schedule from https://www.styxcentre.gg/'
-  - 'Web check 8 Oct 2026: website from https://www.styxcentre.gg/whats-on-bookings (was:
-    https://www.facebook.com/styxcentre/posts/singing-for-health-at-styx-centre-just-turn-up-its-for-fun-all-ages-welcome-do-y/10155307110884531/)'
+  - 'Web check 8 Oct 2026: website from https://www.styxcentre.gg/whats-on-bookings
+    (was: https://www.facebook.com/styxcentre/posts/singing-for-health-at-styx-centre-just-turn-up-its-for-fun-all-ages-welcome-do-y/10155307110884531/)'
   - 'Web check 8 Oct 2026: organiser name from https://prideofguernsey.com/moreinfo/1311/pride-of-guernsey-samantha-nichols'
 ---
 

@@ -5,7 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- physical-activity
+- learning-talks
 location:
   venue: Rocque a L'Or, Rue de la Rocque a L'Or, Torteval, GY8 0PY
   parish: Torteval
@@ -13,8 +13,8 @@ schedule:
   frequency: weekly
   day: Saturday morning (bootcamp)
 cost:
-  notes: Taster session £12 for new clients; multi-passes x6 £72, x10 £110, x20 £200 (valid
-    6 months)
+  notes: Taster session £12 for new clients; multi-passes x6 £72, x10 £110, x20 £200
+    (valid 6 months)
 accessibility:
   physical_intensity: high
 suitable_for:

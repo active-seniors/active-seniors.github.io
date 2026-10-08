@@ -5,8 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- older-people
-- physical-activity
+- sport-fitness
 location:
   venue: KGV car park, GY5 7SZ (start point)
   parish: Castel
@@ -30,11 +29,11 @@ discovery:
   source_url: https://letsride.co.uk/rides/292921
   scraped_date: '2026-10-08'
   notes:
-  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it is running:
-    Rides listed 22 and 29 April 2026; 11 June 2025.'
-  - 'Why it suits older people: Rides are graded easygoing or steady, open to women 16+ with
-    no upper age limit, and welcome e-bikes, which suits older riders returning to cycling.
-    Women only.'
+  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it
+    is running: Rides listed 22 and 29 April 2026; 11 June 2025.'
+  - 'Why it suits older people: Rides are graded easygoing or steady, open to women
+    16+ with no upper age limit, and welcome e-bikes, which suits older riders returning
+    to cycling. Women only.'
   - 'Source: https://letsride.co.uk/rides/292921'
   - 'Source: https://www.letsride.co.uk/rides/292922'
   - 'Source: https://letsride.co.uk/rides/spring-cycle'

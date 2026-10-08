@@ -5,8 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- older-people
-- physical-activity
+- sport-fitness
 location:
   venue: Guernsey Bowls Stadium, Hougue du Pommier, GY6 8BD
 schedule:
@@ -25,10 +24,11 @@ discovery:
   source_url: https://www.giba.org.gg
   scraped_date: '2026-10-08'
   notes:
-  - 'Found by web search, 8 Oct 2026 (confidence: high). Most recent evidence it is running:
-    2026 (league fixtures listed on website).'
-  - 'Why it suits older people: Indoor, low-impact sport played through the winter with daytime
-    sessions and a social membership option. The club says it always welcomes new members.'
+  - 'Found by web search, 8 Oct 2026 (confidence: high). Most recent evidence it is
+    running: 2026 (league fixtures listed on website).'
+  - 'Why it suits older people: Indoor, low-impact sport played through the winter
+    with daytime sessions and a social membership option. The club says it always
+    welcomes new members.'
   - 'Source: https://www.giba.org.gg'
   - 'Source: https://www.giba.org.gg/membership'
   - 'Source: https://visitguernsey.com/experiences/activities/indoor-bowls'

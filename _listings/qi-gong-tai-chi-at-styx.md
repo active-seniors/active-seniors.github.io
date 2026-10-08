@@ -5,10 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- mindfulness-meditation
-- mobility
-- older-people
-- physical-activity
+- mindfulness-relaxation
 location:
   venue: Styx Centre, Rue Du Longfrie, St Pierre du Bois, GY7 9RZ
   parish: St Pierre du Bois
@@ -18,7 +15,8 @@ accessibility:
   physical_intensity: low
 organiser:
   contact_phone: 07839 704733
-  name: Partnership between Styx Centre, Bailiwick Social Prescribing and Arts for Impact
+  name: Partnership between Styx Centre, Bailiwick Social Prescribing and Arts for
+    Impact
 verification:
   verified_by: ''
   verified_date: ''

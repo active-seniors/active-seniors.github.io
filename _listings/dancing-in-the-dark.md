@@ -5,7 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- physical-activity
+- dance
 location:
   venue: St Stephens Community Centre, St Stephen's Lane, St Peter Port
   parish: St Peter Port

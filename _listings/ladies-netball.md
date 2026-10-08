@@ -5,8 +5,8 @@ status: active
 source: discovered
 category: sports
 tags:
-- connect-befriending
-- physical-activity
+- social-clubs
+- sport-fitness
 location:
   venue: Elizabeth College
   parish: St Peter Port

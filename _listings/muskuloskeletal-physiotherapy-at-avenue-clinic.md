@@ -5,10 +5,8 @@ status: active
 source: discovered
 category: sports
 tags:
-- mobility
-- musculoskeletal-health
-- pain-management
-- physical-activity
+- social-clubs
+- sport-fitness
 organiser:
   website: https://avenueclinic.co.uk/therapies/musculoskeletal-physiotherapy/
   contact_phone: 01481 728798

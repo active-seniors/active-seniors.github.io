@@ -5,10 +5,8 @@ status: active
 source: discovered
 category: sports
 tags:
-- mobility
-- musculoskeletal-health
-- pain-management
-- physical-activity
+- mindfulness-relaxation
+- sport-fitness
 location:
   venue: Commercial Arcade, St Peter Port Guernsey
   parish: St Peter Port

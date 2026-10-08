@@ -5,10 +5,7 @@ status: active
 source: discovered
 category: social
 tags:
-- disability
-- home-from-hospital-help-at-home
-- neurological-conditions-alzheimers-brain-injury-epilepsy-motor-neurone-disease-multiple-sclerosis-parkinson-s-stroke
-- older-people
+- social-clubs
 cost:
   amount: 0
   currency: GBP

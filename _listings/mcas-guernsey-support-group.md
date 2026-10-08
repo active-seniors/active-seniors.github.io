@@ -5,7 +5,7 @@ status: active
 source: discovered
 category: other
 tags:
-- counselling-and-therapeutic-support
+- social-clubs
 cost:
   amount: 0
   currency: GBP

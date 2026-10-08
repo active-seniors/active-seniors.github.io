@@ -5,9 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- baby-and-toddler
-- children-young-people-and-families
-- physical-activity
+- sport-fitness
 location:
   venue: Sausmarez Park
   parish: Castel

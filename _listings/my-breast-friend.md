@@ -5,8 +5,7 @@ status: active
 source: discovered
 category: other
 tags:
-- cancer
-- women-s-health
+- social-clubs
 cost:
   amount: 0
   currency: GBP

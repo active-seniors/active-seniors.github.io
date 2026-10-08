@@ -5,11 +5,11 @@ status: active
 source: discovered
 category: social
 tags:
-- connect-befriending
-- older-people
-- volunteering-and-giving
+- social-clubs
+- volunteering
 location:
-  venue: Rose Hall, Guernsey Welfare Centre, Upper Mansell Street, St Peter Port, GY1 1LY
+  venue: Rose Hall, Guernsey Welfare Centre, Upper Mansell Street, St Peter Port,
+    GY1 1LY
   parish: St Peter Port
 schedule:
   frequency: weekly
@@ -36,10 +36,10 @@ discovery:
   - Available both in person and online.
   - Health Connections shows this as last updated 9 months ago.
   - 'Web check 8 Oct 2026: schedule from https://linkinglives.uk/project/guernsey/'
-  - 'Web check 8 Oct 2026: contact_phone from https://linkinglives.uk/project/guernsey/ (was:
-    07839188180)'
-  - 'Web check 8 Oct 2026 CHECK: Active, but referrals go on a waiting list: ''We do have
-    a backlog and any referrals will be placed on a waiting list'' (https://linkinglives.uk/project/guernsey/)'
+  - 'Web check 8 Oct 2026: contact_phone from https://linkinglives.uk/project/guernsey/
+    (was: 07839188180)'
+  - 'Web check 8 Oct 2026 CHECK: Active, but referrals go on a waiting list: ''We
+    do have a backlog and any referrals will be placed on a waiting list'' (https://linkinglives.uk/project/guernsey/)'
   - 'Web check 8 Oct 2026: suitability from https://linkinglives.uk/project/guernsey/'
 ---
 

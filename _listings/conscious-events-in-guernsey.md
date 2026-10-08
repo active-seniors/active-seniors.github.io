@@ -5,9 +5,8 @@ status: active
 source: discovered
 category: sports
 tags:
-- arts-and-crafts
-- children-young-people-and-families
-- physical-activity
+- arts-crafts
+- social-clubs
 cost:
   amount: 0
   currency: GBP

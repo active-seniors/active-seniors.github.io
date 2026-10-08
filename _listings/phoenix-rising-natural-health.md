@@ -5,9 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- complementary-therapies
-- physical-activity
-- stress-anxiety-depression
+- mindfulness-relaxation
 location:
   venue: Springfield, Longue Rue, St. Saviour, GY7 9QW
   parish: St Saviour

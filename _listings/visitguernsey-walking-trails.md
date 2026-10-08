@@ -5,8 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- be-active
-- physical-activity
+- walking
 location:
   venue: Guernsey
 cost:
@@ -31,8 +30,8 @@ discovery:
   - 'Web check 8 Oct 2026: contact_email from https://visitguernsey.com/experiences/hiking'
   - 'Web check 8 Oct 2026: contact_phone from https://visitguernsey.com/experiences/hiking
     (was: 01481 723552)'
-  - 'Web check 8 Oct 2026: website from https://visitguernsey.com/experiences/hiking (was:
-    https://www.visitguernsey.com/see-and-do/routes-and-trails/)'
+  - 'Web check 8 Oct 2026: website from https://visitguernsey.com/experiences/hiking
+    (was: https://www.visitguernsey.com/see-and-do/routes-and-trails/)'
 ---
 
 Take advantage of VisitGuernsey's series of self-guided walking and cycling routes near you. With all the uncertainty currently swirling around the island, it's more important than ever to maintain a healthy body and mind. Getting outside for a breath of fresh air and some daylight should be part of your daily routine. If you have the ability to walk and are not quarantined or in isolation, you should go for even a short walk at least once a day.

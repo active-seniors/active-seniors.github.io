@@ -5,7 +5,7 @@ status: active
 source: discovered
 category: society
 tags:
-- older-people
+- learning-talks
 location:
   venue: Varies (recent events at the Styx Centre and St Martin's Community Centre)
 schedule:
@@ -24,11 +24,12 @@ discovery:
   source_url: https://museums.gov.gg/article/179019/Learn-the-language
   scraped_date: '2026-10-08'
   notes:
-  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it is running:
-    2026-02-09.'
-  - 'Why it suits older people: Six-week courses and workshops are aimed at adults with no
-    prior knowledge, and the language is part of island heritage that many older islanders
-    heard growing up. The language page also lists informal social conversation sessions.'
+  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it
+    is running: 2026-02-09.'
+  - 'Why it suits older people: Six-week courses and workshops are aimed at adults
+    with no prior knowledge, and the language is part of island heritage that many
+    older islanders heard growing up. The language page also lists informal social
+    conversation sessions.'
   - 'Source: https://museums.gov.gg/article/179019/Learn-the-language'
   - 'Source: https://guernseypress.com/news/2025/11/04/a-taste-of-a-new-way-to-learn-guernesiais'
   - 'Source: https://guernseypress.com/news/2026/02/09/guernesiais-event-is-a-talking-point'

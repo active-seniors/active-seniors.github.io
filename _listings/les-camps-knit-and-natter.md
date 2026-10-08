@@ -5,7 +5,7 @@ status: active
 source: discovered
 category: arts-hobby
 tags:
-- older-people
+- arts-crafts
 location:
   venue: Les Camps Methodist Church
   parish: St Martin
@@ -27,10 +27,10 @@ discovery:
   source_url: https://www.methodist.org.gg/churches/les-camps/whats-on/default.aspx
   scraped_date: '2026-10-08'
   notes:
-  - 'Found by web search, 8 Oct 2026 (confidence: high). Most recent evidence it is running:
-    2026-08.'
-  - 'Why it suits older people: Daytime social craft group listed in the St Martin''s parish
-    magazine.'
+  - 'Found by web search, 8 Oct 2026 (confidence: high). Most recent evidence it is
+    running: 2026-08.'
+  - 'Why it suits older people: Daytime social craft group listed in the St Martin''s
+    parish magazine.'
   - 'Source: https://www.methodist.org.gg/churches/les-camps/whats-on/default.aspx'
   - 'Source: https://www.stmartinschurch.gg/_data/site/102/pg/673/2026-Aug_Sep_-_Web.pdf'
 ---

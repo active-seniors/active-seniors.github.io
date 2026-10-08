@@ -5,12 +5,11 @@ status: active
 source: discovered
 category: sports
 tags:
-- children-young-people-and-families
-- natural-environment
-- physical-activity
+- nature-outdoors
+- swimming-water-sports
 location:
-  venue: Les Sablons, L'Eree, St Peters, GY7 9LL (registered/base address; rentals also from
-    Cobo, Petit Bot and Shell Beach Herm)
+  venue: Les Sablons, L'Eree, St Peters, GY7 9LL (registered/base address; rentals
+    also from Cobo, Petit Bot and Shell Beach Herm)
   parish: St Pierre du Bois
 organiser:
   website: https://outdoorguernsey.gg

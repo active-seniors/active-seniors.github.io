@@ -5,7 +5,7 @@ status: active
 source: discovered
 category: arts-hobby
 tags:
-- older-people
+- singing-music
 location:
   venue: Various, including Beau Sejour and Capelles Church
 schedule:
@@ -24,11 +24,11 @@ discovery:
   source_url: https://guernseypress.com/news/2026/02/12/guernsey-french-classes-to-kick-off-96th-eisteddfod-festival
   scraped_date: '2026-10-08'
   notes:
-  - 'Found by web search, 8 Oct 2026 (confidence: high). Most recent evidence it is running:
-    February 2026 (96th festival).'
-  - 'Why it suits older people: The festival is open to all ages and abilities and has adult
-    classes, including Guernesiais recitation for native and fluent speakers. People can also
-    join in by visiting exhibitions and performances.'
+  - 'Found by web search, 8 Oct 2026 (confidence: high). Most recent evidence it is
+    running: February 2026 (96th festival).'
+  - 'Why it suits older people: The festival is open to all ages and abilities and
+    has adult classes, including Guernesiais recitation for native and fluent speakers.
+    People can also join in by visiting exhibitions and performances.'
   - 'Source: https://guernseypress.com/news/2026/02/12/guernsey-french-classes-to-kick-off-96th-eisteddfod-festival'
   - 'Source: https://guernseypress.com/news/2026/02/16/guernesiais-classes-start-off-the-eisteddfod'
 ---

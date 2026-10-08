@@ -5,12 +5,10 @@ status: active
 source: discovered
 category: sports
 tags:
-- day-centres
-- mobility
-- older-people
+- social-clubs
 location:
-  venue: Russels Day Centre, Le Grand Courtil, La Route des Cornus, St Martin, Guernsey, Channel
-    Islands, GY4 6PJ
+  venue: Russels Day Centre, Le Grand Courtil, La Route des Cornus, St Martin, Guernsey,
+    Channel Islands, GY4 6PJ
   parish: St Martin
 cost:
   amount: 0

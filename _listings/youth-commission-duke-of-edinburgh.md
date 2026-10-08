@@ -5,12 +5,12 @@ status: active
 source: discovered
 category: sports
 tags:
-- children-young-people-and-families
-- learning-and-skills
-- physical-activity
-- volunteering-and-giving
+- learning-talks
+- social-clubs
+- volunteering
 location:
-  venue: Youth Commission. Foote's Lane House, Foote's Lane St Andrews Guernsey. GY6 8TB
+  venue: Youth Commission. Foote's Lane House, Foote's Lane St Andrews Guernsey. GY6
+    8TB
   parish: St Andrew
 cost:
   notes: Both free and paid options available — see source for details.

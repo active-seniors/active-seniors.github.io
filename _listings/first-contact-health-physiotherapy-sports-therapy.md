@@ -5,8 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- musculoskeletal-health
-- physical-activity
+- sport-fitness
 location:
   venue: Weighbridge St Peter Port
   parish: St Peter Port

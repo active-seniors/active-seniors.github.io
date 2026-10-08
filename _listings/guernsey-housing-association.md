@@ -5,12 +5,10 @@ status: active
 source: discovered
 category: social
 tags:
-- children-young-people-and-families
-- housing-homelessness
-- older-people
+- social-clubs
 location:
-  venue: Guernsey Housing Association First Floor, Newlands House Lowlands Trading Estate
-    Braye Road Vale, GY3 5XJ
+  venue: Guernsey Housing Association First Floor, Newlands House Lowlands Trading
+    Estate Braye Road Vale, GY3 5XJ
   parish: Vale
 cost:
   amount: 0

@@ -5,7 +5,7 @@ status: active
 source: discovered
 category: social
 tags:
-- older-people
+- volunteering
 location:
   venue: Jubilee Day Centre, Grandes Maisons Road
   parish: St Sampson
@@ -26,10 +26,10 @@ discovery:
   source_url: https://www.gvs.org.gg/social-clubs
   scraped_date: '2026-10-08'
   notes:
-  - 'Found by web search, 8 Oct 2026 (confidence: high). Most recent evidence it is running:
-    2026-06-03.'
-  - 'Why it suits older people: GVS says members must generally be over 65 and mobile; Guernsey
-    Press describes it as a meeting place for older members of the community.'
+  - 'Found by web search, 8 Oct 2026 (confidence: high). Most recent evidence it is
+    running: 2026-06-03.'
+  - 'Why it suits older people: GVS says members must generally be over 65 and mobile;
+    Guernsey Press describes it as a meeting place for older members of the community.'
   - 'Source: https://www.gvs.org.gg/social-clubs'
   - 'Source: https://guernseypress.com/news/2026/06/03/guernsey-voluntary-services-jubilee-social-club-could-not-run-without-its-volunteers'
   - 'Source: https://charity.org.gg/charities/29/guernsey-voluntary-service'

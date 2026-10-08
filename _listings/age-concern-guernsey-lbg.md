@@ -5,9 +5,7 @@ status: active
 source: discovered
 category: social
 tags:
-- community-centres
-- day-centres
-- older-people
+- volunteering
 location:
   venue: St Martin’s Parish Hall, Guernsey
   parish: St Martin
@@ -37,12 +35,13 @@ discovery:
   notes:
   - Available both in person and online.
   - Health Connections shows this as last updated 10 months ago.
-  - 'Web check 8 Oct 2026: cost from https://ageconcernguernsey.org.gg (was: £5 annual membership)'
+  - 'Web check 8 Oct 2026: cost from https://ageconcernguernsey.org.gg (was: £5 annual
+    membership)'
   - 'Web check 8 Oct 2026: organiser name from https://charity.org.gg/charities/64/age-concern-guernsey-lbg'
-  - 'Web check 8 Oct 2026: source gives venue ''Centres listed with managers: Rovers AC Community
-    Centre, St Martin, Sylvans Club House, Vale. Registered address Norton House, Pleinheaume
-    Road, Vale GY6 8NR'' (https://charity.org.gg/charities/64/age-concern-guernsey-lbg); listing
-    says ''St Martin’s Parish Hall, Guernsey'' - check'
+  - 'Web check 8 Oct 2026: source gives venue ''Centres listed with managers: Rovers
+    AC Community Centre, St Martin, Sylvans Club House, Vale. Registered address Norton
+    House, Pleinheaume Road, Vale GY6 8NR'' (https://charity.org.gg/charities/64/age-concern-guernsey-lbg);
+    listing says ''St Martin’s Parish Hall, Guernsey'' - check'
   - 'Web check 8 Oct 2026: suitability from https://charity.org.gg/charities/64/age-concern-guernsey-lbg'
 ---
 

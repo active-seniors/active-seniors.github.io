@@ -5,9 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- disability
-- older-people
-- physical-activity
+- sport-fitness
 location:
   venue: Table Tennis Centre Hougue Du Pommier Vale Guernsey GY6 3BD
   parish: Vale
@@ -40,9 +38,10 @@ discovery:
   - 'Web check 8 Oct 2026: schedule from https://guernseysports.com/sports-directory/disability-sports/guernsey-sports-association-for-the-disabled'
   - 'Web check 8 Oct 2026: website from https://guernseysports.com/sports-directory/disability-sports/guernsey-sports-association-for-the-disabled
     (was: https://guernseysports.com/sports-directory/disability-sports/guernsey-sports-association-for-the-disabled)'
-  - 'Web check 8 Oct 2026: source gives venue ''Guernsey Table Tennis Centre, Hougue du Pommier''
-    (https://guernseysports.com/sports-directory/disability-sports/guernsey-sports-association-for-the-disabled);
-    listing says ''Table Tennis Centre Hougue Du Pommier Vale Guernsey GY6 3BD'' - check'
+  - 'Web check 8 Oct 2026: source gives venue ''Guernsey Table Tennis Centre, Hougue
+    du Pommier'' (https://guernseysports.com/sports-directory/disability-sports/guernsey-sports-association-for-the-disabled);
+    listing says ''Table Tennis Centre Hougue Du Pommier Vale Guernsey GY6 3BD'' -
+    check'
   - 'Web check 8 Oct 2026: suitability from https://guernseysports.com/sports-directory/disability-sports/guernsey-sports-association-for-the-disabled'
 ---
 

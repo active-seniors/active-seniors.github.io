@@ -5,8 +5,7 @@ status: active
 source: discovered
 category: volunteering
 tags:
-- older-people
-- volunteering-and-giving
+- volunteering
 location:
   venue: Various WWII fortification sites in Guernsey
 schedule:
@@ -25,12 +24,12 @@ discovery:
   source_url: https://festungguernsey.org.gg/what-we-do/
   scraped_date: '2026-10-08'
   notes:
-  - 'Found by web search, 8 Oct 2026 (confidence: high). Most recent evidence it is running:
-    2026-09-05.'
+  - 'Found by web search, 8 Oct 2026 (confidence: high). Most recent evidence it is
+    running: 2026-09-05.'
   - 'Why it suits older people: Open to anyone over 16 with an interest in fortifications,
-    and volunteers can attend either session or both, so effort can be matched to ability
-    (festungguernsey.org.gg). The group says it is always looking for more volunteers (Bailiwick
-    Express).'
+    and volunteers can attend either session or both, so effort can be matched to
+    ability (festungguernsey.org.gg). The group says it is always looking for more
+    volunteers (Bailiwick Express).'
   - 'Source: https://festungguernsey.org.gg/what-we-do/'
   - 'Source: https://festungguernsey.org.gg/event/fort-hommet-open-day/'
   - 'Source: https://www.bailiwickexpress.com/news-ge/bunkers-fortsand-lots-fun/'

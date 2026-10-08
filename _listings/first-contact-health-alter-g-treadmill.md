@@ -5,10 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- heart-lungs
-- mobility
-- musculoskeletal-health
-- physical-activity
+- sport-fitness
 location:
   venue: Weighbridge House, Lower Pollet, St Peter Port GY1 1Wl
   parish: St Peter Port

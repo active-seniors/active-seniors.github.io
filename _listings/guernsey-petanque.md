@@ -5,8 +5,8 @@ status: active
 source: discovered
 category: sports
 tags:
-- connect-befriending
-- physical-activity
+- social-clubs
+- sport-fitness
 location:
   venue: Ruette De Friquet St Andrews GY6 8SJ
   parish: St Andrew
@@ -17,8 +17,8 @@ schedule:
 cost:
   amount: 30
   currency: GBP
-  notes: £30/yr full membership plus £5 per week green fees; special terms for junior and
-    social members
+  notes: £30/yr full membership plus £5 per week green fees; special terms for junior
+    and social members
 accessibility:
   physical_intensity: low
 suitable_for:
@@ -38,8 +38,8 @@ discovery:
   notes:
   - Available both in person and online.
   - Health Connections shows this as last updated 8 months ago.
-  - 'Web check 8 Oct 2026: cost from https://guernseypetanque.co.uk/about-us-2/ (was: Both
-    free and paid options available — see source for details.)'
+  - 'Web check 8 Oct 2026: cost from https://guernseypetanque.co.uk/about-us-2/ (was:
+    Both free and paid options available — see source for details.)'
   - 'Web check 8 Oct 2026: suitability from https://guernseypetanque.co.uk/about-us-2/'
 ---
 

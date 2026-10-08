@@ -5,12 +5,10 @@ status: active
 source: discovered
 category: sports
 tags:
-- heart-lungs
-- mental-health
-- musculoskeletal-health
-- physical-activity
+- sport-fitness
 location:
-  venue: Delancy Park St Sampson's, Styx Community Centre St Peter's and Sausmarez Park Castel
+  venue: Delancy Park St Sampson's, Styx Community Centre St Peter's and Sausmarez
+    Park Castel
   parish: St Sampson
 cost:
   amount: 0
@@ -26,9 +24,9 @@ discovery:
   notes:
   - Available both in person and online.
   - Health Connections shows this as last updated 9 months ago.
-  - 'Web check 8 Oct 2026 CHECK: Delancey outdoor gym was closed in October 2024 as unsafe,
-    then replaced with new equipment funded by Bowel Cancer Guernsey (reported 6 Aug 2025).
-    Now reopened/upgraded. (https://guernseypress.com/news/2025/08/06/bowel-cancer-charity-funds-gym-upgrade-at-delancey)'
+  - 'Web check 8 Oct 2026 CHECK: Delancey outdoor gym was closed in October 2024 as
+    unsafe, then replaced with new equipment funded by Bowel Cancer Guernsey (reported
+    6 Aug 2025). Now reopened/upgraded. (https://guernseypress.com/news/2025/08/06/bowel-cancer-charity-funds-gym-upgrade-at-delancey)'
 ---
 
 Each location offers a variety of different outdoor gym machines which combine a great workout with the benefits of being outside in a natural environment. Perfect for parents and grandparents to use whilst their children are happy in the playground. A great environment for everyone.

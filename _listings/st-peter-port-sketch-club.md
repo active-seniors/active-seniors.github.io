@@ -5,7 +5,7 @@ status: active
 source: discovered
 category: arts-hobby
 tags:
-- older-people
+- arts-crafts
 location:
   venue: Different outdoor locations around St Peter Port
   parish: St Peter Port
@@ -23,8 +23,8 @@ discovery:
   source_url: https://www.bailiwickexpress.com/news-ge/sketch-club-helped-me-discover-islands-beauty/
   scraped_date: '2026-10-08'
   notes:
-  - 'Found by web search, 8 Oct 2026 (confidence: high). Most recent evidence it is running:
-    2026-01-18.'
+  - 'Found by web search, 8 Oct 2026 (confidence: high). Most recent evidence it is
+    running: 2026-01-18.'
   - 'Why it suits older people: Guernsey Arts says all are welcome and that 2025 participants
     ranged from seven to seventy years old. The organiser describes it as non-judgemental
     and open to beginners.'

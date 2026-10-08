@@ -5,10 +5,7 @@ status: active
 source: discovered
 category: social
 tags:
-- community-centres
-- connect-befriending
-- older-people
-- stress-anxiety-depression
+- social-clubs
 location:
   venue: Vale Douzaine Room
   parish: Vale
@@ -34,8 +31,9 @@ discovery:
   - Health Connections shows this as last updated 8 months ago.
   - 'Web check 8 Oct 2026: organiser name from https://guernseypress.com/news/2023/11/14/senior-citizens-group-saved-after-press-story-inspires-couple'
   - 'Web check 8 Oct 2026: venue from https://guernseypress.com/news/2023/11/14/senior-citizens-group-saved-after-press-story-inspires-couple'
-  - 'Web check 8 Oct 2026 CHECK: Group nearly folded in 2023 when chairman and committee retired;
-    saved by the Prevels. No 2024-2026 source found confirming it still runs. (https://guernseypress.com/news/2023/11/14/senior-citizens-group-saved-after-press-story-inspires-couple)'
+  - 'Web check 8 Oct 2026 CHECK: Group nearly folded in 2023 when chairman and committee
+    retired; saved by the Prevels. No 2024-2026 source found confirming it still runs.
+    (https://guernseypress.com/news/2023/11/14/senior-citizens-group-saved-after-press-story-inspires-couple)'
   - 'Web check 8 Oct 2026: suitability from https://guernseypress.com/news/2023/11/14/senior-citizens-group-saved-after-press-story-inspires-couple'
 ---
 

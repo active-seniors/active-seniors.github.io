@@ -5,9 +5,7 @@ status: active
 source: discovered
 category: social
 tags:
-- disability
-- home-from-hospital-help-at-home
-- older-people
+- social-clubs
 cost:
   notes: Both free and paid options available — see source for details.
 organiser:

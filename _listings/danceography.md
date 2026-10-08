@@ -5,8 +5,8 @@ status: active
 source: discovered
 category: sports
 tags:
-- music-singing-and-dance
-- physical-activity
+- dance
+- singing-music
 location:
   venue: Classes held at Les Adams Methodist Hall and Le Tralade Hotel
 schedule:
@@ -33,8 +33,8 @@ discovery:
   scraped_date: '2026-10-05'
   notes:
   - Available both in person and online.
-  - 'Address given but no known parish matched: ''Classes held at Les Adams Methodist Hall
-    and Le Tralade Hotel'''
+  - 'Address given but no known parish matched: ''Classes held at Les Adams Methodist
+    Hall and Le Tralade Hotel'''
   - Health Connections shows this as last updated 9 months ago.
   - 'Web check 8 Oct 2026: cost from https://www.danceographyguernsey.com/'
   - 'Web check 8 Oct 2026: organiser name from https://www.danceographyguernsey.com/'

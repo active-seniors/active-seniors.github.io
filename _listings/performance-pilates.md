@@ -5,7 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- physical-activity
+- sport-fitness
 location:
   venue: Beau Sejour, Amherst, St. Peter Port GY1 2DL
   parish: St Peter Port

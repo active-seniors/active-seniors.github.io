@@ -5,9 +5,9 @@ status: active
 source: discovered
 category: sports
 tags:
-- connect-befriending
-- learning-and-skills
-- physical-activity
+- learning-talks
+- social-clubs
+- volunteering
 organiser:
   website: http://www.girlguiding.org.gg/
 verification:

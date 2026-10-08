@@ -5,9 +5,8 @@ status: active
 source: discovered
 category: sports
 tags:
-- mindfulness-meditation
-- natural-environment
-- physical-activity
+- mindfulness-relaxation
+- nature-outdoors
 organiser:
   contact_phone: 07781 140420
   contact_email: mike.meinke@live.co.uk

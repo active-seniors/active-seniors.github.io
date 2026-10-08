@@ -5,10 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- addiction
-- alderney
-- cancer
-- physical-activity
+- social-clubs
 location:
   venue: Princess Elizabeth Hospital, St Andrews
   parish: St Andrew

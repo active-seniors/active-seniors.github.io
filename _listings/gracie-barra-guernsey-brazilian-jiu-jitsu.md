@@ -5,8 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- children-young-people-and-families
-- physical-activity
+- sport-fitness
 location:
   venue: Newlands Building, Lowlands Industrial Estate, Braye Rd, Guernsey, GY3 5XJ
 schedule:
@@ -30,14 +29,14 @@ discovery:
   scraped_date: '2026-10-05'
   notes:
   - Available both in person and online.
-  - 'Address given but no known parish matched: ''Newlands Building, Lowlands Industrial Estate,
-    Braye Rd, Guernsey, GY3 5XJ'''
+  - 'Address given but no known parish matched: ''Newlands Building, Lowlands Industrial
+    Estate, Braye Rd, Guernsey, GY3 5XJ'''
   - 'Other contacts on source page: 07781 407481'
   - Health Connections shows this as last updated 9 months ago.
   - 'Web check 8 Oct 2026: schedule from https://guernseypress.com/sport/2025/09/17/two-jiu-jitsu-club-members-presented-with-black-belts'
   - 'Web check 8 Oct 2026: source gives venue ''Granite Fit Gym, St Sampson''s'' (https://guernseypress.com/sport/2025/09/17/two-jiu-jitsu-club-members-presented-with-black-belts);
-    listing says ''Newlands Building, Lowlands Industrial Estate, Braye Rd, Guernsey, GY3
-    5XJ'' - check'
+    listing says ''Newlands Building, Lowlands Industrial Estate, Braye Rd, Guernsey,
+    GY3 5XJ'' - check'
   - 'Web check 8 Oct 2026: suitability from https://guernseypress.com/sport/2025/09/17/two-jiu-jitsu-club-members-presented-with-black-belts'
 ---
 

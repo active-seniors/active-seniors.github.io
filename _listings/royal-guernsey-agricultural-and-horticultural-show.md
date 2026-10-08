@@ -5,7 +5,7 @@ status: active
 source: discovered
 category: society
 tags:
-- older-people
+- social-clubs
 location:
   venue: Saumarez Park
   parish: Castel
@@ -23,10 +23,10 @@ discovery:
   source_url: https://governmenthouse.gg/articles/royal-agricultural-and-horticultural-show-2026/
   scraped_date: '2026-10-08'
   notes:
-  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it is running:
-    Government House report posted July 2026.'
-  - 'Why it suits older people: A traditional island summer event for anyone interested in
-    farming, livestock and horticulture.'
+  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it
+    is running: Government House report posted July 2026.'
+  - 'Why it suits older people: A traditional island summer event for anyone interested
+    in farming, livestock and horticulture.'
   - 'Source: https://governmenthouse.gg/articles/royal-agricultural-and-horticultural-show-2026/'
   - 'Source: https://governmenthouse.gg/articles/the-royal-guernsey-agricultural-and-horticultural-show-2025/'
 ---

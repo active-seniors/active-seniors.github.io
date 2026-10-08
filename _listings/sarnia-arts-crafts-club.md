@@ -5,7 +5,7 @@ status: active
 source: discovered
 category: arts-hobby
 tags:
-- older-people
+- arts-crafts
 location:
   venue: Blanchelande College, Les Vauxbelets (exhibition and summer workshops)
   parish: St Andrew
@@ -27,11 +27,11 @@ discovery:
   source_url: https://guernseypress.com/news/2024/07/19/sarnia-arts-and-crafts-club-centenary-exhibition
   scraped_date: '2026-10-08'
   notes:
-  - 'Found by web search, 8 Oct 2026 (confidence: high). Most recent evidence it is running:
-    2026-08.'
-  - 'Why it suits older people: The club welcomes anyone with an interest in the visual arts,
-    and its workshops cover gentle crafts such as needle felting, decoupage and marbling.
-    The age profile is not stated in the sources.'
+  - 'Found by web search, 8 Oct 2026 (confidence: high). Most recent evidence it is
+    running: 2026-08.'
+  - 'Why it suits older people: The club welcomes anyone with an interest in the visual
+    arts, and its workshops cover gentle crafts such as needle felting, decoupage
+    and marbling. The age profile is not stated in the sources.'
   - 'Source: https://guernseypress.com/news/2024/07/19/sarnia-arts-and-crafts-club-centenary-exhibition'
   - 'Source: https://www.arts.gg/events/sarnia-arts-crafts-club-summer-workshops/'
   - 'Source: https://www.arts.gg/events/sarnia-arts-crafts-club-summer-exhibition-3/'

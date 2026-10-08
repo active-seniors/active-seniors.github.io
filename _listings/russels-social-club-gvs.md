@@ -5,7 +5,7 @@ status: active
 source: discovered
 category: social
 tags:
-- older-people
+- learning-talks
 location:
   venue: Le Grand Courtil
   parish: St Martin
@@ -26,8 +26,8 @@ discovery:
   source_url: https://www.gvs.org.gg/social-clubs
   scraped_date: '2026-10-08'
   notes:
-  - 'Found by web search, 8 Oct 2026 (confidence: high). Most recent evidence it is running:
-    2026 (GVS website, current).'
+  - 'Found by web search, 8 Oct 2026 (confidence: high). Most recent evidence it is
+    running: 2026 (GVS website, current).'
   - 'Why it suits older people: GVS states members must generally be over 65 and mobile.'
   - 'Source: https://www.gvs.org.gg/social-clubs'
   - 'Source: https://www.gvs.org.gg/'

@@ -5,7 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- physical-activity
+- sport-fitness
 location:
   venue: Route de Saint Andrew, St. Andrew, Guernsey GY6 8UH
   parish: St Andrew
@@ -25,8 +25,8 @@ discovery:
   notes:
   - Available both in person and online.
   - Health Connections shows this as last updated 9 months ago.
-  - 'Web check 8 Oct 2026 CHECK: Active: registration open for 2026/27 season (Senior, Youth,
-    Minis, Wildcats) (https://www.guernseyrangersfc.com/)'
+  - 'Web check 8 Oct 2026 CHECK: Active: registration open for 2026/27 season (Senior,
+    Youth, Minis, Wildcats) (https://www.guernseyrangersfc.com/)'
 ---
 
 Guernsey Rangers is the Channel Islands oldest football club, based at KGV. We are a friendly, successful, all-inclusive club with state of the art premier training facilities, that can offer year round football. Guernsey Rangers takes our players to the max! Our coaches are serious about making Guernsey Rangers the No 1 football club in the Channel Islands and are always on the lookout for new PLAYERS and COACHES who will help us get there.

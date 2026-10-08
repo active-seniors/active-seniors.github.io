@@ -5,7 +5,7 @@ status: active
 source: discovered
 category: society
 tags:
-- older-people
+- social-clubs
 schedule:
   frequency: one-off
   day: Annual, two days in August (19-20 August 2026)
@@ -22,10 +22,12 @@ discovery:
   source_url: https://charity.org.gg/charities/68/the-west-united-agricultural-and-horticultural-society
   scraped_date: '2026-10-08'
   notes:
-  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it is running:
-    Membership registration page published 10 July 2026; charity listing updated 14 June 2026.'
-  - 'Why it suits older people: Western-parish residents can join, enter produce or other
-    classes and help on the committee, which keeps them connected to their parish community.'
+  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it
+    is running: Membership registration page published 10 July 2026; charity listing
+    updated 14 June 2026.'
+  - 'Why it suits older people: Western-parish residents can join, enter produce or
+    other classes and help on the committee, which keeps them connected to their parish
+    community.'
   - 'Source: https://charity.org.gg/charities/68/the-west-united-agricultural-and-horticultural-society'
   - 'Source: http://www.thewestshow.com/'
 ---

@@ -5,8 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- children-young-people-and-families
-- physical-activity
+- sport-fitness
 location:
   venue: Northfield, Grand Fort Road, St Sampsons, Guernsey GY2 4 GZ
   parish: St Sampson

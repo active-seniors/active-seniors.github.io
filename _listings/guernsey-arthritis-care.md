@@ -5,8 +5,7 @@ status: active
 source: discovered
 category: social
 tags:
-- be-active
-- older-people
+- sport-fitness
 location:
   venue: Castel Douzaine Room, Les Beaucamps , Castel
   parish: Castel

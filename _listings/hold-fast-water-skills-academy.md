@@ -5,7 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- physical-activity
+- swimming-water-sports
 location:
   venue: L'Ancresse Bay
   parish: Vale
@@ -32,10 +32,10 @@ discovery:
   - 'Web check 8 Oct 2026: website from https://guernseysports.com/programmes/outdoor-adventure-sports/
     (was: https://guernseysup.com)'
   - 'Web check 8 Oct 2026: organiser name from https://guernseysports.com/programmes/outdoor-adventure-sports/'
-  - 'Web check 8 Oct 2026 CHECK: Listing conflates Hold Fast (GSC water safety training: community
-    awareness, qualification courses) with Guernsey SUP paddleboard school. guernseysup.com
-    domain no longer serves the SUP site. VisitGuernsey says Guernsey SUP is based at Pembroke
-    Bay, not L''Ancresse. (https://www.visitguernsey.com/experiences/activities/guernsey-sup/)'
+  - 'Web check 8 Oct 2026 CHECK: Listing conflates Hold Fast (GSC water safety training:
+    community awareness, qualification courses) with Guernsey SUP paddleboard school.
+    guernseysup.com domain no longer serves the SUP site. VisitGuernsey says Guernsey
+    SUP is based at Pembroke Bay, not L''Ancresse. (https://www.visitguernsey.com/experiences/activities/guernsey-sup/)'
 ---
 
 Whether you're starting, experienced or advanced then we can help you. A British Stand Up Paddle Board recognised school since 2014 we have hundreds of hours teaching SUP and we have a 95% success rate of getting people standing! All Guernsey SUP instructors are fully qualified under the British Stand Up Paddle Board Association, with hundreds of hours teaching and lessons.

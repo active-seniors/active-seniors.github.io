@@ -5,8 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- older-people
-- physical-activity
+- sport-fitness
 schedule:
   frequency: Twice weekly for first 3 months, then weekly, over 12 months
 organiser:
@@ -23,12 +22,12 @@ discovery:
   source_url: https://healthimprovement.gg/services/be-active/react-retirement-action
   scraped_date: '2026-10-08'
   notes:
-  - 'Found by web search, 8 Oct 2026 (confidence: high). Most recent evidence it is running:
-    2026-01-28.'
-  - 'Why it suits older people: Designed specifically for people aged 65+ facing early mobility
-    issues such as difficulty getting out of a chair or climbing stairs; GPs and healthcare
-    professionals can refer patients. Paper application forms available at St Martins Community
-    Centre, Beau Sejour, KGV and some GP surgeries.'
+  - 'Found by web search, 8 Oct 2026 (confidence: high). Most recent evidence it is
+    running: 2026-01-28.'
+  - 'Why it suits older people: Designed specifically for people aged 65+ facing early
+    mobility issues such as difficulty getting out of a chair or climbing stairs;
+    GPs and healthcare professionals can refer patients. Paper application forms available
+    at St Martins Community Centre, Beau Sejour, KGV and some GP surgeries.'
   - 'Source: https://healthimprovement.gg/services/be-active/react-retirement-action'
   - 'Source: https://www.bailiwickexpress.com/news-ge/new-programme-to-improve-mobility-for-over-65s/'
   - 'Source: https://foundation.gg/news/older-islanders-helped-to-stay-active-and-independent/'

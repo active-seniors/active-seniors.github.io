@@ -5,9 +5,7 @@ status: active
 source: discovered
 category: social
 tags:
-- older-people
-- pets
-- volunteering-and-giving
+- volunteering
 cost:
   amount: 0
   currency: GBP
@@ -29,7 +27,8 @@ discovery:
   notes:
   - Available both in person and online.
   - Health Connections shows this as last updated 2 months ago.
-  - 'Web check 8 Oct 2026: contact_email from https://cinnamon.org.uk/contact-us/ (was: office@caritas.org.gg)'
+  - 'Web check 8 Oct 2026: contact_email from https://cinnamon.org.uk/contact-us/
+    (was: office@caritas.org.gg)'
   - 'Web check 8 Oct 2026: organiser name from https://cinnamon.org.uk/contact-us/'
   - 'Web check 8 Oct 2026: suitability from https://cinnamon.org.uk'
 ---

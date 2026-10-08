@@ -5,10 +5,8 @@ status: active
 source: discovered
 category: sports
 tags:
-- children-young-people-and-families
-- disability
-- learning-and-skills
-- physical-activity
+- learning-talks
+- swimming-water-sports
 location:
   venue: The Guernsey Sailing Trust Castle Emplacement St Peter Port GY1 1AU
   parish: St Peter Port
@@ -36,9 +34,9 @@ discovery:
   notes:
   - Available both in person and online.
   - Health Connections shows this as last updated 9 months ago.
-  - 'Web check 8 Oct 2026 CHECK: Listing text says ''we can''t run sailing session at the
-    moment'' (Covid-era); outdated. Trust ran summer 2026 courses (posts dated 16 Jul and
-    8 Sep 2026) (https://www.sailingtrust.org.gg)'
+  - 'Web check 8 Oct 2026 CHECK: Listing text says ''we can''t run sailing session
+    at the moment'' (Covid-era); outdated. Trust ran summer 2026 courses (posts dated
+    16 Jul and 8 Sep 2026) (https://www.sailingtrust.org.gg)'
   - 'Web check 8 Oct 2026: suitability from https://www.sailingtrust.org.gg/sailability/'
 ---
 

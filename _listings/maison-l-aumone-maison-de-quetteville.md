@@ -5,8 +5,7 @@ status: active
 source: discovered
 category: social
 tags:
-- care-homes
-- older-people
+- social-clubs
 location:
   venue: MAISON L’AUMONE & MAISON DE QUETTEVILLE, L’Aumone, Castel, Guernsey GY5 7RT
   parish: Castel

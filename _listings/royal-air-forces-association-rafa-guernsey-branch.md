@@ -5,7 +5,7 @@ status: active
 source: discovered
 category: society
 tags:
-- older-people
+- volunteering
 organiser:
   name: Royal Air Forces Association Guernsey Branch
 verification:
@@ -17,11 +17,11 @@ discovery:
   source_url: https://guernseypress.com/news/2026/06/28/the-purpose-of-the-rafa-is-to-support-the-raf-family
   scraped_date: '2026-10-08'
   notes:
-  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it is running:
-    28 June 2026.'
-  - 'Why it suits older people: Support is open to former RAF personnel however long they
-    served. Members and volunteers also join in commemorations and fundraising, according
-    to the Guernsey Press.'
+  - 'Found by web search, 8 Oct 2026 (confidence: medium). Most recent evidence it
+    is running: 28 June 2026.'
+  - 'Why it suits older people: Support is open to former RAF personnel however long
+    they served. Members and volunteers also join in commemorations and fundraising,
+    according to the Guernsey Press.'
   - 'Source: https://guernseypress.com/news/2026/06/28/the-purpose-of-the-rafa-is-to-support-the-raf-family'
 ---
 

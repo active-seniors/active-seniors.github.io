@@ -5,9 +5,8 @@ status: active
 source: discovered
 category: sports
 tags:
-- natural-environment
-- physical-activity
-- staycation
+- nature-outdoors
+- walking
 location:
   venue: Various Locations In Guernsey
 cost:

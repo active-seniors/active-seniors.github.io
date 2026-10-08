@@ -5,7 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- physical-activity
+- sport-fitness
 location:
   venue: Rovers Club House, Port Soif lane GY6 8
   parish: Vale

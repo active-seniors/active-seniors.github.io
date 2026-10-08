@@ -5,10 +5,7 @@ status: active
 source: discovered
 category: social
 tags:
-- autism
-- children-young-people-and-families
-- mental-health
-- older-people
+- social-clubs
 location:
   venue: St Peters - Directions will be provided on the booking of a session.
   parish: St Pierre du Bois

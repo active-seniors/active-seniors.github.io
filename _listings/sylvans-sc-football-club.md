@@ -5,12 +5,12 @@ status: active
 source: discovered
 category: sports
 tags:
-- physical-activity
+- sport-fitness
 cost:
   amount: 160
   currency: GBP
-  notes: Veteran (35 and over) registration £160; senior Div 2 £165; senior Priaulx/Div 1
-    £200
+  notes: Veteran (35 and over) registration £160; senior Div 2 £165; senior Priaulx/Div
+    1 £200
 accessibility:
   physical_intensity: high
 organiser:

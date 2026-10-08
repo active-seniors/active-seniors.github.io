@@ -5,10 +5,10 @@ status: active
 source: discovered
 category: social
 tags:
-- older-people
+- learning-talks
 location:
-  venue: KGV, Spensley Room (coffee morning, exercise class, art class); other sessions at
-    Styx Centre, Tennis Centre, Amalgamated Boxing Club, College Field
+  venue: KGV, Spensley Room (coffee morning, exercise class, art class); other sessions
+    at Styx Centre, Tennis Centre, Amalgamated Boxing Club, College Field
 schedule:
   frequency: weekly
   day: Monday (coffee morning); Friday (Paint and Create art class)
@@ -26,10 +26,11 @@ discovery:
   source_url: https://parkinsons.org.gg/regular-sessions
   scraped_date: '2026-10-08'
   notes:
-  - 'Found by web search, 8 Oct 2026 (confidence: high). Most recent evidence it is running:
-    2026-04-11.'
-  - 'Why it suits older people: Social and activity programme for people living with Parkinson''s
-    and their carers, with carers welcome at several sessions (parkinsons.org.gg regular sessions).'
+  - 'Found by web search, 8 Oct 2026 (confidence: high). Most recent evidence it is
+    running: 2026-04-11.'
+  - 'Why it suits older people: Social and activity programme for people living with
+    Parkinson''s and their carers, with carers welcome at several sessions (parkinsons.org.gg
+    regular sessions).'
   - 'Source: https://parkinsons.org.gg/regular-sessions'
   - 'Source: https://parkinsons.org.gg/'
   - 'Source: https://guernseypress.com/news/2024/04/17/parkinsons-guernsey-has-plenty-to-offer/'

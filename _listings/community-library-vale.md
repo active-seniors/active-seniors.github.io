@@ -5,10 +5,8 @@ status: active
 source: discovered
 category: social
 tags:
-- baby-and-toddler
-- connect-befriending
-- music-singing-and-dance
-- older-people
+- singing-music
+- social-clubs
 location:
   venue: Rue Maraitaine, Vale, opposite the Vale Douzaine Room.
   parish: Vale
@@ -37,7 +35,8 @@ discovery:
   - Available both in person and online.
   - Health Connections shows this as last updated 9 months ago.
   - 'Web check 8 Oct 2026: schedule from https://www.library.gg/lnmcl'
-  - 'Web check 8 Oct 2026: contact_phone from https://www.library.gg/lnmcl (was: 01481 720392)'
+  - 'Web check 8 Oct 2026: contact_phone from https://www.library.gg/lnmcl (was: 01481
+    720392)'
   - 'Web check 8 Oct 2026: website from https://www.library.gg/lnmcl (was: https://library.gg)'
   - 'Web check 8 Oct 2026: suitability from https://www.library.gg/lnmcl'
 ---

@@ -5,7 +5,7 @@ status: active
 source: discovered
 category: arts-hobby
 tags:
-- older-people
+- learning-talks
 location:
   venue: Dorey Room, Guille-Allès Library, Market Street, St Peter Port GY1 1HB
   parish: St Peter Port
@@ -26,10 +26,10 @@ discovery:
   source_url: https://www.library.gg/events/event/library-book-club-8
   scraped_date: '2026-10-08'
   notes:
-  - 'Found by web search, 8 Oct 2026 (confidence: high). Most recent evidence it is running:
-    2026-10-10.'
-  - 'Why it suits older people: Free-to-join, no-booking social reading group in a central,
-    accessible library setting (library.gg event page).'
+  - 'Found by web search, 8 Oct 2026 (confidence: high). Most recent evidence it is
+    running: 2026-10-10.'
+  - 'Why it suits older people: Free-to-join, no-booking social reading group in a
+    central, accessible library setting (library.gg event page).'
   - 'Source: https://www.library.gg/events/event/library-book-club-8'
   - 'Source: https://www.library.gg/events/category/reading-group'
 ---

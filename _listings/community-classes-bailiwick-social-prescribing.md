@@ -5,8 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- older-people
-- physical-activity
+- learning-talks
 location:
   venue: KGV Playing Fields Rue Cohu, Castel Guernsey, GY5 7SZ
   parish: Castel
@@ -32,12 +31,12 @@ discovery:
   scraped_date: '2026-10-05'
   notes:
   - Health Connections shows this as last updated 8 months ago.
-  - 'Web check 8 Oct 2026: cost from https://bsp.org.gg/our-partners/community-classes/ (was:
-    Both free and paid options available — see source for details.)'
+  - 'Web check 8 Oct 2026: cost from https://bsp.org.gg/our-partners/community-classes/
+    (was: Both free and paid options available — see source for details.)'
   - 'Web check 8 Oct 2026: contact_phone from https://bsp.org.gg/our-partners/community-classes/
     (was: 01481 210433.)'
-  - 'Web check 8 Oct 2026: source gives venue ''Styx Centre (Singing for Health, T''ai Chi/Qi
-    Gong, Art group); KGV Community Centre (Art group)'' (https://bsp.org.gg/our-partners/community-classes/);
+  - 'Web check 8 Oct 2026: source gives venue ''Styx Centre (Singing for Health, T''ai
+    Chi/Qi Gong, Art group); KGV Community Centre (Art group)'' (https://bsp.org.gg/our-partners/community-classes/);
     listing says ''KGV Playing Fields Rue Cohu, Castel Guernsey, GY5 7SZ'' - check'
   - 'Web check 8 Oct 2026: suitability from https://bsp.org.gg/our-partners/community-classes/'
 ---

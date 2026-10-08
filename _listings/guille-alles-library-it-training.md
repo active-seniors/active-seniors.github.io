@@ -5,8 +5,7 @@ status: active
 source: discovered
 category: social
 tags:
-- learning-and-skills
-- older-people
+- learning-talks
 location:
   venue: The Fab Lab, first floor, Guille-Allès Library, Market Street, GY1 1HB
   parish: St Peter Port
@@ -38,8 +37,8 @@ discovery:
   - 'Web check 8 Oct 2026: contact_phone from https://www.library.gg/events/event/it-help-356
     (was: 01481 720392)'
   - 'Web check 8 Oct 2026: suitability from https://www.library.gg/events/event/it-help-356'
-  - 'Web check 8 Oct 2026: venue from https://www.library.gg/events/event/it-help-356 (was:
-    Guille-Allès Library, Market Street, St Peter Port, GY1 1HB)'
+  - 'Web check 8 Oct 2026: venue from https://www.library.gg/events/event/it-help-356
+    (was: Guille-Allès Library, Market Street, St Peter Port, GY1 1HB)'
 ---
 
 First Click Training Designed for people who are new to computers and the Internet, First Click training is an ideal way to develop your confidence in a friendly, unpressured environment. The half hour long training sessions are free, but you do need to book in advance. Call 01481 720392 or visit the Library to arrange your First Click training session. IT Help A weekly drop-in session for older people who would like help getting started with their computer, smartphone or tablet. From using a mouse to sending emails, downloading apps to getting on Facebook, we can help! Tuesdays, 11.00-12.00. Call 01481 720392 for more information.

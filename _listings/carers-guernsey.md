@@ -5,10 +5,7 @@ status: active
 source: discovered
 category: social
 tags:
-- advocacy-and-mentoring
-- carers-and-respite
-- children-young-people-and-families
-- older-people
+- social-clubs
 location:
   venue: Andy's House, St Saviour's Community Centre, Le Neuf Chemin, GY7 9FG
   parish: St Saviour
@@ -31,10 +28,12 @@ discovery:
   notes:
   - Available both in person and online.
   - Health Connections shows this as last updated 10 months ago.
-  - 'Web check 8 Oct 2026: cost from https://www.carers.gg (was: Both free and paid options
-    available — see source for details.)'
-  - 'Web check 8 Oct 2026 CHECK: What''s On page lists drop-in peer support with no details;
-    Evening Social Meals ''being refreshed, check back (Jan ''26)'' (https://www.carers.gg/whatson)'
+  - 'Web check 8 Oct 2026: cost from https://www.carers.gg (was: Both free and paid
+    options available — see source for details.)'
+  - 'Web check 8 Oct 2026 CHECK: What''s On page lists drop-in peer support with no
+    details; Evening Social Meals ''being refreshed, check back (Jan ''26)'' (https://www.carers.gg/whatson)'
+suitable_for:
+- carer-and-companion-welcome
 ---
 
 Providing support in the Bailiwick. Our vision Carers Guernsey wants a society that respects, values and supports carers: where we can all care for loved ones without putting our own lives on hold and where no-one has to care alone. Our mission To make life better for carers by providing emotional and practical support; giving carers a voice in matters that affect them; providing a central service for information and advice; and helping to identify and develop various carers services.

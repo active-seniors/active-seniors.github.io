@@ -5,7 +5,7 @@ status: active
 source: discovered
 category: social
 tags:
-- older-people
+- social-clubs
 location:
   venue: Les Camps Methodist Church hall
   parish: St Martin
@@ -31,8 +31,8 @@ discovery:
   source_url: https://www.methodist.org.gg/churches/les-camps/whats-on/default.aspx
   scraped_date: '2026-10-08'
   notes:
-  - 'Found by web search, 8 Oct 2026 (confidence: high). Most recent evidence it is running:
-    2026-08.'
+  - 'Found by web search, 8 Oct 2026 (confidence: high). Most recent evidence it is
+    running: 2026-08.'
   - 'Why it suits older people: Informal free drop-in for a chat, open to all.'
   - 'Source: https://www.methodist.org.gg/churches/les-camps/whats-on/default.aspx'
   - 'Source: https://www.stmartinschurch.gg/_data/site/102/pg/673/2026-Aug_Sep_-_Web.pdf'

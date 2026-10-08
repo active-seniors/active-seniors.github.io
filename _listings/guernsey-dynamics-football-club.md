@@ -5,10 +5,8 @@ status: active
 source: discovered
 category: sports
 tags:
-- autism
-- connect-befriending
-- hearing-sight
-- physical-activity
+- social-clubs
+- sport-fitness
 location:
   venue: Rue Mainguy
 schedule:

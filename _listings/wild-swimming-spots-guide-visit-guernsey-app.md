@@ -5,8 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- physical-activity
-- stress-anxiety-depression
+- swimming-water-sports
 location:
   venue: Guernsey Information Centre, Market Square, St Peter Port, GY1 3AN
   parish: St Peter Port

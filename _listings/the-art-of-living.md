@@ -5,12 +5,11 @@ status: active
 source: discovered
 category: sports
 tags:
-- learning-and-skills
-- mindfulness-meditation
-- physical-activity
+- learning-talks
+- mindfulness-relaxation
 location:
-  venue: Yoga at Styx Centre, Rue de Longfrie (community class 'supported by Maureen de Jong
-    and Art of Living')
+  venue: Yoga at Styx Centre, Rue de Longfrie (community class 'supported by Maureen
+    de Jong and Art of Living')
   parish: St Pierre du Bois
 cost:
   notes: Styx community classes ask a £5 donation

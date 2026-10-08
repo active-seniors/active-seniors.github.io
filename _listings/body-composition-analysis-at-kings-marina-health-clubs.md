@@ -5,7 +5,7 @@ status: active
 source: discovered
 category: sports
 tags:
-- physical-activity
+- learning-talks
 location:
   venue: Kings Road - St Peter Port Guernsey - GY1 1QF
   parish: St Peter Port
