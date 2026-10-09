@@ -8,6 +8,11 @@ tags:
 - mindfulness-relaxation
 suitable_for:
 - beginners-welcome
+location:
+  venue: Styx Community Centre, Rue du Longfrie, GY7 9RZ
+  parish: St Pierre du Bois
+organiser:
+  contact_email: LEV8aerialyoga@gmail.com
 verification:
   verified_by: ''
   verified_date: ''
@@ -23,4 +28,4 @@ discovery:
   - 'Web check 8 Oct 2026: suitability from https://healthconnections.gg/aerial-yoga-with-hannah'
 ---
 
-Emails LEV8aerialyoga@gmail.com Socials facebook Address Styx Community Centre, Rue du Longfrie, St Pierre du Bois GY7 9RZ Aerial yoga is playful and creates a feeling of serenity. The support of the sling allows us to experience poses we may not be able to achieve on the mat and allows for a deeper stretch. Classes are a place to restore, release and reinvigorate. It’s never too late for a new love in your life!
+Aerial yoga is playful and creates a feeling of serenity. The support of the sling allows us to experience poses we may not be able to achieve on the mat and allows for a deeper stretch. Classes are a place to restore, release and reinvigorate. It’s never too late for a new love in your life!

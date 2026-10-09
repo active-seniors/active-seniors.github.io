@@ -38,4 +38,4 @@ discovery:
   - 'Web check 8 Oct 2026: suitability from https://guernseysports.com/getinvolved/table-tennis'
 ---
 
-Guernsey has approximately 150 adult league table tennis players and 70 juniors receiving regular coaching and playing in the junior, senior or social leagues. There are five affiliated clubs (Bribar, Lions, Ravenscroft Panthers, St Pauls and Whistlers), all of which are based at the Guernsey Table Tennis Centre at La Hougue du Pommier, Vale. The Island Championships are contested in March/April each year at the Guernsey Table Tennis Centre, with age categories ranging from Under 11 to Over 70.
+Guernsey has approximately 150 adult table tennis players in its senior and social leagues. There are five affiliated clubs (Bribar, Lions, Ravenscroft Panthers, St Pauls and Whistlers), all of which are based at the Guernsey Table Tennis Centre at La Hougue du Pommier, Vale. The Island Championships are contested in March/April each year at the Guernsey Table Tennis Centre, with age categories up to Over 70.

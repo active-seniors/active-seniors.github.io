@@ -29,4 +29,4 @@ discovery:
   - Health Connections shows this as last updated 8 months ago.
 ---
 
-St Martins AC is a local football club in Guernsey. Established in 1894, we have built ourselves up as a "family style" club rich in tradition and success. We aim to offer opportunities and access to football for anyone aged 5 and over. For adults, we have three representative teams as well as a team in the local "over 35s" division. For more information or to find out how you can get involved, please message us via social media or call 07781 119169
+St Martins AC is a local football club in Guernsey. Established in 1894, we have built ourselves up as a "family style" club rich in tradition and success. For adults, we have three representative teams as well as a team in the local "over 35s" division. For more information or to find out how you can get involved, please message us via social media or call 07781 119169

@@ -30,4 +30,4 @@ discovery:
   - 'Web check 8 Oct 2026: suitability from https://www.northernersac.com/teams'
 ---
 
-Welcome to a club steeped in over 130 years of history. The 'North' is Guernsey's oldest and most successful football club and today has approximately 40 volunteer coaches, developing players from the tender age of school reception right up to the 'vets'. Our vision has always been to nurture our players from the day they walk onto the grass at age five right up to the day they hang up their boots. We are a welcoming and family-friendly club with a key focus on minis and youth development.
+Guernsey's oldest football club, with over 130 years of history. Its teams run right up to the veterans (the 'vets'), and it describes itself as welcoming and family-friendly, with around 40 volunteer coaches.

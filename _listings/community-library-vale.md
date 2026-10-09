@@ -41,4 +41,4 @@ discovery:
   - 'Web check 8 Oct 2026: suitability from https://www.library.gg/lnmcl'
 ---
 
-Access, to a wide selection of fiction, non-fiction, large print, audiobooks, DVDs and jigsaw puzzles. Users of La Nouvelle Maraitaine Community Library need to be members of the Guille-Allès Library to borrow items - if you're not already a member, you can join at the community library. Weekly rhymetimes at the community library on Monday mornings, 10.00-10.30 aimed at babies less than 1 year and 11.00-11.30, open to all preschoolers. Call the Children's Library on 743635 for more information.
+Access to a wide selection of fiction, non-fiction, large print, audiobooks, DVDs and jigsaw puzzles. Users of La Nouvelle Maraitaine Community Library need to be members of the Guille-Allès Library to borrow items - if you're not already a member, you can join at the community library.
