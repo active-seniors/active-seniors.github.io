@@ -47,4 +47,4 @@ discovery:
   - 'Web check 8 Oct 2026: suitability from https://upclimbing.gg/prices'
 ---
 
-Up Climbing is an Indoor Climbing Centre in the old Galaad Chapel, on the Rue de Galaad. It is open 7 days a week and has Manual and Auto belay high roped walls (7m and 5m), Bouldering and Traverse walls and a Treadwall. Rock Climbing is a great sport for all ages. The increasing body of research which supports the psychological and physical benefits of climbing is what led to the development of UP Climbing! It offers a variety of sessions suitable from ages 2 and up.
+Up Climbing is an Indoor Climbing Centre in the old Galaad Chapel, on the Rue de Galaad. It is open 7 days a week and has Manual and Auto belay high roped walls (7m and 5m), Bouldering and Traverse walls and a Treadwall. Rock Climbing is a great sport for all ages. The increasing body of research which supports the psychological and physical benefits of climbing is what led to the development of UP Climbing!

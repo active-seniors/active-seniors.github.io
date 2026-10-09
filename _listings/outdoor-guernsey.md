@@ -30,4 +30,4 @@ discovery:
   - 'Web check 8 Oct 2026: venue from https://outdoorguernsey.gg/contact'
 ---
 
-Outdoor Guernsey is an adventure activities provider running sessions for all ages and abilities in kayaking, paddleboarding, coasteering, cycle tours, archery, climbing, abseiling, high ropes, nerf battles, bushcraft, activiquiz and team building. We also run a school holiday programme for 8-14 year olds, corporate events and private parties.
+Outdoor Guernsey is an adventure activities provider running sessions for all ages and abilities in kayaking, paddleboarding, coasteering, cycle tours, archery, climbing, abseiling, high ropes, bushcraft, activiquiz and team building. We also run corporate events and private parties.

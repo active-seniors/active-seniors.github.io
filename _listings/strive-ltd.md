@@ -40,4 +40,4 @@ discovery:
   - 'Web check 8 Oct 2026: suitability from https://www.westrive.gg/adults/swimlife/beginnerswim'
 ---
 
-Strive is a fitness coaching brand and a collective of people who are learning, growing and challenging their bodies and minds in the water and on land. We deliver multisport (swim, bike, run) courses for beginners, block training passes for swimmers, cyclists and runners, junior swim coaching, strength & conditioning sessions, one to one training plans and personal training.
+Strive is a fitness coaching brand and a collective of people who are learning, growing and challenging their bodies and minds in the water and on land. We deliver multisport (swim, bike, run) courses for beginners, block training passes for swimmers, cyclists and runners, strength & conditioning sessions, one to one training plans and personal training.

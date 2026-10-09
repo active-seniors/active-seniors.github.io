@@ -43,4 +43,4 @@ schedule:
   time: Tue 14:00-16:00, Wed 10:00-12:00 (return hours with volunteers)
 ---
 
-A volunteer-run community library with large print, audiobooks and DVDs, plus events for adults and children. Parking outside.
+A volunteer-run community library with large print, audiobooks and DVDs, plus events for adults. Parking outside.

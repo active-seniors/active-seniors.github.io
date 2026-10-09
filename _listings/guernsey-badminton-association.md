@@ -40,4 +40,4 @@ discovery:
   - 'Web check 8 Oct 2026: suitability from https://badminton.org.gg/clubs/'
 ---
 
-We regularly offer a beginners' adult course which will get you to a standard where you can join a club or enjoy playing badminton with family or friends. We have a range of badminton clubs suitable for all players.  If you are totally new, we recommend doing the beginners' course first. See our Clubs page for more information on our local clubs. Our junior section is run by our development officer, and we have various training sessions depending on what you would like to achieve.
+We regularly offer a beginners' adult course which will get you to a standard where you can join a club or enjoy playing badminton with family or friends. We have a range of badminton clubs suitable for all players. If you are totally new, we recommend doing the beginners' course first. See our Clubs page for more information on our local clubs.
