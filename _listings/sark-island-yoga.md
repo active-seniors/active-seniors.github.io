@@ -16,6 +16,7 @@ cost:
   amount: 10
   currency: GBP
 organiser:
+  contact_email: sarkislandyoga@gmail.com
   website: https://www.facebook.com/sarkyoga/
 verification:
   verified_by: ''
@@ -31,4 +32,4 @@ discovery:
   - 'Web check 8 Oct 2026: venue from https://www.visitguernsey.com/articles/2022/where-to-practice-yoga-on-the-islands-of-guernsey/'
 ---
 
-Emails sarkislandyoga@gmail.com Tuesdays yoga at the Hall, 6pm. All levels are welcome, we provide the equipment, £10 pp
+Yoga at the Hall on Tuesdays at 6pm. All levels are welcome and equipment is provided. £10 per person.

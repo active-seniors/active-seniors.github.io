@@ -31,4 +31,4 @@ discovery:
   - 'Web check 8 Oct 2026: suitability from https://en.wikipedia.org/wiki/Vale_Recreation_F.C.'
 ---
 
-Vale Recreation Football Club was formed in 1932 by the late Wilfred J Corbet. The Club is affiliated to the Guernsey Football Association. It provides opportunities for players from five years to receive coaching and competition in junior and senior men's football. Coaching is by qualified coaches who are trained and have been screened for their suitability for working with young people. The Club consists of four senior teams, a Veterans team and youth teams from age groups Under 11 to Under 18.
+Vale Recreation Football Club was formed in 1932 and is affiliated to the Guernsey Football Association. It has four senior men's teams and a Veterans team, with coaching from qualified coaches.

@@ -29,4 +29,4 @@ discovery:
     6 Aug 2025). Now reopened/upgraded. (https://guernseypress.com/news/2025/08/06/bowel-cancer-charity-funds-gym-upgrade-at-delancey)'
 ---
 
-Each location offers a variety of different outdoor gym machines which combine a great workout with the benefits of being outside in a natural environment. Perfect for parents and grandparents to use whilst their children are happy in the playground. A great environment for everyone.
+Each location offers a variety of different outdoor gym machines which combine a great workout with the benefits of being outside in a natural environment. A great environment for everyone.
