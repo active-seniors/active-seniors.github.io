@@ -12,7 +12,7 @@ location:
   parish: St Saviour
 organiser:
   website: http://www.gsyrhc.co.uk
-  contact_email: gsyrhc@gmail.com
+  contact_email: guernseyridingandhuntclub@gmail.com
 verification:
   verified_by: ''
   verified_date: ''
@@ -34,6 +34,9 @@ discovery:
     Clubs finder with an online join link, but the page is undated and gives no event
     dates. Club website gsyrhc.co.uk could not be fetched (permission request timed
     out). https://bhs.org.uk/british-riding-clubs/find-a-british-riding-club/guernsey-riding-and-hunt-club'
+  - 'Oct 2026: confirmation email bounced or went to the wrong address; correct email
+    is guernseyridingandhuntclub@gmail.com (was gsyrhc@gmail.com). Details not yet
+    confirmed.'
 ---
 
 A riding club for amateur riders of all levels, from competitors to happy hackers, with show jumping, dressage, cross-country and social rides through the year.

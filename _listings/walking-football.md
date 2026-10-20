@@ -15,12 +15,14 @@ schedule:
   time: Tue 14:00-15:00 (open, 40+); Wed 12:00-13:00 (Well-Being Club); Thu 18:00-19:00
     (open, 40+); Sun 08:45-10:00 (open, 40+)
 cost:
-  amount: 5
+  amount: 6
   currency: GBP
-  notes: 'Open sessions: first session free, then £5 per session. Wednesday Well-Being
-    Club: no fee, tea/coffee after.'
+  notes: £6 per session, first session free as a taster. Annual membership £5, payable
+    in June.
 accessibility:
   physical_intensity: low
+  setting: outdoor
+  time_on_feet: most
 suitable_for:
 - beginners-welcome
 organiser:
@@ -28,11 +30,28 @@ organiser:
   contact_phone: 07839 732008
   contact_email: info@gwfc.gg
   name: Guernsey Walking Football Club
+joining:
+  how: drop-in
+  free_first_visit: true
+  accepts_referrals: true
+  first_contact:
+    name: Marion Marquis, Rick Batiste, Trevor Crittell or Paul Wakefield (John Casey
+      on Wednesdays)
+getting_there:
+  bus_stop: KGV (on the bus route)
+  parking: free
+  accessible_toilet: true
+  notes: Toilets and changing rooms on site.
+group:
+  typical_size: medium
+  style: activity-focused
 verification:
   verified_by: ''
   verified_date: ''
   review_due: ''
   last_pr: ''
+  confirmed_by_organiser: '2026-10-20'
+  confirmed_via: email
 discovery:
   source_url: https://directory.healthconnections.gg/listing/f42d437f-c4a4-4aa9-8ccb-0977c9e446c8
   scraped_date: '2026-10-05'
@@ -53,6 +72,12 @@ discovery:
     (https://gwfc.gg/pay-and-play-weekly-sessions/); listing says ''King George V
     Memorial Playing Fields, Rue Cohu, Castel, GY5 7SZ'' - check'
   - 'Web check 8 Oct 2026: suitability from https://gwfc.gg/pay-and-play-weekly-sessions/'
+  - 'Organiser reply 2026-10-20 (email): £6 per session (was £5), first session free,
+    £5 annual membership in June; Tue, Thu and Sun for people who class themselves
+    as fit, Wed for the less mobile or those with a health condition; outdoors all
+    year; 12-24 regulars aged 40+; referrals welcome, starting with Wednesdays. Reply
+    does not say whether the Wednesday session is still free (previously listed as
+    no fee).'
 ---
 
-Walking football is like the game you love, played in a new way. It is a unique small-sided ball game similar in some respects to Association Football. In Guernsey we are a mixed group of enthusiastic people who provide a great recreational facility on the island. Why not join us for fun, friendship and fitness? Play Walking Football with us at KGV on their 3G pitch.
+Walking football is the game you love, played at a walking pace. Tuesday, Thursday and Sunday sessions are for people who class themselves as fit; Wednesday is for the less mobile and people with an illness or health condition. Players are put into teams for three 20-minute games with short breaks, outdoors all year round. Just turn up; your first session is a free taster.

@@ -1,6 +1,6 @@
 ---
 id: u3a
-title: U3A
+title: u3a Guernsey
 status: active
 source: discovered
 category: sports
@@ -9,30 +9,36 @@ tags:
 - learning-talks
 - social-clubs
 location:
-  venue: St Pierre Park Hotel (monthly coffee morning); interest groups meet at various
-    venues
+  venue: KGV (monthly coffee morning); interest groups meet at various venues
 schedule:
   frequency: monthly
-  day: First Tuesday (coffee morning)
-  time: 10:00-11:30
+  day: First Tuesday (coffee morning); groups and events Monday to Friday, plus Sunday
+    lunch groups
+  time: Coffee morning from 10:00
 cost:
   amount: 15
   currency: GBP
-  notes: Membership £15 per year (January to December)
-accessibility:
-  physical_intensity: low
+  notes: Membership £15 per calendar year. Groups and activities charge enough to
+    cover their costs.
 suitable_for:
 - beginners-welcome
 organiser:
-  website: https://u3asites.org.uk/guernsey/welcome
+  website: https://guernsey.u3asite.uk
   contact_phone: 01481 251095
   contact_email: u3aguernsey.secretary@gmail.com
   name: u3a Guernsey
+joining:
+  how: membership
+group:
+  typical_size: large
+  who_comes: mostly-older
 verification:
   verified_by: ''
   verified_date: ''
   review_due: ''
   last_pr: ''
+  confirmed_by_organiser: '2026-10-20'
+  confirmed_via: email
 discovery:
   source_url: https://directory.healthconnections.gg/listing/eea90adb-aa7a-47dd-b4db-390cf9842eaa
   scraped_date: '2026-10-05'
@@ -51,6 +57,9 @@ discovery:
   - 'Web check 8 Oct 2026: suitability from https://u3asites.org.uk/guernsey/welcome'
   - 'Web check 8 Oct 2026: venue from https://u3asites.org.uk/guernsey/welcome (was:
     Various Learn, Laugh and Live! – all whilst having fun)'
+  - 'Organiser reply 2026-10-20 (email): text rewritten by u3a; coffee morning now
+    at KGV (was St Pierre Park Hotel); new website; activity level varies by group,
+    so the "low" rating is removed.'
 ---
 
-Retired people have a lifetime of experience and, collectively, a vast amount of knowledge. Knowledge of a particular subject can be put to use in helping people who may never have had the opportunity to learn it earlier in life. U3A membership is not related to a specific age but to a period in one’s life (the third age) after the second age of full-time employment and parental responsibility.
+u3a Guernsey is a non-profit charity, run by its members for its members, for retired and semi-retired people of any age. More than 1,000 members enjoy over 80 interest groups, share their own interests, and come together for events, activities, social occasions and talks. To find out more, come to the monthly coffee morning at 10am on the first Tuesday of each month at KGV, or visit the website.

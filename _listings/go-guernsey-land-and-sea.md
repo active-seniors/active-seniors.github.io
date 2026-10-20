@@ -11,6 +11,7 @@ schedule:
   frequency: varies
   day: daily (in season)
   time: 2-hour sessions
+  season: Seasonal; closed in winter
 accessibility:
   physical_intensity: moderate
 organiser:
@@ -37,6 +38,8 @@ discovery:
   - 'Web check 8 Oct 2026 CHECK: Site says the business closes for the season on 30
     September 2026 due to a family event overseas (https://www.go-guernsey.gg)'
   - 'Web check 8 Oct 2026: suitability from https://www.visitguernsey.com/experiences/activities/go-guernsey-land-and-sea/'
+  - 'Oct 2026: organiser replied that the business is closed for the season. Details
+    not otherwise confirmed.'
 ---
 
 Rent a bike or book a sea adventure and discover Guernsey from a different perspective.

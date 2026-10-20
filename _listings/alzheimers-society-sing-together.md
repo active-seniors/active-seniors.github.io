@@ -19,13 +19,24 @@ suitable_for:
 organiser:
   name: Alzheimer's Society
   website: https://www.alzheimers.org.uk
-  contact_phone: 01481 233700
+  contact_phone: 07911 738774
   contact_email: guernsey@alzheimers.org.uk
+joining:
+  how: book-ahead
+  companion_welcome: true
+  accepts_referrals: true
+getting_there:
+  parking: free
+  step_free: true
+  accessible_toilet: true
+  notes: Ground floor. Bus stop outside the centre on Rue Maze.
 verification:
   verified_by: ''
   verified_date: ''
   review_due: ''
   last_pr: ''
+  confirmed_by_organiser: '2026-10-20'
+  confirmed_via: email
 discovery:
   source_url: https://directory.healthconnections.gg/listing/10342da8-67fd-4b9c-a6b8-6330db07ec6f
   scraped_date: '2026-10-08'
@@ -40,6 +51,8 @@ discovery:
   - 'Web check 8 Oct 2026 CHECK (unknown): Listed as ''Singing for the Brain - Guernsey''
     on alzheimers.org.uk (undated) and in the 2024 leaflet. No 2025-2026 dated evidence
     found. https://alzheimers.org.uk/support-services/Guernsey%20Local%20Service%20Office/Singing%20for%20the%20Brain%20-%20Guernsey/local'
+  - 'Organiser reply 2026-10-20 (email): details confirmed; phone now 07911 738774
+    (was 01481 233700); contact first; carers welcome.'
 schedule:
   frequency: weekly
   day: Friday

@@ -80,6 +80,7 @@ layout: default
         {% else %}
           <span class="uncertain">Not confirmed — ask the organiser</span>
         {% endif %}
+        {% if page.cost.amount != nil and page.cost.notes and page.cost.notes != "" %}<br>{{ page.cost.notes }}{% endif %}
       </span>
     </p>
     {% if page.schedule.sessions %}
@@ -126,7 +127,7 @@ layout: default
     <p>
       <strong>Getting there</strong>
       <span>
-        {% if gt.bus_routes and gt.bus_routes != empty %}Bus {{ gt.bus_routes | join: ", " }}{% if gt.bus_stop %} to {{ gt.bus_stop }}{% endif %}<br>{% endif %}
+        {% if gt.bus_routes and gt.bus_routes != empty %}Bus {{ gt.bus_routes | join: ", " }}{% if gt.bus_stop %} to {{ gt.bus_stop }}{% endif %}<br>{% elsif gt.bus_stop %}Bus stop: {{ gt.bus_stop }}<br>{% endif %}
         {% case gt.parking %}{% when "free" %}Free parking{% when "paid" %}Paid parking{% when "limited" %}Limited parking{% when "none" %}No parking{% endcase %}{% if gt.parking %}<br>{% endif %}
         {% if gt.step_free == true %}Step-free access{% elsif gt.step_free == false %}Not step-free{% endif %}{% if gt.accessible_toilet == true %} · accessible toilet{% endif %}{% if gt.step_free != nil or gt.accessible_toilet %}<br>{% endif %}
         {% if gt.lifts_offered %}Lifts can be arranged — ask the organiser<br>{% endif %}
