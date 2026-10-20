@@ -106,6 +106,7 @@ title: Home
   <strong class="best-match-label">Our top pick for you</strong>
   <h3><a id="best-match-link" href="#"></a></h3>
   <p id="best-match-reason"></p>
+  <button type="button" class="print-list-toggle" id="best-match-print-toggle">Add to print list</button>
 </div>
 
 <div class="filter-bar">
@@ -253,6 +254,14 @@ function computeBestMatch(cards) {
   var linkEl = document.getElementById('best-match-link');
   linkEl.setAttribute('href', titleLink.getAttribute('href'));
   linkEl.textContent = titleLink.textContent;
+
+  // Same listing, same data-id — print-list.js's own delegated click
+  // handler and its "every button for this id" refresh already keep this
+  // button and the matching card's button in sync, no extra wiring needed
+  // beyond pointing this one at the right id and asking for a refresh.
+  var printBtn = document.getElementById('best-match-print-toggle');
+  printBtn.setAttribute('data-id', best.getAttribute('data-id'));
+  document.dispatchEvent(new CustomEvent('printlist:change'));
 
   var reasons = [];
   if (activeTag) {
