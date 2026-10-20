@@ -64,7 +64,25 @@ title: Home
 
 <div id="browse-panel" hidden>
 
-<h2>Browse by interest</h2>
+<div id="your-answers" class="your-answers" hidden>
+  <h2 tabindex="-1" id="your-answers-heading">Your matches</h2>
+  <p id="your-answers-summary"></p>
+  <p id="your-answers-count" class="your-answers-count"></p>
+  <p class="your-answers-actions">
+    <a href="{{ '/?view=wizard' | relative_url }}" class="your-answers-change">Change my answers</a>
+    <a href="{{ '/?view=panel' | relative_url }}" id="your-answers-clear">Clear and see everything</a>
+  </p>
+</div>
+
+<div id="best-match" class="best-match" hidden>
+  <strong class="best-match-label">Our top pick for you</strong>
+  <h3><a id="best-match-link" href="#"></a></h3>
+  <p id="best-match-reason"></p>
+  <button type="button" class="print-list-toggle" id="best-match-print-toggle">Add to print list</button>
+</div>
+
+<details id="interest-details" class="fold" open>
+<summary><h2>Browse by interest</h2></summary>
 
 <p class="tag-cloud">
 {% assign empty_arr = "" | split: "," %}
@@ -97,17 +115,14 @@ title: Home
   <a class="tag-cloud-item tag-filter-link" href="{{ '/?tag=' | append: tag | relative_url }}" data-tag="{{ tag }}" style="font-size: {{ ratio | times: 0.5 | plus: 0.95 }}rem;">{{ site.data.tag_labels[tag] | default: tag }}</a>
 {% endfor %}
 </p>
+</details>
 
-<h2>All listings</h2>
+<h2 id="listings-heading">All listings</h2>
 
 <p id="active-tag-filter" hidden>Filtered by tag: <strong id="active-tag-label"></strong> — <a href="{{ '/' | relative_url }}" id="clear-tag-filter">clear</a></p>
 
-<div id="best-match" class="best-match" hidden>
-  <strong class="best-match-label">Our top pick for you</strong>
-  <h3><a id="best-match-link" href="#"></a></h3>
-  <p id="best-match-reason"></p>
-  <button type="button" class="print-list-toggle" id="best-match-print-toggle">Add to print list</button>
-</div>
+<details id="filter-details" class="fold" open>
+<summary><strong>Adjust parishes and activity levels</strong></summary>
 
 <div class="filter-bar">
   <strong>Showing parishes:</strong>
@@ -136,6 +151,7 @@ title: Home
   <button id="intensity-reset" type="button">Show all</button>
   <br><span class="meta">How physically demanding an activity is, from none (seated or sedentary) to high. Many listings haven't been rated yet — untick "Not yet rated" to see only rated ones.</span>
 </div>
+</details>
 
 <div id="listings-container">
 {% assign listings = site.listings | sort: "title" %}
@@ -345,6 +361,35 @@ function computeBestMatch(cards) {
     });
     noMatches.hidden = visibleCount !== 0;
     computeBestMatch(cards);
+    updateAnswers(visibleCount);
+  }
+
+  // "Your matches" summary: shown whenever the page was opened with answers
+  // (from the questions or a shared link), so the results lead with what was
+  // asked for instead of sitting below the tag cloud and filters.
+  var answered = !!(activeTag || intensityParam || parishParam);
+  var answersBox = document.getElementById('your-answers');
+  function updateAnswers(count) {
+    if (!answered) { return; }
+    var parts = [];
+    if (activeTag) { parts.push(TAG_LABELS[activeTag] || activeTag); }
+    if (intensityParam) {
+      var lvl = intensityParam.split(',')[0];
+      if (INTENSITY_LABELS[lvl]) { parts.push(INTENSITY_LABELS[lvl].charAt(0).toUpperCase() + INTENSITY_LABELS[lvl].slice(1)); }
+    }
+    var parishes = checkedValues(checkboxes);
+    if (parishParam && parishes.length && parishes.length < checkboxes.length) { parts.push('In ' + parishes.join(', ')); }
+    document.getElementById('your-answers-summary').textContent = parts.length ? 'You asked for: ' + parts.join(' · ') : '';
+    document.getElementById('your-answers-count').textContent = count === 1 ? '1 activity matches.' : count + ' activities match.';
+    document.getElementById('listings-heading').textContent = 'All your matches';
+  }
+  if (answered) {
+    answersBox.hidden = false;
+    document.getElementById('interest-details').open = false;
+    document.getElementById('filter-details').open = false;
+    activeTagBanner.hidden = true;
+    var toggleP = document.getElementById('finder-toggle');
+    if (toggleP) { toggleP.hidden = true; }
   }
 
   checkboxes.forEach(function (cb) { cb.addEventListener('change', applyFilter); });
@@ -366,6 +411,15 @@ function computeBestMatch(cards) {
   }
 
   applyFilter();
+  if (answered) {
+    // Bring the summary into view and announce it to screen readers.
+    // Deferred until the finder script below has un-hidden the panel.
+    document.addEventListener('DOMContentLoaded', function () {
+      var heading = document.getElementById('your-answers-heading');
+      if (heading) { heading.focus({ preventScroll: true }); }
+      if (answersBox.scrollIntoView) { answersBox.scrollIntoView({ block: 'start' }); }
+    });
+  }
 })();
 </script>
 

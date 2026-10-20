@@ -7,29 +7,36 @@
    this audience. See visual-brief.md "Decided: no dark mode". */
 
 :root {
-  --ink: #241f1a;
-  --charcoal: #4a443c;
-  --granite-text: #5c564c;   /* secondary/tertiary TEXT — darkened to clear 6.5:1, never use --granite-line for text */
-  --granite-line: #a89f90;   /* borders/decoration only — fails contrast as text, do not use for text */
-  --line: #ddd5c7;
-  --chalk: #f7f3ec;
-  --paper: #fbf8f3;
-  --terracotta: #9c4a2c;     /* lead accent — links, selected states, primary actions */
-  --lichen: #5f6b4a;         /* accessibility/positive-confirmation signal */
-  --ochre: #d99a2b;          /* FILL ONLY — fails as text/icon colour at ~2.2:1 contrast, never set as a text color */
+  /* Colours follow The Quarry (thequarry.media): pale yellow page, white header
+     and panels, near-black text, Quarry green. Token names are kept from the
+     original palette so every existing rule picks up the new values.
+     Contrast checked against both the yellow page and white panels:
+     ink 16.7:1, secondary 7.6:1, dark green 9.3:1 on yellow. Quarry green
+     (#60a07d) fails as text (2.9:1) so it is a FILL only, with ink text on it. */
+  --ink: #15171a;
+  --charcoal: #33363b;
+  --granite-text: #4b4f55;   /* secondary/tertiary TEXT, 7.6:1 on the yellow page */
+  --granite-line: #b8bd7a;   /* borders/decoration only, never text */
+  --line: #d4d8a8;
+  --chalk: #ffffff;          /* light text on dark fills */
+  --page: #f8fd98;           /* The Quarry's page yellow */
+  --paper: #ffffff;          /* panels, cards, header */
+  --terracotta: #1f4a34;     /* lead accent (Quarry dark green): links, selected states, primary actions */
+  --lichen: #2e6b4b;         /* accessibility/positive-confirmation signal, 5.9:1 on yellow */
+  --ochre: #60a07d;          /* Quarry green, FILL ONLY with ink text on it, never a text colour */
   --badge-bg: var(--ink);
   --badge-text: var(--chalk);
   --error: #9c3b2e;
-  --focus: #241f1a;
+  --focus: #15171a;
   color-scheme: light;
 }
 
 * { box-sizing: border-box; }
 
-html { background: var(--chalk); }
+html { background: var(--page); }
 
 body {
-  background: var(--chalk);
+  background: var(--page);
   color: var(--ink);
   font-family: "Atkinson Hyperlegible", "Segoe UI", Arial, sans-serif;
   font-size: 17px;
@@ -60,7 +67,7 @@ h1, h2, h3 { text-wrap: balance; }
 
 /* ---------- Notices / banners ---------- */
 .wip-banner {
-  background: var(--ink);
+  background: var(--terracotta);
   color: var(--chalk);
   padding: 0.7rem 1.5rem;
   font-size: 0.92rem;
@@ -82,8 +89,11 @@ h1, h2, h3 { text-wrap: balance; }
 
 /* ---------- Masthead ---------- */
 .masthead {
+  /* White full-width header band, as on thequarry.media */
+  background: var(--paper);
+  box-shadow: 0 0 0 100vmax var(--paper);
+  clip-path: inset(0 -100vmax);
   padding: 2.25rem 0 1.5rem;
-  border-bottom: 2px solid var(--line);
   margin-bottom: 2.25rem;
 }
 .masthead a.wordmark-link { text-decoration: none; display: inline-block; }
@@ -261,7 +271,7 @@ nav.site-nav a:hover, nav.site-nav a:focus-visible { border-bottom-color: var(--
 /* ---------- Best match callout ---------- */
 .best-match {
   background: var(--paper);
-  border: 2px solid var(--terracotta);
+  border: 3px solid var(--ochre);
   border-radius: 10px;
   padding: 1.1rem 1.25rem;
   margin-bottom: 1.5rem;
@@ -572,3 +582,36 @@ footer.site-footer {
   max-width: 65ch;
 }
 footer.site-footer a { color: var(--terracotta); }
+
+/* ---------- Results view: "Your matches" summary and fold-down sections ---------- */
+.your-answers {
+  background: var(--paper);
+  border: 2px solid var(--terracotta);
+  border-radius: 10px;
+  padding: 1.1rem 1.3rem 1rem;
+  margin: 0 0 1.25rem;
+  scroll-margin-top: 1rem;
+}
+.your-answers h2 { margin: 0 0 0.4rem; }
+.your-answers h2:focus-visible { outline: none; }
+.your-answers p { margin: 0.25rem 0; }
+.your-answers-count { font-weight: 700; }
+.your-answers-actions { display: flex; flex-wrap: wrap; gap: 0.6rem 1.4rem; margin-top: 0.7rem !important; }
+.your-answers-change {
+  display: inline-block; padding: 0.55rem 1.1rem; border-radius: 8px; background: var(--terracotta);
+  color: var(--chalk) !important; font-weight: 700; text-decoration: none;
+}
+.your-answers-change:hover, .your-answers-change:focus-visible { background: var(--ink); }
+#your-answers-clear { align-self: center; font-weight: 700; }
+
+details.fold { margin: 0 0 1rem; }
+details.fold > summary {
+  cursor: pointer; list-style: none; display: flex; align-items: center; gap: 0.6rem;
+  padding: 0.5rem 0; border-bottom: 1.5px solid var(--line);
+}
+details.fold > summary::-webkit-details-marker { display: none; }
+details.fold > summary::before { content: "\25B8"; font-size: 1rem; color: var(--terracotta); transition: transform 150ms ease; }
+details.fold[open] > summary::before { transform: rotate(90deg); }
+details.fold > summary h2 { display: inline; margin: 0; font-size: 1.25rem; }
+details.fold > summary strong { font-size: 1rem; }
+details.fold[open] > summary { margin-bottom: 0.8rem; }
