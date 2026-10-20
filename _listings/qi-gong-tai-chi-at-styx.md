@@ -17,6 +17,10 @@ organiser:
   contact_phone: 07839 704733
   name: Partnership between Styx Centre, Bailiwick Social Prescribing and Arts for
     Impact
+schedule:
+  frequency: weekly
+  day: Thursday
+  time: 10:15-11:30
 verification:
   verified_by: ''
   verified_date: ''
@@ -31,6 +35,8 @@ discovery:
   - 'Web check 8 Oct 2026: cost notes from https://healthconnections.gg/qi-gong-tai-chi-at-styx'
   - 'Web check 8 Oct 2026: organiser name from https://healthconnections.gg/qi-gong-tai-chi-at-styx'
   - 'Web check 8 Oct 2026: suitability from https://healthconnections.gg/qi-gong-tai-chi-at-styx'
+  - 'Oct 2026: Thursday 10:15-11:30 taken from Parkinson''s Guernsey''s Autumn 2026
+    timetable, which lists this class. Not confirmed by this listing''s organiser.'
 ---
 
 Come and enjoy this amazing yet gentle form of exercise, which offers many prove health and wellbeing benefits including lower blood pressure, improvements in balance, sleep, muscle strength and memory, as well as chronic pain relief and reduced stress. Its provided by the Partnership between Styx Centre, Bailiwick Social Prescribing and Arts for Impact. The aim of the partnership is to facilitate and provide social, creative and wellbeing activities which are accessible and affordable to all.
