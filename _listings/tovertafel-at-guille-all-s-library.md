@@ -1,13 +1,13 @@
 ---
 id: tovertafel-at-guille-all-s-library
-title: Tovertafel at Guille-Allès Library
+title: Tovertafel at La Nouvelle Maraitaine Community Library
 status: active
 source: discovered
 category: social
 tags:
 - learning-talks
 location:
-  venue: La Nouvelle Maraitaine, Rue Maraitaine, Vale, GY3 5QD
+  venue: La Nouvelle Maraitaine Community Library, Rue Maraitaine, Vale, GY3 5QE
   parish: Vale
 schedule:
   frequency: weekly
@@ -21,15 +21,25 @@ accessibility:
 suitable_for:
 - dementia-friendly
 organiser:
-  website: https://www.library.gg/dementia-services
-  contact_phone: 01481 720392
-  contact_email: jburgess@library.gg
   name: Guille-Allès Library
+  website: https://www.library.gg/dementia-services
+  contact_phone: 01481 810590
+  contact_email: jburgess@library.gg
+joining:
+  how: drop-in
+  free_first_visit: true
+  companion_welcome: true
+  accepts_referrals: true
+  first_contact:
+    name: Jackie Burgess
+    phone: 01481 810590
 verification:
   verified_by: ''
   verified_date: ''
   review_due: ''
   last_pr: ''
+  confirmed_by_organiser: '2026-10-20'
+  confirmed_via: email
 discovery:
   source_url: https://directory.healthconnections.gg/listing/f94e21c9-7d74-4042-93b9-baa89420041c
   scraped_date: '2026-10-05'
@@ -39,6 +49,11 @@ discovery:
   - 'Web check 8 Oct 2026: schedule from https://www.library.gg/dementia-services'
   - 'Web check 8 Oct 2026: organiser name from https://www.library.gg/dementia-services'
   - 'Web check 8 Oct 2026: suitability from https://www.library.gg/lnmcl'
+  - 'Organiser reply 2026-10-20 (email): reply sent as a Word document with crossed-out
+    (red) and added (green) text: renamed for the La Nouvelle Maraitaine library;
+    description shortened (children removed); phone 01481 810590 (was 720392).'
+  - 'Editorial decision (Nick Mann, 20 Oct 2026): La Nouvelle Maraitaine postcode
+    is GY3 5QE.'
 ---
 
-The Tovertafel is a magic table that creates moments of happiness for people living with dementia. The table casts interactive light projections that entice children, adults and older people to get moving and have fun together. Tovertafel games have been designed specifically for people with varying stages of dementia, and they can be played both individually and in groups.
+The Tovertafel is a magic table that creates moments of happiness for people living with dementia. Its games have been designed specifically for people at different stages of dementia, and can be played on your own or in a group.

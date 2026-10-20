@@ -14,6 +14,7 @@ location:
 schedule:
   frequency: weekly
   day: Tuesday
+  time: 10:30-12:00
 cost:
   amount: 0
   currency: GBP
@@ -36,6 +37,8 @@ discovery:
   - 'Web check 8 Oct 2026: website from https://www.styxcentre.gg/whats-on-bookings
     (was: https://www.facebook.com/styxcentre/posts/singing-for-health-at-styx-centre-just-turn-up-its-for-fun-all-ages-welcome-do-y/10155307110884531/)'
   - 'Web check 8 Oct 2026: organiser name from https://prideofguernsey.com/moreinfo/1311/pride-of-guernsey-samantha-nichols'
+  - 'Oct 2026: time 10:30-12:00 taken from Parkinson''s Guernsey''s Autumn 2026 timetable,
+    which lists this class. Not confirmed by this listing''s organiser.'
 ---
 
 Come and enjoy this free adult singing session run by singing professional Samantha Nichols at Styx Centre. Songs are taught by ear in a relaxed environment - no need to read music and no previous singing experience necessary. Call for more info or just turn up on the day.

@@ -13,6 +13,7 @@ schedule:
   frequency: weekly
   day: Friday
   time: 13:30-15:00
+  season: Times vary depending on the group; check before you go
 cost:
   notes: Donation basis, pay what you can afford
 suitable_for:
@@ -39,6 +40,8 @@ discovery:
   - 'Web check 8 Oct 2026: confirmed running (Guernsey Press (31 Jul 2025) and Bailiwick
     Express (8 Aug 2025) report weekly Friday Paint and Create sessions for Baili)
     https://guernseypress.com/news/2025/07/31/bailiwick-social-prescribing-artwork-on-show-for-first-time'
+  - 'Editorial decision (Nick Mann, 20 Oct 2026): times vary by group. Parkinson''s
+    Guernsey''s timetable shows its Friday group as 14:00-16:00.'
 ---
 
 Relaxed art sessions led by an experienced facilitator. No experience needed and all equipment is provided.

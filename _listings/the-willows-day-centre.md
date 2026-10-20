@@ -7,7 +7,7 @@ category: social
 tags:
 - social-clubs
 location:
-  venue: La Nouvelle Maraitaine, Maraitaine Road, Vale, Guernsey GY3 5QD
+  venue: La Nouvelle Maraitaine, Maraitaine Road, Vale, Guernsey GY3 5QE
   parish: Vale
 cost:
   amount: 0
@@ -33,9 +33,13 @@ discovery:
   - Health Connections shows this as last updated 8 months ago.
   - 'Web check 8 Oct 2026: organiser name from https://www.gov.gg/thewillowdaycentre'
   - 'Web check 8 Oct 2026: suitability from https://www.gov.gg/thewillowdaycentre'
+  - 'Editorial decision (Nick Mann, 20 Oct 2026): La Nouvelle Maraitaine postcode
+    is GY3 5QE.'
 editorial_flag:
   status: on-hold
-  reason: "On hold. Day centre with therapeutic activities for people with dementia who cannot attend other day centres; likely relevant to the GP trial. Await GP surgery feedback."
+  reason: On hold. Day centre with therapeutic activities for people with dementia
+    who cannot attend other day centres; likely relevant to the GP trial. Await GP
+    surgery feedback.
   flagged_date: '2026-10-08'
   reviewed_by: Nick Mann, 8 Oct 2026
 ---
