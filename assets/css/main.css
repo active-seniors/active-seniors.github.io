@@ -1,10 +1,19 @@
 /* Join In Guernsey — shared visual system.
-   See /planning/brand-brief.md and /planning/visual-brief.md for the reasoning
-   behind every decision below — this file applies it, it doesn't re-derive it.
+   See /planning/brand-brief.md, /planning/visual-brief.md and
+   /planning/responsible-design-decisions.md for the reasoning behind every
+   decision below — this file applies it, it doesn't re-derive it.
 
    Deliberately single-theme (no dark mode): light-on-dark increases perceived
    halation for astigmatic readers, more common with age — the wrong trade for
-   this audience. See visual-brief.md "Decided: no dark mode". */
+   this audience. See visual-brief.md "Decided: no dark mode".
+
+   Display typeface is Space Grotesk (The Quarry's own heading face),
+   replacing Fraunces — the "Direction B" full-harmony call: Quarry green is
+   the lead accent throughout, terracotta retired. Atkinson Hyperlegible stays
+   for body text regardless — it's the Braille Institute's purpose-built
+   low-vision face, not swapped for Quarry's Poppins. See responsible-design-decisions.md
+   "Visual identity" for the full reasoning and the independently-verified
+   contrast figures. */
 
 :root {
   /* Colours follow The Quarry (thequarry.media): pale yellow page, white header
@@ -98,8 +107,8 @@ h1, h2, h3 { text-wrap: balance; }
 }
 .masthead a.wordmark-link { text-decoration: none; display: inline-block; }
 .wordmark {
-  font-family: "Fraunces", Georgia, serif;
-  font-weight: 900;
+  font-family: "Space Grotesk", "Segoe UI", sans-serif;
+  font-weight: 700;
   font-size: clamp(2.1rem, 5vw, 3.2rem);
   letter-spacing: -0.01em;
   line-height: 1;
@@ -175,7 +184,7 @@ nav.site-nav a:hover, nav.site-nav a:focus-visible { border-bottom-color: var(--
   margin: 1.5rem 0 0.3rem;
 }
 .wizard-step h3 {
-  font-family: "Fraunces", Georgia, serif;
+  font-family: "Space Grotesk", "Segoe UI", sans-serif;
   font-weight: 600;
   font-size: clamp(1.4rem, 3.5vw, 1.8rem);
   margin: 0 0 0.3rem;
@@ -285,7 +294,7 @@ nav.site-nav a:hover, nav.site-nav a:focus-visible { border-bottom-color: var(--
   color: var(--terracotta);
   margin-bottom: 0.3rem;
 }
-.best-match h3 { margin: 0 0 0.3rem; font-family: "Fraunces", Georgia, serif; font-size: 1.3rem; }
+.best-match h3 { margin: 0 0 0.3rem; font-family: "Space Grotesk", "Segoe UI", sans-serif; font-weight: 700; font-size: 1.3rem; }
 .best-match h3 a { text-decoration: none; }
 .best-match h3 a:hover, .best-match h3 a:focus-visible { text-decoration: underline; }
 .best-match p { margin: 0; color: var(--charcoal); }
@@ -366,7 +375,7 @@ nav.site-nav a:hover, nav.site-nav a:focus-visible { border-bottom-color: var(--
 /* ---------- Single listing page ---------- */
 article.listing { max-width: 640px; }
 article.listing h2 {
-  font-family: "Fraunces", Georgia, serif;
+  font-family: "Space Grotesk", "Segoe UI", sans-serif;
   font-weight: 600;
   font-size: clamp(1.7rem, 4vw, 2.3rem);
   line-height: 1.15;
@@ -519,7 +528,7 @@ button[type="submit"]:disabled { background: var(--granite-line); cursor: not-al
   padding: 1.25rem 1.5rem;
   margin-bottom: 1.25rem;
 }
-.print-item h3 { font-family: "Fraunces", Georgia, serif; font-size: 1.4rem; margin: 0 0 0.3rem; }
+.print-item h3 { font-family: "Space Grotesk", "Segoe UI", sans-serif; font-weight: 700; font-size: 1.4rem; margin: 0 0 0.3rem; }
 .print-item-meta { color: var(--charcoal); margin: 0 0 0.8rem; }
 .print-item-rows p, .print-item-organiser div { margin: 0.3rem 0; }
 .print-item-organiser { margin-top: 0.8rem; }
