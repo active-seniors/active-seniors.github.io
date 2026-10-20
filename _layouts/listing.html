@@ -28,6 +28,41 @@ layout: default
     {% if page.location.parish %} · {{ page.location.parish }}{% endif %}
   </p>
 
+  {% assign quick_phone = page.joining.first_contact.phone | default: page.organiser.contact_phone %}
+  {% assign has_email = page.organiser.contact_email | default: "" %}
+  {% assign has_website = page.organiser.website | default: "" %}
+  {% assign has_contact = false %}
+  {% if quick_phone and quick_phone != "" %}{% assign has_contact = true %}{% endif %}
+  {% if has_email != "" %}{% assign has_contact = true %}{% endif %}
+  {% if has_website != "" %}{% assign has_contact = true %}{% endif %}
+  {% if has_contact %}
+  <div class="get-in-touch">
+    <strong>Get in touch</strong>
+    {% if page.joining.how %}
+    <p class="joining-summary">
+      {% case page.joining.how %}
+        {% when "drop-in" %}Just turn up — no need to contact anyone first.
+        {% when "book-ahead" %}Book ahead before you go.
+        {% when "membership" %}Join as a member to take part.
+        {% when "referral-only" %}Ask your GP or a social prescriber to refer you.
+        {% when "waiting-list" %}There's a waiting list — get in touch to join it.
+      {% endcase %}
+    </p>
+    {% endif %}
+    <p class="contact-buttons">
+      {% if quick_phone and quick_phone != "" %}
+        <a class="contact-button contact-button-primary" href="tel:{{ quick_phone | remove: " " }}">Call{% if page.joining.first_contact.name %} {{ page.joining.first_contact.name }}{% endif %}</a>
+      {% endif %}
+      {% if page.organiser.contact_email and page.organiser.contact_email != "" %}
+        <a class="contact-button" href="mailto:{{ page.organiser.contact_email }}">Email</a>
+      {% endif %}
+      {% if page.organiser.website and page.organiser.website != "" %}
+        <a class="contact-button" href="{% unless page.organiser.website contains "http" %}https://{% endunless %}{{ page.organiser.website }}" target="_blank" rel="noopener">Visit website</a>
+      {% endif %}
+    </p>
+  </div>
+  {% endif %}
+
   <div class="description">
     {{ content }}
   </div>

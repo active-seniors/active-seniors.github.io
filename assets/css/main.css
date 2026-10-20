@@ -323,6 +323,44 @@ article.listing h2 {
   margin: 0.8rem 0 0.3rem;
 }
 article.listing > .meta { font-size: 1.05rem; color: var(--charcoal); margin: 0 0 1rem; }
+
+/* Get in touch — active-seniors.github.io#152. The fastest path from
+   finding a listing to actually contacting someone, right under the
+   title rather than after a long scroll through cost/schedule/access
+   detail. The fuller organiser-box further down stays as the complete
+   reference; this is the one-tap shortcut. */
+.get-in-touch {
+  background: var(--paper);
+  border: 1.5px solid var(--terracotta);
+  border-radius: 10px;
+  padding: 1.1rem 1.25rem;
+  margin: 0 0 1.5rem;
+}
+.get-in-touch > strong {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--granite-text);
+  margin-bottom: 0.4rem;
+}
+.joining-summary { margin: 0 0 0.8rem; font-weight: 700; color: var(--ink); }
+.contact-buttons { display: flex; flex-wrap: wrap; gap: 0.7rem; margin: 0; }
+.contact-button {
+  display: inline-block;
+  padding: 0.65em 1.3em;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 1rem;
+  text-decoration: none;
+  border: 1.5px solid var(--terracotta);
+  color: var(--terracotta);
+}
+.contact-button:hover, .contact-button:focus-visible { background: var(--terracotta); color: var(--chalk); }
+.contact-button-primary { background: var(--terracotta); color: var(--chalk); }
+.contact-button-primary:hover, .contact-button-primary:focus-visible { background: var(--ink); border-color: var(--ink); }
+
 article.listing .description { font-size: 1.05rem; max-width: 65ch; margin-bottom: 1.5rem; }
 .detail-rows {
   display: flex;
