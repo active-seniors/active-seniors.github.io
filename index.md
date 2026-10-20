@@ -7,26 +7,23 @@ title: Home
 
 <div id="finder-wizard">
   <h2>Find something for you</h2>
-  <p>Answer three quick questions and we'll show you activities that might suit you. Or <a href="#" id="finder-skip-all">skip the questions and see everything</a>.</p>
-  <p class="finder-helper">Helping someone else? Add activities to a <a href="{{ '/how-to-use/#professionals' | relative_url }}">print list</a> and print them out together.</p>
+  <p>Answer three quick questions and we'll show you what might suit you.</p>
 
   <div class="wizard-step" id="wizard-step-0">
     <p class="wizard-progress">Question 1 of 3</p>
     <h3 tabindex="-1">What kind of thing interests you?</h3>
-    <p class="wizard-hint">Pick whichever sounds most like you — you can change your mind later.</p>
     <div class="wizard-choices">
       {% for tag in activity_tags %}
       {% assign label = site.data.tag_labels[tag] | default: tag %}
       <button type="button" class="wizard-choice" data-field="tag" data-value="{{ tag }}">{{ label }}</button>
       {% endfor %}
     </div>
-    <button type="button" class="wizard-skip-step">Not sure — show me everything</button>
+    <button type="button" class="wizard-skip-step">Not sure? Skip this question</button>
   </div>
 
   <div class="wizard-step" id="wizard-step-1" hidden>
     <p class="wizard-progress">Question 2 of 3</p>
     <h3 tabindex="-1">How much should it ask of you, physically?</h3>
-    <p class="wizard-hint">Just a starting point — you'll be able to change this afterwards.</p>
     <div class="wizard-choices">
       {% for level in intensity_levels %}
       {% case level %}
@@ -47,7 +44,7 @@ title: Home
   <div class="wizard-step" id="wizard-step-2" hidden>
     <p class="wizard-progress">Question 3 of 3</p>
     <h3 tabindex="-1">Whereabouts in Guernsey?</h3>
-    <p class="wizard-hint">Pick as many parishes as you like, or skip this to see activities across the whole island.</p>
+    <p class="wizard-hint">Pick as many as you like, or none for the whole island.</p>
     <div class="wizard-choices">
       {% for parish in site.data.parishes %}
       <button type="button" class="wizard-choice" data-field="parish" data-value="{{ parish }}" aria-pressed="false">{{ parish }}</button>
@@ -58,6 +55,7 @@ title: Home
       <button type="button" class="wizard-continue">Show my matches</button>
     </div>
   </div>
+  <p class="finder-helper">Helping someone else? You can <a href="{{ '/how-to-use/#professionals' | relative_url }}">add activities to a print list</a> and print them out together.</p>
 </div>
 
 <p id="finder-toggle"><a href="#" id="finder-toggle-link">Prefer to see everything at once?</a></p>
@@ -520,7 +518,7 @@ function computeBestMatch(cards) {
     if (e.target.closest('.wizard-back') && currentStep > 0) { showStep(currentStep - 1); return; }
   });
 
-  skipAllLink.addEventListener('click', function (e) { e.preventDefault(); showPanel(); });
+  if (skipAllLink) { skipAllLink.addEventListener('click', function (e) { e.preventDefault(); showPanel(); }); }
 
   toggleLink.addEventListener('click', function (e) {
     e.preventDefault();
