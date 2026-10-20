@@ -7,18 +7,20 @@ category: sports
 tags:
 - walking
 location:
-  venue: King George V Memorial Playing Fields, Rue Cohu, Castel, GY5 7SZ
+  venue: King George V Memorial Playing Fields, Rue Cohu, Castel, GY5 7SZ (Tue, Thu,
+    Sun); Aztech Soccer Centre, Hougue du Pommier (Wed)
   parish: Castel
 schedule:
   frequency: weekly
   day: Tuesday, Wednesday, Thursday, Sunday
-  time: Tue 14:00-15:00 (open, 40+); Wed 12:00-13:00 (Well-Being Club); Thu 18:00-19:00
-    (open, 40+); Sun 08:45-10:00 (open, 40+)
+  time: Tue 14:00-15:00, Thu 18:00-19:00, Sun 08:45-10:00 (for people who class themselves
+    as fit); Wed 12:00-13:00 at the Aztech Soccer Centre (less mobile or with a health
+    condition)
 cost:
   amount: 6
   currency: GBP
-  notes: £6 per session, first session free as a taster. Annual membership £5, payable
-    in June.
+  notes: 'Tue, Thu and Sun: £6 per session, first session free as a taster, annual
+    membership £5 payable in June. Wednesday session: free.'
 accessibility:
   physical_intensity: low
   setting: outdoor
@@ -38,7 +40,7 @@ joining:
     name: Marion Marquis, Rick Batiste, Trevor Crittell or Paul Wakefield (John Casey
       on Wednesdays)
 getting_there:
-  bus_stop: KGV (on the bus route)
+  bus_stop: KGV is on the bus route (Tue, Thu, Sun sessions)
   parking: free
   accessible_toilet: true
   notes: Toilets and changing rooms on site.
@@ -78,6 +80,9 @@ discovery:
     year; 12-24 regulars aged 40+; referrals welcome, starting with Wednesdays. Reply
     does not say whether the Wednesday session is still free (previously listed as
     no fee).'
+  - 'Editorial decision (Nick Mann, 20 Oct 2026): Wednesday session is free and held
+    at the Aztech Soccer Centre, Hougue du Pommier (matches Parkinson''s Guernsey''s
+    Autumn 2026 timetable).'
 ---
 
 Walking football is the game you love, played at a walking pace. Tuesday, Thursday and Sunday sessions are for people who class themselves as fit; Wednesday is for the less mobile and people with an illness or health condition. Players are put into teams for three 20-minute games with short breaks, outdoors all year round. Just turn up; your first session is a free taster.

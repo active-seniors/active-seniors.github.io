@@ -7,7 +7,7 @@ category: social
 tags:
 - learning-talks
 location:
-  venue: La Nouvelle Maraitaine Community Library, Rue Maraitaine, Vale, GY3 5QD
+  venue: La Nouvelle Maraitaine Community Library, Rue Maraitaine, Vale, GY3 5QE
   parish: Vale
 schedule:
   frequency: weekly
@@ -52,6 +52,8 @@ discovery:
   - 'Organiser reply 2026-10-20 (email): reply sent as a Word document with crossed-out
     (red) and added (green) text: renamed for the La Nouvelle Maraitaine library;
     description shortened (children removed); phone 01481 810590 (was 720392).'
+  - 'Editorial decision (Nick Mann, 20 Oct 2026): La Nouvelle Maraitaine postcode
+    is GY3 5QE.'
 ---
 
 The Tovertafel is a magic table that creates moments of happiness for people living with dementia. Its games have been designed specifically for people at different stages of dementia, and can be played on your own or in a group.

@@ -8,7 +8,7 @@ tags:
 - social-clubs
 location:
   venue: Rosaire Court & Gardens (Housing & Care 21), Rosaire Avenue, St Peter Port,
-    GY1 1XW; La Nouvelle Maraitaine Community Library, Rue Maraitaine, Vale, GY3 5DQ
+    GY1 1XW; La Nouvelle Maraitaine Community Library, Rue Maraitaine, Vale, GY3 5QE
 schedule:
   frequency: monthly
   day: first Thursday 14:30-16:30 (Rosaire Court); last Thursday 10:00-12:00 (La Nouvelle
@@ -62,6 +62,8 @@ discovery:
     and Vale drop-ins but has no St Martin drop-in. No 2025-2026 evidence found. https://www.library.gg/sites/default/files/uploads/GSY%20Dementia%20Services%20leaflet%202024.pdf'
   - 'Organiser reply 2026-10-20 (email): details confirmed; contact first; carers
     welcome; venue access.'
+  - 'Editorial decision (Nick Mann, 20 Oct 2026): La Nouvelle Maraitaine postcode
+    is GY3 5QE.'
 ---
 
 Drop-in support sessions for people living with dementia and their carers, at three venues across the island.

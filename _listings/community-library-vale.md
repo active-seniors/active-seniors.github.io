@@ -7,8 +7,8 @@ category: social
 tags:
 - learning-talks
 location:
-  venue: La Nouvelle Maraitaine, Rue Maraitaine, Vale (opposite the Vale Douzaine
-    Room)
+  venue: La Nouvelle Maraitaine, Rue Maraitaine, Vale, GY3 5QE (opposite the Vale
+    Douzaine Room)
   parish: Vale
 schedule:
   frequency: weekly
@@ -55,9 +55,9 @@ discovery:
   - 'Web check 8 Oct 2026: suitability from https://www.library.gg/lnmcl'
   - 'Organiser reply 2026-10-20 (email): reply sent as a Word document with crossed-out
     (red) and added (green) text: category Learning and talks (was Singing and music,
-    Social clubs); venue named La Nouvelle Maraitaine. The reply gives postcode GY7
-    9FG, which is a St Saviour postcode and differs from GY3 5QD on the Tovertafel
-    listing, so no postcode is shown.'
+    Social clubs); venue named La Nouvelle Maraitaine.'
+  - 'Editorial decision (Nick Mann, 20 Oct 2026): La Nouvelle Maraitaine postcode
+    is GY3 5QE.'
 ---
 
 Access to a wide selection of fiction, non-fiction, large print, audiobooks, DVDs and jigsaw puzzles. Users of La Nouvelle Maraitaine Community Library need to be members of the Guille-Allès Library to borrow items - if you're not already a member, you can join at the community library.

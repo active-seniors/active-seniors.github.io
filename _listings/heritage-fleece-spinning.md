@@ -32,7 +32,7 @@ joining:
   how: drop-in
   companion_welcome: true
   first_contact:
-    name: Elaine Laine, Museum Manager
+    name: Elainer Laine, Museum Manager
     phone: 01481 255384
 getting_there:
   bus_routes:
@@ -67,7 +67,7 @@ discovery:
     lists 2026 dates of 16 Apr, 28 May, 18 Jun, 16 Jul and 17 Sep. Last 2026 session
     has passed. https://nationaltrust.gg/events/courtyard-events-folk-and-costume-museum/event/folk-and-costume-museum/learn-heritage-craft-spinning/113'
   - 'Organiser reply 2026-10-20 (email): third Thursday, April to September except
-    August, 10:00-12:00; free; no booking; contact Elaine Laine on 01481 255384 (was
+    August, 10:00-12:00; free; no booking; contact Elainer Laine on 01481 255384 (was
     07781 106461); buses 41 and 42; seating in the courtyard; one wheel for visitors
     to try.'
 ---

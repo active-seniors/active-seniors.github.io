@@ -55,6 +55,8 @@ discovery:
     (was Tue, Thu, Sat 10:00-11:30); events vary by section; come to an event first,
     friends also need to be members, carers welcome; some talks need a free Eventbrite
     ticket.'
+  - 'Editorial decision (Nick Mann, 20 Oct 2026): Archaeology Section listing merged
+    in here, as the section asked.'
 ---
 
-The Bailiwick's natural history, history and conservation society, founded in 1882. Members can join sections covering subjects such as archaeology, astronomy, botany, birds, marine biology, geology and family history, and help with conservation work. Come along to an event to see if you like it. Some talks at the Frossard Theatre need a free ticket booked through Eventbrite.
+The Bailiwick's natural history, history and conservation society, founded in 1882. Members can join sections covering subjects such as archaeology, astronomy, botany, birds, marine biology, geology and family history, and help with conservation work. Come along to an event to see if you like it. Some talks at the Frossard Theatre need a free ticket booked through Eventbrite. The Archaeology Section works with Guernsey Museum on fieldwork, site recording, geophysical surveys and monitoring coastal prehistoric sites across the Bailiwick; members can help with digging and washing finds, or come to site visits, lectures and workshops, at no extra charge. Join La Société and ask to go on the Archaeology Section list (archaeology@societe.org.gg).
