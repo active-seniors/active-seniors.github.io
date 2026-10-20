@@ -1,0 +1,53 @@
+{% comment %}
+  Tag cloud for one dimension of a listing's vocabulary — either its
+  activity-type `tags` or its need/context `suitable_for` values. The two
+  are deliberately kept as separate dimensions (interests vs. needs), not
+  one mixed cloud — see planning/landing-page-ux.md.
+
+  Params:
+    include.field      "tags" or "suitable_for"
+    include.url_prefix  query string prefix each chip links to, e.g.
+                         "{{ '/?tag=' | relative_url }}"
+
+  Explicit if/else on include.field rather than Liquid bracket access
+  (listing[include.field]) — this project avoids relying on untested
+  Liquid behaviour (see the where_exp/or lesson in earlier commits), and
+  a plain conditional is guaranteed to work.
+{% endcomment %}
+{% assign empty_arr = "" | split: "," %}
+{% assign all_vals = "" | split: "," %}
+{% for listing in site.listings %}
+  {% if include.field == "tags" %}
+    {% assign v = listing.tags | default: empty_arr %}
+  {% else %}
+    {% assign v = listing.suitable_for | default: empty_arr %}
+  {% endif %}
+  {% assign all_vals = all_vals | concat: v %}
+{% endfor %}
+{% assign unique_vals = all_vals | uniq | sort %}
+{% assign max_count = 0 %}
+{% for val in unique_vals %}
+  {% assign c = 0 %}
+  {% for listing in site.listings %}
+    {% if include.field == "tags" %}
+      {% if listing.tags contains val %}{% assign c = c | plus: 1 %}{% endif %}
+    {% else %}
+      {% if listing.suitable_for contains val %}{% assign c = c | plus: 1 %}{% endif %}
+    {% endif %}
+  {% endfor %}
+  {% if c > max_count %}{% assign max_count = c %}{% endif %}
+{% endfor %}
+<p class="tag-cloud">
+{% for val in unique_vals %}
+  {% assign count = 0 %}
+  {% for listing in site.listings %}
+    {% if include.field == "tags" %}
+      {% if listing.tags contains val %}{% assign count = count | plus: 1 %}{% endif %}
+    {% else %}
+      {% if listing.suitable_for contains val %}{% assign count = count | plus: 1 %}{% endif %}
+    {% endif %}
+  {% endfor %}
+  {% assign ratio = count | times: 1.0 | divided_by: max_count %}
+  <a class="tag-cloud-item tag-filter-link" href="{{ include.url_prefix | append: val | relative_url }}" data-tag="{{ val }}" style="font-size: {{ ratio | times: 0.5 | plus: 0.95 }}rem;">{{ site.data.tag_labels[val] | default: val }}</a>
+{% endfor %}
+</p>

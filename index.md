@@ -3,14 +3,16 @@ title: Home
 ---
 
 {% assign activity_tags = "walking,swimming-water-sports,sport-fitness,dance,singing-music,arts-crafts,mindfulness-relaxation,nature-outdoors,cooking-food,learning-talks,social-clubs,volunteering,faith-community" | split: "," %}
+{% assign need_tags = "beginners-welcome,dementia-friendly,carer-and-companion-welcome,online-option" | split: "," %}
 {% assign intensity_levels = "none,low,moderate,high" | split: "," %}
+{% assign empty_arr = "" | split: "," %}
 
 <div id="finder-wizard">
   <h2>Find something for you</h2>
-  <p>Answer three quick questions and we'll show you what might suit you.</p>
+  <p>Answer a few quick questions and we'll show you what might suit you.</p>
 
   <div class="wizard-step" id="wizard-step-0">
-    <p class="wizard-progress">Question 1 of 3</p>
+    <p class="wizard-progress">Question 1 of 4</p>
     <h3 tabindex="-1">What kind of thing interests you?</h3>
     <div class="wizard-choices">
       {% for tag in activity_tags %}
@@ -22,7 +24,23 @@ title: Home
   </div>
 
   <div class="wizard-step" id="wizard-step-1" hidden>
-    <p class="wizard-progress">Question 2 of 3</p>
+    <p class="wizard-progress">Question 2 of 4</p>
+    <h3 tabindex="-1">What are your needs?</h3>
+    <p class="wizard-hint">Pick as many as apply, or skip if none do.</p>
+    <div class="wizard-choices">
+      {% for need in need_tags %}
+      {% assign need_label = site.data.tag_labels[need] | default: need %}
+      <button type="button" class="wizard-choice" data-field="need" data-value="{{ need }}" aria-pressed="false">{{ need_label }}</button>
+      {% endfor %}
+    </div>
+    <div class="wizard-actions">
+      <button type="button" class="wizard-back">&larr; Back</button>
+      <button type="button" class="wizard-continue">Continue</button>
+    </div>
+  </div>
+
+  <div class="wizard-step" id="wizard-step-2" hidden>
+    <p class="wizard-progress">Question 3 of 4</p>
     <h3 tabindex="-1">How much should it ask of you, physically?</h3>
     <div class="wizard-choices">
       {% for level in intensity_levels %}
@@ -41,8 +59,8 @@ title: Home
     </div>
   </div>
 
-  <div class="wizard-step" id="wizard-step-2" hidden>
-    <p class="wizard-progress">Question 3 of 3</p>
+  <div class="wizard-step" id="wizard-step-3" hidden>
+    <p class="wizard-progress">Question 4 of 4</p>
     <h3 tabindex="-1">Whereabouts in Guernsey?</h3>
     <p class="wizard-hint">Pick as many as you like, or none for the whole island.</p>
     <div class="wizard-choices">
@@ -80,44 +98,19 @@ title: Home
 </div>
 
 <details id="interest-details" class="fold" open>
-<summary><h2>Browse by interest</h2></summary>
+<summary><h2>What are your interests?</h2></summary>
+{% include tag_cloud.html field="tags" url_prefix="/?tag=" %}
+</details>
 
-<p class="tag-cloud">
-{% assign empty_arr = "" | split: "," %}
-{% assign all_tags = "" | split: "," %}
-{% for listing in site.listings %}
-  {% assign lt = listing.tags | default: empty_arr %}
-  {% assign ls = listing.suitable_for | default: empty_arr %}
-  {% assign all_tags = all_tags | concat: lt | concat: ls %}
-{% endfor %}
-{% assign unique_tags = all_tags | uniq | sort %}
-{% assign max_count = 0 %}
-{% for tag in unique_tags %}
-  {% assign c = 0 %}
-  {% for listing in site.listings %}
-    {% if listing.tags contains tag or listing.suitable_for contains tag %}
-      {% assign c = c | plus: 1 %}
-    {% endif %}
-  {% endfor %}
-  {% if c > max_count %}{% assign max_count = c %}{% endif %}
-{% endfor %}
-{% for tag in unique_tags %}
-  {% assign count = 0 %}
-  {% for listing in site.listings %}
-    {% if listing.tags contains tag or listing.suitable_for contains tag %}
-      {% assign count = count | plus: 1 %}
-    {% endif %}
-  {% endfor %}
-  {% assign ratio = count | times: 1.0 | divided_by: max_count %}
-  {% assign size = ratio | plus: 0.8 %}
-  <a class="tag-cloud-item tag-filter-link" href="{{ '/?tag=' | append: tag | relative_url }}" data-tag="{{ tag }}" style="font-size: {{ ratio | times: 0.5 | plus: 0.95 }}rem;">{{ site.data.tag_labels[tag] | default: tag }}</a>
-{% endfor %}
-</p>
+<details id="needs-details" class="fold" open>
+<summary><h2>What are your needs?</h2></summary>
+{% include tag_cloud.html field="suitable_for" url_prefix="/?need=" %}
 </details>
 
 <h2 id="listings-heading">All listings</h2>
 
 <p id="active-tag-filter" hidden>Filtered by tag: <strong id="active-tag-label"></strong> — <a href="{{ '/' | relative_url }}" id="clear-tag-filter">clear</a></p>
+<p id="active-need-filter" hidden>Filtered by need: <strong id="active-need-label"></strong> — <a href="{{ '/' | relative_url }}" id="clear-need-filter">clear</a></p>
 
 <details id="filter-details" class="fold" open>
 <summary><strong>Adjust parishes and activity levels</strong></summary>
@@ -156,7 +149,8 @@ title: Home
 {% for listing in listings %}
 {% assign lt = listing.tags | default: empty_arr %}
 {% assign ls = listing.suitable_for | default: empty_arr %}
-{% assign listing_tags = lt | concat: ls | join: " " %}
+{% assign listing_tags = lt | join: " " %}
+{% assign listing_needs = ls | join: " " %}
 {% assign is_verified = false %}
 {% if listing.verification.verified_by and listing.verification.verified_by != "" %}{% assign is_verified = true %}{% endif %}
 {% if listing.verification.confirmed_by_organiser %}{% assign is_verified = true %}{% endif %}
@@ -166,7 +160,7 @@ title: Home
 {% if listing.schedule %}{% assign has_schedule = true %}{% endif %}
 {% assign has_venue = false %}
 {% if listing.location.venue and listing.location.venue != "" %}{% assign has_venue = true %}{% endif %}
-<div class="listing-card" data-parish="{{ listing.location.parish }}" data-tags="{{ listing_tags }}" data-intensity="{{ listing.accessibility.physical_intensity | default: 'unrated' }}" data-id="{{ listing.id }}" data-verified="{{ is_verified }}" data-cost-confirmed="{{ cost_confirmed }}" data-has-schedule="{{ has_schedule }}" data-has-venue="{{ has_venue }}">
+<div class="listing-card" data-parish="{{ listing.location.parish }}" data-tags="{{ listing_tags }}" data-needs="{{ listing_needs }}" data-intensity="{{ listing.accessibility.physical_intensity | default: 'unrated' }}" data-id="{{ listing.id }}" data-verified="{{ is_verified }}" data-cost-confirmed="{{ cost_confirmed }}" data-has-schedule="{{ has_schedule }}" data-has-venue="{{ has_venue }}">
   {% if listing.source == "demo-data" %}
     <span class="demo-badge">Demo data</span>
   {% elsif listing.verification.verified_by and listing.verification.verified_by != "" %}
@@ -236,13 +230,14 @@ function computeBestMatch(cards) {
   var el = document.getElementById('best-match');
   var urlParams = new URLSearchParams(window.location.search);
   var activeTag = urlParams.get('tag');
+  var needParam = urlParams.get('need');
   var intensityParam = urlParams.get('intensity');
   var parishParam = urlParams.get('parish');
 
   // Only meaningful when the visitor actually specified something —
   // picking a "top pick" out of the entire unfiltered directory isn't a
   // match, it's just whichever listing happens to be best-documented.
-  if (!activeTag && !intensityParam && !parishParam) {
+  if (!activeTag && !needParam && !intensityParam && !parishParam) {
     el.hidden = true;
     return;
   }
@@ -282,6 +277,12 @@ function computeBestMatch(cards) {
     var tagLabel = TAG_LABELS[activeTag] ? TAG_LABELS[activeTag].toLowerCase() : activeTag;
     reasons.push(tagLabel);
   }
+  if (needParam) {
+    var needLabels = needParam.split(',').map(function (n) {
+      return TAG_LABELS[n] ? TAG_LABELS[n].toLowerCase() : n;
+    });
+    reasons.push(needLabels.join(' and '));
+  }
   if (intensityParam) {
     var level = intensityParam.split(',')[0];
     if (INTENSITY_LABELS[level]) { reasons.push(INTENSITY_LABELS[level]); }
@@ -303,19 +304,45 @@ function computeBestMatch(cards) {
   var resetBtn = document.getElementById('parish-reset');
   var activeTagBanner = document.getElementById('active-tag-filter');
   var activeTagLabel = document.getElementById('active-tag-label');
+  var activeNeedBanner = document.getElementById('active-need-filter');
+  var activeNeedLabel = document.getElementById('active-need-label');
   var urlParams = new URLSearchParams(window.location.search);
 
+  // TAG_LABELS is the global declared above, shared by computeBestMatch —
+  // deliberately not redeclared here. An earlier version had a local
+  // `var TAG_LABELS` assigned only inside `if (activeTag)`, which (var
+  // being function-scoped) shadowed the global for the whole IIFE even
+  // when unassigned — harmless by coincidence while only tag-filtering
+  // used it, but would throw as soon as a need-only filter tried to read
+  // it with no tag set.
   var activeTag = urlParams.get('tag');
   if (activeTag) {
     activeTagBanner.hidden = false;
-    var TAG_LABELS = {{ site.data.tag_labels | jsonify }};
     activeTagLabel.textContent = TAG_LABELS[activeTag] || activeTag;
+  }
+
+  // Needs — a second, separate dimension from interests (tags): what the
+  // activity accommodates (dementia-friendly, carers welcome...) rather
+  // than what kind of thing it is. Comma-separated and OR-matched, same
+  // pattern as parish/intensity — a listing matches if it carries *any*
+  // of the selected needs. See planning/landing-page-ux.md.
+  var needParam = urlParams.get('need');
+  var activeNeeds = needParam ? needParam.split(',') : [];
+  if (activeNeeds.length) {
+    activeNeedBanner.hidden = false;
+    activeNeedLabel.textContent = activeNeeds.map(function (n) { return TAG_LABELS[n] || n; }).join(', ');
   }
 
   function matchesTag(card) {
     if (!activeTag) return true;
     var tags = (card.getAttribute('data-tags') || '').split(' ');
     return tags.indexOf(activeTag) !== -1;
+  }
+
+  function matchesNeeds(card) {
+    if (!activeNeeds.length) return true;
+    var needs = (card.getAttribute('data-needs') || '').split(' ');
+    return activeNeeds.some(function (n) { return needs.indexOf(n) !== -1; });
   }
 
   // Activity level. Unlike parish, a listing with no rating is NOT always
@@ -353,7 +380,7 @@ function computeBestMatch(cards) {
       // applies to listings that actually have one.
       var parishOk = !parish || activeParishes.indexOf(parish) !== -1;
       var intensityOk = activeIntensities.indexOf(card.getAttribute('data-intensity') || 'unrated') !== -1;
-      var show = parishOk && intensityOk && matchesTag(card);
+      var show = parishOk && intensityOk && matchesTag(card) && matchesNeeds(card);
       card.hidden = !show;
       if (show) visibleCount++;
     });
@@ -365,12 +392,13 @@ function computeBestMatch(cards) {
   // "Your matches" summary: shown whenever the page was opened with answers
   // (from the questions or a shared link), so the results lead with what was
   // asked for instead of sitting below the tag cloud and filters.
-  var answered = !!(activeTag || intensityParam || parishParam);
+  var answered = !!(activeTag || activeNeeds.length || intensityParam || parishParam);
   var answersBox = document.getElementById('your-answers');
   function updateAnswers(count) {
     if (!answered) { return; }
     var parts = [];
     if (activeTag) { parts.push(TAG_LABELS[activeTag] || activeTag); }
+    if (activeNeeds.length) { parts.push(activeNeeds.map(function (n) { return TAG_LABELS[n] || n; }).join(', ')); }
     if (intensityParam) {
       var lvl = intensityParam.split(',')[0];
       if (INTENSITY_LABELS[lvl]) { parts.push(INTENSITY_LABELS[lvl].charAt(0).toUpperCase() + INTENSITY_LABELS[lvl].slice(1)); }
@@ -384,8 +412,10 @@ function computeBestMatch(cards) {
   if (answered) {
     answersBox.hidden = false;
     document.getElementById('interest-details').open = false;
+    document.getElementById('needs-details').open = false;
     document.getElementById('filter-details').open = false;
     activeTagBanner.hidden = true;
+    activeNeedBanner.hidden = true;
     var toggleP = document.getElementById('finder-toggle');
     if (toggleP) { toggleP.hidden = true; }
   }
@@ -444,7 +474,12 @@ function computeBestMatch(cards) {
   var skipAllLink = document.getElementById('finder-skip-all');
   var steps = document.querySelectorAll('.wizard-step');
   var currentStep = 0;
-  var state = { tag: null, intensity: null, parishes: [] };
+  // needs and parishes are multi-select (pick as many as apply); tag and
+  // intensity are single-select. MULTI_FIELDS maps a multi-select
+  // data-field name to its array property on state, so both are handled
+  // by the same code below instead of one-off special-casing each.
+  var MULTI_FIELDS = { parish: 'parishes', need: 'needs' };
+  var state = { tag: null, needs: [], intensity: null, parishes: [] };
   var VIEW_KEY = 'jig-finder-view';
 
   function getStoredView() {
@@ -461,9 +496,10 @@ function computeBestMatch(cards) {
     step.querySelectorAll('.wizard-choice').forEach(function (btn) {
       var field = btn.getAttribute('data-field');
       var value = btn.getAttribute('data-value');
-      var selected = field === 'parish' ? state.parishes.indexOf(value) !== -1 : state[field] === value;
+      var multiKey = MULTI_FIELDS[field];
+      var selected = multiKey ? state[multiKey].indexOf(value) !== -1 : state[field] === value;
       btn.classList.toggle('selected', selected);
-      if (field === 'parish') { btn.setAttribute('aria-pressed', selected ? 'true' : 'false'); }
+      if (multiKey) { btn.setAttribute('aria-pressed', selected ? 'true' : 'false'); }
     });
     var heading = step.querySelector('h3');
     if (heading) { heading.focus(); }
@@ -472,6 +508,7 @@ function computeBestMatch(cards) {
   function goToResults() {
     var params = new URLSearchParams();
     if (state.tag) { params.set('tag', state.tag); }
+    if (state.needs.length) { params.set('need', state.needs.join(',')); }
     if (state.intensity) { params.set('intensity', state.intensity + ',unrated'); }
     if (state.parishes.length) { params.set('parish', state.parishes.join(',')); }
     params.set('view', 'panel');
@@ -481,7 +518,7 @@ function computeBestMatch(cards) {
   function showPanel() {
     wizard.hidden = true;
     browsePanel.hidden = false;
-    toggleLink.textContent = 'Not sure where to start? Answer three quick questions';
+    toggleLink.textContent = 'Not sure where to start? Answer a few quick questions';
     toggleLink.setAttribute('data-mode', 'wizard');
     setStoredView('panel');
   }
@@ -500,9 +537,11 @@ function computeBestMatch(cards) {
     if (choice) {
       var field = choice.getAttribute('data-field');
       var value = choice.getAttribute('data-value');
-      if (field === 'parish') {
-        var idx = state.parishes.indexOf(value);
-        if (idx === -1) { state.parishes.push(value); } else { state.parishes.splice(idx, 1); }
+      var multiKey = MULTI_FIELDS[field];
+      if (multiKey) {
+        var arr = state[multiKey];
+        var idx = arr.indexOf(value);
+        if (idx === -1) { arr.push(value); } else { arr.splice(idx, 1); }
         showStep(currentStep);
         return;
       }
@@ -514,7 +553,14 @@ function computeBestMatch(cards) {
       if (currentStep < steps.length - 1) { showStep(currentStep + 1); } else { goToResults(); }
       return;
     }
-    if (e.target.closest('.wizard-continue')) { goToResults(); return; }
+    if (e.target.closest('.wizard-continue')) {
+      // Shared by the needs step's "Continue" (not the last step) and the
+      // final parish step's "Show my matches" — advance unless this is
+      // genuinely the last step, same rule as the single-choice and
+      // skip-step branches above.
+      if (currentStep < steps.length - 1) { showStep(currentStep + 1); } else { goToResults(); }
+      return;
+    }
     if (e.target.closest('.wizard-back') && currentStep > 0) { showStep(currentStep - 1); return; }
   });
 
@@ -531,7 +577,7 @@ function computeBestMatch(cards) {
   // not three more questions first. Otherwise: remembered preference, or
   // the wizard as the default for a first/plain visit.
   var urlParams = new URLSearchParams(window.location.search);
-  var hasFilterParams = urlParams.has('tag') || urlParams.has('intensity') || urlParams.has('parish');
+  var hasFilterParams = urlParams.has('tag') || urlParams.has('need') || urlParams.has('intensity') || urlParams.has('parish');
   if (urlParams.get('view') === 'panel' || hasFilterParams) {
     showPanel();
   } else if (urlParams.get('view') === 'wizard') {
