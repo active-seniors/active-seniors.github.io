@@ -9,6 +9,7 @@ tags:
 - walking
 location:
   venue: Braye Common, Alderney
+  parish: Alderney
 schedule:
   frequency: monthly
   day: Saturday

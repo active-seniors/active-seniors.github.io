@@ -8,6 +8,7 @@ tags:
 - mindfulness-relaxation
 location:
   venue: Island Hall, Sark
+  parish: Sark
 schedule:
   frequency: weekly
   day: Tuesday

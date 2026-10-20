@@ -1,7 +1,17 @@
-# Guernsey's 10 parishes. Fixed real-world list — used to drive the
-# "all shown, switch some off" proximity filter on the homepage. A parish
-# with no current listings still appears in the filter; it just never
-# hides anything.
+# Guernsey's 10 parishes, plus the other inhabited islands in the
+# Bailiwick — Alderney, Sark, Herm — treated with the same weight as a
+# parish in the proximity filter, not left parish-less. A listing with no
+# parish at all is always shown regardless of filter state (see
+# applyFilter() in index.md) — that's meant for listings whose location is
+# genuinely unknown, not for Alderney/Sark/Herm ones that have a perfectly
+# well-known location that just isn't a Guernsey parish. Before this was
+# fixed, an Alderney listing could surface as a match while filtering for
+# a Guernsey parish like St Sampson — see active-seniors.github.io#161 and
+# the "Also noticed" section in planning/listing-relevance-review.md.
+#
+# Fixed real-world list — used to drive the "all shown, switch some off"
+# proximity filter on the homepage. An entry with no current listings
+# still appears in the filter; it just never hides anything.
 - "St Peter Port"
 - "St Sampson"
 - "Vale"
@@ -12,3 +22,6 @@
 - "Forest"
 - "St Martin"
 - "St Andrew"
+- "Alderney"
+- "Sark"
+- "Herm"

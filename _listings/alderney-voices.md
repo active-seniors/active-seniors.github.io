@@ -8,6 +8,7 @@ tags:
 - singing-music
 location:
   venue: Alderney
+  parish: Alderney
 cost:
   amount: 0
   currency: GBP

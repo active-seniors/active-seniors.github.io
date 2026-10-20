@@ -9,6 +9,7 @@ tags:
 - social-clubs
 location:
   venue: Church Hall, Alderney Methodist Church, Butes Road
+  parish: Alderney
 schedule:
   frequency: weekly
   day: Friday

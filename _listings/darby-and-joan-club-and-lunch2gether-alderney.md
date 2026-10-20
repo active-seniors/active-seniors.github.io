@@ -9,6 +9,7 @@ tags:
 location:
   venue: Alderney Methodist Church, bottom of Victoria Street, Butes Road, Alderney
     GY9 3UN
+  parish: Alderney
 organiser:
   website: https://www.alderneymethodist.net
   contact_phone: 01481 822149

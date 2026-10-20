@@ -8,6 +8,7 @@ tags:
 - volunteering
 location:
   venue: Alderney; The Hut, Saye
+  parish: Alderney
 organiser:
   name: Alderney Wildlife Trust
   website: https://www.alderneywildlife.org

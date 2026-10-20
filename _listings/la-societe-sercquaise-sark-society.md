@@ -8,6 +8,7 @@ tags:
 - learning-talks
 location:
   venue: Heritage Room, The Avenue, Sark
+  parish: Sark
 schedule:
   frequency: varies
   notes: Heritage Room open weekdays 11am-1pm, Easter to end of September
