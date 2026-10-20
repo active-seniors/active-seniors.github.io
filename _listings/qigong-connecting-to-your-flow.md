@@ -8,6 +8,7 @@ tags:
 - mindfulness-relaxation
 location:
   venue: Methodist Church Hall, Alderney
+  parish: Alderney
 organiser:
   contact_phone: 07781 135086
   contact_email: lynneroscrow@yahoo.com

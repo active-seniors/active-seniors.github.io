@@ -8,6 +8,7 @@ tags:
 - social-clubs
 location:
   venue: Alderney Sailing Club clubhouse or club deck
+  parish: Alderney
 schedule:
   frequency: weekly
   day: Tuesday (from February); Tuesday, Thursday and Saturday in July and August

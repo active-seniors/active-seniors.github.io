@@ -9,6 +9,7 @@ tags:
 - volunteering
 location:
   venue: Sark
+  parish: Sark
 cost:
   amount: 0
   currency: GBP

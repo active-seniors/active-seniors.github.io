@@ -8,6 +8,7 @@ tags:
 - arts-crafts
 location:
   venue: Pré Studio, Church Street, Alderney
+  parish: Alderney
 cost:
   amount: 0
   currency: GBP
