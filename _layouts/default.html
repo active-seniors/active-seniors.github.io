@@ -12,7 +12,7 @@
   <script src="{{ '/assets/js/print-list.js' | relative_url }}" defer></script>
 </head>
 <body>
-  <div class="wip-banner">Work in progress — most listings here were found automatically and have not yet been individually checked by a person. Nothing should be treated as verified or complete yet.</div>
+  <div class="wip-banner">We're testing this site. Most listings come from public sources and haven't been checked with the organiser yet, so please confirm details before you go. Listings marked "Confirmed by organiser" have been checked.</div>
   <div class="page">
     <header class="masthead">
       <a class="wordmark-link" href="{{ '/' | relative_url }}">
@@ -20,25 +20,29 @@
       </a>
       <p class="strapline">{{ site.description }}</p>
       <p class="maintained-by">
-        A directory of real Guernsey activities, maintained by
-        {% if site.quarry_url and site.quarry_url != "" %}
-          <a href="{{ site.quarry_url }}">The Quarry</a>.
-        {% else %}
-          The Quarry.
-        {% endif %}
+        Free to use, run by
+        {% if site.quarry_url and site.quarry_url != "" %}<a href="{{ site.quarry_url }}">The Quarry</a>{% else %}The Quarry{% endif %}.
+        <a href="{{ '/about/' | relative_url }}">About this site</a>
       </p>
       <nav class="site-nav">
         <a href="{{ '/' | relative_url }}">All listings</a>
         <a href="{{ '/tags/' | relative_url }}">Browse by tag</a>
-        <a href="{{ '/submit/' | relative_url }}">Submit a listing</a>
+        <a href="{{ '/how-to-use/' | relative_url }}">How to use</a>
         <a href="{{ '/print-list/' | relative_url }}">Print list <span class="print-list-count" hidden>0</span></a>
+        <a href="{{ '/submit/' | relative_url }}">Add a listing</a>
       </nav>
     </header>
     <main>
       {{ content }}
     </main>
     <footer class="site-footer">
-      <p>Built for the <a href="https://innovateguernsey.com/gprize">G-Prize 2026</a> Active Ageing challenge. Every listing's history — who added it, who's reviewed it, when it's next due a check — is public in this site's <a href="https://github.com/active-seniors/active-seniors.github.io">GitHub history</a>.</p>
+      <p class="footer-links">
+        <a href="{{ '/about/' | relative_url }}">About</a>
+        <a href="{{ '/how-to-use/' | relative_url }}">How to use</a>
+        <a href="{{ '/terms/' | relative_url }}">Terms and privacy</a>
+        <a href="{{ '/how-to-use/#organisers' | relative_url }}">Run a group? Update or remove your listing</a>
+      </p>
+      <p>Every change to every listing is recorded publicly in this site's <a href="https://github.com/active-seniors/active-seniors.github.io">change history</a>. Questions or corrections: <a href="mailto:editor@thequarry.media">editor@thequarry.media</a>.</p>
     </footer>
   </div>
 </body>

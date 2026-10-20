@@ -7,7 +7,7 @@ permalink: /print-list/
 
 <h2>Your print list</h2>
 
-<p class="print-list-intro">Nothing here is saved beyond this browser tab — closing it clears the list. No account, no login, nothing sent anywhere; the list only ever exists on this device.</p>
+<p class="print-list-intro">Choose "Add to print list" on any activity, then print this page to give someone the times, places and contact details on paper. To email it instead, choose "Save as PDF" in your browser's print window. The list is kept only in this browser tab and disappears when you close it. Nothing is saved or sent anywhere. <a href="{{ '/how-to-use/#professionals' | relative_url }}">How to use the print list</a></p>
 
 <div class="print-list-actions">
   <button type="button" id="print-this-list">Print this list</button>

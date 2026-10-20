@@ -98,7 +98,7 @@ h1, h2, h3 { text-wrap: balance; }
 }
 .wordmark .place { color: var(--terracotta); }
 .masthead .strapline {
-  max-width: 44ch;
+  max-width: 62ch;
   font-size: 1.1rem;
   color: var(--charcoal);
   margin: 0.6rem 0 0;
@@ -213,6 +213,16 @@ nav.site-nav a:hover, nav.site-nav a:focus-visible { border-bottom-color: var(--
 .wizard-continue:hover { background: var(--ink); }
 
 #finder-toggle { font-size: 0.95rem; margin: 0 0 2rem; }
+/* When browsing everything, the way back to the questions is a real button, not a footnote link */
+#finder-toggle-link[data-mode="wizard"] {
+  display: inline-block; padding: 0.8rem 1.4rem; border-radius: 8px; border: 2px solid var(--terracotta);
+  background: var(--paper); color: var(--terracotta); font-weight: 700; font-size: 1.05rem; text-decoration: none;
+}
+#finder-toggle-link[data-mode="wizard"]:hover, #finder-toggle-link[data-mode="wizard"]:focus-visible { background: var(--terracotta); color: var(--chalk); }
+#finder-toggle-link[data-mode="wizard"]::after { content: " \2192"; }
+.finder-helper { color: var(--charcoal); font-size: 0.95rem; }
+.site-footer .footer-links { display: flex; flex-wrap: wrap; gap: 0.4rem 1.5rem; font-weight: 700; }
+.guide-links li { margin-bottom: 0.4rem; }
 
 /* ---------- Filter bar ---------- */
 .filter-bar {

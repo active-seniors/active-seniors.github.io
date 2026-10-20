@@ -23,6 +23,6 @@ permalink: /tags/
       {% assign count = count | plus: 1 %}
     {% endif %}
   {% endfor %}
-<li><a href="{{ '/?tag=' | append: tag | relative_url }}">{{ tag }}</a> ({{ count }})</li>
+<li><a href="{{ '/?tag=' | append: tag | relative_url }}">{{ site.data.tag_labels[tag] | default: tag }}</a> ({{ count }})</li>
 {% endfor %}
 </ul>
