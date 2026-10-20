@@ -157,16 +157,15 @@ title: Home
 {% assign lt = listing.tags | default: empty_arr %}
 {% assign ls = listing.suitable_for | default: empty_arr %}
 {% assign listing_tags = lt | concat: ls | join: " " %}
-{% assign is_verified = false %}
-{% if listing.verification.verified_by and listing.verification.verified_by != "" %}{% assign is_verified = true %}{% endif %}
-{% if listing.verification.confirmed_by_organiser %}{% assign is_verified = true %}{% endif %}
+{% assign effective_verified_date = listing.verification.confirmed_by_organiser | default: listing.verification.verified_date | default: "" %}
+{% assign review_due_str = listing.verification.review_due | default: "" %}
 {% assign cost_confirmed = false %}
 {% if listing.cost.amount or listing.cost.amount == 0 %}{% assign cost_confirmed = true %}{% endif %}
 {% assign has_schedule = false %}
 {% if listing.schedule %}{% assign has_schedule = true %}{% endif %}
 {% assign has_venue = false %}
 {% if listing.location.venue and listing.location.venue != "" %}{% assign has_venue = true %}{% endif %}
-<div class="listing-card" data-parish="{{ listing.location.parish }}" data-tags="{{ listing_tags }}" data-intensity="{{ listing.accessibility.physical_intensity | default: 'unrated' }}" data-id="{{ listing.id }}" data-verified="{{ is_verified }}" data-cost-confirmed="{{ cost_confirmed }}" data-has-schedule="{{ has_schedule }}" data-has-venue="{{ has_venue }}">
+<div class="listing-card" data-parish="{{ listing.location.parish }}" data-tags="{{ listing_tags }}" data-intensity="{{ listing.accessibility.physical_intensity | default: 'unrated' }}" data-id="{{ listing.id }}" data-verified-date="{{ effective_verified_date }}" data-review-due="{{ review_due_str }}" data-cost-confirmed="{{ cost_confirmed }}" data-has-schedule="{{ has_schedule }}" data-has-venue="{{ has_venue }}">
   {% if listing.source == "demo-data" %}
     <span class="demo-badge">Demo data</span>
   {% elsif listing.verification.verified_by and listing.verification.verified_by != "" %}
@@ -232,6 +231,57 @@ var INTENSITY_LABELS = {
   high: 'energetic, a good workout'
 };
 
+/* Verification freshness — shared by the listing order below and the
+ * matching-agent scoring in computeBestMatch. A listing that's been
+ * verified or organiser-confirmed stays "fresh" until its explicit
+ * review_due date passes, or — true of effectively every listing today,
+ * since review_due isn't populated by anything yet (see
+ * active-seniors.github.io#171 / orchestration#3) — until
+ * STALE_AFTER_DAYS have passed since the verification/confirmation date
+ * itself. 90 days matches the ~3-month review cadence already named as
+ * the intended default in planning/listing-frontmatter-schema.md, just
+ * not yet automated.
+ */
+var STALE_AFTER_DAYS = 90;
+
+function classifyVerification(card) {
+  var dateStr = card.getAttribute('data-verified-date');
+  if (!dateStr) { return { bucket: 2, date: null }; } // never verified or confirmed
+  var date = new Date(dateStr + 'T00:00:00');
+  var reviewDueStr = card.getAttribute('data-review-due');
+  var staleAfter = reviewDueStr
+    ? new Date(reviewDueStr + 'T00:00:00')
+    : new Date(date.getTime() + STALE_AFTER_DAYS * 86400000);
+  var isStale = new Date() > staleAfter;
+  return { bucket: isStale ? 1 : 0, date: date }; // 0 = fresh, 1 = stale
+}
+
+/* Listing order — active-seniors.github.io (verification weighting ask):
+ * verified/confirmed first (most recently confirmed first, then
+ * alphabetical), then stale verifications needing a recheck (same
+ * ordering), then never-verified listings (alphabetical only, since
+ * there's no date to rank by). A one-time layout order via CSS `order`,
+ * not a DOM reorder — it doesn't depend on which filters are active, so
+ * it only needs computing once, and hidden cards (display: none) ignore
+ * their order value regardless.
+ */
+function applySortOrder(cards) {
+  var ranked = Array.prototype.map.call(cards, function (card) {
+    var v = classifyVerification(card);
+    var titleEl = card.querySelector('h3 a');
+    return { card: card, bucket: v.bucket, date: v.date, title: titleEl ? titleEl.textContent : '' };
+  });
+  ranked.sort(function (a, b) {
+    if (a.bucket !== b.bucket) { return a.bucket - b.bucket; }
+    if (a.date && b.date) {
+      var diff = b.date - a.date; // most recently verified/confirmed first
+      if (diff !== 0) { return diff; }
+    }
+    return a.title.localeCompare(b.title);
+  });
+  ranked.forEach(function (r, i) { r.card.style.order = i; });
+}
+
 function computeBestMatch(cards) {
   var el = document.getElementById('best-match');
   var urlParams = new URLSearchParams(window.location.search);
@@ -252,7 +302,13 @@ function computeBestMatch(cards) {
   var bestScore = -1;
   visible.forEach(function (card) {
     var score = 0;
-    if (card.getAttribute('data-verified') === 'true') score += 2;
+    var v = classifyVerification(card);
+    // Verification is the strongest signal by design: fresh verification
+    // alone (+4) beats every completeness signal below even if all three
+    // are present (max +3) — a verified listing always outranks an
+    // unverified one, full stop. A stale-but-once-verified listing (+1)
+    // still beats an equally-complete listing that's never been checked.
+    if (v.bucket === 0) { score += 4; } else if (v.bucket === 1) { score += 1; }
     if (card.getAttribute('data-cost-confirmed') === 'true') score += 1;
     if (card.getAttribute('data-has-schedule') === 'true') score += 1;
     if (card.getAttribute('data-has-venue') === 'true') score += 1;
@@ -299,6 +355,7 @@ function computeBestMatch(cards) {
 (function () {
   var checkboxes = document.querySelectorAll('.parish-checkbox');
   var cards = document.querySelectorAll('.listing-card');
+  applySortOrder(cards);
   var noMatches = document.getElementById('no-matches');
   var resetBtn = document.getElementById('parish-reset');
   var activeTagBanner = document.getElementById('active-tag-filter');
