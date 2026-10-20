@@ -299,6 +299,14 @@ nav.site-nav a:hover, nav.site-nav a:focus-visible { border-bottom-color: var(--
   border-radius: 4px;
   display: inline-block;
 }
+/* Distinct from a plain "Verified by {name}" badge (a human independently
+   checked it) — this is the organiser's own say-so, a real but different
+   confidence level. Reuses --lichen, already the project's established
+   positive-confirmation colour (see accessibility.access-line). */
+.verify-badge-confirmed {
+  background: var(--lichen);
+  color: var(--chalk);
+}
 .editorial-flag-banner {
   background: var(--ochre);
   color: var(--ink);

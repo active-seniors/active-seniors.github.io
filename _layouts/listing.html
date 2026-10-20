@@ -9,6 +9,8 @@ layout: default
     <span class="demo-badge">Demo data — not a real listing</span>
   {% elsif page.verification.verified_by and page.verification.verified_by != "" %}
     <span class="verify-badge">Verified by {{ page.verification.verified_by }}</span>
+  {% elsif page.verification.confirmed_by_organiser %}
+    <span class="verify-badge verify-badge-confirmed">Confirmed by the organiser</span>
   {% else %}
     <span class="verify-badge">Not yet verified</span>
   {% endif %}
