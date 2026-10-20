@@ -7,8 +7,8 @@ title: Home
 
 <div id="finder-wizard">
   <h2>Find something for you</h2>
-  <p>Answer three quick questions and we'll show you activities that might suit — or skip straight to browsing everything.</p>
-  <p><a href="#" id="finder-skip-all">Skip the questions — show me everything</a></p>
+  <p>Answer three quick questions and we'll show you activities that might suit you. Or <a href="#" id="finder-skip-all">skip the questions and see everything</a>.</p>
+  <p class="finder-helper">Helping someone else? Add activities to a <a href="{{ '/how-to-use/#professionals' | relative_url }}">print list</a> and print them out together.</p>
 
   <div class="wizard-step" id="wizard-step-0">
     <p class="wizard-progress">Question 1 of 3</p>
@@ -60,7 +60,7 @@ title: Home
   </div>
 </div>
 
-<p id="finder-toggle"><a href="#" id="finder-toggle-link">Prefer to see everything at once instead?</a></p>
+<p id="finder-toggle"><a href="#" id="finder-toggle-link">Prefer to see everything at once?</a></p>
 
 <div id="browse-panel" hidden>
 
@@ -94,7 +94,7 @@ title: Home
   {% endfor %}
   {% assign ratio = count | times: 1.0 | divided_by: max_count %}
   {% assign size = ratio | plus: 0.8 %}
-  <a class="tag-cloud-item tag-filter-link" href="{{ '/?tag=' | append: tag | relative_url }}" data-tag="{{ tag }}" style="font-size: {{ ratio | times: 0.5 | plus: 0.95 }}rem;">{{ tag }}</a>
+  <a class="tag-cloud-item tag-filter-link" href="{{ '/?tag=' | append: tag | relative_url }}" data-tag="{{ tag }}" style="font-size: {{ ratio | times: 0.5 | plus: 0.95 }}rem;">{{ site.data.tag_labels[tag] | default: tag }}</a>
 {% endfor %}
 </p>
 
@@ -178,8 +178,8 @@ title: Home
   </p>
   {% if listing.tags or listing.suitable_for %}
   <p>
-    {% for tag in listing.tags %}<a class="tag" href="{{ '/?tag=' | append: tag | relative_url }}">{{ tag }}</a>{% endfor %}
-    {% for tag in listing.suitable_for %}<a class="tag" href="{{ '/?tag=' | append: tag | relative_url }}">{{ tag }}</a>{% endfor %}
+    {% for tag in listing.tags %}<a class="tag" href="{{ '/?tag=' | append: tag | relative_url }}">{{ site.data.tag_labels[tag] | default: tag }}</a>{% endfor %}
+    {% for tag in listing.suitable_for %}<a class="tag" href="{{ '/?tag=' | append: tag | relative_url }}">{{ site.data.tag_labels[tag] | default: tag }}</a>{% endfor %}
   </p>
   {% endif %}
   <button type="button" class="print-list-toggle" data-id="{{ listing.id }}">Add to print list</button>
@@ -294,7 +294,8 @@ function computeBestMatch(cards) {
   var activeTag = urlParams.get('tag');
   if (activeTag) {
     activeTagBanner.hidden = false;
-    activeTagLabel.textContent = activeTag;
+    var TAG_LABELS = {{ site.data.tag_labels | jsonify }};
+    activeTagLabel.textContent = TAG_LABELS[activeTag] || activeTag;
   }
 
   function matchesTag(card) {
@@ -428,7 +429,7 @@ function computeBestMatch(cards) {
   function showPanel() {
     wizard.hidden = true;
     browsePanel.hidden = false;
-    toggleLink.textContent = 'Prefer to answer a few quick questions instead?';
+    toggleLink.textContent = 'Not sure where to start? Answer three quick questions';
     toggleLink.setAttribute('data-mode', 'wizard');
     setStoredView('panel');
   }
@@ -436,7 +437,7 @@ function computeBestMatch(cards) {
   function showWizard() {
     browsePanel.hidden = true;
     wizard.hidden = false;
-    toggleLink.textContent = 'Prefer to see everything at once instead?';
+    toggleLink.textContent = 'Prefer to see everything at once?';
     toggleLink.setAttribute('data-mode', 'panel');
     showStep(0);
     setStoredView('wizard');

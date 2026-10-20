@@ -176,8 +176,8 @@ layout: default
 
   {% if page.tags or page.suitable_for %}
   <p class="tags">
-    {% for tag in page.tags %}<a class="tag" href="{{ '/?tag=' | append: tag | relative_url }}">{{ tag }}</a>{% endfor %}
-    {% for tag in page.suitable_for %}<a class="tag" href="{{ '/?tag=' | append: tag | relative_url }}">{{ tag }}</a>{% endfor %}
+    {% for tag in page.tags %}<a class="tag" href="{{ '/?tag=' | append: tag | relative_url }}">{{ site.data.tag_labels[tag] | default: tag }}</a>{% endfor %}
+    {% for tag in page.suitable_for %}<a class="tag" href="{{ '/?tag=' | append: tag | relative_url }}">{{ site.data.tag_labels[tag] | default: tag }}</a>{% endfor %}
   </p>
   {% endif %}
 
@@ -203,6 +203,8 @@ layout: default
       {% if page.verification.review_due and page.verification.review_due != "" %}Next check due {{ page.verification.review_due }}.{% endif %}
     {% endif %}
   </p>
+
+  <p class="organiser-update">Run this group? <a href="mailto:editor@thequarry.media?subject={{ 'Update to listing: ' | append: page.title | url_encode | replace: '+', '%20' }}">Tell us what needs changing</a> or <a href="{{ '/terms/#remove' | relative_url }}">ask for it to be removed</a>.</p>
 
   <p><a class="back-link" href="{{ '/' | relative_url }}">&larr; Back to all listings</a></p>
 
