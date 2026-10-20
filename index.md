@@ -144,6 +144,7 @@ title: Home
 {% assign listing_tags = lt | concat: ls | join: " " %}
 {% assign is_verified = false %}
 {% if listing.verification.verified_by and listing.verification.verified_by != "" %}{% assign is_verified = true %}{% endif %}
+{% if listing.verification.confirmed_by_organiser %}{% assign is_verified = true %}{% endif %}
 {% assign cost_confirmed = false %}
 {% if listing.cost.amount or listing.cost.amount == 0 %}{% assign cost_confirmed = true %}{% endif %}
 {% assign has_schedule = false %}
@@ -155,6 +156,8 @@ title: Home
     <span class="demo-badge">Demo data</span>
   {% elsif listing.verification.verified_by and listing.verification.verified_by != "" %}
     <span class="verify-badge">Verified</span>
+  {% elsif listing.verification.confirmed_by_organiser %}
+    <span class="verify-badge verify-badge-confirmed">Confirmed by organiser</span>
   {% else %}
     <span class="verify-badge">Not yet verified</span>
   {% endif %}
