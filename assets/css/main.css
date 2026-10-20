@@ -248,6 +248,28 @@ nav.site-nav a:hover, nav.site-nav a:focus-visible { border-bottom-color: var(--
 
 #active-tag-filter { font-size: 0.95rem; color: var(--charcoal); margin-bottom: 1rem; }
 
+/* ---------- Best match callout ---------- */
+.best-match {
+  background: var(--paper);
+  border: 2px solid var(--terracotta);
+  border-radius: 10px;
+  padding: 1.1rem 1.25rem;
+  margin-bottom: 1.5rem;
+}
+.best-match-label {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--terracotta);
+  margin-bottom: 0.3rem;
+}
+.best-match h3 { margin: 0 0 0.3rem; font-family: "Fraunces", Georgia, serif; font-size: 1.3rem; }
+.best-match h3 a { text-decoration: none; }
+.best-match h3 a:hover, .best-match h3 a:focus-visible { text-decoration: underline; }
+.best-match p { margin: 0; color: var(--charcoal); }
+
 /* ---------- Listing cards ---------- */
 #listings-container {
   display: grid;

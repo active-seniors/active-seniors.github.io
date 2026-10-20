@@ -102,6 +102,12 @@ title: Home
 
 <p id="active-tag-filter" hidden>Filtered by tag: <strong id="active-tag-label"></strong> — <a href="{{ '/' | relative_url }}" id="clear-tag-filter">clear</a></p>
 
+<div id="best-match" class="best-match" hidden>
+  <strong class="best-match-label">Our top pick for you</strong>
+  <h3><a id="best-match-link" href="#"></a></h3>
+  <p id="best-match-reason"></p>
+</div>
+
 <div class="filter-bar">
   <strong>Showing parishes:</strong>
   <span id="parish-toggles">
@@ -136,7 +142,15 @@ title: Home
 {% assign lt = listing.tags | default: empty_arr %}
 {% assign ls = listing.suitable_for | default: empty_arr %}
 {% assign listing_tags = lt | concat: ls | join: " " %}
-<div class="listing-card" data-parish="{{ listing.location.parish }}" data-tags="{{ listing_tags }}" data-intensity="{{ listing.accessibility.physical_intensity | default: 'unrated' }}" data-id="{{ listing.id }}">
+{% assign is_verified = false %}
+{% if listing.verification.verified_by and listing.verification.verified_by != "" %}{% assign is_verified = true %}{% endif %}
+{% assign cost_confirmed = false %}
+{% if listing.cost.amount or listing.cost.amount == 0 %}{% assign cost_confirmed = true %}{% endif %}
+{% assign has_schedule = false %}
+{% if listing.schedule %}{% assign has_schedule = true %}{% endif %}
+{% assign has_venue = false %}
+{% if listing.location.venue and listing.location.venue != "" %}{% assign has_venue = true %}{% endif %}
+<div class="listing-card" data-parish="{{ listing.location.parish }}" data-tags="{{ listing_tags }}" data-intensity="{{ listing.accessibility.physical_intensity | default: 'unrated' }}" data-id="{{ listing.id }}" data-verified="{{ is_verified }}" data-cost-confirmed="{{ cost_confirmed }}" data-has-schedule="{{ has_schedule }}" data-has-venue="{{ has_venue }}">
   {% if listing.source == "demo-data" %}
     <span class="demo-badge">Demo data</span>
   {% elsif listing.verification.verified_by and listing.verification.verified_by != "" %}
@@ -175,6 +189,87 @@ title: Home
 </div>
 
 <script>
+/* "Best match" callout — active-seniors.github.io orchestration#2 (phase 1:
+ * deterministic half of the matching agent). Ranking and the reasoning
+ * sentence are both plain logic over data already on the page — no API
+ * call, no model, nothing that can hallucinate a match that isn't real.
+ * Picks the best-documented listing among whatever the filters already
+ * narrowed down to (verified status and how much detail is filled in),
+ * and explains the pick using exactly the criteria the visitor actually
+ * set — never shown over the full, unfiltered directory, where "best
+ * match" among 265 unrelated listings would mean nothing.
+ *
+ * A per-listing AI-written "why it's worth a look" blurb (the other half
+ * of what was scoped for orchestration#2) is a deliberate follow-up, not
+ * done here — it needs its own cost/data-storage decision (a batch
+ * script, like the discovery scraper, not a live per-request API call —
+ * this is a static site with no backend to hold a key), so it's being
+ * kept separate rather than bundled into this change.
+ */
+var TAG_LABELS = {{ site.data.tag_labels | jsonify }};
+var INTENSITY_LABELS = {
+  none: 'seated or very gentle',
+  low: 'gentle, low effort',
+  moderate: 'moderate effort',
+  high: 'energetic, a good workout'
+};
+
+function computeBestMatch(cards) {
+  var el = document.getElementById('best-match');
+  var urlParams = new URLSearchParams(window.location.search);
+  var activeTag = urlParams.get('tag');
+  var intensityParam = urlParams.get('intensity');
+  var parishParam = urlParams.get('parish');
+
+  // Only meaningful when the visitor actually specified something —
+  // picking a "top pick" out of the entire unfiltered directory isn't a
+  // match, it's just whichever listing happens to be best-documented.
+  if (!activeTag && !intensityParam && !parishParam) {
+    el.hidden = true;
+    return;
+  }
+
+  var visible = Array.prototype.filter.call(cards, function (c) { return !c.hidden; });
+  var best = null;
+  var bestScore = -1;
+  visible.forEach(function (card) {
+    var score = 0;
+    if (card.getAttribute('data-verified') === 'true') score += 2;
+    if (card.getAttribute('data-cost-confirmed') === 'true') score += 1;
+    if (card.getAttribute('data-has-schedule') === 'true') score += 1;
+    if (card.getAttribute('data-has-venue') === 'true') score += 1;
+    if (score > bestScore) { bestScore = score; best = card; }
+  });
+
+  if (!best) {
+    el.hidden = true;
+    return;
+  }
+
+  var titleLink = best.querySelector('h3 a');
+  var linkEl = document.getElementById('best-match-link');
+  linkEl.setAttribute('href', titleLink.getAttribute('href'));
+  linkEl.textContent = titleLink.textContent;
+
+  var reasons = [];
+  if (activeTag) {
+    var tagLabel = TAG_LABELS[activeTag] ? TAG_LABELS[activeTag].toLowerCase() : activeTag;
+    reasons.push(tagLabel);
+  }
+  if (intensityParam) {
+    var level = intensityParam.split(',')[0];
+    if (INTENSITY_LABELS[level]) { reasons.push(INTENSITY_LABELS[level]); }
+  }
+  if (parishParam) {
+    reasons.push('in ' + parishParam.split(',').join(' or '));
+  }
+  document.getElementById('best-match-reason').textContent = reasons.length
+    ? "Matches what you're looking for: " + reasons.join(' · ')
+    : "Matches what you're looking for.";
+
+  el.hidden = false;
+}
+
 (function () {
   var checkboxes = document.querySelectorAll('.parish-checkbox');
   var cards = document.querySelectorAll('.listing-card');
@@ -236,6 +331,7 @@ title: Home
       if (show) visibleCount++;
     });
     noMatches.hidden = visibleCount !== 0;
+    computeBestMatch(cards);
   }
 
   checkboxes.forEach(function (cb) { cb.addEventListener('change', applyFilter); });
