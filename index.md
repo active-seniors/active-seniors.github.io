@@ -186,7 +186,7 @@ title: Home
   {% if listing.tags or listing.suitable_for %}
   <p>
     {% for tag in listing.tags %}<a class="tag" href="{{ '/?tag=' | append: tag | relative_url }}">{{ site.data.tag_labels[tag] | default: tag }}</a>{% endfor %}
-    {% for tag in listing.suitable_for %}<a class="tag" href="{{ '/?tag=' | append: tag | relative_url }}">{{ site.data.tag_labels[tag] | default: tag }}</a>{% endfor %}
+    {% for need in listing.suitable_for %}<a class="tag" href="{{ '/?need=' | append: need | relative_url }}">{{ site.data.tag_labels[need] | default: need }}</a>{% endfor %}
   </p>
   {% endif %}
   <button type="button" class="print-list-toggle" data-id="{{ listing.id }}">Add to print list</button>

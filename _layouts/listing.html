@@ -177,7 +177,7 @@ layout: default
   {% if page.tags or page.suitable_for %}
   <p class="tags">
     {% for tag in page.tags %}<a class="tag" href="{{ '/?tag=' | append: tag | relative_url }}">{{ site.data.tag_labels[tag] | default: tag }}</a>{% endfor %}
-    {% for tag in page.suitable_for %}<a class="tag" href="{{ '/?tag=' | append: tag | relative_url }}">{{ site.data.tag_labels[tag] | default: tag }}</a>{% endfor %}
+    {% for need in page.suitable_for %}<a class="tag" href="{{ '/?need=' | append: need | relative_url }}">{{ site.data.tag_labels[need] | default: need }}</a>{% endfor %}
   </p>
   {% endif %}
 
