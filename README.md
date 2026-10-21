@@ -2,7 +2,7 @@
 
 Public directory of activities, clubs, societies and volunteering opportunities
 across Guernsey, built for the [G-Prize 2026](https://innovateguernsey.com/gprize)
-Active Ageing challenge. Live at https://active-seniors.github.io.
+Active Ageing challenge. Live at https://joinin.thequarry.media.
 
 ## How listings work
 
