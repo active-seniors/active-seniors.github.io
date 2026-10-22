@@ -6,8 +6,7 @@ description: >-
 baseurl: ""
 url: "https://joinin.thequarry.media"
 
-# TODO: real URL needed from Jon — do not guess. Footer link is hidden until this is set.
-quarry_url: ""
+quarry_url: "https://www.thequarry.media"
 
 # Submission bridge (orchestration/submission) endpoint — deployed 5 Oct 2026.
 # The form page shows a "not live yet" notice if this is ever unset.
