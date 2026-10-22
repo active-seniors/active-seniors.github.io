@@ -14,13 +14,17 @@ title: Home
   <div class="wizard-step" id="wizard-step-0">
     <p class="wizard-progress">Question 1 of 4</p>
     <h3 tabindex="-1">What kind of thing interests you?</h3>
+    <p class="wizard-hint">Pick as many as apply, or skip if none do.</p>
     <div class="wizard-choices">
       {% for tag in activity_tags %}
       {% assign label = site.data.tag_labels[tag] | default: tag %}
-      <button type="button" class="wizard-choice" data-field="tag" data-value="{{ tag }}">{{ label }}</button>
+      <button type="button" class="wizard-choice" data-field="tag" data-value="{{ tag }}" aria-pressed="false">{{ label }}</button>
       {% endfor %}
     </div>
-    <button type="button" class="wizard-skip-step">Not sure? Skip this question</button>
+    <div class="wizard-actions">
+      <button type="button" class="wizard-skip-step">Not sure? Skip this question</button>
+      <button type="button" class="wizard-continue">Continue</button>
+    </div>
   </div>
 
   <div class="wizard-step" id="wizard-step-1" hidden>
@@ -279,7 +283,7 @@ function applySortOrder(cards) {
 function computeBestMatch(cards) {
   var el = document.getElementById('best-match');
   var urlParams = new URLSearchParams(window.location.search);
-  var activeTag = urlParams.get('tag');
+  var tagParam = urlParams.get('tag');
   var needParam = urlParams.get('need');
   var intensityParam = urlParams.get('intensity');
   var parishParam = urlParams.get('parish');
@@ -287,7 +291,7 @@ function computeBestMatch(cards) {
   // Only meaningful when the visitor actually specified something —
   // picking a "top pick" out of the entire unfiltered directory isn't a
   // match, it's just whichever listing happens to be best-documented.
-  if (!activeTag && !needParam && !intensityParam && !parishParam) {
+  if (!tagParam && !needParam && !intensityParam && !parishParam) {
     el.hidden = true;
     return;
   }
@@ -329,9 +333,11 @@ function computeBestMatch(cards) {
   document.dispatchEvent(new CustomEvent('printlist:change'));
 
   var reasons = [];
-  if (activeTag) {
-    var tagLabel = TAG_LABELS[activeTag] ? TAG_LABELS[activeTag].toLowerCase() : activeTag;
-    reasons.push(tagLabel);
+  if (tagParam) {
+    var tagLabels = tagParam.split(',').map(function (t) {
+      return TAG_LABELS[t] ? TAG_LABELS[t].toLowerCase() : t;
+    });
+    reasons.push(tagLabels.join(' and '));
   }
   if (needParam) {
     var needLabels = needParam.split(',').map(function (n) {
@@ -372,10 +378,16 @@ function computeBestMatch(cards) {
   // when unassigned — harmless by coincidence while only tag-filtering
   // used it, but would throw as soon as a need-only filter tried to read
   // it with no tag set.
-  var activeTag = urlParams.get('tag');
-  if (activeTag) {
+  //
+  // Interests (tags), same comma-separated/OR-matched pattern as needs
+  // below — a listing matches if it carries *any* of the selected
+  // interests, picking more than one widens the results rather than
+  // narrowing to listings that match every one.
+  var tagParam = urlParams.get('tag');
+  var activeTags = tagParam ? tagParam.split(',') : [];
+  if (activeTags.length) {
     activeTagBanner.hidden = false;
-    activeTagLabel.textContent = TAG_LABELS[activeTag] || activeTag;
+    activeTagLabel.textContent = activeTags.map(function (t) { return TAG_LABELS[t] || t; }).join(', ');
   }
 
   // Needs — a second, separate dimension from interests (tags): what the
@@ -391,9 +403,9 @@ function computeBestMatch(cards) {
   }
 
   function matchesTag(card) {
-    if (!activeTag) return true;
+    if (!activeTags.length) return true;
     var tags = (card.getAttribute('data-tags') || '').split(' ');
-    return tags.indexOf(activeTag) !== -1;
+    return activeTags.some(function (t) { return tags.indexOf(t) !== -1; });
   }
 
   function matchesNeeds(card) {
@@ -478,10 +490,10 @@ function computeBestMatch(cards) {
   // survive it either). Fixed by intercepting the click and merging onto
   // the *current* URL — which syncUrlFromCheckboxes above keeps accurate
   // for parish/intensity — rather than navigating to the link's own
-  // single-param href as-is. Tag (interest) stays single-select, set/
-  // replaced like the wizard's own Q1; need stays multi-select, toggled
-  // in or out like the wizard's own Q2, since that's the existing
-  // semantics everywhere else (matchesNeeds, the wizard's MULTI_FIELDS).
+  // single-param href as-is. Both tag and need are multi-select, toggled
+  // in or out, matching the wizard's own Q1/Q2 and matchesTag/matchesNeeds
+  // above — picking more than one interest (or need) widens the results,
+  // it doesn't require a listing to match every one chosen.
   document.addEventListener('click', function (e) {
     var link = e.target.closest('.tag-filter-link');
     if (!link) { return; }
@@ -490,14 +502,12 @@ function computeBestMatch(cards) {
     if (!param || !value) { return; } // malformed — fall through to the plain href
     e.preventDefault();
     var params = new URLSearchParams(window.location.search);
-    if (param === 'tag') {
-      params.set('tag', value);
-    } else if (param === 'need') {
-      var current = params.get('need');
-      var needsArr = current ? current.split(',') : [];
-      var idx = needsArr.indexOf(value);
-      if (idx === -1) { needsArr.push(value); } else { needsArr.splice(idx, 1); }
-      if (needsArr.length) { params.set('need', needsArr.join(',')); } else { params.delete('need'); }
+    if (param === 'tag' || param === 'need') {
+      var current = params.get(param);
+      var arr = current ? current.split(',') : [];
+      var idx = arr.indexOf(value);
+      if (idx === -1) { arr.push(value); } else { arr.splice(idx, 1); }
+      if (arr.length) { params.set(param, arr.join(',')); } else { params.delete(param); }
     }
     params.set('view', 'panel');
     window.location.href = "{{ '/' | relative_url }}?" + params.toString();
@@ -506,12 +516,12 @@ function computeBestMatch(cards) {
   // "Your matches" summary: shown whenever the page was opened with answers
   // (from the questions or a shared link), so the results lead with what was
   // asked for instead of sitting below the tag cloud and filters.
-  var answered = !!(activeTag || activeNeeds.length || intensityParam || parishParam);
+  var answered = !!(activeTags.length || activeNeeds.length || intensityParam || parishParam);
   var answersBox = document.getElementById('your-answers');
   function updateAnswers(count) {
     if (!answered) { return; }
     var parts = [];
-    if (activeTag) { parts.push(TAG_LABELS[activeTag] || activeTag); }
+    if (activeTags.length) { parts.push(activeTags.map(function (t) { return TAG_LABELS[t] || t; }).join(', ')); }
     if (activeNeeds.length) { parts.push(activeNeeds.map(function (n) { return TAG_LABELS[n] || n; }).join(', ')); }
     if (intensityParam) {
       var lvl = intensityParam.split(',')[0];
@@ -588,12 +598,13 @@ function computeBestMatch(cards) {
   var skipAllLink = document.getElementById('finder-skip-all');
   var steps = document.querySelectorAll('.wizard-step');
   var currentStep = 0;
-  // needs and parishes are multi-select (pick as many as apply); tag and
-  // intensity are single-select. MULTI_FIELDS maps a multi-select
-  // data-field name to its array property on state, so both are handled
-  // by the same code below instead of one-off special-casing each.
-  var MULTI_FIELDS = { parish: 'parishes', need: 'needs' };
-  var state = { tag: null, needs: [], intensity: null, parishes: [] };
+  // tags, needs and parishes are all multi-select (pick as many as
+  // apply); intensity is the only single-select question. MULTI_FIELDS
+  // maps a multi-select data-field name to its array property on state,
+  // so all three are handled by the same code below instead of one-off
+  // special-casing each.
+  var MULTI_FIELDS = { tag: 'tags', parish: 'parishes', need: 'needs' };
+  var state = { tags: [], needs: [], intensity: null, parishes: [] };
   var VIEW_KEY = 'jig-finder-view';
 
   function getStoredView() {
@@ -621,7 +632,7 @@ function computeBestMatch(cards) {
 
   function goToResults() {
     var params = new URLSearchParams();
-    if (state.tag) { params.set('tag', state.tag); }
+    if (state.tags.length) { params.set('tag', state.tags.join(',')); }
     if (state.needs.length) { params.set('need', state.needs.join(',')); }
     if (state.intensity) { params.set('intensity', state.intensity + ',unrated'); }
     if (state.parishes.length) { params.set('parish', state.parishes.join(',')); }
