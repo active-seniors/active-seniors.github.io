@@ -8,6 +8,12 @@
     include.field      "tags" or "suitable_for"
     include.url_prefix  query string prefix each chip links to, e.g.
                          "{{ '/?tag=' | relative_url }}"
+    include.param_name  the URL parameter this dimension controls ("tag"
+                         or "need") — read by the homepage's click handler
+                         so selecting one doesn't wipe out the other filter
+                         dimension (see active-seniors.github.io, filter
+                         fix for the "interests and needs act exclusively"
+                         report).
 
   Explicit if/else on include.field rather than Liquid bracket access
   (listing[include.field]) — this project avoids relying on untested
@@ -48,6 +54,6 @@
     {% endif %}
   {% endfor %}
   {% assign ratio = count | times: 1.0 | divided_by: max_count %}
-  <a class="tag-cloud-item tag-filter-link" href="{{ include.url_prefix | append: val | relative_url }}" data-tag="{{ val }}" style="font-size: {{ ratio | times: 0.5 | plus: 0.95 }}rem;">{{ site.data.tag_labels[val] | default: val }}</a>
+  <a class="tag-cloud-item tag-filter-link" href="{{ include.url_prefix | append: val | relative_url }}" data-tag="{{ val }}" data-param="{{ include.param_name }}" style="font-size: {{ ratio | times: 0.5 | plus: 0.95 }}rem;">{{ site.data.tag_labels[val] | default: val }}</a>
 {% endfor %}
 </p>

@@ -99,12 +99,12 @@ title: Home
 
 <details id="interest-details" class="fold" open>
 <summary><h2>What are your interests?</h2></summary>
-{% include tag_cloud.html field="tags" url_prefix="/?tag=" %}
+{% include tag_cloud.html field="tags" url_prefix="/?tag=" param_name="tag" %}
 </details>
 
 <details id="needs-details" class="fold" open>
 <summary><h2>What are your needs?</h2></summary>
-{% include tag_cloud.html field="suitable_for" url_prefix="/?need=" %}
+{% include tag_cloud.html field="suitable_for" url_prefix="/?need=" param_name="need" %}
 </details>
 
 <h2 id="listings-heading">All listings</h2>
@@ -185,8 +185,8 @@ title: Home
   </p>
   {% if listing.tags or listing.suitable_for %}
   <p>
-    {% for tag in listing.tags %}<a class="tag" href="{{ '/?tag=' | append: tag | relative_url }}">{{ site.data.tag_labels[tag] | default: tag }}</a>{% endfor %}
-    {% for need in listing.suitable_for %}<a class="tag" href="{{ '/?need=' | append: need | relative_url }}">{{ site.data.tag_labels[need] | default: need }}</a>{% endfor %}
+    {% for tag in listing.tags %}<a class="tag tag-filter-link" href="{{ '/?tag=' | append: tag | relative_url }}" data-tag="{{ tag }}" data-param="tag">{{ site.data.tag_labels[tag] | default: tag }}</a>{% endfor %}
+    {% for need in listing.suitable_for %}<a class="tag tag-filter-link" href="{{ '/?need=' | append: need | relative_url }}" data-tag="{{ need }}" data-param="need">{{ site.data.tag_labels[need] | default: need }}</a>{% endfor %}
   </p>
   {% endif %}
   <button type="button" class="print-list-toggle" data-id="{{ listing.id }}">Add to print list</button>
@@ -427,6 +427,28 @@ function computeBestMatch(cards) {
       .map(function (cb) { return cb.value; });
   }
 
+  // Keeps the URL's own parish/intensity params in sync with the live
+  // checkbox state, so they survive a navigation instead of only existing
+  // as in-page state that a tag/need link click (a real page load) would
+  // otherwise silently wipe. Omits the param entirely when every box is
+  // checked (the default, "show everything" state) rather than writing
+  // out a full list — matches the existing "absent = all" convention the
+  // wizard's own URLs already rely on. replaceState, not pushState, so
+  // toggling checkboxes doesn't spam browser history with one entry per
+  // click.
+  function syncUrlFromCheckboxes() {
+    var params = new URLSearchParams(window.location.search);
+    var activeParishes = checkedValues(checkboxes);
+    if (activeParishes.length === checkboxes.length) { params.delete('parish'); }
+    else { params.set('parish', activeParishes.join(',')); }
+    var activeIntensities = checkedValues(intensityBoxes);
+    if (activeIntensities.length === intensityBoxes.length) { params.delete('intensity'); }
+    else { params.set('intensity', activeIntensities.join(',')); }
+    var search = params.toString();
+    var newUrl = window.location.pathname + (search ? '?' + search : '') + window.location.hash;
+    history.replaceState(null, '', newUrl);
+  }
+
   function applyFilter() {
     var activeParishes = checkedValues(checkboxes);
     var activeIntensities = checkedValues(intensityBoxes);
@@ -442,9 +464,44 @@ function computeBestMatch(cards) {
       if (show) visibleCount++;
     });
     noMatches.hidden = visibleCount !== 0;
+    syncUrlFromCheckboxes();
     computeBestMatch(cards);
     updateAnswers(visibleCount);
   }
+
+  // Interest/need tag links (the two clouds above, and each card's own
+  // chips) are plain server-rendered <a href>s — individually correct, but
+  // each one only ever knows its own single value, so clicking one after
+  // another used to silently replace the whole query string and drop
+  // whatever else was already filtered (reported: picking an interest
+  // then a need acted exclusively, and intensity/parish choices didn't
+  // survive it either). Fixed by intercepting the click and merging onto
+  // the *current* URL — which syncUrlFromCheckboxes above keeps accurate
+  // for parish/intensity — rather than navigating to the link's own
+  // single-param href as-is. Tag (interest) stays single-select, set/
+  // replaced like the wizard's own Q1; need stays multi-select, toggled
+  // in or out like the wizard's own Q2, since that's the existing
+  // semantics everywhere else (matchesNeeds, the wizard's MULTI_FIELDS).
+  document.addEventListener('click', function (e) {
+    var link = e.target.closest('.tag-filter-link');
+    if (!link) { return; }
+    var param = link.getAttribute('data-param');
+    var value = link.getAttribute('data-tag');
+    if (!param || !value) { return; } // malformed — fall through to the plain href
+    e.preventDefault();
+    var params = new URLSearchParams(window.location.search);
+    if (param === 'tag') {
+      params.set('tag', value);
+    } else if (param === 'need') {
+      var current = params.get('need');
+      var needsArr = current ? current.split(',') : [];
+      var idx = needsArr.indexOf(value);
+      if (idx === -1) { needsArr.push(value); } else { needsArr.splice(idx, 1); }
+      if (needsArr.length) { params.set('need', needsArr.join(',')); } else { params.delete('need'); }
+    }
+    params.set('view', 'panel');
+    window.location.href = "{{ '/' | relative_url }}?" + params.toString();
+  });
 
   // "Your matches" summary: shown whenever the page was opened with answers
   // (from the questions or a shared link), so the results lead with what was
