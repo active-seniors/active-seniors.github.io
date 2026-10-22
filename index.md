@@ -402,6 +402,20 @@ function computeBestMatch(cards) {
     activeNeedLabel.textContent = activeNeeds.map(function (n) { return TAG_LABELS[n] || n; }).join(', ');
   }
 
+  // Mark the tag-cloud chips themselves as selected — until now the only
+  // sign a filter was active was the "You asked for" summary text above
+  // the cloud, so a chip you'd already picked looked identical to one you
+  // hadn't. Same visual language as the wizard's own .selected buttons.
+  document.querySelectorAll('.tag-filter-link').forEach(function (link) {
+    var param = link.getAttribute('data-param');
+    var value = link.getAttribute('data-tag');
+    var active = param === 'tag' ? activeTags.indexOf(value) !== -1
+      : param === 'need' ? activeNeeds.indexOf(value) !== -1
+      : false;
+    link.classList.toggle('selected', active);
+    link.setAttribute('aria-pressed', active ? 'true' : 'false');
+  });
+
   function matchesTag(card) {
     if (!activeTags.length) return true;
     var tags = (card.getAttribute('data-tags') || '').split(' ');

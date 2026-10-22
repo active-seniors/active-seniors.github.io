@@ -169,6 +169,17 @@ nav.site-nav a:hover, nav.site-nav a:focus-visible { border-bottom-color: var(--
 }
 .tag-cloud-item:hover, .tag-cloud-item:focus-visible { border-color: var(--terracotta); color: var(--terracotta); }
 
+/* Selected state for any tag-cloud/card chip currently driving the
+   active filter — same filled-pill language as .wizard-choice.selected,
+   so "this one's picked" reads consistently whether you got there via
+   the question wizard or by clicking chips directly. */
+.tag-filter-link.selected {
+  background: var(--terracotta);
+  border-color: var(--terracotta);
+  color: var(--chalk);
+}
+.tag-filter-link.selected:hover, .tag-filter-link.selected:focus-visible { color: var(--chalk); }
+
 /* ---------- Homepage finder (wizard) ---------- */
 #finder-wizard { margin-bottom: 1rem; }
 #finder-wizard h2 { margin-bottom: 0.4rem; }
