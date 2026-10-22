@@ -21,6 +21,45 @@ layout: default
     on the public page, which the GP trial and the public both see.
   {% endcomment %}
 
+  {% comment %}
+    Structured data (JSON-LD, schema.org Organization) for search engines
+    and other machine readers — deliberately gated on verification, not
+    shown for every listing. See "Structured data only for verified
+    listings" in responsible-design-decisions.md for the reasoning: a
+    human reading this page sees the "not yet verified" badge right next
+    to any fact; a search snippet or AI assistant extracting from JSON-LD
+    carries the fact away without that caveat attached. Omitting it for
+    unconfirmed listings reuses the same trust signal already driving the
+    verification badge above and the result-ordering weighting, rather
+    than inventing a new threshold.
+  {% endcomment %}
+  {% assign ld_show = false %}
+  {% if page.verification.verified_by and page.verification.verified_by != "" %}{% assign ld_show = true %}{% endif %}
+  {% if page.verification.confirmed_by_organiser %}{% assign ld_show = true %}{% endif %}
+  {% if page.source == "demo-data" %}{% assign ld_show = false %}{% endif %}
+  {% if ld_show %}
+    {% capture ld_optional %}{% if page.excerpt and page.excerpt != "" %},
+  "description": {{ page.excerpt | strip_html | strip_newlines | strip | truncate: 300 | jsonify }}{% endif %}{% if page.location.parish %},
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": {{ page.location.parish | jsonify }},
+    "addressRegion": "Bailiwick of Guernsey",
+    "addressCountry": "GG"
+  }{% endif %}{% if page.organiser.contact_phone and page.organiser.contact_phone != "" %},
+  "telephone": {{ page.organiser.contact_phone | jsonify }}{% endif %}{% if page.organiser.contact_email and page.organiser.contact_email != "" %},
+  "email": {{ page.organiser.contact_email | jsonify }}{% endif %}{% if page.organiser.website and page.organiser.website != "" %}{% assign ld_website = page.organiser.website %}{% unless ld_website contains "http" %}{% assign ld_website = "https://" | append: ld_website %}{% endunless %},
+  "sameAs": [{{ ld_website | jsonify }}]{% endif %}{% assign ld_keywords = page.tags | default: empty %}{% if page.suitable_for and page.suitable_for != empty %}{% assign ld_keywords = ld_keywords | concat: page.suitable_for %}{% endif %}{% if ld_keywords and ld_keywords != empty %},
+  "keywords": {{ ld_keywords | jsonify }}{% endif %}{% endcapture %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": {{ page.title | jsonify }},
+      "url": {{ page.url | absolute_url | jsonify }}{{ ld_optional }}
+    }
+    </script>
+  {% endif %}
+
   <h2>{{ page.title }}</h2>
 
   <button type="button" class="print-list-toggle" data-id="{{ page.id }}">Add to print list</button>
