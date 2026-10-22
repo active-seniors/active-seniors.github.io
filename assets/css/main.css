@@ -169,6 +169,22 @@ nav.site-nav a:hover, nav.site-nav a:focus-visible { border-bottom-color: var(--
 }
 .tag-cloud-item:hover, .tag-cloud-item:focus-visible { border-color: var(--terracotta); color: var(--terracotta); }
 
+/* The popularity-weighted font-size (set inline per chip, by count
+   relative to the most common tag — see _includes/tag_cloud.html) reads
+   fine on desktop's wider line, but at its top end (1.45rem, currently
+   hit by "Social clubs & get-togethers", the single most common tag) a
+   long label no longer fits one line at phone widths and wraps mid-word
+   — every other chip stays single-line, so this one alone looked broken
+   rather than just differently sized. Capping to one comfortable size on
+   narrow viewports avoids that without touching the popularity signal
+   desktop actually has room to show. !important because the size is an
+   inline style (one value per chip, generated per-page), which otherwise
+   always wins over an external stylesheet rule regardless of selector
+   specificity. */
+@media (max-width: 480px) {
+  .tag-cloud-item { font-size: 1rem !important; }
+}
+
 /* Selected state for any tag-cloud/card chip currently driving the
    active filter — same filled-pill language as .wizard-choice.selected,
    so "this one's picked" reads consistently whether you got there via
