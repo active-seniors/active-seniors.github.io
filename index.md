@@ -549,8 +549,15 @@ function computeBestMatch(cards) {
   }
   if (answered) {
     answersBox.hidden = false;
-    document.getElementById('interest-details').open = false;
-    document.getElementById('needs-details').open = false;
+    // interest-details/needs-details deliberately stay open here — both
+    // are multi-select (see matchesTag/matchesNeeds above), and collapsing
+    // the cloud the moment one is picked forced re-expanding it just to
+    // pick a second one, the exact anti-pattern multi-select is supposed
+    // to avoid. Each click is a full navigation/reload (see the
+    // tag-filter-link handler), so without this they'd re-collapse after
+    // every single pick. filter-details (parish/intensity) still
+    // collapses — that's a checkbox-based, not chip-based, UI with a
+    // bigger rethink already tracked separately (planning#10).
     document.getElementById('filter-details').open = false;
     activeTagBanner.hidden = true;
     activeNeedBanner.hidden = true;
