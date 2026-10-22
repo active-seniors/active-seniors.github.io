@@ -8,7 +8,7 @@ description: How to use Join In Guernsey, how to correct or remove a listing, an
 
 <h2>Terms and privacy</h2>
 
-<p class="meta">Last updated 20 October 2026.</p>
+<p class="meta">Last updated 22 October 2026.</p>
 
 <p>Join In Guernsey is run by The Quarry. By using the site you agree to these terms. They're written to be read, so please do.</p>
 
@@ -46,7 +46,7 @@ description: How to use Join In Guernsey, how to correct or remove a listing, an
 
 <p><strong>If you run a group that's listed,</strong> The Quarry holds the contact and activity details shown on your listing, taken from public directories, your group's own website, or what you've sent us, so that we can publish an accurate directory. We do this under our legitimate interest in running an accurate public directory. We publish only contact details intended for the public, and we use them only to keep your listing accurate. We keep them while your group is listed and delete them if you ask to be removed or if the directory doesn't continue.</p>
 
-<p><strong>If you suggest a listing</strong> through the <a href="{{ '/submit/' | relative_url }}">submission form</a>, what you enter, including the contact details, is used to create the listing and becomes part of the site's public change history. Only enter contact details the group is happy to publish.</p>
+<p><strong>If you suggest a listing</strong> through the <a href="{{ '/submit/' | relative_url }}">submission form</a>, what you enter, including the contact details, is used to create the listing and becomes part of the site's public change history. Only enter contact details the group is happy to publish. Submitting also briefly uses your IP address to stop the form being spammed — it's used only to apply that limit and isn't stored or linked to what you submitted.</p>
 
 <p><strong>Your rights.</strong> Under the Data Protection (Bailiwick of Guernsey) Law, 2017 you can ask to see, correct or delete information we hold about you, or object to how we use it. Email <a href="mailto:editor@thequarry.media">editor@thequarry.media</a>. If you're unhappy with how we've handled your information, you can complain to the <a href="https://www.odpa.gg">Office of the Data Protection Authority</a>.</p>
 
