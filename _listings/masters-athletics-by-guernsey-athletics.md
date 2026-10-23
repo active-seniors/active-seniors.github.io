@@ -23,9 +23,9 @@ organiser:
   contact_phone: "07911 741730"
   website: "https://guernseyathletics.org.gg/"
 verification:
-  verified_by: ""
+  verified_by: "Nick"
   verified_date: 2026-10-23
-  review_due: ""
+  review_due: "2027-03-01"
   last_pr: ""
 ---
 
