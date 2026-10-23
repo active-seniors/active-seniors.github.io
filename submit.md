@@ -41,6 +41,13 @@ permalink: /submit/
   </fieldset>
 
   <fieldset>
+    <legend>What it involves</legend>
+    <p class="meta">Tick everything that fits. This is how people answering the questions on the home page find you.</p>
+    {% for pair in site.data.tag_labels %}{% unless pair[0] == "beginners-welcome" or pair[0] == "online-option" or pair[0] == "dementia-friendly" or pair[0] == "carer-and-companion-welcome" %}
+    <label class="checkbox-inline"><input type="checkbox" name="tags" value="{{ pair[0] }}"> {{ pair[1] }}</label>{% endunless %}{% endfor %}
+  </fieldset>
+
+  <fieldset>
     <legend>Where and when</legend>
 
     <label for="parish">Parish</label>
@@ -73,10 +80,17 @@ permalink: /submit/
   <fieldset>
     <legend>Cost and access</legend>
 
-    <label for="cost_amount">Cost (£, 0 if free)</label>
-    <input type="number" id="cost_amount" name="cost_amount" min="0" step="0.01">
+    <label>Cost</label>
+    <label class="checkbox-inline"><input type="checkbox" id="cost_free" name="cost_free"> It's free</label>
+    <p class="meta" id="cost-hint">Numbers only, in pounds. For one price, fill in the first box. If it varies, put the lowest and highest, for example 3 and 8 for £3 to £8.</p>
+    <div class="cost-range">
+      <label for="cost_amount">Price, or lowest price (£)</label>
+      <input type="text" inputmode="decimal" id="cost_amount" name="cost_amount" placeholder="e.g. 5" aria-describedby="cost-hint">
+      <label for="cost_amount_max">Highest price (£), if it varies</label>
+      <input type="text" inputmode="decimal" id="cost_amount_max" name="cost_amount_max" placeholder="e.g. 8" aria-describedby="cost-hint">
+    </div>
 
-    <label for="cost_notes">Cost notes</label>
+    <label for="cost_notes">Anything else about cost</label>
     <input type="text" id="cost_notes" name="cost_notes" placeholder="e.g. £5 voluntary donation, no one turned away">
 
     <label>Accessibility</label>
@@ -112,6 +126,9 @@ permalink: /submit/
 
     <label for="organiser_website">Website</label>
     <input type="url" id="organiser_website" name="organiser_website">
+
+    <label class="checkbox-inline"><input type="checkbox" id="is_organiser" name="is_organiser"> I run or help organise this activity</label>
+    <p class="meta">Tick this if you're the organiser, so the listing can show as confirmed by the organiser. We check before it goes live.</p>
   </fieldset>
 
   <fieldset>
@@ -139,6 +156,13 @@ permalink: /submit/
   var statusEl = document.getElementById('form-status');
   var endpoint = {{ site.submission_endpoint | jsonify }};
 
+  form.cost_free.addEventListener('change', function () {
+    form.cost_amount.disabled = form.cost_amount_max.disabled = form.cost_free.checked;
+  });
+  form.addEventListener('reset', function () {
+    form.cost_amount.disabled = form.cost_amount_max.disabled = false;
+  });
+
   form.addEventListener('submit', function (e) {
     e.preventDefault();
     statusEl.className = '';
@@ -159,6 +183,23 @@ permalink: /submit/
       return;
     }
 
+    // Prices: accept "5", "£5", "5.50"; refuse anything else rather than
+    // silently sending nothing.
+    function money(input) {
+      var v = input.value.replace(/[£,\s]/g, '');
+      if (v === '') return '';
+      return /^\d+(\.\d{1,2})?$/.test(v) ? v : null;
+    }
+    var costFree = form.cost_free.checked;
+    var costAmount = costFree ? '' : money(form.cost_amount);
+    var costMax = costFree ? '' : money(form.cost_amount_max);
+    if (costAmount === null || costMax === null) {
+      statusEl.className = 'error';
+      statusEl.textContent = 'Please enter prices as numbers only, for example 5 or 3.50. Put anything else in "Anything else about cost".';
+      (costAmount === null ? form.cost_amount : form.cost_amount_max).focus();
+      return;
+    }
+
     if (!endpoint) {
       statusEl.className = 'error';
       statusEl.textContent = 'This form isn\'t connected yet — see the notice above.';
@@ -174,7 +215,10 @@ permalink: /submit/
       frequency: form.frequency.value,
       day: form.day.value,
       time: form.time.value,
-      cost_amount: form.cost_amount.value,
+      tags: Array.prototype.map.call(form.querySelectorAll('input[name="tags"]:checked'), function (el) { return el.value; }),
+      cost_free: costFree,
+      cost_amount: costAmount,
+      cost_amount_max: costMax,
       cost_notes: form.cost_notes.value,
       mobility: Array.prototype.map.call(form.querySelectorAll('input[name="mobility"]:checked'), function (el) { return el.value; }),
       sensory: Array.prototype.map.call(form.querySelectorAll('input[name="sensory"]:checked'), function (el) { return el.value; }),
@@ -184,6 +228,7 @@ permalink: /submit/
       organiser_email: form.organiser_email.value,
       organiser_phone: form.organiser_phone.value,
       organiser_website: form.organiser_website.value,
+      is_organiser: form.is_organiser.checked,
       notes: form.notes.value,
       human_check: form.human_check.value,
       website_confirm: form.website_confirm.value

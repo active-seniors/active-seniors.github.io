@@ -178,10 +178,10 @@ title: Home
     {{ listing.category }}
     {% if listing.location.parish %} · {{ listing.location.parish }}{% endif %}
     ·
-    {% if listing.cost.amount == 0 %}
+    {% if listing.cost.amount == 0 and listing.cost.amount_max == nil %}
       <span class="free-pill">Free</span>
     {% elsif listing.cost.amount %}
-      {% include price.html value=listing.cost.amount %}
+      {% include price.html value=listing.cost.amount %}{% if listing.cost.amount_max %}–{% include price.html value=listing.cost.amount_max %}{% endif %}
     {% else %}
       cost not confirmed
     {% endif %}

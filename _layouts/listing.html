@@ -112,10 +112,10 @@ layout: default
     <p>
       <strong>Cost</strong>
       <span>
-        {% if page.cost.amount == 0 %}
+        {% if page.cost.amount == 0 and page.cost.amount_max == nil %}
           Free
         {% elsif page.cost.amount %}
-          {% include price.html value=page.cost.amount %}{% if page.cost.currency and page.cost.currency != "GBP" %} {{ page.cost.currency }}{% endif %}
+          {% include price.html value=page.cost.amount %}{% if page.cost.amount_max %}–{% include price.html value=page.cost.amount_max %}{% endif %}{% if page.cost.currency and page.cost.currency != "GBP" %} {{ page.cost.currency }}{% endif %}
         {% elsif page.cost.notes and page.cost.notes != "" %}
           {{ page.cost.notes }}
         {% else %}
