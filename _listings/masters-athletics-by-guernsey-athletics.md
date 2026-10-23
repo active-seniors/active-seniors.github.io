@@ -4,6 +4,8 @@ title: "Masters Athletics by Guernsey Athletics"
 status: active
 source: human-submitted
 category: sports
+tags:
+  - "sport-fitness"
 location:
   parish: "St Peter Port"
   venue: "Footes Lane"
