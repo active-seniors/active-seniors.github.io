@@ -181,7 +181,7 @@ title: Home
     {% if listing.cost.amount == 0 %}
       <span class="free-pill">Free</span>
     {% elsif listing.cost.amount %}
-      £{{ listing.cost.amount }}
+      {% include price.html value=listing.cost.amount %}
     {% else %}
       cost not confirmed
     {% endif %}
