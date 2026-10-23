@@ -279,6 +279,8 @@ nav.site-nav a:hover, nav.site-nav a:focus-visible { border-bottom-color: var(--
   margin-bottom: 0.6rem;
 }
 .filter-bar > strong { font-size: 0.95rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--granite-text); width: 100%; }
+#parish-toggles,
+#intensity-toggles { display: flex; flex-wrap: wrap; gap: 0.6rem 0.5rem; }
 .parish-toggle,
 .intensity-toggle {
   position: relative;
