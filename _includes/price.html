@@ -1,0 +1,1 @@
+{% comment %}Formats a cost amount as pounds, padding pence: 7.5 -> £7.50, 6 -> £6.{% endcomment %}{% assign price_parts = include.value | append: "" | split: "." %}£{{ price_parts[0] }}{% if price_parts.size > 1 %}.{{ price_parts[1] | append: "0" | slice: 0, 2 }}{% endif %}

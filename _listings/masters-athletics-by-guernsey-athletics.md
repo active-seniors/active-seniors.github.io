@@ -12,6 +12,10 @@ location:
 schedule:
   day: "Thursday evenings or Sunday mornings"
   time: "Varies"
+cost:
+  amount: 7.5
+  currency: GBP
+  notes: "£7.50 for one event, £6 for each additional event."
 accessibility:
   mobility:
     - "wheelchair-accessible"
