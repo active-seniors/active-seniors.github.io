@@ -27,8 +27,8 @@ permalink: /print-list/
 
   <div class="print-item-rows">
     <p><strong>Cost:</strong>
-      {% if listing.cost.amount == 0 %}Free
-      {% elsif listing.cost.amount %}{% include price.html value=listing.cost.amount %}{% if listing.cost.currency and listing.cost.currency != "GBP" %} {{ listing.cost.currency }}{% endif %}
+      {% if listing.cost.amount == 0 and listing.cost.amount_max == nil %}Free
+      {% elsif listing.cost.amount %}{% include price.html value=listing.cost.amount %}{% if listing.cost.amount_max %}–{% include price.html value=listing.cost.amount_max %}{% endif %}{% if listing.cost.currency and listing.cost.currency != "GBP" %} {{ listing.cost.currency }}{% endif %}
       {% elsif listing.cost.notes and listing.cost.notes != "" %}{{ listing.cost.notes }}
       {% else %}Not confirmed — ask the organiser
       {% endif %}
