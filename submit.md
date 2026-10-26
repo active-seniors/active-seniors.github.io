@@ -191,7 +191,9 @@ permalink: /submit/
       return /^\d+(\.\d{1,2})?$/.test(v) ? v : null;
     }
     var costFree = form.cost_free.checked;
-    var costAmount = costFree ? '' : money(form.cost_amount);
+    // '0' when free, so the listing shows Free even with the older worker,
+    // which ignores cost_free.
+    var costAmount = costFree ? '0' : money(form.cost_amount);
     var costMax = costFree ? '' : money(form.cost_amount_max);
     if (costAmount === null || costMax === null) {
       statusEl.className = 'error';
