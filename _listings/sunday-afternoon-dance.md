@@ -44,7 +44,7 @@ verification:
   verified_date: ''
   review_due: ''
   last_pr: ''
-  confirmed_by_organiser: '2026-10-20'
+  confirmed_by_organiser: '2026-10-27'
   confirmed_via: email
 discovery:
   source_url: https://directory.healthconnections.gg/listing/ef825df2-365d-4310-b2d1-a3d27c99bc4e
@@ -55,6 +55,7 @@ discovery:
   - 'Organiser reply 2026-10-20 (email): cost £7.50 per person (was unknown); 2027
     dates; very active, no seated option; bus stop outside; 14-16 dancers, mainly
     over 50.'
+  - 'Organiser reply 2026-10-27 (email): listing confirmed correct, no changes.'
 cost:
   amount: 7.5
   currency: GBP

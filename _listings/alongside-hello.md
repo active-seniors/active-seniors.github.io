@@ -6,9 +6,15 @@ source: discovered
 category: social
 tags:
 - social-clubs
+location:
+  venue: Public places near where members live, such as a café or a coastal walk
+schedule:
+  day: Arranged between the two members
+  time: Whenever suits both
 cost:
   amount: 0
-  notes: Free while the service launches
+  currency: GBP
+  notes: Free to join
 accessibility:
   physical_intensity: low
 organiser:
@@ -20,6 +26,8 @@ verification:
   verified_date: ''
   review_due: ''
   last_pr: ''
+  confirmed_by_organiser: '2026-10-27'
+  confirmed_via: email
 discovery:
   source_url: https://directory.healthconnections.gg/listing/fbf598c3-88c9-489c-9345-90d48aa68962
   scraped_date: '2026-10-05'
@@ -32,11 +40,11 @@ discovery:
     app ''Coming soon to the App Store'', waiting list only, opening parish by parish
     (https://www.alongsidehello.com)'
   - 'Web check 8 Oct 2026: suitability from https://www.alongsidehello.com'
-editorial_flag:
-  status: on-hold
-  reason: "On hold. Guernsey-based companionship app introducing older people to a local for a walk, coffee or chat. Likely keep; confirm with the organiser."
-  flagged_date: '2026-10-08'
-  reviewed_by: Nick Mann, 8 Oct 2026
+  - 'Organiser reply 2026-10-27 (email): listing correct; meets in person in public
+    places, times arranged between members, waiting list open now, free to join, starting
+    with over-55s, family can sign up for a parent. (Earlier "online only" note superseded.)'
+joining:
+  how: waiting-list
 ---
 
-Alongside is a companionship app for older people, starting in Guernsey. It introduces members to a friendly, ID-checked local for a walk, a coffee or a chat. Families can set it up for a parent in minutes. Not dating, not a care service. Free while we launch. Join us at alongsidehello.com.
+Alongside is a companionship service for older people, starting in Guernsey. It introduces members to a friendly, ID-checked local, and the two of you meet in person in a public place near where you live, for a coffee, a walk along the coast or a chat, at a time that suits you both. It's starting with people over 55. Alongside is launching soon: anyone can join the waiting list now at alongsidehello.com, and a family member can sign up on behalf of a parent. It's free to join. Questions: hello@alongsidehello.com. Not dating, not a care service.
