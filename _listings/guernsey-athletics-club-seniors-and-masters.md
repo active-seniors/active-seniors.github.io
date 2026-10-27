@@ -20,6 +20,8 @@ verification:
   verified_date: ''
   review_due: ''
   last_pr: ''
+  confirmed_by_organiser: '2026-10-27'
+  confirmed_via: email
 discovery:
   source_url: https://guernseysports.com/sports-directory/athletics/guernsey-athletics-club/
   scraped_date: '2026-10-08'
@@ -37,6 +39,7 @@ discovery:
   - 'Web check 8 Oct 2026: confirmed active. Homepage news items dated 23 Aug, 7 Sep,
     14 Sep and 20 Sep 2026 (Butterfield Half Marathon 2026); upcoming C.A. Duquemin
     Cross Country Series from 10 Oct. https://guernseyathletics.org.gg'
+  - 'Organiser reply 2026-10-27 (email): listing confirmed correct, no changes.'
 schedule:
   frequency: weekly
   day: Tuesday and Thursday (Club Track Sessions); Monday (Evening Run Club)
