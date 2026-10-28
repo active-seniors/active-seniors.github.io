@@ -33,10 +33,14 @@ discovery:
     women; in-person PT expected again in around 4-6 months; nutrition and wellness
     coaching not offered for now, so left out. Organiser asked to see the draft before
     it is marked confirmed.'
+  - 'Organiser reply 2026-10-28 (email): mention 12+ years'' experience as a PT and
+    recent return to work after having her son; online coaching spaces available to
+    book now; in-person PT and nutrition coaching bookable from spring 2027. Asked
+    to see the redraft.'
 suitable_for:
 - online-option
 group:
   who_comes: women-only
 ---
 
-Online one-to-one strength coaching for women, focused on women in midlife, with Louise Critchlow, a personal trainer. The programme is coached remotely, so you can do it from home. Louise expects to offer some in-person personal training again in the coming months.
+Online one-to-one strength coaching for women, with a focus on women in midlife. Louise Critchlow has more than 12 years' experience as a personal trainer and has recently returned to work after having her son. Spaces on her online coaching programme are available to book now, and you can do it from home. In-person personal training and nutrition coaching will be available to book from spring 2027.
