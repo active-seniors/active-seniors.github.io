@@ -44,7 +44,7 @@ verification:
   verified_date: ''
   review_due: ''
   last_pr: ''
-  confirmed_by_organiser: '2026-10-20'
+  confirmed_by_organiser: '2026-10-28'
   confirmed_via: email
 discovery:
   source_url: https://www.stmartinschurch.gg/_data/site/102/pg/638/2025-OctNovWeb.pdf
@@ -61,6 +61,7 @@ discovery:
     individuals with parish support, not by St Martin''s Parish Church (asked not
     to be listed as a church activity); Thu 12:00-14:00, 22 Oct to Easter; 20-25 guests;
     access and buses.'
+  - 'Organiser reply 2026-10-28 (email): listing confirmed correct, no changes.'
 ---
 
 A free soup lunch in a warm, welcoming space, open to everyone. Most guests are retired and many are regulars who look forward to a sociable couple of hours, and there are always volunteers with time to chat with newcomers. Run by volunteers with support from the parish, the douzaine and local hotels.
