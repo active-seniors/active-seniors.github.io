@@ -25,6 +25,8 @@ verification:
   verified_date: ''
   review_due: ''
   last_pr: ''
+  confirmed_by_organiser: '2026-10-28'
+  confirmed_via: email
 discovery:
   source_url: https://directory.healthconnections.gg/listing/e67a3ba6-d4ed-4c68-9a10-7dd01c57008f
   scraped_date: '2026-10-08'
@@ -39,6 +41,7 @@ discovery:
   - 'Web check 8 Oct 2026: contact_email from https://millstreet.cafe (was: hello@millstreet.gg)'
   - 'Web check 8 Oct 2026: confirmed running (The café website shows opening hours
     of Wed-Sat 10:00-14:00 and a 2026 copyright footer.) https://millstreet.cafe'
+  - 'Organiser reply 2026-10-28 (email): listing confirmed correct, no changes.'
 ---
 
 A charity café aiming to be a welcoming place to meet and make friends, with volunteering opportunities.
