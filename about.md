@@ -36,7 +36,7 @@ description: What Join In Guernsey is, who it's for, where the information comes
 
 <p>AI tools help us find activities in public sources, spot listings that look out of date, and draft updates. A person reviews and approves every change before it appears on the site. The "top pick" shown after you answer the questions is worked out by simple rules from the details on each listing, not by an AI model, so it can't invent an activity.</p>
 
-<p>We don't collect anything about people who use the site. There are no accounts, and your print list stays in your own browser. See our <a href="{{ '/terms/' | relative_url }}">terms and privacy</a> for the details.</p>
+<p>We don't collect anything that identifies people who use the site. There are no accounts, your print list stays in your own browser, and we count visits anonymously, without cookies. See our <a href="{{ '/terms/' | relative_url }}">terms and privacy</a> for the details.</p>
 
 <h3>Who runs it</h3>
 
