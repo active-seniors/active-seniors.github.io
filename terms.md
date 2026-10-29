@@ -8,7 +8,7 @@ description: How to use Join In Guernsey, how to correct or remove a listing, an
 
 <h2>Terms and privacy</h2>
 
-<p class="meta">Last updated 22 October 2026.</p>
+<p class="meta">Last updated 29 October 2026.</p>
 
 <p>Join In Guernsey is run by The Quarry. By using the site you agree to these terms. They're written to be read, so please do.</p>
 
@@ -42,7 +42,7 @@ description: How to use Join In Guernsey, how to correct or remove a listing, an
 
 <h3 id="privacy">Privacy</h3>
 
-<p><strong>If you're using the site to find something,</strong> we don't collect anything about you. There are no accounts or logins and no advertising. Your print list is kept only in the open browser tab and disappears when you close it. The site also remembers, in your own browser, whether you last used the questions or the full list. Nothing is sent to us. The site is hosted by GitHub Pages, which, like any web host, records technical information such as IP addresses to run and secure the service; see <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub's privacy statement</a>.</p>
+<p><strong>If you're using the site to find something,</strong> we don't collect anything that identifies you. There are no accounts or logins and no advertising. Your print list is kept only in the open browser tab and disappears when you close it. The site also remembers, in your own browser, whether you last used the questions or the full list; that stays on your device. To see how the site is used, we count visits with Cloudflare Web Analytics, which tells us things like how many people visited, which pages they looked at, roughly which country they're in, what type of device they used and which website sent them. It doesn't use cookies, doesn't track you across other websites and doesn't tell us who you are; see <a href="https://www.cloudflare.com/web-analytics/">Cloudflare Web Analytics</a>. The site is hosted by GitHub Pages, which, like any web host, records technical information such as IP addresses to run and secure the service; see <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub's privacy statement</a>.</p>
 
 <p><strong>If you run a group that's listed,</strong> The Quarry holds the contact and activity details shown on your listing, taken from public directories, your group's own website, or what you've sent us, so that we can publish an accurate directory. We do this under our legitimate interest in running an accurate public directory. We publish only contact details intended for the public, and we use them only to keep your listing accurate. We keep them while your group is listed and delete them if you ask to be removed or if the directory doesn't continue.</p>
 
