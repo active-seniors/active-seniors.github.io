@@ -18,6 +18,8 @@ verification:
   verified_date: ''
   review_due: ''
   last_pr: ''
+  confirmed_by_organiser: '2026-10-29'
+  confirmed_via: email
 discovery:
   source_url: https://directory.healthconnections.gg/listing/59627ff8-77b0-4491-b910-072a79b84e35
   scraped_date: '2026-10-05'
@@ -37,6 +39,7 @@ discovery:
     recent return to work after having her son; online coaching spaces available to
     book now; in-person PT and nutrition coaching bookable from spring 2027. Asked
     to see the redraft.'
+  - 'Organiser reply 2026-10-29 (email): approved the redrafted listing.'
 suitable_for:
 - online-option
 group:
