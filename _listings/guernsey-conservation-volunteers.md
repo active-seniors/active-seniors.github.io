@@ -13,6 +13,10 @@ schedule:
   frequency: Weekly on Wednesdays, plus alternate Saturdays
   day: Wednesday; alternate Saturdays
   time: 10am to about 12pm
+cost:
+  amount: 0
+  currency: GBP
+  notes: Try three work parties free, then a £10 annual subscription
 organiser:
   name: Guernsey Conservation Volunteers
   website: https://gcv.org.uk
@@ -23,6 +27,8 @@ verification:
   verified_date: ''
   review_due: ''
   last_pr: ''
+  confirmed_by_organiser: '2026-10-30'
+  confirmed_via: email
 discovery:
   source_url: https://gcv.org.uk
   scraped_date: '2026-10-08'
@@ -38,6 +44,14 @@ discovery:
   - 'Also on Health Connections: https://directory.healthconnections.gg/listing/88b0c89b-b047-482c-ab64-58e4fbd98c5b'
   - 'Bluebell Wood work parties, Saturdays 10:00-12:00, Fort George (volunteer.gg):
     https://volunteer.gg/volunteers/opportunity/10305324'
+  - 'Organiser reply 2026-10-30 (email, Angela Salmon, Operations Director): details
+    fine; contact Angela before your first work party; £10 annual subscription after
+    three trial work parties. (Logged in the sheet against the Nature Commission row.)'
+joining:
+  how: book-ahead
+  first_contact:
+    name: Angela, Operations Director
+    best_time: contact her before your first work party
 ---
 
-Practical conservation work parties at nature sites around Guernsey (and occasionally Sark), working for the National Trust of Guernsey, La Société Guernesiaise and the States' land management services. Tasks include clearing vegetation, removing bracken and invasive plants and pollarding willows. The group received the King's Award for Voluntary Service in November 2025.
+Practical conservation work parties at nature sites around Guernsey (and occasionally Sark), working for the National Trust of Guernsey, La Société Guernesiaise and the States' land management services. Tasks include clearing vegetation, removing bracken and invasive plants and pollarding willows. The group received the King's Award for Voluntary Service in November 2025. Contact Angela, the Operations Director, before coming along to your first work party. You can try three work parties before paying the £10 annual subscription.
