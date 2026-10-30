@@ -14,6 +14,7 @@ description: Short guides to Join In Guernsey for people looking for something t
   <li><a href="#looking"><strong>Looking for something to do</strong></a>, for yourself or for someone in your family</li>
   <li><a href="#professionals"><strong>Health and care professionals</strong></a>, such as GPs, practice staff, social prescribers and carers</li>
   <li><a href="#organisers"><strong>Organisers</strong></a> who run a club, group, class or volunteering opportunity</li>
+  <li><a href="#feedback"><strong>Tell us what you think</strong></a> about the site</li>
 </ul>
 
 <h3 id="looking">Looking for something to do</h3>
@@ -60,3 +61,7 @@ description: Short guides to Join In Guernsey for people looking for something t
 </ul>
 
 <p>Listings are free. We don't sell advertising or take bookings, and your contact details are used only to keep your listing accurate.</p>
+
+<h3 id="feedback">Tell us what you think</h3>
+
+<p>Join In Guernsey is a working prototype, and we'd like to know how it works for you, whether you found something, and if you went along, how it went. <a href="https://forms.gle/FDK91qKi6entnxEj6">Fill in our two-minute feedback form</a>, or email <a href="mailto:editor@thequarry.media?subject=Join%20In%20Guernsey%20feedback">editor@thequarry.media</a>.</p>
