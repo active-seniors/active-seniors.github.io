@@ -19,6 +19,7 @@ schedule:
 cost:
   amount: 0
   currency: GBP
+  notes: Free initially, then periodic subscriptions
 accessibility:
   physical_intensity: moderate
   setting: indoor
@@ -52,7 +53,7 @@ verification:
   verified_date: ''
   review_due: ''
   last_pr: ''
-  confirmed_by_organiser: '2026-10-29'
+  confirmed_by_organiser: '2026-10-31'
   confirmed_via: email
 discovery:
   source_url: https://directory.healthconnections.gg/listing/e6d6b960-57c9-4031-95df-76745c7eea7d
@@ -70,6 +71,8 @@ discovery:
     music; halls have toilets but not accessible ones; lifts occasionally; 15+ regular
     members aged 20-70. Original reply marked changes in red, which did not survive
     copying; changes inferred by comparing with the listing.'
+  - 'Organiser reply 2026-10-31 (email, Carol Healy): approved the updated listing;
+    cost is free initially, then periodic subscriptions.'
 ---
 
 Morris dancing for the love of dance and music, around the Bailiwick and beyond. The group has 15 or more regular members aged from 20 to 70 and is always looking for new members, musicians and budding dancers who want to try something a bit different. A good sense of fun, adventure and humour is essential; it's an aerobic workout, good for the mind, and comes with a great social life. Get in touch before you go to check the venue and time.
