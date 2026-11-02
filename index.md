@@ -113,38 +113,33 @@ title: Home
 
 <h2 id="listings-heading">All listings</h2>
 
-<p id="active-tag-filter" hidden>Filtered by tag: <strong id="active-tag-label"></strong> — <a href="{{ '/' | relative_url }}" id="clear-tag-filter">clear</a></p>
-<p id="active-need-filter" hidden>Filtered by need: <strong id="active-need-label"></strong> — <a href="{{ '/' | relative_url }}" id="clear-need-filter">clear</a></p>
-
 <details id="filter-details" class="fold" open>
 <summary><strong>Adjust parishes and activity levels</strong></summary>
 
 <div class="filter-bar">
-  <strong>Showing parishes:</strong>
-  <span id="parish-toggles">
+  <strong>Parish</strong>
+  <p class="tag-cloud">
     {% for parish in site.data.parishes %}
-    <label class="parish-toggle"><input type="checkbox" class="parish-checkbox" value="{{ parish }}" checked> {{ parish }}</label>
+    <a class="tag-cloud-item tag-filter-link" href="{{ '/?parish=' | append: parish | url_encode | relative_url }}" data-tag="{{ parish }}" data-param="parish">{{ parish }}</a>
     {% endfor %}
-  </span>
-  <button id="parish-reset" type="button">Show all</button>
-  <br><span class="meta">Listings with no parish given are always shown — parish filtering only affects listings that have one.</span>
+  </p>
+  <span class="meta">Pick one or more to narrow by parish, or leave none picked to show every parish. Listings with no parish given are always shown.</span>
 </div>
 
 <div class="filter-bar" id="intensity-filter">
-  <strong>Showing activity levels:</strong>
-  <span id="intensity-toggles">
+  <strong>Activity level</strong>
+  <p class="tag-cloud">
     {% for level in intensity_levels %}
     {% assign level_count = 0 %}
     {% for listing in site.listings %}{% if listing.accessibility.physical_intensity == level %}{% assign level_count = level_count | plus: 1 %}{% endif %}{% endfor %}
-    <label class="intensity-toggle"><input type="checkbox" class="intensity-checkbox" value="{{ level }}" checked> {{ level | capitalize }} ({{ level_count }})</label>
+    <a class="tag-cloud-item tag-filter-link" href="{{ '/?intensity=' | append: level | relative_url }}" data-tag="{{ level }}" data-param="intensity">{{ level | capitalize }} ({{ level_count }})</a>
     {% endfor %}
     {% assign rated_count = 0 %}
     {% for listing in site.listings %}{% if listing.accessibility.physical_intensity %}{% assign rated_count = rated_count | plus: 1 %}{% endif %}{% endfor %}
     {% assign unrated_count = site.listings.size | minus: rated_count %}
-    <label class="intensity-toggle"><input type="checkbox" class="intensity-checkbox" value="unrated" checked> Not yet rated ({{ unrated_count }})</label>
-  </span>
-  <button id="intensity-reset" type="button">Show all</button>
-  <br><span class="meta">How physically demanding an activity is, from none (seated or sedentary) to high. Many listings haven't been rated yet — untick "Not yet rated" to see only rated ones.</span>
+    <a class="tag-cloud-item tag-filter-link" href="{{ '/?intensity=unrated' | relative_url }}" data-tag="unrated" data-param="intensity">Not yet rated ({{ unrated_count }})</a>
+  </p>
+  <span class="meta">How physically demanding an activity is, from none (seated or sedentary) to high. Many listings haven't been rated yet.</span>
 </div>
 </details>
 
@@ -199,7 +194,7 @@ title: Home
 <p>No listings yet — this directory is just getting started.</p>
 {% endfor %}
 </div>
-<p id="no-matches" hidden>No listings match the current filters — try switching more parishes or activity levels back on, or <a href="#" id="clear-tag-filter-2">clear the tag filter</a>.</p>
+<p id="no-matches" hidden>No listings match the current filters — try removing one, or <a href="#" id="clear-tag-filter-2">clear all filters</a>.</p>
 
 </div>
 
@@ -212,7 +207,7 @@ title: Home
  * narrowed down to (verified status and how much detail is filled in),
  * and explains the pick using exactly the criteria the visitor actually
  * set — never shown over the full, unfiltered directory, where "best
- * match" among 265 unrelated listings would mean nothing.
+ * match" among hundreds of unrelated listings would mean nothing.
  *
  * A per-listing AI-written "why it's worth a look" blurb (the other half
  * of what was scoped for orchestration#2) is a deliberate follow-up, not
@@ -280,18 +275,14 @@ function applySortOrder(cards) {
   ranked.forEach(function (r, i) { r.card.style.order = i; });
 }
 
-function computeBestMatch(cards) {
+function computeBestMatch(cards, filterState) {
   var el = document.getElementById('best-match');
-  var urlParams = new URLSearchParams(window.location.search);
-  var tagParam = urlParams.get('tag');
-  var needParam = urlParams.get('need');
-  var intensityParam = urlParams.get('intensity');
-  var parishParam = urlParams.get('parish');
 
   // Only meaningful when the visitor actually specified something —
   // picking a "top pick" out of the entire unfiltered directory isn't a
   // match, it's just whichever listing happens to be best-documented.
-  if (!tagParam && !needParam && !intensityParam && !parishParam) {
+  var hasAny = filterState.tag.length || filterState.need.length || filterState.intensity.length || filterState.parish.length;
+  if (!hasAny) {
     el.hidden = true;
     return;
   }
@@ -333,24 +324,20 @@ function computeBestMatch(cards) {
   document.dispatchEvent(new CustomEvent('printlist:change'));
 
   var reasons = [];
-  if (tagParam) {
-    var tagLabels = tagParam.split(',').map(function (t) {
-      return TAG_LABELS[t] ? TAG_LABELS[t].toLowerCase() : t;
-    });
-    reasons.push(tagLabels.join(' and '));
+  if (filterState.tag.length) {
+    reasons.push(filterState.tag.map(function (t) { return TAG_LABELS[t] ? TAG_LABELS[t].toLowerCase() : t; }).join(' and '));
   }
-  if (needParam) {
-    var needLabels = needParam.split(',').map(function (n) {
-      return TAG_LABELS[n] ? TAG_LABELS[n].toLowerCase() : n;
-    });
-    reasons.push(needLabels.join(' and '));
+  if (filterState.need.length) {
+    reasons.push(filterState.need.map(function (n) { return TAG_LABELS[n] ? TAG_LABELS[n].toLowerCase() : n; }).join(' and '));
   }
-  if (intensityParam) {
-    var level = intensityParam.split(',')[0];
-    if (INTENSITY_LABELS[level]) { reasons.push(INTENSITY_LABELS[level]); }
+  if (filterState.intensity.length) {
+    var levelLabels = filterState.intensity
+      .filter(function (l) { return INTENSITY_LABELS[l]; })
+      .map(function (l) { return INTENSITY_LABELS[l]; });
+    if (levelLabels.length) { reasons.push(levelLabels.join(' or ')); }
   }
-  if (parishParam) {
-    reasons.push('in ' + parishParam.split(',').join(' or '));
+  if (filterState.parish.length) {
+    reasons.push('in ' + filterState.parish.join(' or '));
   }
   document.getElementById('best-match-reason').textContent = reasons.length
     ? "Matches what you're looking for: " + reasons.join(' · ')
@@ -359,155 +346,164 @@ function computeBestMatch(cards) {
   el.hidden = false;
 }
 
+/* Shared filter engine for the homepage results — combined rework for
+ * two reports that turned out to be the same root cause (planning#10 +
+ * planning#11). Previously every dimension had a different interaction:
+ * interest/need chips triggered a full page navigation per click (the
+ * reported "jerky... page moves and refreshes" — every single pick
+ * reloaded the whole page from scratch); parish/intensity were checkboxes
+ * that filtered live but started with everything checked, so narrowing
+ * meant unticking most of a 13-item list one at a time (the reported
+ * "tedious" untick-to-narrow pattern, inconsistent with the positive
+ * pick-to-narrow model interests/needs already used).
+ *
+ * One engine now drives all four dimensions, the wizard's final handoff,
+ * and the browser's back/forward buttons: a single filterState object
+ * (plain arrays, empty = show everything — the convention tags/needs
+ * already used, parish/intensity now match it) that every chip click —
+ * cloud, per-card, parish, intensity — toggles in place via applyFilter(),
+ * with no navigation at all. The URL still stays in sync via pushState,
+ * so results remain shareable/bookmarkable and the back button actually
+ * undoes the last pick instead of doing nothing, without ever reloading
+ * the page to get there.
+ */
 (function () {
-  var checkboxes = document.querySelectorAll('.parish-checkbox');
   var cards = document.querySelectorAll('.listing-card');
   applySortOrder(cards);
   var noMatches = document.getElementById('no-matches');
-  var resetBtn = document.getElementById('parish-reset');
-  var activeTagBanner = document.getElementById('active-tag-filter');
-  var activeTagLabel = document.getElementById('active-tag-label');
-  var activeNeedBanner = document.getElementById('active-need-filter');
-  var activeNeedLabel = document.getElementById('active-need-label');
-  var urlParams = new URLSearchParams(window.location.search);
+  var answersBox = document.getElementById('your-answers');
 
-  // TAG_LABELS is the global declared above, shared by computeBestMatch —
-  // deliberately not redeclared here. An earlier version had a local
-  // `var TAG_LABELS` assigned only inside `if (activeTag)`, which (var
-  // being function-scoped) shadowed the global for the whole IIFE even
-  // when unassigned — harmless by coincidence while only tag-filtering
-  // used it, but would throw as soon as a need-only filter tried to read
-  // it with no tag set.
-  //
-  // Interests (tags), same comma-separated/OR-matched pattern as needs
-  // below — a listing matches if it carries *any* of the selected
-  // interests, picking more than one widens the results rather than
-  // narrowing to listings that match every one.
-  var tagParam = urlParams.get('tag');
-  var activeTags = tagParam ? tagParam.split(',') : [];
-  if (activeTags.length) {
-    activeTagBanner.hidden = false;
-    activeTagLabel.textContent = activeTags.map(function (t) { return TAG_LABELS[t] || t; }).join(', ');
+  var filterState = { tag: [], need: [], parish: [], intensity: [] };
+
+  function readStateFromUrl() {
+    var urlParams = new URLSearchParams(window.location.search);
+    ['tag', 'need', 'parish', 'intensity'].forEach(function (key) {
+      var v = urlParams.get(key);
+      filterState[key] = v ? v.split(',') : [];
+    });
   }
 
-  // Needs — a second, separate dimension from interests (tags): what the
-  // activity accommodates (dementia-friendly, carers welcome...) rather
-  // than what kind of thing it is. Comma-separated and OR-matched, same
-  // pattern as parish/intensity — a listing matches if it carries *any*
-  // of the selected needs. See planning/landing-page-ux.md.
-  var needParam = urlParams.get('need');
-  var activeNeeds = needParam ? needParam.split(',') : [];
-  if (activeNeeds.length) {
-    activeNeedBanner.hidden = false;
-    activeNeedLabel.textContent = activeNeeds.map(function (n) { return TAG_LABELS[n] || n; }).join(', ');
+  function isAnswered() {
+    return !!(filterState.tag.length || filterState.need.length || filterState.parish.length || filterState.intensity.length);
   }
 
-  // Mark the tag-cloud chips themselves as selected — until now the only
-  // sign a filter was active was the "You asked for" summary text above
-  // the cloud, so a chip you'd already picked looked identical to one you
-  // hadn't. Same visual language as the wizard's own .selected buttons.
-  document.querySelectorAll('.tag-filter-link').forEach(function (link) {
-    var param = link.getAttribute('data-param');
-    var value = link.getAttribute('data-tag');
-    var active = param === 'tag' ? activeTags.indexOf(value) !== -1
-      : param === 'need' ? activeNeeds.indexOf(value) !== -1
-      : false;
-    link.classList.toggle('selected', active);
-    link.setAttribute('aria-pressed', active ? 'true' : 'false');
-  });
-
+  // Interests (tags) — a listing matches if it carries *any* of the
+  // selected interests; picking more than one widens the results rather
+  // than narrowing to listings that match every one.
   function matchesTag(card) {
-    if (!activeTags.length) return true;
+    if (!filterState.tag.length) return true;
     var tags = (card.getAttribute('data-tags') || '').split(' ');
-    return activeTags.some(function (t) { return tags.indexOf(t) !== -1; });
+    return filterState.tag.some(function (t) { return tags.indexOf(t) !== -1; });
   }
 
+  // Needs — a second, separate dimension from interests: what the
+  // activity accommodates (dementia-friendly, carers welcome...) rather
+  // than what kind of thing it is. Same OR-matched pattern. See
+  // planning/landing-page-ux.md.
   function matchesNeeds(card) {
-    if (!activeNeeds.length) return true;
+    if (!filterState.need.length) return true;
     var needs = (card.getAttribute('data-needs') || '').split(' ');
-    return activeNeeds.some(function (n) { return needs.indexOf(n) !== -1; });
+    return filterState.need.some(function (n) { return needs.indexOf(n) !== -1; });
   }
 
-  // Activity level. Unlike parish, a listing with no rating is NOT always
-  // shown: most listings are unrated, so that would make the filter useless.
-  // "Not yet rated" is its own checkbox instead. A ?intensity=low,none URL
-  // parameter pre-selects levels so other pages can link to a filtered view.
-  var intensityBoxes = document.querySelectorAll('.intensity-checkbox');
-  var intensityParam = urlParams.get('intensity');
-  if (intensityParam) {
-    var wanted = intensityParam.split(',');
-    intensityBoxes.forEach(function (cb) { cb.checked = wanted.indexOf(cb.value) !== -1; });
+  function matchesParish(card) {
+    if (!filterState.parish.length) return true;
+    var parish = card.getAttribute('data-parish');
+    // No parish on the listing = always shown; parish filtering only
+    // applies to listings that actually have one.
+    return !parish || filterState.parish.indexOf(parish) !== -1;
   }
 
-  // Parish, same pattern as intensity — a ?parish=Vale,Castel URL parameter
-  // (built by the finder wizard below) pre-selects specific parishes.
-  // Absent entirely = every parish checked, same as a fresh unfiltered visit.
-  var parishParam = urlParams.get('parish');
-  if (parishParam) {
-    var wantedParishes = parishParam.split(',');
-    checkboxes.forEach(function (cb) { cb.checked = wantedParishes.indexOf(cb.value) !== -1; });
+  // Activity level. Unlike parish, a listing with no rating doesn't get a
+  // free pass when intensity is filtered — most listings are unrated, so
+  // that would make the filter useless. "Not yet rated" is its own
+  // pickable chip (value "unrated") instead.
+  function matchesIntensity(card) {
+    if (!filterState.intensity.length) return true;
+    return filterState.intensity.indexOf(card.getAttribute('data-intensity') || 'unrated') !== -1;
   }
 
-  function checkedValues(boxes) {
-    return Array.prototype.filter.call(boxes, function (cb) { return cb.checked; })
-      .map(function (cb) { return cb.value; });
+  // Marks every chip across all four dimensions — tag cloud, need cloud,
+  // parish, intensity, and each card's own tag/need chips — as selected
+  // or not, from filterState. Same visual language as the wizard's own
+  // .selected buttons.
+  function syncSelectedChips() {
+    document.querySelectorAll('.tag-filter-link').forEach(function (link) {
+      var param = link.getAttribute('data-param');
+      var value = link.getAttribute('data-tag');
+      var active = filterState[param] ? filterState[param].indexOf(value) !== -1 : false;
+      link.classList.toggle('selected', active);
+      link.setAttribute('aria-pressed', active ? 'true' : 'false');
+    });
   }
 
-  // Keeps the URL's own parish/intensity params in sync with the live
-  // checkbox state, so they survive a navigation instead of only existing
-  // as in-page state that a tag/need link click (a real page load) would
-  // otherwise silently wipe. Omits the param entirely when every box is
-  // checked (the default, "show everything" state) rather than writing
-  // out a full list — matches the existing "absent = all" convention the
-  // wizard's own URLs already rely on. replaceState, not pushState, so
-  // toggling checkboxes doesn't spam browser history with one entry per
-  // click.
-  function syncUrlFromCheckboxes() {
-    var params = new URLSearchParams(window.location.search);
-    var activeParishes = checkedValues(checkboxes);
-    if (activeParishes.length === checkboxes.length) { params.delete('parish'); }
-    else { params.set('parish', activeParishes.join(',')); }
-    var activeIntensities = checkedValues(intensityBoxes);
-    if (activeIntensities.length === intensityBoxes.length) { params.delete('intensity'); }
-    else { params.set('intensity', activeIntensities.join(',')); }
-    var search = params.toString();
-    var newUrl = window.location.pathname + (search ? '?' + search : '') + window.location.hash;
-    history.replaceState(null, '', newUrl);
+  // Omits a dimension from the URL entirely when nothing's picked for it
+  // (the "absent = show everything" convention), rather than ever writing
+  // out a full "everything selected" list. Always pushState, never called
+  // for the initial load pass (see skipUrlSync below) — only genuine user
+  // picks should create a history entry or touch the address bar.
+  function syncUrl() {
+    var params = new URLSearchParams();
+    ['tag', 'need', 'parish', 'intensity'].forEach(function (key) {
+      if (filterState[key].length) { params.set(key, filterState[key].join(',')); }
+    });
+    params.set('view', 'panel');
+    var newUrl = window.location.pathname + '?' + params.toString();
+    history.pushState(null, '', newUrl);
   }
 
-  function applyFilter() {
-    var activeParishes = checkedValues(checkboxes);
-    var activeIntensities = checkedValues(intensityBoxes);
+  function updateAnswers(count) {
+    var answered = isAnswered();
+    answersBox.hidden = !answered;
+    if (!answered) { return; }
+    var parts = [];
+    if (filterState.tag.length) { parts.push(filterState.tag.map(function (t) { return TAG_LABELS[t] || t; }).join(', ')); }
+    if (filterState.need.length) { parts.push(filterState.need.map(function (n) { return TAG_LABELS[n] || n; }).join(', ')); }
+    var ratedLevels = filterState.intensity.filter(function (l) { return INTENSITY_LABELS[l]; });
+    if (ratedLevels.length) {
+      parts.push(ratedLevels.map(function (lvl) { return INTENSITY_LABELS[lvl].charAt(0).toUpperCase() + INTENSITY_LABELS[lvl].slice(1); }).join(', '));
+    }
+    if (filterState.parish.length) { parts.push('In ' + filterState.parish.join(', ')); }
+    document.getElementById('your-answers-summary').textContent = parts.length ? 'You asked for: ' + parts.join(' · ') : '';
+    document.getElementById('your-answers-count').textContent = count === 1 ? '1 activity matches.' : count + ' activities match.';
+    document.getElementById('listings-heading').textContent = 'All your matches';
+  }
+
+  function applyFilter(options) {
+    options = options || {};
     var visibleCount = 0;
     cards.forEach(function (card) {
-      var parish = card.getAttribute('data-parish');
-      // No parish on the listing = always shown; parish filtering only
-      // applies to listings that actually have one.
-      var parishOk = !parish || activeParishes.indexOf(parish) !== -1;
-      var intensityOk = activeIntensities.indexOf(card.getAttribute('data-intensity') || 'unrated') !== -1;
-      var show = parishOk && intensityOk && matchesTag(card) && matchesNeeds(card);
+      var show = matchesParish(card) && matchesIntensity(card) && matchesTag(card) && matchesNeeds(card);
       card.hidden = !show;
       if (show) visibleCount++;
     });
     noMatches.hidden = visibleCount !== 0;
-    syncUrlFromCheckboxes();
-    computeBestMatch(cards);
+    syncSelectedChips();
+    if (!options.skipUrlSync) { syncUrl(); }
+    computeBestMatch(cards, filterState);
     updateAnswers(visibleCount);
   }
 
-  // Interest/need tag links (the two clouds above, and each card's own
-  // chips) are plain server-rendered <a href>s — individually correct, but
-  // each one only ever knows its own single value, so clicking one after
-  // another used to silently replace the whole query string and drop
-  // whatever else was already filtered (reported: picking an interest
-  // then a need acted exclusively, and intensity/parish choices didn't
-  // survive it either). Fixed by intercepting the click and merging onto
-  // the *current* URL — which syncUrlFromCheckboxes above keeps accurate
-  // for parish/intensity — rather than navigating to the link's own
-  // single-param href as-is. Both tag and need are multi-select, toggled
-  // in or out, matching the wizard's own Q1/Q2 and matchesTag/matchesNeeds
-  // above — picking more than one interest (or need) widens the results,
-  // it doesn't require a listing to match every one chosen.
+  function toggleFilter(param, value) {
+    if (!filterState.hasOwnProperty(param)) { return; }
+    var arr = filterState[param];
+    var idx = arr.indexOf(value);
+    if (idx === -1) { arr.push(value); } else { arr.splice(idx, 1); }
+    applyFilter();
+  }
+
+  function clearAll() {
+    filterState.tag = [];
+    filterState.need = [];
+    filterState.parish = [];
+    filterState.intensity = [];
+    applyFilter();
+  }
+
+  // One delegated handler covers every chip in all four dimensions —
+  // tag cloud, need cloud, parish, intensity, and each card's own tag/
+  // need chips — since they all share this one class and read their
+  // dimension + value from data attributes. No reload, ever.
   document.addEventListener('click', function (e) {
     var link = e.target.closest('.tag-filter-link');
     if (!link) { return; }
@@ -515,84 +511,70 @@ function computeBestMatch(cards) {
     var value = link.getAttribute('data-tag');
     if (!param || !value) { return; } // malformed — fall through to the plain href
     e.preventDefault();
-    var params = new URLSearchParams(window.location.search);
-    if (param === 'tag' || param === 'need') {
-      var current = params.get(param);
-      var arr = current ? current.split(',') : [];
-      var idx = arr.indexOf(value);
-      if (idx === -1) { arr.push(value); } else { arr.splice(idx, 1); }
-      if (arr.length) { params.set(param, arr.join(',')); } else { params.delete(param); }
-    }
-    params.set('view', 'panel');
-    window.location.href = "{{ '/' | relative_url }}?" + params.toString();
+    toggleFilter(param, value);
   });
 
-  // "Your matches" summary: shown whenever the page was opened with answers
-  // (from the questions or a shared link), so the results lead with what was
-  // asked for instead of sitting below the tag cloud and filters.
-  var answered = !!(activeTags.length || activeNeeds.length || intensityParam || parishParam);
-  var answersBox = document.getElementById('your-answers');
-  function updateAnswers(count) {
-    if (!answered) { return; }
-    var parts = [];
-    if (activeTags.length) { parts.push(activeTags.map(function (t) { return TAG_LABELS[t] || t; }).join(', ')); }
-    if (activeNeeds.length) { parts.push(activeNeeds.map(function (n) { return TAG_LABELS[n] || n; }).join(', ')); }
-    if (intensityParam) {
-      var lvl = intensityParam.split(',')[0];
-      if (INTENSITY_LABELS[lvl]) { parts.push(INTENSITY_LABELS[lvl].charAt(0).toUpperCase() + INTENSITY_LABELS[lvl].slice(1)); }
-    }
-    var parishes = checkedValues(checkboxes);
-    if (parishParam && parishes.length && parishes.length < checkboxes.length) { parts.push('In ' + parishes.join(', ')); }
-    document.getElementById('your-answers-summary').textContent = parts.length ? 'You asked for: ' + parts.join(' · ') : '';
-    document.getElementById('your-answers-count').textContent = count === 1 ? '1 activity matches.' : count + ' activities match.';
-    document.getElementById('listings-heading').textContent = 'All your matches';
-  }
-  if (answered) {
-    answersBox.hidden = false;
-    // interest-details/needs-details deliberately stay open here — both
-    // are multi-select (see matchesTag/matchesNeeds above), and collapsing
-    // the cloud the moment one is picked forced re-expanding it just to
-    // pick a second one, the exact anti-pattern multi-select is supposed
-    // to avoid. Each click is a full navigation/reload (see the
-    // tag-filter-link handler), so without this they'd re-collapse after
-    // every single pick. filter-details (parish/intensity) still
-    // collapses — that's a checkbox-based, not chip-based, UI with a
-    // bigger rethink already tracked separately (planning#10).
-    document.getElementById('filter-details').open = false;
-    activeTagBanner.hidden = true;
-    activeNeedBanner.hidden = true;
-    var toggleP = document.getElementById('finder-toggle');
-    if (toggleP) { toggleP.hidden = true; }
-  }
-
-  checkboxes.forEach(function (cb) { cb.addEventListener('change', applyFilter); });
-  resetBtn.addEventListener('click', function () {
-    checkboxes.forEach(function (cb) { cb.checked = true; });
-    applyFilter();
-  });
-  intensityBoxes.forEach(function (cb) { cb.addEventListener('change', applyFilter); });
-  document.getElementById('intensity-reset').addEventListener('click', function () {
-    intensityBoxes.forEach(function (cb) { cb.checked = true; });
-    applyFilter();
-  });
   var clearLink2 = document.getElementById('clear-tag-filter-2');
   if (clearLink2) {
-    clearLink2.addEventListener('click', function (e) {
-      e.preventDefault();
-      window.location.href = "{{ '/' | relative_url }}";
-    });
+    clearLink2.addEventListener('click', function (e) { e.preventDefault(); clearAll(); });
+  }
+  var clearAllLink = document.getElementById('your-answers-clear');
+  if (clearAllLink) {
+    clearAllLink.addEventListener('click', function (e) { e.preventDefault(); clearAll(); });
   }
 
-  applyFilter();
-  if (answered) {
-    // Bring the summary into view and announce it to screen readers.
-    // Deferred until the finder script below has un-hidden the panel.
+  // Back/forward support — pushState means the address bar can change
+  // without the page reloading, so the browser's own back button needs
+  // this listener to actually update what's on screen to match.
+  window.addEventListener('popstate', function () {
+    readStateFromUrl();
+    applyFilter({ skipUrlSync: true });
+  });
+
+  // skipUrlSync here too — this runs on every load regardless of whether
+  // the wizard or the panel ends up visible (the wizard script below
+  // decides that afterwards), so it must only ever read the URL, never
+  // write it. Writing it unconditionally here previously meant visiting
+  // the plain homepage once left the address bar on ?view=panel, so a
+  // second visit skipped the wizard entirely — found testing this rework,
+  // not a pre-existing bug.
+  readStateFromUrl();
+  applyFilter({ skipUrlSync: true });
+
+  // One-time, on load only: if we arrived with filters already set (a
+  // shared link, or ?view=panel from the wizard before this ran), hide
+  // the wizard-toggle line and bring the summary into view. Deliberately
+  // not repeated on every live click — the visitor is already looking at
+  // the chip they just picked, scrolling the page out from under them on
+  // every pick would be its own kind of jarring.
+  if (isAnswered()) {
+    var toggleP = document.getElementById('finder-toggle');
+    if (toggleP) { toggleP.hidden = true; }
     document.addEventListener('DOMContentLoaded', function () {
       var heading = document.getElementById('your-answers-heading');
       if (heading) { heading.focus({ preventScroll: true }); }
       if (answersBox.scrollIntoView) { answersBox.scrollIntoView({ block: 'start' }); }
     });
   }
+
+  // Bridge for the wizard script below — hands its picks straight to this
+  // same engine in place of navigating to a fresh ?tag=... URL and
+  // reloading to get there. showPanel() (in the wizard script) makes the
+  // panel visible first; this applies the filters and does the same
+  // "just arrived with answers" focus/scroll the branch above does for a
+  // page load.
+  window.JIGShowResults = function (wizardState) {
+    filterState.tag = wizardState.tags.slice();
+    filterState.need = wizardState.needs.slice();
+    filterState.parish = wizardState.parishes.slice();
+    filterState.intensity = wizardState.intensity ? [wizardState.intensity, 'unrated'] : [];
+    applyFilter();
+    var toggleP = document.getElementById('finder-toggle');
+    if (toggleP) { toggleP.hidden = true; }
+    var heading = document.getElementById('your-answers-heading');
+    if (heading) { heading.focus({ preventScroll: true }); }
+    if (answersBox.scrollIntoView) { answersBox.scrollIntoView({ block: 'start' }); }
+  };
 })();
 </script>
 
@@ -606,11 +588,11 @@ function computeBestMatch(cards) {
  * type a disclosure into; a button grid has no such surface, so this
  * sidesteps that unsolved problem entirely rather than needing to solve it.
  *
- * The wizard never applies filters itself — it just builds the same
- * ?tag=&intensity=&parish= URL a shared link would use, and navigates.
- * That reuses 100% of the existing filter-reading logic above instead of
- * duplicating it, and means a finished search is a normal, bookmarkable,
- * shareable URL.
+ * The wizard hands its final picks to window.JIGShowResults (defined in
+ * the script above) instead of navigating to a fresh ?tag=&intensity=&
+ * parish= URL — that's what it did originally, and shareable/bookmarkable
+ * URLs still work exactly the same way via pushState, just without the
+ * reload that used to happen to get there (planning#10/#11).
  */
 (function () {
   var wizard = document.getElementById('finder-wizard');
@@ -652,13 +634,21 @@ function computeBestMatch(cards) {
   }
 
   function goToResults() {
-    var params = new URLSearchParams();
-    if (state.tags.length) { params.set('tag', state.tags.join(',')); }
-    if (state.needs.length) { params.set('need', state.needs.join(',')); }
-    if (state.intensity) { params.set('intensity', state.intensity + ',unrated'); }
-    if (state.parishes.length) { params.set('parish', state.parishes.join(',')); }
-    params.set('view', 'panel');
-    window.location.href = "{{ '/' | relative_url }}?" + params.toString();
+    showPanel();
+    if (window.JIGShowResults) {
+      window.JIGShowResults(state);
+    } else {
+      // Fallback only — if the panel's own engine somehow isn't
+      // available, still get the visitor to their results rather than a
+      // dead button, same URL shape the old always-navigate version used.
+      var params = new URLSearchParams();
+      if (state.tags.length) { params.set('tag', state.tags.join(',')); }
+      if (state.needs.length) { params.set('need', state.needs.join(',')); }
+      if (state.intensity) { params.set('intensity', state.intensity + ',unrated'); }
+      if (state.parishes.length) { params.set('parish', state.parishes.join(',')); }
+      params.set('view', 'panel');
+      window.location.href = "{{ '/' | relative_url }}?" + params.toString();
+    }
   }
 
   function showPanel() {
