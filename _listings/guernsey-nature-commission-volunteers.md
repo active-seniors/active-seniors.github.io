@@ -42,7 +42,7 @@ verification:
   verified_date: ''
   review_due: ''
   last_pr: ''
-  confirmed_by_organiser: '2026-10-19'
+  confirmed_by_organiser: '2026-11-02'
   confirmed_via: email
 discovery:
   source_url: https://volunteer.gg/volunteers/opportunity/10235576
@@ -55,6 +55,7 @@ discovery:
     to volunteer; mostly outdoors and on foot, some seated activities such as bird
     watching; events 20-30 people of mixed ages; already linked with Bailiwick Social
     Prescribing.'
+  - 'Organiser reply 2026-11-02 (email): happy with the listing, no changes.'
 ---
 
 Help with citizen science surveys and wildlife recording. No skills are needed, training is given for some projects, and some can be done from home. The Guernsey Biological Records Centre, run by the Nature Commission, collects wildlife records for Guernsey, Herm, Sark and local waters, and anyone can contribute sightings through iRecord or iNaturalist. Opportunities and events are listed on naturecommission.gg and the Commission's Facebook page.
