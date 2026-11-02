@@ -14,7 +14,8 @@ schedule:
   frequency: monthly
   day: third Thursday
   time: 10:00-12:00
-  season: April to September, not August. 2027 dates to be confirmed by the museum
+  season: 'April to September, not August. 2027 dates: 15 April, 20 May, 17 June,
+    15 July and 16 September'
 cost:
   amount: 0
   currency: GBP
@@ -23,7 +24,7 @@ organiser:
   name: National Trust of Guernsey
   website: https://nationaltrust.gg/events/courtyard-events-folk-and-costume-museum/event/folk-and-costume-museum/learn-heritage-craft-spinning/113
   contact_phone: 01481 255384
-  contact_email: emc@nationaltrust.gg
+  contact_email: fcm@nationaltrust.gg
 accessibility:
   physical_intensity: none
   seated_option: true
@@ -49,7 +50,7 @@ verification:
   verified_date: ''
   review_due: ''
   last_pr: ''
-  confirmed_by_organiser: '2026-10-20'
+  confirmed_by_organiser: '2026-11-02'
   confirmed_via: email
 discovery:
   source_url: https://directory.healthconnections.gg/listing/21a7c2b7-a996-497b-bf80-cdcc39271020
@@ -70,6 +71,9 @@ discovery:
     August, 10:00-12:00; free; no booking; contact Elainer Laine on 01481 255384 (was
     07781 106461); buses 41 and 42; seating in the courtyard; one wheel for visitors
     to try.'
+  - 'Organiser reply 2026-11-02 (email): 2027 dates 15 Apr, 20 May, 17 Jun, 15 Jul,
+    16 Sep; contact email fcm@nationaltrust.gg (not emc@); website link to be updated
+    once NTG publishes 2027 dates.'
 ---
 
 Local spinners meet at the Folk and Costume Museum to demonstrate their craft and chat with visitors. There's a spinning wheel for visitors to try, and a few tables and chairs in the courtyard. No booking needed: explore the museum and park and meet the spinners.

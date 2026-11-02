@@ -424,6 +424,7 @@ article.listing > .meta { font-size: 1.05rem; color: var(--charcoal); margin: 0 
   border: 1.5px solid var(--terracotta);
   color: var(--terracotta);
 }
+.contact-button { overflow-wrap: anywhere; }
 .contact-button:hover, .contact-button:focus-visible { background: var(--terracotta); color: var(--chalk); }
 .contact-button-primary { background: var(--terracotta); color: var(--chalk); }
 .contact-button-primary:hover, .contact-button-primary:focus-visible { background: var(--ink); border-color: var(--ink); }

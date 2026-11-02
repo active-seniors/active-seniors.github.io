@@ -95,7 +95,7 @@ layout: default
         <a class="contact-button contact-button-primary" href="tel:{{ quick_phone | remove: " " }}">Call{% if page.joining.first_contact.name %} {{ page.joining.first_contact.name }}{% endif %}</a>
       {% endif %}
       {% if page.organiser.contact_email and page.organiser.contact_email != "" %}
-        <a class="contact-button" href="mailto:{{ page.organiser.contact_email }}">Email</a>
+        <a class="contact-button" href="mailto:{{ page.organiser.contact_email }}">Email {{ page.organiser.contact_email }}</a>
       {% endif %}
       {% if page.organiser.website and page.organiser.website != "" %}
         <a class="contact-button" href="{% unless page.organiser.website contains "http" %}https://{% endunless %}{{ page.organiser.website }}" target="_blank" rel="noopener">Visit website</a>
