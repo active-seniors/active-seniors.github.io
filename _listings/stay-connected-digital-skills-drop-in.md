@@ -13,8 +13,8 @@ location:
 schedule:
   frequency: weekly
   day: Friday
-  time: 1:30pm to 3:30pm
-  season: Term time; call 01481 227470 before travelling
+  time: 13:30-15:30
+  season: Term time only; call 01481 227470 before travelling
 cost:
   amount: 0
   currency: GBP
@@ -41,7 +41,7 @@ verification:
   verified_date: ''
   review_due: ''
   last_pr: ''
-  confirmed_by_organiser: '2026-10-20'
+  confirmed_by_organiser: '2026-11-03'
   confirmed_via: email
 discovery:
   source_url: https://healthconnections.gg/?p=497
@@ -55,6 +55,11 @@ discovery:
   - 'Source: https://healthconnections.gg/?p=12376'
   - 'Organiser reply 2026-10-20 (email): happy to be listed; term time only, call
     before travelling; free, just turn up.'
+  - 'Organiser reply 2026-11-03 (email, Magdalena Ford): rewrote the listing; Fridays
+    1:30-3:30pm in term time at the Connect Space, Health Connections Shop; free and
+    open to everyone.'
 ---
 
-A free weekly drop-in run by Health Connections with The Guernsey Institute for people who want help with digital skills or more confidence using technology.
+Looking to improve your digital skills, gain confidence or learn something new? The Stay Connected sessions, run by Health Connections with The Guernsey Institute, are a free, friendly drop-in that's open to everyone and the perfect place to start.
+
+Sessions are every Friday from 1:30 to 3:30pm during term time, at the Connect Space in the Health Connections Shop, Beatrice House, 11 The Pollet, St Peter Port. As they follow the school terms, please call 01481 227470 before travelling.
