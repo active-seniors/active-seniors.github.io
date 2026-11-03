@@ -14,7 +14,7 @@ location:
 schedule:
   frequency: weekly
   day: Tuesday
-  time: 10:30-11:30
+  time: 10:30-12:00
 cost:
   amount: 5
   currency: GBP
@@ -45,8 +45,9 @@ discovery:
   - 'Oct 2026: time 10:30-12:00 taken from Parkinson''s Guernsey''s Autumn 2026 timetable,
     which lists this class. Not confirmed by this listing''s organiser.'
   - 'Organiser reply 2026-11-03 (email, Jo, Bailiwick Social Prescribing): Singing
-    for Health, Tuesdays 10:30-11:30 at Styx (was 10:30-12:00); drop-in; £5 minimum
-    voluntary donation.'
+    for Health, Tuesdays at Styx; drop-in; £5 minimum voluntary donation.'
+  - 'Organiser correction 2026-11-03 (email, Jo): Singing for Health runs 10:30-12:00,
+    not 11:30 as in her first reply.'
 joining:
   how: drop-in
   accepts_referrals: true
