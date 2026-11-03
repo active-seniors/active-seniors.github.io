@@ -7,19 +7,21 @@ category: social
 tags:
 - social-clubs
 location:
-  venue: M&S Café St Peter Port (Mon); Waitrose Café Rohais (Tue); Dix Neuf Café (Tue
-    pm); Beau Sejour Leisure Centre (Wed pm); Le Friquet Garden Centre, Castel (Thu);
-    Earlswood Garden Centre (Fri)
+  venue: 'Cafés around the island: M&S Café, St Peter Port; Waitrose Café, Rohais;
+    Dix Neuf Café; Beau Sejour Leisure Centre; Le Friquet Garden Centre, Castel; Earlswood
+    Garden Centre'
+  parish: St Peter Port
 schedule:
   frequency: weekly at each venue
-  day: Monday to Friday (varies by venue)
-  time: 'Mon 10:00-11:30; Tue 10:00-11:30 (Waitrose) and 14:30-16:00 (Dix Neuf); Wed
-    14:30-16:00; Thu from 9:00 (Friquet listing pages differ: 9:00-11:30 or 10:00-11:30);
-    Fri 10:00-11:30'
-  season: Term time; call 01481 227470 before travelling
+  day: Monday to Friday
+  time: Mon 10:00-11:30 (M&S); Tue 10:00-11:30 (Waitrose) and 14:30-16:00 (Dix Neuf);
+    Wed 14:30-16:00 (Beau Sejour); Thu 9:00-11:30 (Le Friquet); Fri 10:00-11:30 (Earlswood)
+  season: Seasonal closures; call 01481 227470 before travelling, as times may occasionally
+    change
 cost:
   amount: 0
   currency: GBP
+  notes: Free; no need to buy anything more than a cuppa
 organiser:
   name: Health Connections
   website: https://www.healthconnections.gg/talking-cafés
@@ -31,10 +33,12 @@ joining:
   companion_welcome: true
   accepts_referrals: true
   first_contact:
-    name: the community connector (look for the sign on their table)
+    name: the Health Connections team member (look for the Talking Café sign on the
+      table)
     phone: 01481 227470
-    best_time: call before travelling, as sessions follow term time
+    best_time: call before travelling
 getting_there:
+  parking: available
   accessible_toilet: true
 group:
   style: chatty
@@ -43,7 +47,7 @@ verification:
   verified_date: ''
   review_due: ''
   last_pr: ''
-  confirmed_by_organiser: '2026-10-20'
+  confirmed_by_organiser: '2026-11-03'
   confirmed_via: email
 discovery:
   source_url: https://www.healthconnections.gg/talking-cafés
@@ -63,6 +67,26 @@ discovery:
   - 'Organiser reply 2026-10-20 (email): happy to be listed; term time only, call
     before travelling; free, just turn up, friends and carers welcome; accessible
     toilets at all venues.'
+  - 'Organiser reply 2026-11-03 (email, Magdalena Ford, Community Connector Lead):
+    rewrote the listing in her own words and format; Thursday is 9:00-11:30 at Le
+    Friquet; seasonal closures rather than term time; Dix Neuf, Beau Sejour and Le
+    Friquet sessions in partnership with States of Guernsey Family Support Services;
+    parking and accessible toilets. Her reply also gives 01481 740360 for more information.'
 ---
 
-Free, drop-in conversation sessions held weekly in cafés around the island, run by the charity Health Connections. People meet over a drink and can talk to a team member about local activities, support groups and services. No registration is needed.
+A Talking Café brings people together for a chat and a cuppa. You can pop in for a quick chat or stay for a longer conversation with friendly people; even a short conversation can really brighten your day. You can also talk to one of the Health Connections team about other activities, support groups and services in your community.
+
+There's no need to register: just turn up and look for the Talking Café sign on the table. You don't have to buy anything more than a cuppa. Everyone is welcome, and you can bring a friend, family member or carer. Your GP or a social prescriber can also refer you.
+
+**When and where**
+
+- **Monday** 10:00 to 11:30, M&S Café, St Peter Port
+- **Tuesday** 10:00 to 11:30, Waitrose Café, Rohais
+- **Tuesday** 2:30 to 4:00pm, Dix Neuf Café\*
+- **Wednesday** 2:30 to 4:00pm, Beau Sejour Leisure Centre\*
+- **Thursday** 9:00 to 11:30, Le Friquet Garden Centre, Castel\*
+- **Friday** 10:00 to 11:30, Earlswood Garden Centre
+
+\*In partnership with the States of Guernsey's Family Support Services.
+
+There are seasonal closures and times occasionally change, so please call 01481 227470 before travelling. Parking and accessible toilets are available.
