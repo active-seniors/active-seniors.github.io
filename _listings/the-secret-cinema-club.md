@@ -9,7 +9,7 @@ location:
   venue: "Guernsey Museum "
 schedule:
   frequency: monthly
-  day: "Seond Tuesday "
+  day: "Second Tuesday "
   time: "7.30pm"
 cost:
   amount: 5
@@ -28,9 +28,9 @@ organiser:
   contact_email: "secretcinemaclub@outlook.com"
   website: "www.ticketsource.com/tscc"
 verification:
-  verified_by: ""
-  verified_date: ""
-  review_due: ""
+  verified_by: "Jon Hickman"
+  verified_date: "2026-11-05"
+  review_due: "2027-03-05"
   last_pr: ""
   confirmed_by_organiser: "2026-11-04"
   confirmed_via: "submission form"
