@@ -7,6 +7,8 @@ baseurl: ""
 url: "https://joinin.thequarry.media"
 
 quarry_url: "https://www.thequarry.media"
+# Venue videos are stored in Cloudflare R2 and served from here (no cookies, no tracking).
+media_url: "https://media.thequarry.media/joinin"
 
 # Submission bridge (orchestration/submission) endpoint — deployed 5 Oct 2026.
 # The form page shows a "not live yet" notice if this is ever unset.

@@ -108,6 +108,18 @@ layout: default
     {{ content }}
   </div>
 
+  {% if page.video and page.video.file %}
+  <section class="venue-video" aria-labelledby="venue-video-heading">
+    <h3 id="venue-video-heading">See what to expect</h3>
+    <video controls playsinline preload="none"{% if page.video.poster %} poster="{{ '/assets/video/' | append: page.video.poster | relative_url }}"{% endif %} width="360">
+      <source src="{{ site.media_url }}/{{ page.video.file }}" type="video/mp4">
+      {% if page.video.captions %}<track kind="captions" srclang="en" label="English" src="{{ '/assets/video/' | append: page.video.captions | relative_url }}">{% endif %}
+      Your browser can't play this video. <a href="{{ site.media_url }}/{{ page.video.file }}">Download it</a> instead.
+    </video>
+    {% if page.video.description %}<p class="venue-video-text">{{ page.video.description }}</p>{% endif %}
+  </section>
+  {% endif %}
+
   <div class="detail-rows">
     <p>
       <strong>Cost</strong>
