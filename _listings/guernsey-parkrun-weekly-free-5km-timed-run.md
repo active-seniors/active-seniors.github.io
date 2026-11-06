@@ -1,6 +1,6 @@
 ---
 id: guernsey-parkrun-weekly-free-5km-timed-run
-title: Guernsey Parkrun - weekly free 5km timed run
+title: "Guernsey parkrun: a free 5km walk, jog or run every Saturday"
 status: active
 source: discovered
 category: sports
@@ -12,7 +12,7 @@ location:
 schedule:
   frequency: weekly
   day: Saturday
-  time: 09:00
+  time: "09:00"
 cost:
   amount: 0
   currency: GBP
@@ -46,4 +46,6 @@ video:
     to the parkrun briefing and start area.
 ---
 
-What is Guernsey parkrun? It is a 5km run - it's you against the clock. When is it? Every Saturday at 9:00am. Where is it? The event takes place at Pembroke Bay, Vale, Guernsey, GY3 5BY. What does it cost to join in? Nothing - it's free! but please register on our website before your first run. Only ever register with parkrun once. Don't forget to bring a printed copy of your barcode. Guernsey parkrun needs you! It is entirely organised by volunteers - email guernseyhelpers@parkrun.com to help.
+Guernsey parkrun is a free 5km event every Saturday at 9am, at Pembroke Bay in the Vale. You can walk, jog or run it, and walkers are actively encouraged; it's about taking part, not how fast you go.
+
+It's free, but register once on the parkrun website before your first visit and bring a printed copy of your barcode. It's organised entirely by volunteers, and volunteering is a good way to join in too: email guernseyhelpers@parkrun.com.

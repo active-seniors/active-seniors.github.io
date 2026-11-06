@@ -13,7 +13,7 @@ location:
 schedule:
   frequency: monthly
   day: Saturday
-  time: 09:00
+  time: "09:00"
 cost:
   amount: 0
   currency: GBP
