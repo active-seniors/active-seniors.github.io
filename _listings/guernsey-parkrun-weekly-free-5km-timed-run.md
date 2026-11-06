@@ -7,7 +7,7 @@ category: sports
 tags:
 - volunteering
 location:
-  venue: Vale
+  venue: Pembroke Bay car park, Vale, GY3 5BY
   parish: Vale
 schedule:
   frequency: weekly
@@ -36,6 +36,14 @@ discovery:
   - 'Web check 8 Oct 2026: website from https://www.parkrun.org.uk/guernsey/ (was:
     http://www.parkrun.org.uk/guernsey/)'
   - 'Web check 8 Oct 2026: suitability from https://www.parkrun.org.uk/guernsey/course/'
+video:
+  file: parkrun-pembroke.mp4
+  poster: parkrun-pembroke-poster.jpg
+  captions: parkrun-pembroke.vtt
+  description: This short video walks from the Pembroke car park entrance past the
+    toilets, including an accessible toilet, which have a defibrillator outside. Next
+    to them is the Beach House café. From there it's a short walk across the car park
+    to the parkrun briefing and start area.
 ---
 
 What is Guernsey parkrun? It is a 5km run - it's you against the clock. When is it? Every Saturday at 9:00am. Where is it? The event takes place at Pembroke Bay, Vale, Guernsey, GY3 5BY. What does it cost to join in? Nothing - it's free! but please register on our website before your first run. Only ever register with parkrun once. Don't forget to bring a printed copy of your barcode. Guernsey parkrun needs you! It is entirely organised by volunteers - email guernseyhelpers@parkrun.com to help.
