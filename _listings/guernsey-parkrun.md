@@ -1,5 +1,7 @@
 ---
-id: guernsey-parkrun-weekly-free-5km-timed-run
+id: guernsey-parkrun
+redirect_from:
+- /listings/guernsey-parkrun-weekly-free-5km-timed-run/
 title: "Guernsey parkrun: a free 5km walk, jog or run every Saturday"
 status: active
 source: discovered
