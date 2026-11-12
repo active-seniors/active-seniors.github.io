@@ -10,9 +10,8 @@ tags:
 location:
   venue: Various Locations In Guernsey
 cost:
-  notes: Both free and paid options available — see source for details.
+  notes: Group prices on application
 organiser:
-  website: https://guernseyguidedtours.com/guide/gill-girard
   contact_phone: 07781 104094
   contact_email: gillstours@gmail.com
   name: Gill Girard (Guild of Accredited Guides)
@@ -21,16 +20,18 @@ verification:
   verified_date: ''
   review_due: ''
   last_pr: ''
+  confirmed_by_organiser: '2026-11-12'
+  confirmed_via: email
 discovery:
   source_url: https://directory.healthconnections.gg/listing/4149edae-7f65-4485-a4c9-ff2349c07e26
   scraped_date: '2026-10-05'
   notes:
-  - Available both in person and online.
   - 'Address given but no known parish matched: ''Various Locations In Guernsey'''
   - Health Connections shows this as last updated 8 months ago.
   - 'Web check 8 Oct 2026: website from https://guernseyguidedtours.com/guide/gill-girard
     (was: https://gillgirardtourguide.com)'
   - 'Web check 8 Oct 2026: organiser name from https://guernseyguidedtours.com/guide/gill-girard'
+  - 'Organiser reply 2026-11-12 (email): website removed (no longer used); contact details correct; supplied new description; group prices on application; various locations in Guernsey.'
 ---
 
-Gill Girard organises and leads walking tours on the Channel Island of Guernsey. She is a keen walker and has an extensive knowledge of local Guernsey history. Gill presents a programme of regular walks from March through to October each year. Groups and parties of 10 or more can book any of the walks at any additional date and time by arrangement. Coach and walking tours are available for individuals, groups, social clubs, and corporate visitors and their partners.
+Gill Girard organises and leads walking tours in the Bailiwick of Guernsey. She has an extensive knowledge of local Guernsey history, with many family anecdotes of the Occupation in the Second World War. Groups and parties of 10 or more can book their own private tour at times to suit. Group prices are on application.
